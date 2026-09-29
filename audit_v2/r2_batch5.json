@@ -1,0 +1,74 @@
+[
+ {
+  "name": "cond-scoliosis-treat-a",
+  "pair": "cond-scoliosis-treat",
+  "path": "v2/round2/cond-scoliosis-treat-a.png",
+  "scene": "the patient lies face down on the treatment table with her arms resting along her sides; the practitioner's two hands rest on the muscles beside her mid spine",
+  "overlay_anatomy": "the mid and lower back only: the spine as a single column along the middle of the back with a gentle sideways S-curve",
+  "pain_site_red_glow": "the muscles on the side of the curve carrying the uneven load",
+  "previous_failure_to_check": "Patient's near forearm is grossly elongated. Shoulder joint about (0.235, 0.59) to elbow (clear olecranon bend at about x0.48, y0.80) is about 660 px; elbow to the distal wrist crease at x0.91 is abou; Spine is over-segmented and the rib cage runs over the lumbar region: about 26 vertebral units between the shoulders (x0.345) and the waistband (x0.82), against 17 for T1-L5; ribs arise from nearly ev"
+ },
+ {
+  "name": "cond-scoliosis-treat-b",
+  "pair": "cond-scoliosis-treat",
+  "path": "v2/round2/cond-scoliosis-treat-b.png",
+  "scene": "the patient lies face down on the treatment table with her arms resting along her sides; the practitioner's two hands rest on the muscles beside her mid spine",
+  "overlay_anatomy": "the mid and lower back only: the spine as a single column along the middle of the back with a gentle sideways S-curve",
+  "pain_site_red_glow": "the muscles on the side of the curve carrying the uneven load",
+  "previous_failure_to_check": "Patient's near forearm is grossly elongated. Shoulder joint about (0.235, 0.59) to elbow (clear olecranon bend at about x0.48, y0.80) is about 660 px; elbow to the distal wrist crease at x0.91 is abou; Spine is over-segmented and the rib cage runs over the lumbar region: about 26 vertebral units between the shoulders (x0.345) and the waistband (x0.82), against 17 for T1-L5; ribs arise from nearly ev"
+ },
+ {
+  "name": "cond-shoulder-treat-a",
+  "pair": "cond-shoulder-treat",
+  "path": "v2/round2/cond-shoulder-treat-a.png",
+  "scene": "the patient, a man in his forties in a grey tank top, sits on the edge of the treatment table seen from behind and slightly to the side; the practitioner's fingertips work along the inner edge of his shoulder blade while his other hand supports the front of his shoulder",
+  "overlay_anatomy": "the shoulder blade, the rotator cuff muscles and the shoulder joint, seen from behind, sitting on the upper back exactly where his shoulder blade is",
+  "pain_site_red_glow": "the rotator cuff tendon at the top of the shoulder",
+  "previous_failure_to_check": "The overlay is a stock upright (standing, posterior-view) shoulder chart pasted onto a side-lying man without rotating it to the pose: supraspinatus straight across the top, medial border drawn vertic"
+ },
+ {
+  "name": "cond-shoulder-treat-b",
+  "pair": "cond-shoulder-treat",
+  "path": "v2/round2/cond-shoulder-treat-b.png",
+  "scene": "the patient, a man in his forties in a grey tank top, sits on the edge of the treatment table seen from behind and slightly to the side; the practitioner's fingertips work along the inner edge of his shoulder blade while his other hand supports the front of his shoulder",
+  "overlay_anatomy": "the shoulder blade, the rotator cuff muscles and the shoulder joint, seen from behind, sitting on the upper back exactly where his shoulder blade is",
+  "pain_site_red_glow": "the rotator cuff tendon at the top of the shoulder",
+  "previous_failure_to_check": "The overlay is a stock upright (standing, posterior-view) shoulder chart pasted onto a side-lying man without rotating it to the pose: supraspinatus straight across the top, medial border drawn vertic"
+ },
+ {
+  "name": "cond-stress-treat-a",
+  "pair": "cond-stress-treat",
+  "path": "v2/round2/cond-stress-treat-a.png",
+  "scene": "the patient lies face down on the treatment table with her face in the face cradle; the practitioner's thumbs press into the thick muscles running from her neck to the tops of her shoulders",
+  "overlay_anatomy": "the neck vertebrae in a midline column and the trapezius muscle fanning from the base of the skull out to each shoulder, with the tops of the shoulder blades just below the shoulders",
+  "pain_site_red_glow": "the tops of the shoulders and the base of the neck",
+  "previous_failure_to_check": "Far shoulder blade is drawn in the mid/lower back (x 0.25-0.49, about T5-L2), with 7-8 vertebrae between its top edge and the neck. It sits far below the far shoulder (x 0.55-0.70) and floats detached; Near shoulder blade is the same: drawn in the mid/lower back (x 0.25-0.47), far below the near shoulder and detached from the arm that hangs off the table. The overlay puts both shoulder blades where "
+ },
+ {
+  "name": "cond-stress-treat-b",
+  "pair": "cond-stress-treat",
+  "path": "v2/round2/cond-stress-treat-b.png",
+  "scene": "the patient lies face down on the treatment table with her face in the face cradle; the practitioner's thumbs press into the thick muscles running from her neck to the tops of her shoulders",
+  "overlay_anatomy": "the neck vertebrae in a midline column and the trapezius muscle fanning from the base of the skull out to each shoulder, with the tops of the shoulder blades just below the shoulders",
+  "pain_site_red_glow": "the tops of the shoulders and the base of the neck",
+  "previous_failure_to_check": "Far shoulder blade is drawn in the mid/lower back (x 0.25-0.49, about T5-L2), with 7-8 vertebrae between its top edge and the neck. It sits far below the far shoulder (x 0.55-0.70) and floats detached; Near shoulder blade is the same: drawn in the mid/lower back (x 0.25-0.47), far below the near shoulder and detached from the arm that hangs off the table. The overlay puts both shoulder blades where "
+ },
+ {
+  "name": "cond-tennis-treat-a",
+  "pair": "cond-tennis-treat",
+  "path": "v2/round2/cond-tennis-treat-a.png",
+  "scene": "a close view of the patient's bent arm resting on a folded white towel, the elbow joint clearly in the centre of the frame and the whole forearm and hand in view; the practitioner holds a small white handheld low-level laser probe held just above the bony point on the OUTER side of the elbow (the lateral epicondyle), casting a small red glow on the skin, its cable hanging freely from the probe",
+  "overlay_anatomy": "the elbow joint (the lower end of the upper arm bone and the upper ends of both forearm bones, which run all the way to the wrist) and the extensor tendons running from the outer elbow down the forearm",
+  "pain_site_red_glow": "the tendon attachment on the outer side of the elbow",
+  "previous_failure_to_check": "The overlay's forearm bones end in a joint-like knob at mid-forearm (x~0.39) instead of running to the wrist (x~0.26), so the distal forearm has no bones. The fanned 'tendon origin' is drawn at that k; The probe and the main red glow sit at mid-forearm (x 0.38-0.48), about 0.3 of the frame width from the real outer elbow (x~0.72-0.80). The brief asks for the probe just above the bony point on the ou"
+ },
+ {
+  "name": "cond-tennis-treat-b",
+  "pair": "cond-tennis-treat",
+  "path": "v2/round2/cond-tennis-treat-b.png",
+  "scene": "a close view of the patient's bent arm resting on a folded white towel, the elbow joint clearly in the centre of the frame and the whole forearm and hand in view; the practitioner holds a small white handheld low-level laser probe held just above the bony point on the OUTER side of the elbow (the lateral epicondyle), casting a small red glow on the skin, its cable hanging freely from the probe",
+  "overlay_anatomy": "the elbow joint (the lower end of the upper arm bone and the upper ends of both forearm bones, which run all the way to the wrist) and the extensor tendons running from the outer elbow down the forearm",
+  "pain_site_red_glow": "the tendon attachment on the outer side of the elbow",
+  "previous_failure_to_check": "The overlay's forearm bones end in a joint-like knob at mid-forearm (x~0.39) instead of running to the wrist (x~0.26), so the distal forearm has no bones. The fanned 'tendon origin' is drawn at that k; The probe and the main red glow sit at mid-forearm (x 0.38-0.48), about 0.3 of the frame width from the real outer elbow (x~0.72-0.80). The brief asks for the probe just above the bony point on the ou"
+ }
+]

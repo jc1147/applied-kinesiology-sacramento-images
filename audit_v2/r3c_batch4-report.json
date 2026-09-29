@@ -1,0 +1,332 @@
+[
+ {
+  "name": "cond-lbp-assess-c",
+  "pair": "cond-lbp-assess",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner LEFT hand, flat on the raised shin (sits just below the knee, not just above the ankle)",
+    "fingers_counted": "5: thumb curled under on the image-left (correct for a left hand, palm down, fingers toward the camera) plus 4 fingers with nails",
+    "ok": true,
+    "box": [
+     0.645,
+     0.181,
+     0.791,
+     0.293
+    ]
+   },
+   {
+    "whose": "practitioner RIGHT hand, steadying the patient's hip",
+    "fingers_counted": "5: 4 fingers pointing down plus thumb pointing image-right along the hip (correct side for a right hand)",
+    "ok": true,
+    "box": [
+     0.356,
+     0.278,
+     0.493,
+     0.386
+    ]
+   },
+   {
+    "whose": "patient RIGHT hand, flat on the table",
+    "fingers_counted": "3-4 visible (fingers overlap), thumb hidden on the far side; nothing fused or extra",
+    "ok": true,
+    "box": [
+     0.41,
+     0.43,
+     0.566,
+     0.503
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "framing (previous failure not fixed)",
+    "description": "The back of the head is cut off by the LEFT frame edge: dark hair pixels sit at column x=0 on rows ~735-830 (luminance scan). Head margin 0 px. The page crop does not trim the sides, so it is cut there too.",
+    "box": [
+     0.0,
+     0.34,
+     0.08,
+     0.42
+    ]
+   },
+   {
+    "category": "framing (page crop)",
+    "description": "The 7:5 page crop keeps rows 293-1755. The raised foot's toes (top at y=158) sit 135 px ABOVE the crop line, so the page image cuts the raised foot through the toes/forefoot.",
+    "box": [
+     0.83,
+     0.07,
+     0.91,
+     0.15
+    ]
+   },
+   {
+    "category": "framing (tight)",
+    "description": "Resting (right) foot toes end at x=2031: 16 px from the right edge. Not touching, but tight.",
+    "box": [
+     0.95,
+     0.34,
+     1.0,
+     0.41
+    ]
+   }
+  ],
+  "margins_px": {
+   "head": 0,
+   "toes_left_foot": 158,
+   "toes_right_foot": 16
+  },
+  "previous_failure_fixed": false,
+  "pick": false,
+  "notes": "2048x2048. Head cut at the left edge (0 px), same as rounds 2-3. Raised (left) toes are 158 px from the top and ~190 px from the right in the full square but cut off by the 7:5 page crop. Resting (right) toes 16 px from the right. Hands OK. Both feet show 5 toes and no ankle lobe. Legs ~1.3x torso. The overlay is OK: lumbar spine, pelvis with the femoral head at its upper right, and the femur in the RAISED leg (earlier bone-in-resting-leg error fixed). The red glow runs from the lumbar spine to the hip flexor. No practitioner face, no readable text. Not scored: the 'ankle' hand sits just below the knee. Margins are pixel-measured (r3c4_edges.py) and cross-checked on 4x ruler crops."
+ },
+ {
+  "name": "cond-lbp-assess-d",
+  "pair": "cond-lbp-assess",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand, steadying the patient's hip",
+    "fingers_counted": "5: 4 fingers pointing down with nails plus thumb pointing image-right (correct side for a right hand)",
+    "ok": true,
+    "box": [
+     0.352,
+     0.288,
+     0.454,
+     0.386
+    ]
+   },
+   {
+    "whose": "practitioner LEFT hand, flat on the raised lower leg just above the ankle",
+    "fingers_counted": "thumb underneath on the camera side plus 3 fingers clearly visible; the little finger is hidden behind the ring finger; nothing wrong",
+    "ok": true,
+    "box": [
+     0.659,
+     0.161,
+     0.83,
+     0.234
+    ]
+   },
+   {
+    "whose": "patient RIGHT hand, flat on the table",
+    "fingers_counted": "3-4 visible (fingers overlap), thumb hidden on the far side",
+    "ok": true,
+    "box": [
+     0.41,
+     0.454,
+     0.562,
+     0.522
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "framing (previous failure not fixed)",
+    "description": "The back of the head is cut off by the LEFT frame edge: dark hair pixels at column x=0 on rows ~715-860 (luminance scan). Head margin 0 px, in the full image and the page crop.",
+    "box": [
+     0.0,
+     0.34,
+     0.08,
+     0.43
+    ]
+   },
+   {
+    "category": "framing (page crop)",
+    "description": "The 7:5 page crop keeps rows 293-1755. The raised toes (top at y=250) start 43 px above the crop line, so the page image cuts the raised toes.",
+    "box": [
+     0.81,
+     0.12,
+     0.92,
+     0.17
+    ]
+   },
+   {
+    "category": "feet (minor)",
+    "description": "Resting (right) foot: only 4 toe tips can be told apart in the stacked side view (6x zoom). The 5th is presumably hidden behind its neighbour, and nothing is deformed or extra.",
+    "box": [
+     0.955,
+     0.375,
+     0.995,
+     0.43
+    ]
+   }
+  ],
+  "margins_px": {
+   "head": 0,
+   "toes_left_foot": 177,
+   "toes_right_foot": 33
+  },
+  "previous_failure_fixed": false,
+  "pick": false,
+  "notes": "2048x2048. Head cut at the left edge (0 px). Raised (left) toes are 250 px from the top and 177 px from the right (nearest edge) in the full square, but cut by the 7:5 page crop (toe top 43 px above the crop line). Resting (right) toes 33 px from the right. Hands OK. The 'ankle' hand is correctly just above the ankle. Raised foot has 5 toes; resting foot shows 4 (5th hidden). No ankle lobe. Legs ~1.3x torso. The overlay is OK: spine, stylised pelvis with an obturator loop, femoral head in the socket notch, femur in the RAISED leg, red glow from the lumbar spine to the hip flexor. Throat only at the collar, no face. No readable text."
+ },
+ {
+  "name": "cond-lbp-assess-e",
+  "pair": "cond-lbp-assess",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand, steadying the patient's hip",
+    "fingers_counted": "5: 4 fingers pointing down with nails plus thumb pointing image-right (correct side for a right hand)",
+    "ok": true,
+    "box": [
+     0.377,
+     0.344,
+     0.462,
+     0.459
+    ]
+   },
+   {
+    "whose": "practitioner LEFT hand, wrapped over the bare lower shin just above the ankle",
+    "fingers_counted": "5: 4 fingers curling over the camera side of the shin; thumb on the far side, mostly hidden (correct for a left hand)",
+    "ok": true,
+    "box": [
+     0.693,
+     0.195,
+     0.805,
+     0.292
+    ]
+   },
+   {
+    "whose": "patient RIGHT hand, flat on the table",
+    "fingers_counted": "4 visible (index to little), thumb hidden on the far side",
+    "ok": true,
+    "box": [
+     0.445,
+     0.522,
+     0.578,
+     0.608
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "framing (previous failure not fixed)",
+    "description": "The back of the head is cut off by the LEFT frame edge: dark hair pixels at column x=0 on rows ~735-875 (luminance scan). Head margin 0 px. The page crop only trims top/bottom, so it is cut there too.",
+    "box": [
+     0.0,
+     0.41,
+     0.06,
+     0.51
+    ]
+   },
+   {
+    "category": "overlay (minor)",
+    "description": "The pelvis is a lumpy, pretzel-like shape with three openings. The femoral head is drawn as a separate ball in the middle of the pelvis, and the femur shaft ends in a knob against a notch at the pelvis top with no clear femoral neck. It reads as pelvis + hip joint at page size but looks schematic to a chiropractor.",
+    "box": [
+     0.4,
+     0.37,
+     0.53,
+     0.55
+    ]
+   },
+   {
+    "category": "framing (tight)",
+    "description": "Resting (right) foot toes end at x=2304: 31 px from the right edge. Clear but small.",
+    "box": [
+     0.93,
+     0.4,
+     1.0,
+     0.51
+    ]
+   }
+  ],
+  "margins_px": {
+   "head": 0,
+   "toes_left_foot": 228,
+   "toes_right_foot": 31
+  },
+  "previous_failure_fixed": false,
+  "pick": false,
+  "notes": "2336x1744. Head cut at the left edge (0 px). Raised (left) toes are 228 px from the top (190 px in the 7:5 page crop) and 314 px from the right. Resting (right) toes 31 px from the right. Both feet have 5 toes, both ankles are clean, and the legs are ~1.5x the torso. Hands OK, and the 'ankle' hand is correctly just above the ankle. The femur is in the RAISED leg, running to the knee and then the shin bones. The red glow covers the lower back and the hip. Throat only at the collar, no face. Screens and frames blurred, no readable text. Everything except the head framing is acceptable."
+ },
+ {
+  "name": "cond-lbp-assess-f",
+  "pair": "cond-lbp-assess",
+  "verdict": "MINOR",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand, steadying the patient's hip",
+    "fingers_counted": "5: thumb on the image-right (correct for a right hand) plus index, middle, ring (partly behind its neighbours) and little finger pointing down; clean ulnar edge at 6x",
+    "ok": true,
+    "box": [
+     0.381,
+     0.373,
+     0.471,
+     0.482
+    ]
+   },
+   {
+    "whose": "practitioner LEFT hand, draped over the lower shin just above the ankle",
+    "fingers_counted": "5: thumb spread toward the knee side (image-left) plus 4 fingers curling over the camera side of the shin",
+    "ok": true,
+    "box": [
+     0.762,
+     0.172,
+     0.856,
+     0.269
+    ]
+   },
+   {
+    "whose": "patient RIGHT hand, flat on the table",
+    "fingers_counted": "4 visible (index to little), thumb hidden on the far side",
+    "ok": true,
+    "box": [
+     0.437,
+     0.591,
+     0.574,
+     0.671
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "framing (tight)",
+    "description": "The head is inside the frame but close to it. Columns 0-3 are wall only on every hair row. The outermost grey hair wisps start at x=17 and solid hair at x=25, so the head margin is 17 px, unchanged by the page crop. Only a thin strip of wall shows beyond the hair, less than the brief's 'well inside'.",
+    "box": [
+     0.0,
+     0.44,
+     0.05,
+     0.5
+    ]
+   },
+   {
+    "category": "framing (tight)",
+    "description": "Resting (right) foot toes end at x=2307 (4th toe): 28 px from the right edge. Clear but small.",
+    "box": [
+     0.95,
+     0.5,
+     1.0,
+     0.57
+    ]
+   },
+   {
+    "category": "overlay (minor)",
+    "description": "The pelvis is a stylised rounded blob. The femur's proximal end (head + trochanter merged) sits on the pelvis' upper/front edge rather than centred in the socket. A short dog-bone stub at the pelvis' lower right reads as ischium/pubis or the resting femur's neck. No gross error, and the femur is in the RAISED thigh.",
+    "box": [
+     0.43,
+     0.44,
+     0.54,
+     0.6
+    ]
+   },
+   {
+    "category": "feet (cosmetic)",
+    "description": "A small dark lens-shaped crease or mark (~12x10 px) on the raised big toe's knuckle. Not an extra digit and invisible at page size.",
+    "box": [
+     0.862,
+     0.099,
+     0.868,
+     0.104
+    ]
+   }
+  ],
+  "margins_px": {
+   "head": 17,
+   "toes_left_foot": 141,
+   "toes_right_foot": 28
+  },
+  "previous_failure_fixed": true,
+  "pick": true,
+  "notes": "2336x1744. Only image in the batch with the whole head and all toes inside the frame: head 17 px from the left edge, raised (left) toes 141 px from the top (103 px in the 7:5 page crop, which keeps rows 38-1706) and 251 px from the right, resting (right) toes 28 px from the right. Margins are pixel-measured (r3c4_edges.py / R-G skin test and luminance scan) and checked on ruler crops. Hands all correct; the 'ankle' hand is just above the ankle as briefed. 5 toes per foot, clean ankles, legs ~1.5x the torso. Overlay: lumbar spine with red glow at the lower lumbar spine and fibres to the hip (hip flexor), pelvis, femur in the RAISED thigh to the knee, then the shin bones. Stylised but no gross error. Throat only at the collar, no chin, lips, nose or beard. Screens, wall art and cart label are blurred, with no readable text. MINOR because the head and resting-toe margins are small (17/28 px) and the pelvis is schematic."
+ }
+]

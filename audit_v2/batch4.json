@@ -1,0 +1,68 @@
+[
+ {
+  "name": "pi-first-hero",
+  "path": "v2/renders/pi-first-hero.png",
+  "kind": "overlay",
+  "page_section": "patient-info/first-visit :: Your First Visit: What to Expect",
+  "scene": "the practitioner stands facing the seated patient holding a clipboard of notes and explaining; a small anatomical spine model sits on the counter behind them",
+  "patient": "a man in his forties sitting on the edge of the treatment table",
+  "overlay_anatomy": "the patient's spine from neck to pelvis, faint and elegant",
+  "pain_site_red_glow": "the lower back"
+ },
+ {
+  "name": "svc-hub-hero",
+  "path": "v2/renders/svc-hub-hero.png",
+  "kind": "editorial",
+  "page_section": "services :: Our Treatments in Roseville",
+  "scene": "the treatment room that holds both halves of the practice, no people: a padded pale sage adjusting table with a folded towel, the white stand-mounted laser on its articulated arm parked beside it, and on a small white side table a white ring-shaped PEMF coil with its console; morning light through a large window"
+ },
+ {
+  "name": "ak-who-imaging",
+  "path": "v2/renders/ak-who-imaging.png",
+  "kind": "editorial",
+  "page_section": "applied-kinesiology/who-its-for :: What the assessment actually covers",
+  "scene": "across a small pale oak table, the patient's hands pass a large paper imaging envelope to the practitioner's hands; an X-ray film showing a lower spine is half drawn out of the envelope; hands and forearms only"
+ },
+ {
+  "name": "pi-faq-hero",
+  "path": "v2/renders/pi-faq-hero.png",
+  "kind": "editorial",
+  "page_section": "patient-info/faq :: Frequently Asked Questions",
+  "scene": "two people talking at a small round pale oak table by the window, framed at chest height so no faces are in view: the patient's hands open mid-question, the practitioner's hands resting on a closed notebook, two cups of tea between them"
+ },
+ {
+  "name": "pi-first-bring",
+  "path": "v2/renders/pi-first-bring.png",
+  "kind": "editorial",
+  "page_section": "patient-info/first-visit :: Five minutes of preparation saves half the appointment",
+  "scene": "a styled flat lay on a pale oak table of what to bring to a first visit: a paper imaging envelope with an X-ray film edge showing, a folded blank sheet, a weekly pill organiser, two plain unlabelled medicine boxes, a blank intake form on a clipboard with a pen, and reading glasses; soft window light"
+ },
+ {
+  "name": "pi-forms-hero",
+  "path": "v2/renders/pi-forms-hero.png",
+  "kind": "editorial",
+  "page_section": "patient-info/forms :: The forms are not downloadable here yet",
+  "scene": "on the reception counter by the window: a clipboard holding a blank paper intake form with a pen resting on it, and next to it a simple white desk telephone"
+ },
+ {
+  "name": "book-hero",
+  "path": "v2/renders/book-hero.png",
+  "kind": "editorial",
+  "page_section": "book :: Tell us what is going on",
+  "scene": "a calm reception desk by a large window: a white desk telephone, a small paper appointment book open to blank pages with a pen, and a sprig of eucalyptus in a glass; the waiting area softly blurred behind"
+ },
+ {
+  "name": "about-drvw-learning",
+  "path": "v2/renders/about-drvw-learning.png",
+  "kind": "editorial",
+  "page_section": "about/dr-van-wagenen :: Still learning",
+  "scene": "a study corner by a window: a pale oak desk with a stack of closed clinical textbooks with plain unmarked spines, a small anatomical spine model on a stand, reading glasses on an open notebook of soft, unreadable handwritten notes, and a cup of coffee; no people"
+ },
+ {
+  "name": "svc-nutrition-consult",
+  "path": "v2/renders/svc-nutrition-consult.png",
+  "kind": "editorial",
+  "page_section": "services/nutritional-counseling :: Who is actually giving the advice",
+  "scene": "a nutrition consultation on a pale oak table by the window: a food diary open to blank ruled pages with a pen, a glass of water, a ceramic bowl of leafy greens, lentils and berries, and three plain amber supplement bottles with blank labels; the practitioner's hand rests on the diary"
+ }
+]

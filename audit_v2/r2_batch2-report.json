@@ -1,0 +1,273 @@
+[
+ {
+  "name": "cond-fibro-treat-a",
+  "pair": "cond-fibro-treat",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand holding the chrome pen instrument (image-left; he faces the camera from the far side of the table)",
+    "fingers_counted": "5 (4 curled fingers wrapped round the pen + thumb on the image-right side of the pen); back of hand to camera with fingers down, so thumb image-right = correct for a right hand",
+    "ok": true,
+    "box": [0.273, 0.221, 0.415, 0.441]
+   },
+   {
+    "whose": "practitioner LEFT hand resting flat on her upper back (image-right)",
+    "fingers_counted": "5 (thumb image-left + 4 fingers pointing toward the camera); correct for a palm-down left hand while he faces the camera",
+    "ok": true,
+    "box": [0.439, 0.353, 0.591, 0.507]
+   }
+  ],
+  "defects": [
+   {
+    "category": "overlay_anatomy",
+    "description": "Back-view overlay is rotated ~70-90 degrees against the body. She lies face down with her head at image-left and the blanket over her hips at image-right, so the spine should run left-to-right from the base of her neck toward the blanket. Instead the drawn spine runs top-to-bottom ACROSS her back, from the far flank at the instrument tip (~0.45,0.51) to the near flank at the table edge (~0.54,0.88). The two shoulder blades sit on the head side (~0.31-0.48, 0.49-0.77) and hip side (~0.52-0.71, 0.50-0.73) of that line, i.e. along the body axis, as if her head were at the top of the frame; the hip-side blade lies on her mid back. Gross and visible at thumbnail size.",
+    "box": [0.303, 0.471, 0.713, 0.904]
+   }
+  ],
+  "previous_failure_fixed": false,
+  "notes": "The old side-view flip (vertebral bodies along the skin, spinous processes hanging into the body) is gone: the overlay is now a symmetric back view. But the whole overlay is rotated, so the spine is still misoriented for a face-down patient. Segment count (~16 along the drawn column) not graded, per instructions. About 6 small red tender points sit either side of the drawn spine (matches brief). Instrument: chrome pen-shaped adjuster with a black rubber tip and no needle, held against her upper back. Practitioner face out of frame (top edge = shirt). Patient: near (left) arm continuous to the image-left edge, far arm hidden, legs under the blanket, no feet or patient hands visible. Background console (top right) has no readable text."
+ },
+ {
+  "name": "cond-fibro-treat-b",
+  "pair": "cond-fibro-treat",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand holding the chrome pen instrument (image-left; he faces the camera from the far side of the table)",
+    "fingers_counted": "5 (4 curled fingers wrapped round the pen + thumb on the image-right side of the pen); correct for a right hand, back of hand to camera",
+    "ok": true,
+    "box": [0.356, 0.221, 0.486, 0.441]
+   },
+   {
+    "whose": "practitioner LEFT hand resting flat on her upper back (image-right)",
+    "fingers_counted": "5 (thumb image-left + 4 fingers pointing toward the camera); correct for a palm-down left hand",
+    "ok": true,
+    "box": [0.518, 0.39, 0.659, 0.526]
+   }
+  ],
+  "defects": [
+   {
+    "category": "overlay_anatomy",
+    "description": "Same rotation as -a. The spine runs diagonally (~60 degrees in frame) from the far edge of her back at the instrument tip (~0.47,0.49) to the near flank at the table edge (~0.61,0.85), i.e. across the back instead of along the horizontal body axis (head at image-left, blanket over her hips at right), and it never reaches the base of the neck. The shoulder blades sit on the head side (~0.35-0.49, 0.56-0.78) and hip side (~0.53-0.72, 0.52-0.68) of it; the hip-side blade lies on the mid/lower back, far from the shoulders. Gross and visible at thumbnail size.",
+    "box": [0.342, 0.478, 0.723, 0.853]
+   }
+  ],
+  "previous_failure_fixed": false,
+  "notes": "Back view instead of the old flipped side view, but still misoriented (rotated) for a face-down patient. About 6 red starburst tender points beside the drawn spine (matches brief). Instrument: chrome pen-shaped adjuster with a black rubber tip and no needle. Practitioner face out of frame (top edge = shirt). Patient: head face-down in the cradle, near (left) arm continuous and leaving the bottom of the frame, far arm hidden, legs under the blanket, no feet or patient hands visible. Background: consoles at left and a physical spine model on the right shelf; no readable text."
+ },
+ {
+  "name": "cond-headache-assess-a",
+  "pair": "cond-headache-assess",
+  "verdict": "MINOR",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand (arm on image-left) wrapped round the left side of her neck from in front, fingertips on the back of her neck",
+    "fingers_counted": "thumb on top + index + a third fingertip visible; middle/ring/little curled out of view behind the grip; natural. Thumb-up orientation is consistent with a right hand reaching round from the front",
+    "ok": true,
+    "box": [0.322, 0.324, 0.454, 0.544]
+   },
+   {
+    "whose": "practitioner LEFT hand (arm on image-right) on the right side of the back of her neck",
+    "fingers_counted": "thumb (upper, pressing) + index, middle and ring fingertips; little finger hidden behind the ring finger; natural",
+    "ok": true,
+    "box": [0.527, 0.294, 0.713, 0.544]
+   }
+  ],
+  "defects": [
+   {
+    "category": "scene",
+    "description": "The practitioner stands in FRONT of her (far side), facing the camera: his white shirt with button placket, both rolled-sleeve forearms and his black trousers (image-right) are visible past her. The brief asked for him to stand behind her with only his two hands visible. Hand placement itself meets the brief (fingertips either side of the back of her neck just below the skull), so this is a composition deviation, not an anatomy defect.",
+    "box": [0.244, 0.0, 0.869, 0.346]
+   },
+   {
+    "category": "overlay_anatomy",
+    "description": "Overlay continues from the skull base down the whole cervical and upper-thoracic spine to about mid-back (~y 0.87); the brief asked for the skull base and upper neck only. On her midline and correctly oriented.",
+    "box": [0.4, 0.574, 0.488, 0.875]
+   }
+  ],
+  "previous_failure_fixed": true,
+  "notes": "Mirrored-hand fix confirmed. The practitioner faces the camera: his right arm (image-left) runs continuously to the hand on her left neck, and his left arm (image-right) to the hand on her right neck. Both thumbs are up, consistent with reaching round from the front, and no arm feeds the wrong hand. Her own hands hang at her sides, so the patient no longer touches her jaw. Practitioner face out of frame (top edge = shirt and her hair bun); her face is in profile (allowed). Overlay: occipital base and cervical column on her midline. Red glow on the suboccipital and upper-neck muscles both sides, as briefed. Background: anatomy poster (title illegible) and a blank console screen; no readable text."
+ },
+ {
+  "name": "cond-headache-assess-b",
+  "pair": "cond-headache-assess",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner hand A: upper forearm from his rolled sleeve (image-right, elbow near the top edge), pressing the RIGHT side of her neck",
+    "fingers_counted": "thumb tip pressing + back of hand visible; fingers wrap forward out of view",
+    "ok": true,
+    "box": [0.527, 0.235, 0.654, 0.375]
+   },
+   {
+    "whose": "practitioner hand B: a second forearm entering horizontally from the image-right edge, also on the RIGHT side of her neck just below hand A",
+    "fingers_counted": "thumb + 3 curled fingers visible (little finger hidden)",
+    "ok": true,
+    "box": [0.527, 0.353, 0.664, 0.529]
+   },
+   {
+    "whose": "third hand pinching the LEFT side of her neck (image-left), with no wrist or forearm",
+    "fingers_counted": "5 (thumb + index pinching, middle/ring/little curled)",
+    "ok": false,
+    "box": [0.352, 0.316, 0.464, 0.515]
+   }
+  ],
+  "defects": [
+   {
+    "category": "hands",
+    "description": "Extra/orphan hand. A man's hand pinches the left side of her neck with no wrist or forearm. Both of the practitioner's arms already end in hands on the right side of her neck: the upper one from his rolled sleeve and the lower one running horizontally from the right frame edge. Both of her own arms hang at her sides. That is three hands for two available arms.",
+    "box": [0.352, 0.316, 0.464, 0.515]
+   },
+   {
+    "category": "scene",
+    "description": "Both of the practitioner's attached hands sit on the same (right) side of her neck, one above the other; the brief asked for one hand either side.",
+    "box": [0.527, 0.11, 1.0, 0.537]
+   }
+  ],
+  "previous_failure_fixed": false,
+  "notes": "The hand-to-arm attachment fault persists in a new form (a hand attached to no arm). The patient-touching-jaw part is fixed: her hands are down. Practitioner face out of frame (top edge = shirt and her bun); her profile face is allowed. The overlay is placed and oriented acceptably: occipital base plus cervical column continuing to mid-back on her midline, with red glow on the suboccipital/upper-neck muscles both sides. Background console screen blank; no readable text."
+ },
+ {
+  "name": "cond-lbp-assess-a",
+  "pair": "cond-lbp-assess",
+  "verdict": "MINOR",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand steadying the patient's hip (he faces the camera from the far side of the table)",
+    "fingers_counted": "5 (4 fingers pointing down + thumb image-right); correct for a palm-down right hand",
+    "ok": true,
+    "box": [0.391, 0.412, 0.476, 0.544]
+   },
+   {
+    "whose": "practitioner LEFT hand pressing just above the raised ankle",
+    "fingers_counted": "5 (4 fingers toward the foot + thumb along the lower edge, toward the camera); correct for a palm-down left hand",
+    "ok": true,
+    "box": [0.771, 0.221, 0.884, 0.309]
+   },
+   {
+    "whose": "patient RIGHT hand lying flat on the table at his side",
+    "fingers_counted": "4 fingers visible; thumb on the far side under/beyond the hand (normal for a palm-down right hand seen from his right)",
+    "ok": true,
+    "box": [0.439, 0.64, 0.557, 0.713]
+   }
+  ],
+  "defects": [
+   {
+    "category": "overlay_anatomy",
+    "description": "Femur drawn in the wrong leg. The full femur runs along the RESTING (right) thigh. The raised (left) leg, which is the one under test, gets only a short (~14 cm) bone stub with a knob end at its root, angled ~7 degrees while the thigh rises at ~30 degrees; no femur follows the raised thigh. The lumbar spine (side view, spinous processes toward the table), lateral pelvis and hip-joint glow are well placed.",
+    "box": [0.488, 0.456, 0.64, 0.632]
+   },
+   {
+    "category": "composition",
+    "description": "Back of his head touches/clips the left frame edge; brief asked for the whole body in frame (toes are in frame).",
+    "box": [0.0, 0.412, 0.02, 0.588]
+   }
+  ],
+  "previous_failure_fixed": true,
+  "notes": "Proportions re-measured (landmarks crop r2__cond-lbp-assess-a__landmarks.png). Body length vertex to heel is ~1960 px. Hip joint (~0.483,0.555) to ankle = 932 px (raised) / 936 px (resting) vs ~913 px expected (0.466 of body length). Chin-to-hip ~705 px vs ~694 expected; shoulder-to-wrist 624 px (normal). On last round's hand scale (hand 234 px = 19 cm) the leg is ~76 cm (was ~64 cm). Legs are clearly longer than the torso, and the body reads normal at thumbnail size. The hand is ~12% large relative to body length (not flagged). Feet: raised left foot (medial view, big toe uppermost) and resting right foot are both natural with 5 toes, each on the correct leg. Practitioner face out of frame (open collar only). His right hand steadies the hip and his left presses just above the raised ankle, as briefed. Red glow sits on the two lowest lumbar segments and the hip joint. Background consoles show no readable text; a teal highlight on the exercise ball belongs to the ball, not the overlay."
+ },
+ {
+  "name": "cond-lbp-assess-b",
+  "pair": "cond-lbp-assess",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand steadying the patient's hip (he faces the camera from the far side of the table)",
+    "fingers_counted": "5 (4 fingers + thumb image-right); correct for a palm-down right hand",
+    "ok": true,
+    "box": [0.396, 0.463, 0.488, 0.581]
+   },
+   {
+    "whose": "practitioner LEFT hand pressing just above the raised ankle",
+    "fingers_counted": "5 (4 fingers + thumb toward the camera); correct for a palm-down left hand",
+    "ok": true,
+    "box": [0.776, 0.199, 0.884, 0.309]
+   },
+   {
+    "whose": "patient RIGHT hand lying flat on the table at his side",
+    "fingers_counted": "4 fingers visible; thumb on the far side (normal for this view)",
+    "ok": true,
+    "box": [0.439, 0.706, 0.562, 0.816]
+   }
+  ],
+  "defects": [
+   {
+    "category": "feet",
+    "description": "Extra digit-like appendage on the resting RIGHT foot: a slim, skin-coloured lobe with a rounded tip (~58x17 px) sticks out of the front of the ankle just above the trouser cuff, pointing toward his head. Its mean RGB is 179,141,122, against 197,156,135 for the foot and 186,168,151 for the wall. It reads as a toe or finger growing from the ankle and is visible at 1x.",
+    "box": [0.891, 0.612, 0.925, 0.634]
+   },
+   {
+    "category": "composition",
+    "description": "Back of his head touches the left frame edge; brief asked for the whole body in frame (toes are in frame).",
+    "box": [0.0, 0.426, 0.02, 0.61]
+   }
+  ],
+  "previous_failure_fixed": true,
+  "notes": "Proportions (landmarks crop r2__cond-lbp-assess-b__landmarks.png): hip joint (~0.476,0.559) to ankle = 975 px raised / 928 px resting vs ~913 expected for a ~1960 px body length (+7% / +2%). Chin-to-hip ~708 px (normal). On the hand scale the legs are 81-85 cm (were ~64 cm). This is the stronger overlay of the pair: the femur follows the raised thigh from the hip joint, and the pelvis and lumbar spine are drawn in side view with spinous processes toward the table. Red glow sits on L5-S1 and the iliopsoas region. Raised left foot natural (5 toes, small mole on a toe). Practitioner face out of frame; hand placement as briefed. No readable text. If the ankle appendage is retouched (small inpaint at the box), this variant would beat -a."
+ },
+ {
+  "name": "cond-lbp-treat-a",
+  "pair": "cond-lbp-treat",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand resting on the patient's left upper back (he faces the camera from the head end)",
+    "fingers_counted": "5 (little, ring, middle, index pointing toward the camera + thumb image-right); correct for a palm-down right hand",
+    "ok": true,
+    "box": [0.293, 0.324, 0.43, 0.485]
+   },
+   {
+    "whose": "patient LEFT hand hanging over the table edge (image-left)",
+    "fingers_counted": "relaxed, fingers curled and partly hidden by the table side; no countable defect",
+    "ok": true,
+    "box": [0.044, 0.846, 0.112, 0.978]
+   }
+  ],
+  "defects": [
+   {
+    "category": "device",
+    "description": "Laser aimed at the wrong region. The three beams land on his UPPER back just below the neck (~0.50-0.55, 0.46-0.49), on top of the drawn column, not on his lower back as briefed. The head (aperture ~y 0.27) is still ~2 hand widths above the skin: the beams span ~285 px (~0.21 of image height), down from ~0.30 last round.",
+    "box": [0.488, 0.11, 0.605, 0.493]
+   },
+   {
+    "category": "overlay_anatomy",
+    "description": "The lower-back set is stretched up the back. The 'lumbar' column (~9-10 segments) starts at shoulder-blade level (~y 0.46), and the iliac wings reach up to ~y 0.62, so the crests sit ~15 cm too high relative to the sacrum at the blanket edge. Orientation is now correct: back view, triangular sacrum, coccyx toward his feet, wings to both sides.",
+    "box": [0.337, 0.441, 0.723, 0.875]
+   },
+   {
+    "category": "red_glow",
+    "description": "Glow covers most of the column (~y 0.49-0.69), not just the two lowest lumbar segments above the sacrum.",
+    "box": [0.439, 0.478, 0.586, 0.699]
+   }
+  ],
+  "previous_failure_fixed": false,
+  "notes": "Pelvis/sacrum rotation is fixed. The laser-height item is only partly improved, and the beams now hit the upper back. The camera sits at his feet looking up the table: his face is down, both arms are continuous (left hand hangs over the table edge, right forearm runs under the blanket), and no feet are visible. Practitioner face out of frame (top edge = shirt); his right hand rests on the upper back as briefed. Laser: white head on an articulated arm entering from the top-right edge (stand out of frame), plausible. Console screen at right is blurred and the shelf bottle has no label; no readable text."
+ },
+ {
+  "name": "cond-lbp-treat-b",
+  "pair": "cond-lbp-treat",
+  "verdict": "MINOR",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand resting on the patient's upper back (he faces the camera from the far side)",
+    "fingers_counted": "5 (little, ring, middle, index + thumb image-right); correct for a palm-down right hand",
+    "ok": true,
+    "box": [0.332, 0.346, 0.444, 0.471]
+   }
+  ],
+  "defects": [
+   {
+    "category": "device",
+    "description": "Laser head (aperture ~y 0.30) is still ~2 hand widths above the skin. The beams run ~290 px (~0.21 of image height) to their landing points on the lower back (~0.54-0.59, 0.50-0.52), next to the column and red glow. That is improved from ~0.30 at chest height last round, but still above the requested hand's width.",
+    "box": [0.537, 0.081, 0.684, 0.529]
+   },
+   {
+    "category": "overlay_anatomy",
+    "description": "Above the lumbar region the column climbs more steeply (~63 degrees in frame) than his neck-to-sacrum axis (~36 degrees), so its upper end drifts toward the far edge of the upper back instead of heading for the base of the neck. The lumbar segments, triangular sacrum, coccyx (toward his feet) and both iliac wings are correctly placed and oriented.",
+    "box": [0.459, 0.412, 0.576, 0.662]
+   }
+  ],
+  "previous_failure_fixed": false,
+  "notes": "Partly fixed: the pelvis and sacrum are now a correctly oriented back view (the 90-degree rotation is gone), but the laser still hovers above a hand's width. Laser: white floor stand, articulated arm and cabled head, plausible; no readable text. Beams land on the lower back as briefed, and red glow sits on the lowest lumbar segments and paraspinal muscles. Both arms continuous: the near (left) arm hangs over the table edge and out of the bottom of the frame, and the far (right) forearm runs under the blanket. He lies face down on the towel with his legs under the blanket and no feet visible. Practitioner face out of frame (shirt only); his right hand rests on the upper back. Console screen at left is blurred; no readable text."
+ }
+]

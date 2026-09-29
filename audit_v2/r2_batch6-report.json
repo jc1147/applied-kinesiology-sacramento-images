@@ -1,0 +1,506 @@
+[
+ {
+  "name": "svc-cold-hero-a",
+  "pair": "svc-cold-hero",
+  "verdict": "MINOR",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand holding the probe from above (back of hand to camera, fingers pointing down)",
+    "fingers_counted": "5 (thumb + 4). Middle (front, large nail at ~(905-925,850-885)), ring (tip at ~(892-903,865-890)) and a slender little finger wrap the probe's left side; the index finger's proximal segment is visible between the middle finger and the thumb at ~(1000-1050,650-740), separated from the thumb base by a crease and curling behind the probe top.",
+    "thumb_side": "image-right, correct for a right hand seen from the back with fingers down; arm enters from his right sleeve",
+    "ok": true,
+    "box": [
+     0.41,
+     0.273,
+     0.547,
+     0.439
+    ]
+   },
+   {
+    "whose": "patient RIGHT hand resting on the table at the left frame edge",
+    "fingers_counted": "thumb (toward image-right, correct for a palm-down right hand) + index, middle, ring; little finger lies beyond the left frame edge",
+    "ok": true,
+    "box": [
+     0.0,
+     0.576,
+     0.083,
+     0.703
+    ]
+   },
+   {
+    "whose": "practitioner LEFT hand",
+    "fingers_counted": "out of frame, as scripted",
+    "ok": true,
+    "box": null
+   }
+  ],
+  "defects": [
+   {
+    "category": "red_glow",
+    "description": "The pain glow sits on the camera-facing side of the knee at the joint line. Two cues say that face is the OUTER (lateral) side of the patient's right knee, not the inner side the brief asks for: the camera sees her right side (her right hand rests at the near table edge), and the near foot's nearest (lowest) toe has the smallest nail (little toe). Moderate confidence. It is a brief deviation, not a visible artefact; a lay viewer cannot tell.",
+    "box": [
+     0.349,
+     0.513,
+     0.42,
+     0.593
+    ]
+   }
+  ],
+  "previous_failure_fixed": true,
+  "notes": "Previous failure (probe/knee hand showing thumb + 3 fingers, ulnar edge ending in trouser fabric) is fixed: the hand has thumb + 4 fingers, and its ulnar edge ends at a slender little finger against the background cabinet (crops r2__svc-cold-hero-a__prac_hand_ulnar_edge_4x.png, __prac_hand_index_region_4x.png). Practitioner face out of frame (top edge = white shirt). Near foot: toes run off the right frame edge; 3 natural toes visible, the rest cut by the frame, so not fully countable (no anomaly). Far leg (grey trousers) passes behind the near knee and ends at the table's far edge (~x1250-1300). That reads as bent down over the far side of the table, consistent with 'one leg extended'. Overlay femur, patella, tibia and fibula are aligned with the thigh and shin. The probe tip casts a red spot on the upper knee. Background console screen is blurred, and there is no readable text anywhere. Only the red-glow side issue keeps this from PASS."
+ },
+ {
+  "name": "svc-cold-hero-b",
+  "pair": "svc-cold-hero",
+  "verdict": "PASS",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand holding the probe from above (back of hand to camera)",
+    "fingers_counted": "5 (thumb on the probe's right side with nail at ~(1073-1100,673-700); index, middle, ring, little curled over the front-left, each with knuckle creases; index nail visible)",
+    "thumb_side": "image-right, correct for his right hand (arm from his right side, he faces camera)",
+    "ok": true,
+    "box": [
+     0.376,
+     0.254,
+     0.542,
+     0.391
+    ]
+   },
+   {
+    "whose": "patient LEFT hand resting palm-down on the table (right side of frame)",
+    "fingers_counted": "4 fingers with nails; thumb hidden on the far side of the hand (correct for a palm-down left hand seen from her left); wrist exits right frame edge",
+    "ok": true,
+    "box": [
+     0.82,
+     0.605,
+     1.0,
+     0.713
+    ]
+   },
+   {
+    "whose": "practitioner LEFT hand",
+    "fingers_counted": "out of frame, as scripted",
+    "ok": true,
+    "box": null
+   }
+  ],
+  "defects": [],
+  "previous_failure_fixed": true,
+  "notes": "Previous failure fixed: the only hand at the knee is the probe hand, with thumb + 4 fingers; the other hand is out of frame. Practitioner face out of frame (top edge = shirt). Patient face visible (allowed). Both patient arms accounted for: her right (far) arm runs down behind the near thigh, and her left arm runs just outside the right edge to the visible hand. Near foot: 5 toes, big toe lowest and largest, lesser toes partly cut by the left frame edge; natural size. Far leg lies flat under the near shin and ends in bunched trouser fabric beside the near heel; its foot is presumably hidden behind the near foot (plausible). Overlay: femur runs toward the hip, tibia and fibula toward the ankle. The red glow is at the joint line on the camera-facing side. The near foot shows its medial arch with the big toe nearest the camera, so that face is the INNER side, as briefed. The probe tip sparks at the upper knee. Background console screen and framed knee picture are blurred; no readable text; table base has no text."
+ },
+ {
+  "name": "svc-fx635-device-a",
+  "pair": "svc-fx635-device",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand gripping the end of the articulated arm",
+    "fingers_counted": "4 fingers wrap the bar (index in front with nail at ~(1043-1068,340-372), middle, ring, little); thumb hidden behind the bar",
+    "ok": true,
+    "box": [
+     0.439,
+     0.068,
+     0.542,
+     0.19
+    ]
+   },
+   {
+    "whose": "practitioner LEFT hand hanging at his side",
+    "fingers_counted": "5 (thumb pointing forward/left + 4 fingers; little finger at the right frame edge)",
+    "ok": true,
+    "box": [
+     0.845,
+     0.43,
+     1.0,
+     0.586
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "overlay",
+    "description": "Gross overlay error: the foot skeleton is inverted/jumbled. At the heel end of both soles (top of each sole), it draws parallel metatarsal/phalanx rays with rounded joint heads pointing toward the heel, and there is no heel bone. The plantar-fascia band converges at the ball of the foot (first MTP, hooked end) instead of at the heel, and the overlay's toe bones stop on the forefoot pad about 100 px short of the real toes.",
+    "box": [
+     0.254,
+     0.503,
+     0.684,
+     0.859
+    ]
+   },
+   {
+    "category": "red_glow",
+    "description": "Pain glows are on the forefoot. The left foot's only glow is at the big-toe base (~(810-850,1565-1630)), and the right foot has a second glow at its big-toe base (~(1115-1170,1585-1650)). Only the right foot's upper glow (~(1215-1270,1260-1330)), where the laser lands, is at the heel. The brief asks for the heel.",
+    "box": [
+     0.386,
+     0.757,
+     0.576,
+     0.811
+    ]
+   },
+   {
+    "category": "device",
+    "description": "No stand or mount in frame: the articulated arm's upper segment ends in a black end cap inside the practitioner's grip, so the 'stand-mounted' head reads as a hand-held arm. Minor on its own.",
+    "box": [
+     0.488,
+     0.112,
+     0.674,
+     0.273
+    ]
+   }
+  ],
+  "previous_failure_fixed": true,
+  "notes": "Previous failure fixed: left foot has 5 separate toes (little to big: ~x609-681, 670-741, 727-802, 795-877, big 866-970), and right foot has 5 separate toes (big 1091-1209, then 1209-1284, 1270-1338, 1320-1384, 1363-1420). Toes 4 and 5 are now separated by a cleft, and big toes are on the medial sides (crop r2__svc-fx635-device-a__both_feet_toes_full.png). Heel-end evidence: r2__svc-fx635-device-a__sheet_heel_ends.png. Patient prone with both legs complete and her left arm alongside the head; her face is partly visible (allowed). Practitioner face out of frame. Three thin red lines run from the head to the right heel without contact. Feet look large, but that is foreground perspective; toe and sole proportions are natural. Background console screen is dark/blurred and the wall art abstract; no readable text. Fails on the inverted overlay plus the forefoot pain glows."
+ },
+ {
+  "name": "svc-fx635-device-b",
+  "pair": "svc-fx635-device",
+  "verdict": "MINOR",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand gripping the back of the laser head",
+    "fingers_counted": "not countable: the hand is behind the head; only the wrist and one edge of the hand show at the head's left side. No anomaly, and it is connected to his right forearm.",
+    "ok": true,
+    "box": [
+     0.562,
+     0.229,
+     0.693,
+     0.371
+    ]
+   },
+   {
+    "whose": "practitioner LEFT hand hanging at his side",
+    "fingers_counted": "thumb (pointing forward/image-left, correct), index, middle visible; ring and little behind the middle finger and at the right frame edge",
+    "ok": true,
+    "box": [
+     0.85,
+     0.439,
+     1.0,
+     0.684
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "overlay",
+    "description": "No heel bone. At the heel end of both soles, the skeleton starts with a row of small distal-tarsal (cuneiform/cuboid-like) bones followed by very long metatarsals; there is no calcaneus or talus under the heel. Orientation is otherwise correct: toe bones run into the real toes, and the fascia converges toward the heel and fans toward the toes. A clinician may notice the missing heel bone on a heel-pain image; a lay viewer is unlikely to.",
+    "box": [
+     0.234,
+     0.449,
+     0.61,
+     0.61
+    ]
+   },
+   {
+    "category": "red_glow",
+    "description": "Besides the heel glow where the laser lands (~(1190-1250,1140-1230), front of the heel), the right foot has a second, larger and brighter glow over the ball of the foot (~(1145-1260,1420-1560)). The pain reads as ball-of-foot as much as heel; the brief asks for the heel.",
+    "box": [
+     0.557,
+     0.691,
+     0.618,
+     0.764
+    ]
+   }
+  ],
+  "previous_failure_fixed": true,
+  "notes": "Previous failure fixed: left foot has 5 separate toes (little ~x591-627, 624-691, 674-738, 734-795, big 795-913), and right foot has 5 (big 1109-1234, 1231-1291, 1270-1331, 1306-1359, little 1341-1395). Big toes are medial, and the overlay toe bones sit in the real toes (crop r2__svc-fx635-device-b__sheet_toes_glows.png). The laser head is on a single articulated arm entering from the right frame edge (mounted off-frame, with a jointed pivot), about a hand's width from the right heel. Three thin red lines hit the heel without contact. Practitioner face out of frame; patient face partly visible (allowed); both legs complete. No readable text: console screen, shelf bottles and framed landscape are blurred or plain."
+ },
+ {
+  "name": "cond-auto-hero-c",
+  "pair": "cond-auto-hero",
+  "verdict": "FAIL",
+  "defects": [
+   {
+    "category": "anatomy: vertebra count",
+    "description": "8 vertebrae, not 7. C1 (atlas with its posterior-tubercle knob) sits above 7 bodies: C2 y302-427, C3 432-551, C4 570-689, C5 707-826, C6 850-956, C7 988-1087, plus an extra one at 1112-1250. There are 8 posterior processes, with tips at y209, 418, 537, 667, 792, 918, 1043, 1165. The spec asks for the seven neck vertebrae C1-C7. Evidence: r2__plate__cond-auto-hero-c__vertebra_count_8.png.",
+    "box": [
+     0.388,
+     0.805,
+     0.61,
+     0.919
+    ]
+   },
+   {
+    "category": "anatomy: curve",
+    "description": "Lordosis present but weak. The anterior body line bows toward the face by +13 px (C3 -7, C4 +11, C5 +14, C6 +2 px vs the C2-C7 chord) over a 786 px chord: about 1.7%, roughly 8 degrees, where a normal cervical curve would give about 25-45 px. Direction is correct. Evidence: r2__plate__cond-auto-hero-c__curve_overlay.png.",
+    "box": [
+     0.557,
+     0.221,
+     0.608,
+     0.801
+    ]
+   }
+  ],
+  "counts": {
+   "vertebrae_total": 8,
+   "C1_atlas": 1,
+   "vertebral_bodies_below_C1": 7,
+   "posterior_processes_incl_C1": 8,
+   "posterior_tip_y_px": [
+    209,
+    418,
+    537,
+    667,
+    792,
+    918,
+    1043,
+    1165
+   ],
+   "C1_tubercle_tip_x_px": 891,
+   "C2_spinous_tip_x_px": 796,
+   "C3_spinous_tip_x_px": 892,
+   "C2_largest_upper_spinous": true,
+   "lordosis_sagitta_px": 13.3,
+   "C2_C7_chord_px": 786,
+   "curve_direction": "lordotic (weak)",
+   "rings": 3,
+   "ring_centre_px": [
+    1043,
+    680
+   ],
+   "ring_radii_px": [
+    194,
+    232,
+    270
+   ],
+   "ring_level": "C4/C5 (mid-neck)",
+   "skull": false,
+   "ink_bbox_px": [
+    770,
+    105,
+    1320,
+    1248
+   ],
+   "margins_px_LTRB": [
+    770,
+    105,
+    727,
+    111
+   ],
+   "text_or_labels": 0,
+   "stray_marks": 0
+  },
+  "notes": "Passes: C2 has the largest upper spinous process (tip x796 vs C1 x891, C3 x892). Exactly 3 concentric rings are centred at the C4/C5 level: the radial scan finds 3 crossings at r~194/232/270 on clear rays. No skull, nothing touches the frame, no text or stray ink outside the figure (blob scan), and the teal engraving style on cream is kept. Fails on the extra (8th) vertebra. Better of the pair: its curve at least bows the right way."
+ },
+ {
+  "name": "cond-auto-hero-d",
+  "pair": "cond-auto-hero",
+  "verdict": "FAIL",
+  "defects": [
+   {
+    "category": "anatomy: vertebra count",
+    "description": "8 vertebrae, not 7. C1 sits above 7 bodies: C2 y307-432, C3 440-546, C4 565-690, C5 702-821, C6 849-949, C7 967-1067, plus an extra one at 1086-1199. There are 8 posterior processes, with tips at y208, 403, 521, 655, 787, 922, 1060, 1176. Evidence: r2__plate__cond-auto-hero-d__vertebra_count_8.png.",
+    "box": [
+     0.391,
+     0.79,
+     0.586,
+     0.886
+    ]
+   },
+   {
+    "category": "anatomy: curve",
+    "description": "No lordosis. The anterior body line is straight: quadratic max +2.8 px over a 760 px C2-C7 chord, with per-level offsets C3 -8, C4 +4, C5 +1, C6 -3 px. That is a straight 'military' neck; the spec asks for the normal forward curve. Evidence: r2__plate__cond-auto-hero-d__curve_overlay.png.",
+    "box": [
+     0.542,
+     0.221,
+     0.583,
+     0.787
+    ]
+   }
+  ],
+  "counts": {
+   "vertebrae_total": 8,
+   "C1_atlas": 1,
+   "vertebral_bodies_below_C1": 7,
+   "posterior_processes_incl_C1": 8,
+   "posterior_tip_y_px": [
+    208,
+    403,
+    521,
+    655,
+    787,
+    922,
+    1060,
+    1176
+   ],
+   "C1_tubercle_tip_x_px": 944,
+   "C2_spinous_tip_x_px": 806,
+   "C3_spinous_tip_x_px": 875,
+   "C2_largest_upper_spinous": true,
+   "lordosis_sagitta_px": 2.8,
+   "C2_C7_chord_px": 760,
+   "curve_direction": "straight (none)",
+   "rings": 3,
+   "ring_centre_px": [
+    1022,
+    680
+   ],
+   "ring_radii_px": [
+    193,
+    231,
+    270
+   ],
+   "ring_level": "C4/C5 (mid-neck)",
+   "skull": false,
+   "ink_bbox_px": [
+    749,
+    142,
+    1298,
+    1202
+   ],
+   "margins_px_LTRB": [
+    749,
+    142,
+    749,
+    157
+   ],
+   "text_or_labels": 0,
+   "stray_marks": 0
+  },
+  "notes": "Passes: C2 has the largest upper spinous process; exactly 3 concentric rings are centred at C4/C5; no skull; nothing touches the frame; no text or stray marks; style kept. Fails on both the extra vertebra and the missing lordosis. Worse than c."
+ },
+ {
+  "name": "cond-carpal-hero-b-edit",
+  "pair": "cond-carpal-hero-b",
+  "verdict": "MINOR",
+  "defects": [
+   {
+    "category": "nerve: truncated stub",
+    "description": "A short branch leaves the nerve just below the band and curves down-left, ending abruptly at ~(869,612) on the ulnar half of the ring-metacarpal base. It does NOT reach the little finger, so it is not the FAIL case, but it reads as the cut-off stump of the removed little-finger branch. Evidence: r2__plate__cond-carpal-hero-b-edit__nerve_branch_ends_labeled.png.",
+    "box": [
+     0.41,
+     0.324,
+     0.471,
+     0.463
+    ]
+   },
+   {
+    "category": "stray marks",
+    "description": "Two small teal wedge marks still flank the nerve just above the band, at ~(908-921,306-321) and ~(949-958,284-299). They were flagged in the previous round.",
+    "box": [
+     0.439,
+     0.204,
+     0.471,
+     0.24
+    ]
+   },
+   {
+    "category": "nerve: origin",
+    "description": "The nerve trunk starts as a tapered point at ~y180 between the forearm bones rather than running up out of the plate like the bones. Cosmetic.",
+    "box": [
+     0.449,
+     0.11,
+     0.471,
+     0.147
+    ]
+   }
+  ],
+  "counts": {
+   "digits": 5,
+   "metacarpals": 5,
+   "phalanges_per_digit_little_to_thumb": [
+    3,
+    3,
+    3,
+    3,
+    2
+   ],
+   "phalanges_total": 14,
+   "band_full_width": true,
+   "band_x_extent_px": [
+    808,
+    1135
+   ],
+   "nerve_under_band": true,
+   "branch_end_points_px": {
+    "thumb": [
+     1208,
+     655
+    ],
+    "index": [
+     1096,
+     778
+    ],
+    "middle": [
+     983,
+     813
+    ],
+    "ring_radial_side": [
+     907,
+     800
+    ],
+    "ulnar_stub_end": [
+     869,
+     612
+    ]
+   },
+   "digits_receiving_nerve_branches": [
+    "thumb",
+    "index",
+    "middle",
+    "ring (radial side)"
+   ],
+   "little_finger_branch": false,
+   "text_or_labels": 0,
+   "stray_marks": 2
+  },
+  "notes": "The previous FAIL (a median branch running to the little-finger metacarpal head) is fixed: no branch reaches the little finger. Skeleton counts are correct (axis joint scan: little, ring, middle and index have 3 phalanges each, and the thumb has 2). The thumb is on the right with the radius on the thumb side (left hand, palm up). The band spans the whole wrist and is drawn over the nerve, whose trunk ends at the band's top edge (y~345) and re-emerges below (y~440). Engraving style kept; no text. Better than cond-carpal-hero-c."
+ },
+ {
+  "name": "cond-carpal-hero-c",
+  "pair": "cond-carpal-hero",
+  "verdict": "FAIL",
+  "defects": [
+   {
+    "category": "anatomy: extra digit",
+    "description": "6 digits: five long fingers (D1-D5, each with its own metacarpal) plus a separate thumb. Horizontal scans at y850, 900, 1000, 1050 and 1100 (all below the thumb tip at y~815) each cross 5 separate finger shafts. Evidence: r2__plate__cond-carpal-hero-c__six_digits_labeled.png.",
+    "box": [
+     0.342,
+     0.346,
+     0.691,
+     0.956
+    ]
+   },
+   {
+    "category": "anatomy: phalanx count",
+    "description": "D2, D3, D4 and D5 each have 4 phalanges; only D1 has 3. For example, D3 has joint lines at y799/972/1119/1211 with its tip at 1290, and D2 at 769/954/1097/1182 with its tip at 1250. Fingers should have 3. The thumb has 2 (correct).",
+    "box": [
+     0.4,
+     0.544,
+     0.615,
+     0.956
+    ]
+   },
+   {
+    "category": "nerve distribution",
+    "description": "Branches reach D2, D3, D4, D5 and the thumb (5 digits). Only the leftmost digit gets none. With an extra digit, the thumb/index/middle/radial-ring pattern cannot be read.",
+    "box": [
+     0.41,
+     0.309,
+     0.61,
+     0.662
+    ]
+   }
+  ],
+  "counts": {
+   "digits": 6,
+   "fingers": 5,
+   "thumb": 1,
+   "metacarpals": 6,
+   "phalanges_per_digit_D1_to_D5_then_thumb": [
+    3,
+    4,
+    4,
+    4,
+    4,
+    2
+   ],
+   "band_full_width": true,
+   "nerve_under_band": true,
+   "digits_receiving_nerve_branches": 5,
+   "little_finger_branch": false,
+   "text_or_labels": 0,
+   "stray_marks": 0
+  },
+  "notes": "The band spans the wrist and the nerve passes under it (drawn beneath the band, re-emerging below). Engraving style kept; no text or stray marks outside the figure. Polydactyly and 4-phalanx fingers are an immediate FAIL. Use cond-carpal-hero-b-edit instead."
+ }
+]

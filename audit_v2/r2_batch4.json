@@ -1,0 +1,74 @@
+[
+ {
+  "name": "cond-osteo-treat-a",
+  "pair": "cond-osteo-treat",
+  "path": "v2/round2/cond-osteo-treat-a.png",
+  "scene": "the patient, a woman in her seventies with short silver hair, lies face down on a well-padded treatment table with a pillow under her chest; the practitioner holds a small chrome spring-loaded adjusting instrument shaped like a thick pen with a flat rubber tip (no needle) lightly against her upper back, his other hand resting still on her shoulder",
+  "overlay_anatomy": "the mid back only: a short straight midline column of vertebrae with the inner ends of a few ribs on either side",
+  "pain_site_red_glow": "the mid back",
+  "previous_failure_to_check": "Wrong vertebra count: the spine is over-segmented, with vertebral units repeating every 23-36 px, giving roughly 27-38 segments between the base of the neck (x0.20) and the sacrum (x0.68). T1-L5 is 17; Rib cage is anatomically too long: ribs arise along the spine from x0.21 to x0.61 and wrap the whole back down toward the waistband, leaving only about 3-4 rib-free lumbar segments before the pelvis ("
+ },
+ {
+  "name": "cond-osteo-treat-b",
+  "pair": "cond-osteo-treat",
+  "path": "v2/round2/cond-osteo-treat-b.png",
+  "scene": "the patient, a woman in her seventies with short silver hair, lies face down on a well-padded treatment table with a pillow under her chest; the practitioner holds a small chrome spring-loaded adjusting instrument shaped like a thick pen with a flat rubber tip (no needle) lightly against her upper back, his other hand resting still on her shoulder",
+  "overlay_anatomy": "the mid back only: a short straight midline column of vertebrae with the inner ends of a few ribs on either side",
+  "pain_site_red_glow": "the mid back",
+  "previous_failure_to_check": "Wrong vertebra count: the spine is over-segmented, with vertebral units repeating every 23-36 px, giving roughly 27-38 segments between the base of the neck (x0.20) and the sacrum (x0.68). T1-L5 is 17; Rib cage is anatomically too long: ribs arise along the spine from x0.21 to x0.61 and wrap the whole back down toward the waistband, leaving only about 3-4 rib-free lumbar segments before the pelvis ("
+ },
+ {
+  "name": "cond-pinched-treat-a",
+  "pair": "cond-pinched-treat",
+  "path": "v2/round2/cond-pinched-treat-a.png",
+  "scene": "the patient lies face down on the treatment table, a light blanket over his legs; a flat white ring-shaped PEMF coil resting on his upper back between the shoulder blades over a thin cloth, its cable running to a small white console, the console standing on a small side table beside the table",
+  "overlay_anatomy": "the neck and upper back: the column of vertebrae aligned exactly with the groove down the middle of his back, with one small nerve branch leaving the spine at the base of the neck",
+  "pain_site_red_glow": "that nerve branch at the base of the neck",
+  "previous_failure_to_check": "Spine overlay is misregistered and slanted. The render's own spinal furrow runs just under the top contour of the back (y0.50-0.56 across x0.51-0.72), but the glowing spine runs about 0.15-0.18 of ima; The PEMF cable does not reach a console: it runs from the coil through the practitioner's left hand and down into the towel draped over the patient's hips. The white console behind the practitioner is"
+ },
+ {
+  "name": "cond-pinched-treat-b",
+  "pair": "cond-pinched-treat",
+  "path": "v2/round2/cond-pinched-treat-b.png",
+  "scene": "the patient lies face down on the treatment table, a light blanket over his legs; a flat white ring-shaped PEMF coil resting on his upper back between the shoulder blades over a thin cloth, its cable running to a small white console, the console standing on a small side table beside the table",
+  "overlay_anatomy": "the neck and upper back: the column of vertebrae aligned exactly with the groove down the middle of his back, with one small nerve branch leaving the spine at the base of the neck",
+  "pain_site_red_glow": "that nerve branch at the base of the neck",
+  "previous_failure_to_check": "Spine overlay is misregistered and slanted. The render's own spinal furrow runs just under the top contour of the back (y0.50-0.56 across x0.51-0.72), but the glowing spine runs about 0.15-0.18 of ima; The PEMF cable does not reach a console: it runs from the coil through the practitioner's left hand and down into the towel draped over the patient's hips. The white console behind the practitioner is"
+ },
+ {
+  "name": "cond-plantar-treat-a",
+  "pair": "cond-plantar-treat",
+  "path": "v2/round2/cond-plantar-treat-a.png",
+  "scene": "a close view of the patient's two bare feet resting side by side over the end of the table on a rolled towel, soles toward the camera, natural adult size with five toes each; a white stand-mounted low-level laser head on an articulated arm, positioned a hand's width above the heel of one foot and projecting three thin red laser lines onto the skin without touching it",
+  "overlay_anatomy": "the bones of the foot and the plantar fascia band running from the heel to the toes",
+  "pain_site_red_glow": "the plantar fascia where it attaches to the heel",
+  "previous_failure_to_check": "Both bare feet are oversized and elongated relative to the practitioner's hand resting on them at the same depth. At the heel the scale is consistent (his index finger about 38 px, about 1.8 cm; foot ; Leg ownership is hard to read: the two heels touch under the practitioner's fingers and the feet splay in a V. The far leg is visible only as a thin leggings band that ends near the ankle, while the n"
+ },
+ {
+  "name": "cond-plantar-treat-b",
+  "pair": "cond-plantar-treat",
+  "path": "v2/round2/cond-plantar-treat-b.png",
+  "scene": "a close view of the patient's two bare feet resting side by side over the end of the table on a rolled towel, soles toward the camera, natural adult size with five toes each; a white stand-mounted low-level laser head on an articulated arm, positioned a hand's width above the heel of one foot and projecting three thin red laser lines onto the skin without touching it",
+  "overlay_anatomy": "the bones of the foot and the plantar fascia band running from the heel to the toes",
+  "pain_site_red_glow": "the plantar fascia where it attaches to the heel",
+  "previous_failure_to_check": "Both bare feet are oversized and elongated relative to the practitioner's hand resting on them at the same depth. At the heel the scale is consistent (his index finger about 38 px, about 1.8 cm; foot ; Leg ownership is hard to read: the two heels touch under the practitioner's fingers and the feet splay in a V. The far leg is visible only as a thin leggings band that ends near the ankle, while the n"
+ },
+ {
+  "name": "cond-pregnancy-treat-a",
+  "pair": "cond-pregnancy-treat",
+  "path": "v2/round2/cond-pregnancy-treat-a.png",
+  "scene": "the patient sits upright on the edge of the treatment table in side profile, her whole head inside the frame and her rounded pregnant belly clearly visible, both feet on a small wooden step; the practitioner stands behind her with both hands resting gently on her lower back",
+  "overlay_anatomy": "a SIDE VIEW of the lower spine and pelvis matching her side-on pose: the lumbar vertebrae stacked vertically with their bodies toward her belly and their spinous processes toward her back, the sacrum curving backward at the base, and the hip bone seen from the side",
+  "pain_site_red_glow": "the sacroiliac joint at the back of the pelvis",
+  "previous_failure_to_check": "Practitioner's near (right) hand is seen back-on with the fingers extended flat, but only a thumb and three fingers are rendered. Tip heights (0.505 / 0.525 / 0.515) match index, middle and ring; the ; The lumbar spine is drawn in a back (AP) view, with symmetric transverse processes sticking out toward her front and back, although she is in strict side profile. The pelvis is a front-oblique view sh"
+ },
+ {
+  "name": "cond-pregnancy-treat-b",
+  "pair": "cond-pregnancy-treat",
+  "path": "v2/round2/cond-pregnancy-treat-b.png",
+  "scene": "the patient sits upright on the edge of the treatment table in side profile, her whole head inside the frame and her rounded pregnant belly clearly visible, both feet on a small wooden step; the practitioner stands behind her with both hands resting gently on her lower back",
+  "overlay_anatomy": "a SIDE VIEW of the lower spine and pelvis matching her side-on pose: the lumbar vertebrae stacked vertically with their bodies toward her belly and their spinous processes toward her back, the sacrum curving backward at the base, and the hip bone seen from the side",
+  "pain_site_red_glow": "the sacroiliac joint at the back of the pelvis",
+  "previous_failure_to_check": "Practitioner's near (right) hand is seen back-on with the fingers extended flat, but only a thumb and three fingers are rendered. Tip heights (0.505 / 0.525 / 0.515) match index, middle and ring; the ; The lumbar spine is drawn in a back (AP) view, with symmetric transverse processes sticking out toward her front and back, although she is in strict side profile. The pelvis is a front-oblique view sh"
+ }
+]

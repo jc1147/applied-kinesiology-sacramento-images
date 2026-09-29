@@ -1,0 +1,813 @@
+[
+ {
+  "name": "cond-auto-assess",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner LEFT hand (upper, flat on patient's upper-left back beside spine; back of hand visible, thumb pointing down)",
+    "fingers_counted": "5 (4 fingers + thumb)",
+    "ok": true,
+    "box": [
+     0.4,
+     0.28,
+     0.535,
+     0.456
+    ]
+   },
+   {
+    "whose": "practitioner RIGHT hand (lower, flat on patient's left lower ribs; thumb up)",
+    "fingers_counted": "5 (4 fingers + thumb)",
+    "ok": true,
+    "box": [
+     0.424,
+     0.5,
+     0.567,
+     0.681
+    ]
+   },
+   {
+    "whose": "patient RIGHT hand (resting on table edge beside right hip)",
+    "fingers_counted": "not countable - only heel of hand visible, fingers occluded by table edge/hip",
+    "ok": true,
+    "box": [
+     0.79,
+     0.8,
+     0.845,
+     0.9
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "overlay_anatomy",
+    "description": "Wrong, countable vertebra count: below the last rib attachment (~y 0.65) the column shows 8-9 rib-free lumbar-type vertebrae (distinct transverse-process 'butterfly' shapes, ~0.035 image-height spacing) running straight into the table top; the lumbar spine has 5, and a sacrum should sit above the seat. No sacrum or pelvis is drawn.",
+    "box": [
+     0.5,
+     0.645,
+     0.575,
+     0.97
+    ]
+   },
+   {
+    "category": "red_glow",
+    "description": "Glow sits only on mid-thoracic spine between the shoulder blades (~T3-T8); the requested lower-neck component has no glow.",
+    "box": [
+     0.46,
+     0.27,
+     0.62,
+     0.52
+    ]
+   },
+   {
+    "category": "scene",
+    "description": "Both practitioner hands are on the patient's LEFT half of the back (upper back and lower ribs), not 'on either side'.",
+    "box": [
+     0.4,
+     0.28,
+     0.567,
+     0.681
+    ]
+   }
+  ],
+  "notes": "Practitioner face out of frame (top edge = white shirt only). Arm routing checked: right arm hangs down near side to lower right hand, left arm crosses in front of his chest to upper left hand - chirality consistent, no extra arms. Patient left upper arm visible below sleeve, elbow visible below practitioner forearm, forearm hidden in front of torso (plausible). Overlay spine/ribs/right scapula oriented correctly for a seated back view; left scapula partly under hand. Real clinic. Background device screen out of focus, no readable text. Verdict is driven by the countable overlay error (FAIL rule: wrong overlay); no hand or body defect found. Red-glow and hand-placement items are minor."
+ },
+ {
+  "name": "cond-auto-treat",
+  "verdict": "MINOR",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand (resting on patient's far upper back / shoulder blade)",
+    "fingers_counted": "5 (4 fingers + thumb)",
+    "ok": true,
+    "box": [
+     0.364,
+     0.401,
+     0.482,
+     0.536
+    ]
+   },
+   {
+    "whose": "practitioner LEFT hand (forearm hangs from rolled cuff; hand hidden behind patient's torso)",
+    "fingers_counted": "not visible - occluded by patient's back (plausible)",
+    "ok": true,
+    "box": [
+     0.56,
+     0.27,
+     0.63,
+     0.46
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "overlay_anatomy",
+    "description": "Only the near (left) scapula is drawn; the far (right) scapula under the practitioner's hand is not depicted although 'the shoulder blades' was requested.",
+    "box": [
+     0.47,
+     0.44,
+     0.66,
+     0.55
+    ]
+   },
+   {
+    "category": "text",
+    "description": "Tiny illegible pseudo-text glyphs on the side of the laser head (~15 px wide); not readable at any normal size.",
+    "box": [
+     0.55,
+     0.18,
+     0.575,
+     0.205
+    ]
+   }
+  ],
+  "notes": "Spine runs along the length of the prone body neck->lumbar, correct orientation; near scapula medial border parallel to spine, inferior angle toward feet, glenoid end at shoulder - correct. Glow at base of neck and at laser impact on far upper back. Laser is correct: white stand-mounted head on articulated arm, 3 red lines, not touching (about two hand-widths above skin). Patient near (left) arm lies along table edge and exits bottom of frame; right arm hidden far side; legs under blanket - body complete. Practitioner face out of frame (shirt buttons at top). Real clinic; background monitor blurred."
+ },
+ {
+  "name": "cond-carpal-assess",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand (index finger pointing onto patient's proximal forearm)",
+    "fingers_counted": "5 (index extended, thumb adducted alongside it on radial side, middle/ring/little flexed)",
+    "ok": true,
+    "box": [
+     0.4875,
+     0.339,
+     0.6,
+     0.572
+    ]
+   },
+   {
+    "whose": "practitioner LEFT hand (C-grip around patient's wrist; thumb on top at carpal tunnel)",
+    "fingers_counted": "4 visible (thumb + 3 fingertips below wrist; 4th finger hidden behind patient's palm - plausible)",
+    "ok": true,
+    "box": [
+     0.7125,
+     0.482,
+     0.82,
+     0.7
+    ]
+   },
+   {
+    "whose": "patient LEFT hand (extended, palm up)",
+    "fingers_counted": "5 (thumb + 4), thumb on correct radial side",
+    "ok": false,
+    "box": [
+     0.765,
+     0.538,
+     0.983,
+     0.76
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "hands",
+    "description": "Patient's extended left hand is oversized and elongated: wrist crease to middle fingertip ~435 px vs ~335 px for the practitioner's pointing hand right beside it at the same depth (his finger touches her forearm), so her hand is ~1.3x a man's hand when it should be ~0.9x; at the scale set by her own wrist width (~6 cm = ~109 px) it is ~24 cm vs ~17-18 cm for a woman. Long, thin fingers; very visible next to his hands.",
+    "box": [
+     0.765,
+     0.538,
+     0.983,
+     0.76
+    ]
+   },
+   {
+    "category": "body_integrity",
+    "description": "Extended left arm reads overly long, and the overlay puts the elbow at ~x 0.445 so the drawn forearm bones (~655 px to the wrist) are ~1.6x the humerus (~410 px); real forearm/humerus ~0.8x.",
+    "box": [
+     0.34,
+     0.47,
+     0.78,
+     0.66
+    ]
+   },
+   {
+    "category": "overlay_anatomy",
+    "description": "Yellow 'median nerve' branches run into all five digits including the little finger (ulnar-nerve territory); prompt asked for thumb and first fingers. Clinically wrong on a carpal-tunnel page.",
+    "box": [
+     0.8,
+     0.56,
+     0.98,
+     0.76
+    ]
+   },
+   {
+    "category": "overlay_anatomy",
+    "description": "Thumb bones stop short of the thumb tip (distal phalanx region empty).",
+    "box": [
+     0.84,
+     0.54,
+     0.89,
+     0.6
+    ]
+   },
+   {
+    "category": "scene",
+    "description": "Patient is reclined/lying back, not sitting; practitioner's fingertip touches the proximal forearm just past the elbow, not the inner upper arm.",
+    "box": [
+     0.52,
+     0.52,
+     0.6,
+     0.58
+    ]
+   }
+  ],
+  "notes": "Practitioner face out of frame (shirt buttons at top edge). Red glow at the carpal tunnel at the wrist crease, practitioner's thumb on it - correct. Nerve runs neck -> across upper chest -> arm -> wrist; faint upper ribs/clavicle cluster drawn on chest. Patient right arm runs off bottom edge; body continuous. Real clinic; background monitors blurred, no readable text."
+ },
+ {
+  "name": "cond-carpal-treat",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand (holding the white laser probe)",
+    "fingers_counted": "5 (thumb on right side with nail; 2 fingers wrapping left side of probe with nails; 2 fingertip pads visible below the thumb)",
+    "ok": true,
+    "box": [
+     0.44,
+     0.211,
+     0.63,
+     0.527
+    ]
+   },
+   {
+    "whose": "practitioner LEFT hand (loose C-pinch at the tip of the patient's top digit)",
+    "fingers_counted": "2 visible (thumb + index); middle/ring/little curled out of view behind index - plausible",
+    "ok": true,
+    "box": [
+     0.74,
+     0.527,
+     0.9,
+     0.753
+    ]
+   },
+   {
+    "whose": "patient RIGHT hand (near arm of a supine patient, palm up on towel)",
+    "fingers_counted": "5 digits",
+    "ok": false,
+    "box": [
+     0.515,
+     0.58,
+     0.88,
+     0.911
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "hands",
+    "description": "Mirrored hand / thumb on the wrong side. The patient is supine with her head to the left, so the near arm on the towel is her RIGHT arm, palm up; a palm-up right hand must have its thumb on the lateral/near side (bottom of the hand in frame). Instead the thumb is the TOP (far, medial) digit: it is the thickest digit (~63 px wide vs ~47 px for the other four), has the widest web space and a bulky thenar base, and the overlay itself routes the thumb metacarpal and median-nerve branches to it. The four digits below are uniform fingers. Result: a left hand on a right arm.",
+    "box": [
+     0.515,
+     0.58,
+     0.88,
+     0.911
+    ]
+   },
+   {
+    "category": "hands",
+    "description": "Patient's hand is oversized/elongated: her finger widths (~47 px) equal the practitioner's, and by her own finger-width scale the wrist-to-middle-fingertip length is ~30% longer than a normal female hand; very long fingers with long nails.",
+    "box": [
+     0.515,
+     0.58,
+     0.88,
+     0.911
+    ]
+   },
+   {
+    "category": "overlay_anatomy",
+    "description": "Hand skeleton does not fit the hand: phalanges stop around the middle of the lower fingers and the distal halves of all fingers have no bones; the top (thumb) digit and the next digit carry almost no phalanges.",
+    "box": [
+     0.52,
+     0.595,
+     0.75,
+     0.83
+    ]
+   },
+   {
+    "category": "scene",
+    "description": "Framing asked for a close table-height view with only the forearm and open hand in frame; instead the patient's face and blanket-covered upper body fill the left third of the frame.",
+    "box": [
+     0.0,
+     0.03,
+     0.33,
+     0.8
+    ]
+   }
+  ],
+  "notes": "Device correct: small white handheld laser probe with cable, red beam landing on the wrist crease; red glow at the carpal tunnel - correct. Practitioner face out of frame (top edge = patient face (allowed) + his shirt). Median nerve (yellow) passes through the glowing carpal tunnel. Real clinic; background monitor blurred, no readable text."
+ },
+ {
+  "name": "cond-fibro-assess",
+  "verdict": "MINOR",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand (image left) resting on top of patient's left shoulder",
+    "fingers_counted": "4 fingers visible with 4 nails; thumb hooked over the front of the shoulder, out of view - plausible",
+    "ok": true,
+    "box": [
+     0.281,
+     0.304,
+     0.4,
+     0.47
+    ]
+   },
+   {
+    "whose": "practitioner LEFT hand (image right) resting on top of patient's right shoulder",
+    "fingers_counted": "5 (4 fingers with nails + thumb wrapping at upper-left)",
+    "ok": true,
+    "box": [
+     0.623,
+     0.337,
+     0.725,
+     0.469
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "render",
+    "description": "Inside the overlay the oatmeal sweater disappears and bare skin shows in a sweater-shaped window from neck to waist, so the patient reads as wearing a backless sweater (other overlay images draw the anatomy over the clothing).",
+    "box": [
+     0.29,
+     0.28,
+     0.73,
+     0.93
+    ]
+   },
+   {
+    "category": "overlay_anatomy",
+    "description": "Probable spine over-segmentation: ~23-28 small posterior-view levels from the upper neck (~y 0.28) to the waist (~y 0.91) where ~22 (C3-L5) belong; dense lattice with no rib/sacrum anchor, so the exact count is uncertain.",
+    "box": [
+     0.47,
+     0.28,
+     0.56,
+     0.93
+    ]
+   },
+   {
+    "category": "render",
+    "description": "Background anatomical spine model on the right-hand shelving passes through a shelf board (upper half above the board, column continuing below it). Out of focus, small.",
+    "box": [
+     0.915,
+     0.06,
+     0.975,
+     0.345
+    ]
+   },
+   {
+    "category": "scene",
+    "description": "Composition: the practitioner stands in front of the seated patient facing the camera and reaches over her shoulders, so her face is at his mid-torso; a clinician would normally stand behind her. Physically plausible, reads slightly odd.",
+    "box": [
+     0.15,
+     0.0,
+     0.75,
+     0.5
+    ]
+   }
+  ],
+  "notes": "Practitioner face out of frame (top edge = shirt placket only). Both his hands sit on the tops of the shoulders on the glowing tender points - matches scene. Red glow: multiple scattered points at neck base, shoulder tops and beside the shoulder blades - matches. Overlay: spine neck->lumbar, paired scapulae correctly oriented, fine muscle lines. Patient body complete: upper arms at sides, forearms/hands hidden in lap (plausible), seated on dark padded table. Real clinic; background device screen blurred."
+ },
+ {
+  "name": "cond-fibro-treat",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand (fist grip on chrome adjusting instrument)",
+    "fingers_counted": "5 (thumb on right side of pen with nail; index along the pen; middle/ring/little curled, knuckles visible)",
+    "ok": true,
+    "box": [
+     0.366,
+     0.279,
+     0.49,
+     0.466
+    ]
+   },
+   {
+    "whose": "practitioner LEFT hand (flat on patient's far-side mid/lower back)",
+    "fingers_counted": "5 (thumb + 4 fingers with nails)",
+    "ok": true,
+    "box": [
+     0.554,
+     0.404,
+     0.7,
+     0.556
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "overlay_anatomy",
+    "description": "Misoriented (flipped) spine: drawn in side view with the rectangular vertebral bodies along the skin of the back and each long spinous process hanging DOWN into the body toward the table. For a prone patient the spinous processes point up to the skin of the back and the bodies lie deeper, so the column is upside-down. The main axis correctly follows the length of the body.",
+    "box": [
+     0.235,
+     0.467,
+     0.825,
+     0.685
+    ]
+   },
+   {
+    "category": "overlay_anatomy",
+    "description": "Over-segmentation: ~22-24 vertebrae drawn between the base of the neck (~x 0.24) and the blanket edge (~x 0.80) where ~17-18 (T1-L5) belong.",
+    "box": [
+     0.235,
+     0.467,
+     0.825,
+     0.685
+    ]
+   }
+  ],
+  "notes": "Instrument correct: chrome pen-shaped spring tool with black rubber tip, no syringe look, tip on a glowing tender point beside the mid spine. Glow: several scattered tender points along upper and mid back - matches. Practitioner face out of frame (top edge = shirt only). Patient body complete: prone, head left with face toward camera (allowed), near (left) arm extended forward past the head and off the table (hand leaves frame at left edge), legs under blanket. Torso reads slightly long but within perspective. Real clinic; background monitor blurred, no readable text."
+ },
+ {
+  "name": "cond-frozen-assess",
+  "verdict": "MINOR",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand (flat on patient's upper back, image-left of her spine)",
+    "fingers_counted": "5 (thumb on top + 4 fingers with nails)",
+    "ok": true,
+    "box": [
+     0.165,
+     0.395,
+     0.335,
+     0.625
+    ]
+   },
+   {
+    "whose": "practitioner LEFT hand (cupping under patient's forearm just past the elbow)",
+    "fingers_counted": "4 visible (fingers curl up on near side, nails visible); thumb on far side of her forearm, hidden - consistent with a left hand coming from behind",
+    "ok": true,
+    "box": [
+     0.69,
+     0.455,
+     0.785,
+     0.545
+    ]
+   },
+   {
+    "whose": "patient RIGHT hand (end of raised arm, relaxed, drooping)",
+    "fingers_counted": "3-4 fingertips visible from dorsal side; thumb on far side, hidden - plausible",
+    "ok": true,
+    "box": [
+     0.815,
+     0.395,
+     0.905,
+     0.51
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "body_integrity",
+    "description": "Hidden-limb geometry: his LEFT arm shows only as a rolled cuff beside her neck (~0.43,0.32) and a hand cupping under her elbow (~0.70-0.78,0.46-0.55); the hidden cuff-to-wrist path is ~590-620 px, about 1.6-1.9x his visible hand length (~330-365 px), where a forearm is ~1.3-1.4x. Whether it is actually too long depends on where his elbow sits under the sleeve. The path is fully hidden behind her raised arm, so it does not read as a defect at normal size.",
+    "box": [
+     0.4,
+     0.27,
+     0.785,
+     0.55
+    ]
+   },
+   {
+    "category": "scene",
+    "description": "His stabilizing hand rests on her LEFT shoulder blade (image-left of the spine), not on the shoulder blade of the tested right arm that the overlay highlights.",
+    "box": [
+     0.165,
+     0.395,
+     0.335,
+     0.625
+    ]
+   }
+  ],
+  "notes": "Practitioner face out of frame (top edge = shirt + patient hair). Overlay correct and correctly oriented: right scapula (medial border toward spine, inferior angle down), clavicle, humeral head in glenoid, humerus to elbow condyles along the raised arm. Red glow on the glenohumeral joint capsule. Patient body complete: seated on table, left upper arm at side with forearm in front of torso (plausible), trousers/legs visible. Real clinic; right-side monitor blurred, no readable text."
+ },
+ {
+  "name": "cond-frozen-treat",
+  "verdict": "MINOR",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand (resting on top of patient's left shoulder)",
+    "fingers_counted": "4 fingers draped over the front of the shoulder with nails; thumb behind the shoulder, hidden - plausible",
+    "ok": true,
+    "box": [
+     0.38,
+     0.285,
+     0.49,
+     0.375
+    ]
+   },
+   {
+    "whose": "practitioner LEFT hand (cradling patient's forearm from below, proximal to the wrist)",
+    "fingers_counted": "4 visible (3 fingertips curled up the near side + thumb pointing along her forearm); little finger tucked/hidden - consistent with a supinated left hand",
+    "ok": true,
+    "box": [
+     0.665,
+     0.545,
+     0.79,
+     0.665
+    ]
+   },
+   {
+    "whose": "patient LEFT hand (end of the extended arm, drooping from the wrist)",
+    "fingers_counted": "3 visible (thumb on near side + 2 fingers), remaining fingers hidden behind - plausible; hand length ~336 px = ~1.0x her face height (normal)",
+    "ok": true,
+    "box": [
+     0.785,
+     0.55,
+     0.905,
+     0.815
+    ]
+   },
+   {
+    "whose": "patient RIGHT hand (resting on the table at her side, bottom edge)",
+    "fingers_counted": "not countable - wrist/back of hand at the bottom edge, fingers cut off by the frame",
+    "ok": true,
+    "box": [
+     0.06,
+     0.87,
+     0.18,
+     1.0
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "scene",
+    "description": "Brief not followed: the patient SITS upright on the table instead of lying on her back with her head on a pillow.",
+    "box": [
+     0.0,
+     0.0,
+     0.47,
+     1.0
+    ]
+   },
+   {
+    "category": "scene",
+    "description": "Hand placement differs from the brief: one hand rests on top of her shoulder and the other cradles her mid/distal forearm; the brief asked for holds at the elbow and the wrist.",
+    "box": [
+     0.38,
+     0.285,
+     0.79,
+     0.665
+    ]
+   }
+  ],
+  "notes": "No hand or body defects found. Proportion check: overlay humerus ~487 px, forearm ~329 px (foreshortened), hand ~336 px vs face ~330 px, so hand size is consistent. Overlay correct: anterior (X-ray style) view of the left shoulder with clavicle, scapula projected over the upper chest, humeral head in the glenoid, humerus to elbow and proximal forearm bones, all along the abducted arm. Red glow on the glenohumeral joint capsule. Practitioner face out of frame (top edge = shirt at chest level). Real clinic; left monitor blurred, no readable text. PROVENANCE: the render was replaced by another process at 10:48:56 (file mtime), after batch1.json was written (10:36) and after this audit's start-of-run hash (old md5 c396a32a...). This review covers the CURRENT file (md5 0ed3071ca941c4e3ddd99ebf5ff9b305): crops were cut at 11:23+ and re-cutting them from the current file is pixel-identical. Scene findings are judged against the batch1.json brief."
+ },
+ {
+  "name": "cond-headache-assess",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner LEFT arm's hand (cupping the back of the patient's skull; arm emerges from the image-right side of his torso)",
+    "fingers_counted": "3 visible (thumb on top + 2 fingertips curling under the occiput); ring/little hidden behind her neck",
+    "ok": false,
+    "box": [
+     0.335,
+     0.215,
+     0.46,
+     0.365
+    ]
+   },
+   {
+    "whose": "practitioner RIGHT hand (gripping the base of the patient's neck / upper trapezius; forearm crosses from the lower-left cuff)",
+    "fingers_counted": "0 individually visible - back of hand only; fingers wrap around the side of her neck out of view (plausible)",
+    "ok": true,
+    "box": [
+     0.33,
+     0.375,
+     0.445,
+     0.53
+    ]
+   },
+   {
+    "whose": "patient RIGHT hand (her own hand on her jaw; index finger on the jaw joint, thumb under the jaw)",
+    "fingers_counted": "3 visible (thumb + index + middle along the jaw); ring/little hidden behind - chirality consistent with her right arm",
+    "ok": true,
+    "box": [
+     0.54,
+     0.225,
+     0.665,
+     0.49
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "hands",
+    "description": "Mirrored hand: the hand cupping the back of her skull is attached to the practitioner's LEFT arm (sleeve from the image-right side of his torso; his shirt placket is visible, so he half-faces the camera), but it is drawn as a RIGHT hand. Its back faces the camera (hairy dorsum, fingernails visible on both fingertips, hand in front of her hair) with fingers pointing right and the THUMB ON TOP; a left hand in that pose has its thumb at the bottom. With his other (right) hand on her neck, he has two right hands.",
+    "box": [
+     0.335,
+     0.215,
+     0.46,
+     0.365
+    ]
+   },
+   {
+    "category": "scene",
+    "description": "Brief not followed: the jaw joint is touched by the PATIENT's own right hand, not by the practitioner's fingertips; his second hand grips the base of her neck instead.",
+    "box": [
+     0.54,
+     0.225,
+     0.665,
+     0.49
+    ]
+   },
+   {
+    "category": "body_integrity",
+    "description": "Patient's right forearm reads long: elbow (~0.745,0.93) to wrist (~0.645,0.46) is ~671 px vs her hand ~350-370 px (~1.8-1.9x where ~1.4x is normal); perspective (elbow nearer the camera) explains only part of it.",
+    "box": [
+     0.6,
+     0.44,
+     0.78,
+     0.95
+    ]
+   }
+  ],
+  "notes": "Practitioner face out of frame (top edge = his shirt + patient's hair bun). Overlay correct and correctly oriented: occipital skull base, TMJ in front of the ear, mandible outline, cervical vertebrae in side view (bodies toward the face, spinous processes toward the nape) continuing into the upper thoracic spine at the back midline. Red glow on the suboccipital/upper-neck muscles, under his fingertips. Patient body complete (seated, left arm hidden in front). Real clinic; background device screen blurred, no readable text."
+ },
+ {
+  "name": "cond-headache-treat",
+  "verdict": "MINOR",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand (overhand grip on the white laser probe; arm's shoulder sits image-left of his shirt placket = his right side)",
+    "fingers_counted": "2 visible (index draped over the top of the probe with nail + thumb on the near/under side with nail); middle/ring/little wrap the far side of the probe, hidden - plausible",
+    "ok": true,
+    "box": [
+     0.555,
+     0.135,
+     0.7,
+     0.335
+    ]
+   },
+   {
+    "whose": "practitioner LEFT hand (flat on the patient's right shoulder / upper shoulder blade; arm comes from the image-right of his placket = his left side)",
+    "fingers_counted": "5 (thumb along the top of her shoulder + 4 fingers with nails; lengths graded index/middle longest, little shortest)",
+    "ok": true,
+    "box": [
+     0.575,
+     0.515,
+     0.73,
+     0.785
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "text",
+    "description": "Faint grey pseudo-glyph markings on the probe's front collar (~55x50 px), illegible, read as device engraving at normal size.",
+    "box": [
+     0.554,
+     0.296,
+     0.581,
+     0.332
+    ]
+   }
+  ],
+  "notes": "Chirality checked: probe hand = dorsum up, thumb on near side, index along top (right hand on right arm); shoulder hand = dorsum to camera, thumb on top, fingers pointing left (left hand on left arm). Device correct: small white handheld laser probe with grey cable, chrome tip with red lens, aimed at the right suboccipital skull base. Red glow at the base of the skull / top of the neck under the probe tip - correct. Overlay: posterior-view skull base with mandible angles below the ears, cervical spine continuing into the thoracic spine down the midline to the camisole line (more than the requested skull base + upper neck, but anatomically placed and oriented). Patient body complete: seated upright, back to camera, both upper arms at her sides, forearms hidden in front, camisole strap passes under his fingers. Practitioner face out of frame (top edge = shirt at chest level). Real clinic; background console and spine model blurred, no readable text."
+ },
+ {
+  "name": "cond-lbp-assess",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand (pressing the patient's lower abdomen / right front of pelvis)",
+    "fingers_counted": "5 (4 fingertips with nails pointing toward the camera + thumb curled round the far side of the belly on the image-right, consistent with a right hand)",
+    "ok": true,
+    "box": [
+     0.39,
+     0.47,
+     0.478,
+     0.58
+    ]
+   },
+   {
+    "whose": "practitioner LEFT hand (flat on the raised shin just above the ankle)",
+    "fingers_counted": "4 visible (thumb on the near/lower side + 3 fingers with nails); little finger hidden behind the ring finger at the grazing angle - plausible",
+    "ok": true,
+    "box": [
+     0.8,
+     0.25,
+     0.935,
+     0.34
+    ]
+   },
+   {
+    "whose": "patient RIGHT hand (near arm, palm down on the table)",
+    "fingers_counted": "4 fingers with nails (little shortest, middle longest); thumb on the far side, hidden - consistent with a palm-down right hand",
+    "ok": true,
+    "box": [
+     0.51,
+     0.745,
+     0.66,
+     0.84
+    ]
+   },
+   {
+    "whose": "patient LEFT FOOT (bare, raised leg; medial side facing camera)",
+    "fingers_counted": "toes not countable - cut off by the right frame edge; heel, arch and medial malleolus plausible",
+    "ok": true,
+    "box": [
+     0.9,
+     0.165,
+     1.0,
+     0.385
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "body_integrity",
+    "description": "Proportion defect - raised (left) leg too short: hip joint (~0.54,0.58) to inner ankle (~0.95,0.31) = ~920-930 px, which is ~64 cm at the image's own scale (patient's hand ~275 px = ~19 cm; face gives the same ~14 px/cm) vs ~85 cm normal. Leg/arm ratio 1.12 (normal ~1.45); leg/torso ratio 1.10 (normal ~1.65); even with the hip placed as far up as x=0.50 the leg is still ~70 cm. The patient's own near arm measures a normal ~57 cm, so the error is in the leg/torso, not the scale.",
+    "box": [
+     0.49,
+     0.165,
+     1.0,
+     0.66
+    ]
+   },
+   {
+    "category": "body_integrity",
+    "description": "Proportion defect - torso too long: shoulder joint (~0.13,0.645) to hip joint = ~845 px = ~58 cm vs ~51 cm normal; together with the short leg the patient reads long-bodied and short-legged.",
+    "box": [
+     0.09,
+     0.49,
+     0.56,
+     0.78
+    ]
+   },
+   {
+    "category": "overlay_anatomy",
+    "description": "Small stylization: every vertebra is drawn with the same blocky lumbar shape (the column spans ~T7-L5: the patient's elbow, at waist level, is at ~x 0.35) and small knob-like processes sit on the belly side of each vertebral body. Count ~12 over ~T7-L5 is plausible; no ribs drawn.",
+    "box": [
+     0.235,
+     0.585,
+     0.465,
+     0.69
+    ]
+   },
+   {
+    "category": "scene",
+    "description": "The stabilizing hand presses the lower abdomen / front of the pelvis above the glowing lumbar area rather than steadying the opposite hip.",
+    "box": [
+     0.39,
+     0.47,
+     0.478,
+     0.58
+    ]
+   }
+  ],
+  "notes": "Patient complete: supine, head on pillow (face visible, allowed), near right arm along side with hand on table, far left arm hidden behind torso (plausible), near right leg flat and running off the right edge, far left leg raised ~30 deg with bare foot; both legs originate at the pelvis. Overlay: lumbar spine in side view along the torso, pelvis at the hip, femur along the raised thigh to a knee midway to the ankle - placed and oriented correctly. Red glow at the anterior lumbar region under his right hand (psoas origin) and at the groin/hip flexor - matches the brief. Practitioner face out of frame (top edge = shirt placket and button, no skin). Real clinic; background print, device screen and skeleton blurred, no readable text. Correction during re-audit: an earlier reading of '11-12 lumbar vertebrae' was wrong; the drawn column covers the lower thoracic + lumbar spine."
+ },
+ {
+  "name": "cond-lbp-treat",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand (palm down on the patient's upper back; arm from the image-left of his shirt placket)",
+    "fingers_counted": "5 (little/ring/middle/index with nails pointing toward the camera + thumb on the image-right = medial side, correct for a right hand)",
+    "ok": true,
+    "box": [
+     0.295,
+     0.36,
+     0.43,
+     0.49
+    ]
+   },
+   {
+    "whose": "practitioner LEFT hand (forearm hangs down on the far side of the table; hand disappears behind the patient's lower back / towel)",
+    "fingers_counted": "not visible - occluded by patient's body and towel (plausible)",
+    "ok": true,
+    "box": [
+     0.7,
+     0.38,
+     0.78,
+     0.56
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "overlay_anatomy",
+    "description": "Pelvis and sacrum rotated ~90 degrees (sideways). The pelvis is drawn like an upright pelvis seen from behind: near iliac wing at left, sacrum with foramina hanging vertically on the right with the COCCYX POINTING DOWN into the table (~0.67,0.84), and the femoral head at the lower left with the FEMUR SHAFT RUNNING DOWN into the table (~0.56,0.97). The patient lies prone with his head at image-left and legs extended to the right under the towel, so the sacrum/coccyx and femur should continue horizontally toward the feet (right). The lumbar spine enters horizontally from the left and then the sacrum turns down 90 degrees.",
+    "box": [
+     0.44,
+     0.58,
+     0.7,
+     0.99
+    ]
+   },
+   {
+    "category": "scene",
+    "description": "Laser head is ~0.30 of the image height above the skin (at the practitioner's chest height), well over the requested 'hand's width' above the lower back.",
+    "box": [
+     0.6,
+     0.05,
+     0.7,
+     0.58
+    ]
+   }
+  ],
+  "notes": "Laser correct otherwise: white stand-mounted head on an articulated arm from a white column stand, three red lines landing at the lumbosacral junction without touching. Red glow at the two lowest lumbar levels and paraspinal muscles where the lines land - correct. Lumbar/lower-thoracic spine drawn in posterior-oblique view along the length of the back, ~9 levels to the glow - plausible. Patient body complete: prone, head left, face turned to camera (allowed), near (left) arm draped over the table edge with forearm leaving the bottom-left of the frame, far arm hidden, legs under the towel. Practitioner face out of frame (top edge = shirt placket/buttons only). Real clinic; right-side device screen and framed landscape blurred, no readable text."
+ }
+]

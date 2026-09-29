@@ -1,0 +1,231 @@
+[
+  {
+    "name": "about-drvw-learning",
+    "verdict": "MINOR",
+    "defects": [
+      {
+        "category": "objects",
+        "where": "center, pelvis of the anatomical spine model (approx. x830-1030, y900-1080 of 2048x2048)",
+        "description": "Pelvis is anatomically garbled when zoomed: mismatched iliac wings, the sacrum melts into the stand rod, and a ring/socket shape sits where the pubic bones should be. Passes as a spine model at display size."
+      },
+      {
+        "category": "objects",
+        "where": "top of the spine model (approx. x915-1000, y490-530)",
+        "description": "Top vertebra is a curved scoop/spoon shape with a red blob instead of an atlas/skull base."
+      },
+      {
+        "category": "text",
+        "where": "open notebook, right-page heading and lines (approx. x1080-1480, y1360-1470)",
+        "description": "Pseudo-handwriting with letter-like marks; the heading line is fairly crisp. No legible words, but it is sharper than 'too soft to read'."
+      }
+    ],
+    "match_notes": "Matches: pale wood desk by a window, stack of closed plain books (page edges toward the camera, spines not visible, no text), spine model on a stand, reading glasses, open handwritten notebook, cup of coffee, no people. The glasses lie on the desk just above the notebook, not on it."
+  },
+  {
+    "name": "about-hero",
+    "verdict": "MINOR",
+    "defects": [
+      {
+        "category": "faces",
+        "where": "top-right corner (approx. x2340-2528, y0-530 of 2528x1685)",
+        "description": "Patient's right ear with an earring stud (x2415-2485, y150-330), the edge of her cheek and jawline (x2340-2420, y200-430), and her neck are visible."
+      },
+      {
+        "category": "objects",
+        "where": "left, white side table: PEMF ring (x100-520, y950-1110) and console (x500-790, y860-1010)",
+        "description": "The ring's cable arcs off the table edge and down to the floor (x500-800, y1060-1380). The console on the same table has no visible cable, so the ring and console are not connected. The ring is a thick cushion-like doughnut rather than a flat coil."
+      }
+    ],
+    "match_notes": "Present: the muscle test (arm held out, hand pressing above the wrist), a stand-mounted round-headed laser on a wheeled 5-caster stand parked beside the table, and the PEMF ring and console. Differences: framing includes the patient's head and ear rather than chest-down; the patient is seen from behind-right. The small red dot on the laser head is an indicator light, not a logo; the console screen is blank. Hands are anatomically plausible. intended_subject in batch1.json is truncated ('PEMF c'), so this was judged on the visible part."
+  },
+  {
+    "name": "ak-legit-hero",
+    "verdict": "PASS",
+    "defects": [],
+    "match_notes": "Shows the test: the patient's fist is closed, the practitioner's flat hand presses on the forearm just above the wrist, and his other hand supports from below. Hands are anatomically plausible; the belt and wall frame show no text; no faces. Differences: this is a medium shot, not an intimate close-up (room, treatment table, window and the practitioner's shirt and belt are visible; the brief said only hands and forearms fill the frame). The second hand cradles the far end of the forearm instead of steadying the elbow, and the elbow bend is mostly out of frame."
+  },
+  {
+    "name": "ak-mtest",
+    "verdict": "MINOR",
+    "defects": [
+      {
+        "category": "faces",
+        "where": "extreme top-right corner (approx. x1972-1994, y0-22 of 1994x1595)",
+        "description": "Tiny skin-toned curve of the patient's chin/jaw."
+      },
+      {
+        "category": "render_quality",
+        "where": "patient's inner elbow / upper forearm, center-right (approx. x1150-1230, y610-730)",
+        "description": "Dark bruise-like vein blotch; reads as a bruise or varicose vein at normal size."
+      },
+      {
+        "category": "body_integrity",
+        "where": "patient's hand, left-center (approx. x340-700, y870-1230)",
+        "description": "Hand hangs limp, wrist flexed about 90 degrees, fingers dangling. Thumb plus four fingers, so anatomy is correct, but a patient resisting a muscle test would not have a limp hand."
+      }
+    ],
+    "match_notes": "Matches: seated patient, arm out to the side, practitioner presses above the wrist and steadies the shoulder. The arm angles about 25-30 degrees below horizontal instead of straight out. Practitioner hands are plausible; no text."
+  },
+  {
+    "name": "ak-roof",
+    "verdict": "FAIL",
+    "defects": [
+      {
+        "category": "body_integrity",
+        "where": "center-right, practitioner's hand on the patient's upper back (approx. x1000-1510, y600-870 of 1905x1905)",
+        "description": "The hand has four fingers and no thumb. The index-finger edge runs straight from the wrist to the index knuckle with no thumb or thumb base, and there is no thumb on the other side either. The pinky is set apart from the ring finger by an oversized gap (about y780-830). This hand is the sharp focal point of the image."
+      }
+    ],
+    "match_notes": "In outline it matches: a hand on the upper back of a seated patient seen from behind, with a stand-mounted round white laser head beyond. Differences: the laser head faces the camera instead of being folded down; the stand's base and wheels are hidden behind the table; a round tray/clamp sits midway up the pole (x310-630, y1060-1150). A faint blurred grey dash and a vent slot on the laser head (x840-950, y600-680) are not legible. Only the patient's ear shows, no face. The patient's body is complete."
+  },
+  {
+    "name": "ak-who-imaging",
+    "verdict": "PASS",
+    "defects": [],
+    "match_notes": "Matches: across a small pale wooden table, the patient's hands pass a plain kraft imaging envelope to the practitioner's hands, with a lumbar-spine/pelvis X-ray half drawn out. All four hands are plausible. The film has no marker letters. The table has four legs; the extra leg-like shape is the background treatment table. The framing is looser than asked: window, curtain, treatment table and the patient's knees are visible, rather than strictly table-height hands and forearms."
+  },
+  {
+    "name": "book-hero",
+    "verdict": "PASS",
+    "defects": [],
+    "match_notes": "Matches: white desk telephone with blank keys and a coiled cord, small appointment book open to blank pages with a pen, eucalyptus sprig in a clear glass, window light, softly blurred waiting room. No people, no readable text; the wall frames are blurred and blank."
+  },
+  {
+    "name": "cond-auto-assess",
+    "verdict": "MINOR",
+    "defects": [
+      {
+        "category": "faces",
+        "where": "top edge, right of the patient's neck (approx. x1620-1730, y0-165 of 2374x1696)",
+        "description": "Underside of the patient's jaw and lower cheek are visible; her head is turned slightly."
+      },
+      {
+        "category": "render_quality",
+        "where": "patient's nape (approx. x1476-1488, y56-134)",
+        "description": "Faint pale curved line with a white dot, a stray-hair/scratch artifact. Tiny."
+      }
+    ],
+    "match_notes": "Broadly matches: seated patient from behind, practitioner's hands on the back. Differences: both practitioner hands come from the right and lie on the center/right of the back with fingertips pointing across the spine, rather than one hand on either side of the mid back and lower ribs. The frame starts at the hair bun and nape, not the shoulders. Hands have five digits; the patient's body and arms are complete; no text."
+  },
+  {
+    "name": "cond-auto-treat",
+    "verdict": "FAIL",
+    "defects": [
+      {
+        "category": "body_integrity",
+        "where": "right half, on the table (approx. x1290-2050, y760-1380 of 2374x1696)",
+        "description": "The patient's back turns into a pillow. What should be the upper back is a beige pillowcase, with an open hem/flap at its right edge (x1550-2050, y940-1200) and a white pillow corner poking out beneath (x1590-2020, y1040-1330). There is no mid-back, waist, hips or legs anywhere, although the table continues right to the laser stand. The laser lines land on the pillowcase, not on skin."
+      },
+      {
+        "category": "body_integrity",
+        "where": "left third (approx. x270-1000, y560-800)",
+        "description": "The practitioner's forearm lies directly across the back of the patient's head while his hand rests on her shoulder."
+      },
+      {
+        "category": "faces",
+        "where": "left third, patient's head on the folded towel (approx. x270-760, y760-1100)",
+        "description": "Head fully in frame: the back of the head, left ear, and the cheek/jaw below the ear are visible."
+      }
+    ],
+    "match_notes": "Brief: close table-height view, upper back and shoulder blades filling the frame, head outside the left edge, laser head entering from the top and casting three red lines at the neck/shoulder junction. Image: head and ear in frame at left; four beams instead of three; the laser head enters from the right; the beams hit a pillowcase. The stand's display window is blank (no text). The hand on the shoulder has five digits. intended_subject in batch1.json is truncated ('practitioner's hand re'), so this was judged on the visible part."
+  },
+  {
+    "name": "cond-carpal-treat",
+    "verdict": "MINOR",
+    "defects": [
+      {
+        "category": "body_integrity",
+        "where": "center-right, practitioner's supporting left hand over the patient's fingers (approx. x1460-2000, y690-960 of 2374x1696)",
+        "description": "Mitten-like mass: one digit points left (x1464-1604, y742-814), with no knuckles or separate fingers visible. Looks fused when zoomed; passable at normal size."
+      }
+    ],
+    "match_notes": "Matches: patient's forearm on a folded towel, practitioner holding a small white handheld low-level laser probe (with cable) just above the inside of the wrist, with a red spot on the skin. The patient's hand has a thumb and four fingers. No text on the probe; background jars are blurred; no faces."
+  },
+  {
+    "name": "cond-disc-treat",
+    "verdict": "MINOR",
+    "defects": [
+      {
+        "category": "objects",
+        "where": "bottom center: PEMF ring plug (approx. x892, y1286 of 1803x1803) and console cable exit (approx. x1450, y1271)",
+        "description": "The ring's cable runs across the table and off the bottom edge at about x1370. The console has its own separate cable running off the bottom edge at about x1565. The ring and console are not connected to each other; the brief has the ring cabled to the console."
+      }
+    ],
+    "match_notes": "Viewpoint is reversed: the camera is at the head end (clasped hands in the left foreground, pillow in the bottom-left corner) and the feet are at the far end by the window. The brief asked for a view from the foot end with the head beyond the far end, framed chest to knees; here the feet are in frame. Matches: flat white ring under the low back with its rim visible at the waist, knees over a sage bolster, console with a blank dark screen. Bodies are intact (practitioner's hands have five digits, the patient's hands are clasped, legs are coherent). The practitioner's head is cropped out; no faces."
+  },
+  {
+    "name": "cond-fibro-assess",
+    "verdict": "MINOR",
+    "defects": [
+      {
+        "category": "text",
+        "where": "open notebook, center-right (approx. x1280-1490, y1070-1165 of 2374x1696)",
+        "description": "Handwriting is sharp pseudo-cursive when zoomed. No legible words, but it is crisper than the 'too small and soft to read' the brief asked for."
+      }
+    ],
+    "match_notes": "Matches: patient's hands around a cup of tea, practitioner's hand writing in a notebook with a pen, closed manila folder beside the cup (no label), pale wood table by the window, framed on hands and forearms. Hands are anatomically fine; no faces; the background is blurred with no text."
+  },
+  {
+    "name": "cond-fibro-treat",
+    "verdict": "MINOR",
+    "defects": [
+      {
+        "category": "faces",
+        "where": "left third, patient's head on the pillow (ear approx. x375-490, y670-780; cheek/jaw x385-540, y780-885 of 2374x1696)",
+        "description": "Patient's left ear and the cheek and jaw below it are visible, face pressed into the pillow."
+      },
+      {
+        "category": "objects",
+        "where": "center, adjusting instrument and the hand holding it (approx. x1115-1554, y379-866)",
+        "description": "The practitioner presses the top cap with his thumb while the barrel sits between his fingers. That is a plunger/syringe grip, the look the brief said to avoid ('held like a pen, clearly not a syringe'). No needle and no finger rings; the coil spring is visible. The tip is a grey/taupe dome, not flat black rubber."
+      }
+    ],
+    "match_notes": "Matches: patient face down on a sage table, blanket over the legs, the practitioner's other hand flat on the back beside the spine. Differences: no face cradle (the head lies on a pillow at the end of the table); the instrument grip and tip color differ from the brief. Both hands have five digits; the body is complete; no text."
+  },
+  {
+    "name": "cond-frozen-assess",
+    "verdict": "MINOR",
+    "defects": [
+      {
+        "category": "faces",
+        "where": "extreme top-right corner (approx. x2040-2122, y0-85 of 2122x1516)",
+        "description": "Practitioner's lower lip / mouth corner, moustache and bearded chin are visible."
+      },
+      {
+        "category": "faces",
+        "where": "patient's head, upper center-right (approx. x1255-1400, y180-430)",
+        "description": "Patient's right ear, the edge of her cheek and her jawline are visible; her head is turned toward the window."
+      }
+    ],
+    "match_notes": "Broadly matches: seated patient from behind, hair tied up, practitioner's hands on the shoulder and arm. Differences: the arm is raised out to the side with the elbow bent, not raised forward; the practitioner's hand is on top of the shoulder/trapezius, not on the shoulder blade; the other hand grips the upper arm instead of lightly guiding the elbow; the frame starts at the top of the bun, not the shoulders. Hands are plausible; no text; render clean."
+  },
+  {
+    "name": "cond-frozen-treat",
+    "verdict": "FAIL",
+    "defects": [
+      {
+        "category": "body_integrity",
+        "where": "middle of the table: torso ends at approx. x910-1140, y1165-1360; empty table beyond at x1090-2090, y930-1560 (of 2374x1696)",
+        "description": "The patient's body ends mid-frame. Her sweater-clad torso runs from the left edge to about x1140 and ends in a rounded lump under her raised arm. To the right the table holds only a flat white towel and a green blanket, with no waist, hips or legs, although she should be lying on the table seen from the chest down. The torso is shorter than her upper arm."
+      },
+      {
+        "category": "body_integrity",
+        "where": "left edge (approx. x0-150, y980-1310) and along the underside of the torso (x75-750, y1215-1420)",
+        "description": "A patch of bare skin inside a ribbed collar/cuff-like opening, plus a second ribbed band along the underside of the torso. The garment and body do not add up to a coherent person."
+      }
+    ],
+    "match_notes": "Partial match: the practitioner holds the arm at the upper arm/elbow and eases it out; the head is out of frame; a folded towel sits at lower left near the shoulder. Differences: the wrist is not held (her hand hangs free in front of his shirt, approx. x1780-2150, y350-620), and a second flat towel lies where her lower body should be. Practitioner hands have five digits each; no faces; no text."
+  },
+  {
+    "name": "cond-headache-assess",
+    "verdict": "MINOR",
+    "defects": [
+      {
+        "category": "faces",
+        "where": "patient's head, center (cheek/jaw approx. x1045-1150, y300-620; eyelashes x1041-1058, y310-375 of 2072x1480)",
+        "description": "Head turned to a lost profile: the cheek and jaw contour are visible, and the eyelashes of her left eye poke past the cheek line."
+      }
+    ],
+    "match_notes": "Broadly matches: seated patient from behind with her hair in a bun, practitioner's fingertips at the jaw and the base of the skull. Differences: one hand's index finger is on the jaw angle below one ear, not in front of both ears; her face is not fully turned away. The shelf bottles are blurred with no legible labels. Hands are plausible."
+  }
+]

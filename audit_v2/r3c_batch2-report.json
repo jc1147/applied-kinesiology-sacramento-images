@@ -1,0 +1,347 @@
+[
+ {
+  "name": "cond-osteo-treat-a",
+  "pair": "cond-osteo-treat",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner right hand (gripping the adjusting instrument)",
+    "fingers_counted": "5 - little, ring and middle curled; index extended down the barrel with its nail; thumb on the image-right behind the barrel (correct side for a right hand seen from the front)",
+    "ok": true,
+    "box": [
+     0.32,
+     0.24,
+     0.47,
+     0.44
+    ]
+   },
+   {
+    "whose": "practitioner left hand (resting on the patient's right shoulder)",
+    "fingers_counted": "5 - thumb along the top of the shoulder on the medial/image-left side, 4 fingers draped down with nails",
+    "ok": true,
+    "box": [
+     0.58,
+     0.37,
+     0.7,
+     0.53
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "overlay",
+    "description": "Round-2 failure persists: about 11-12 pairs of long curved ribs (reaching about 60% of the way to each flank) fill the whole back, and the lowest pairs reach the blanket/waist line (y about 0.71-0.72). That puts ribs over the lumbar zone. The brief asked for a short mid-back column with only the inner ends of a few ribs. The column itself is now straight and vertical in the midline (x about 0.477).",
+    "box": [
+     0.35,
+     0.41,
+     0.6,
+     0.72
+    ]
+   },
+   {
+    "category": "scene",
+    "description": "Practitioner stands at the head end of the table facing the camera, not at the side as briefed. His face is out of frame. Composition only, not an anatomy defect.",
+    "box": [
+     0.3,
+     0.0,
+     0.72,
+     0.4
+    ]
+   }
+  ],
+  "previous_failure_fixed": false,
+  "pick": false,
+  "notes": "Hands OK (both practitioner hands have 5 digits). Patient hands are not visible (forearms hang beyond the table edges). Both upper arms are symmetric and natural; no feet in frame (blanket); no extra limbs. The spine angle part of the round-2 failure is fixed (column straight up the midline); the rib part is not. The red glow is on the spine, upper-mid thoracic (mid back). The chrome pen instrument with a flat black rubber tip (no needle) lands just left of the spine at the top edge of the glow (acceptable). No practitioner face; the left-edge device screen is blurred and no text is readable. The 7:5 page crop (about 72 px per side) cuts nothing: the elbows sit at about 280 and 1720 px."
+ },
+ {
+  "name": "cond-osteo-treat-b",
+  "pair": "cond-osteo-treat",
+  "verdict": "MINOR",
+  "hands": [
+   {
+    "whose": "practitioner right hand (gripping the adjusting instrument)",
+    "fingers_counted": "5 - little, ring and middle curled; index extended down the barrel with its nail; thumb on the image-right behind the barrel (correct side)",
+    "ok": true,
+    "box": [
+     0.34,
+     0.25,
+     0.48,
+     0.44
+    ]
+   },
+   {
+    "whose": "practitioner left hand (resting on the patient's right shoulder)",
+    "fingers_counted": "5 - thumb on the medial/image-left side pointing down onto the shoulder; index, middle and ring with nails; little finger mostly behind the ring finger, its nail edge visible at 5x",
+    "ok": true,
+    "box": [
+     0.62,
+     0.34,
+     0.74,
+     0.54
+    ]
+   },
+   {
+    "whose": "patient right hand (tucked beside the chest, image right)",
+    "fingers_counted": "4 visible - fingertips with pale nails in a natural descending row; thumb hidden under the upper arm",
+    "ok": true,
+    "box": [
+     0.78,
+     0.59,
+     0.86,
+     0.72
+    ]
+   },
+   {
+    "whose": "patient left hand (beside the chest, image left)",
+    "fingers_counted": "2-3 visible - blurred fingertips beyond the upper arm; the rest is hidden and nothing looks wrong",
+    "ok": true,
+    "box": [
+     0.17,
+     0.6,
+     0.25,
+     0.7
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "overlay",
+    "description": "About 7 pairs of rib arcs, each about 2/3 length, rather than only the inner ends of a few ribs. They float 20-35 px clear of the transverse processes. They stop about 50 px above the blanket, and the bottom 2-3 vertebrae have no ribs beside them, so they no longer run down to the waist.",
+    "box": [
+     0.4,
+     0.42,
+     0.64,
+     0.66
+    ]
+   },
+   {
+    "category": "overlay",
+    "description": "The column runs from the base of the neck down to the blanket, longer than the 'short mid-back column' in the brief. It is straight and vertical in the midline (x about 0.515).",
+    "box": [
+     0.49,
+     0.36,
+     0.54,
+     0.7
+    ]
+   },
+   {
+    "category": "scene",
+    "description": "Practitioner stands at the head end of the table facing the camera, not at the side as briefed. His face is out of frame. Composition only.",
+    "box": [
+     0.3,
+     0.0,
+     0.75,
+     0.4
+    ]
+   }
+  ],
+  "previous_failure_fixed": true,
+  "pick": true,
+  "notes": "The better of the pair. All 4 visible hands are OK. The patient's arms are in a push-up-start pose (elbows at the table edge near the camera, hands beside the chest): plausible, symmetric, natural lengths. No feet in frame (blanket). The spine runs straight up the midline and the ribs no longer reach the waist, so round 2 is fixed; the rib extent is still more than the brief's 'inner ends', which is minor. The red glow is on the spine, upper-mid thoracic (mid back). The instrument (chrome pen, threaded collar, flat black rubber tip, no needle) lands on the glow just left of the spine at about (997,657) px. No practitioner face. The background monitor is blank/blurred and a spine model at the top right is blurred; no readable text. The 7:5 page crop cuts nothing (elbows at about 348 and 1787 px)."
+ },
+ {
+  "name": "cond-plantar-treat-a",
+  "pair": "cond-plantar-treat",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner right hand (gripping the laser head)",
+    "fingers_counted": "4 visible - 4 fingers wrap the housing (4 knuckles, 3 nails at the tips); thumb hidden behind the housing",
+    "ok": true,
+    "box": [
+     0.0,
+     0.14,
+     0.18,
+     0.31
+    ]
+   },
+   {
+    "whose": "practitioner left hand (hanging relaxed beside the foot)",
+    "fingers_counted": "2 visible - thumb pointing down with a broad nail, index curled beside it, the rest hidden; soft focus, no malformation",
+    "ok": true,
+    "box": [
+     0.52,
+     0.41,
+     0.62,
+     0.58
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "treatment",
+    "description": "The three laser lines hit the skin at the back of the ankle above the heel (Achilles region, about 600-660,1000-1020 px). They fade out inside the ankle by y about 1190 px and never reach the red glow under the heel (centre about 692,1350 px). The treatment lands about 250-300 px (about 6 cm) above the pain site.",
+    "box": [
+     0.28,
+     0.47,
+     0.37,
+     0.67
+    ]
+   },
+   {
+    "category": "overlay",
+    "description": "Toe-bone chains end inside toes 2-5, but the big toe (top, with the nail) has no phalanges. The skeleton stops about 110 px short of the big-toe tip.",
+    "box": [
+     0.77,
+     0.65,
+     0.83,
+     0.7
+    ]
+   }
+  ],
+  "previous_failure_fixed": false,
+  "pick": false,
+  "notes": "The round-2 defects themselves are fixed. There is one foot, attached at the ankle, with 5 toes: the big toe and 2nd toe have nails on top and 3 smaller toes are stacked below as pads (confirmed in a red-channel crop). It is natural size, about 1120 px long vs about 400 px for the lower leg. The skeleton is the right way up: calcaneus fills the heel, talus above, metatarsals toward the toes, and the plantar fascia runs from under the calcaneus along the sole. The glow sits correctly under the heel at the fascia attachment. previous_failure_fixed is false only because the acceptance line 'red glow under the heel where the laser lands' fails. Device: white head on an articulated arm, three thin parallel lines, about 300 px above the skin, no contact. No practitioner face; the monitor is blank; no readable text. 1:1, no crop."
+ },
+ {
+  "name": "cond-plantar-treat-b",
+  "pair": "cond-plantar-treat",
+  "verdict": "MINOR",
+  "hands": [
+   {
+    "whose": "practitioner right hand (steadying the laser head)",
+    "fingers_counted": "4 visible - 4 fingers curled round the housing, thumb hidden behind it; soft focus, attached to the forearm under a rolled sleeve",
+    "ok": true,
+    "box": [
+     0.085,
+     0.195,
+     0.19,
+     0.305
+    ]
+   },
+   {
+    "whose": "practitioner left hand (resting behind the foot)",
+    "fingers_counted": "0 visible - back of the hand and knuckles visible; fingers and thumb hidden behind the far side of the foot; attached to the left forearm, nothing wrong",
+    "ok": true,
+    "box": [
+     0.43,
+     0.415,
+     0.54,
+     0.515
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "overlay",
+    "description": "The toe-bone chains stop about 95 px short of the big-toe tip, so the nail half of the big toe has no bone.",
+    "box": [
+     0.76,
+     0.61,
+     0.81,
+     0.645
+    ]
+   }
+  ],
+  "previous_failure_fixed": true,
+  "pick": true,
+  "notes": "The better of the pair. One right foot in medial view on a folded towel, attached at the ankle to a bare calf (trouser rolled to mid-calf). Natural size: about 1000 px long vs about 380 px leg thickness. Toes: 4-5 visible. The big toe with a correct nail is in front, 3 lesser-toe pads are clearly visible behind/below, and a probable 4th is partly under the overlay; no extra or fused toe. The skeleton is the right way up: tibia/fibula ends, talus, calcaneus filling the heel, midfoot, 5 metatarsals and toe chains, with the fascia band from under the calcaneus along the sole. One glow sits under the calcaneus at the fascia attachment. The three thin lines leave 3 emitters, cross the back of the ankle, and are drawn on through the heel to converge exactly on the glow (stylized, acceptable). White head on an articulated arm with the stand pole visible, about 250 px above the skin, no contact. No practitioner face; the picture, monitor and shelves are blurred; no readable text. 1:1, no crop."
+ },
+ {
+  "name": "svc-fx635-device-a",
+  "pair": "svc-fx635-device",
+  "verdict": "MINOR",
+  "hands": [
+   {
+    "whose": "practitioner right hand (resting on the laser's articulated arm bar)",
+    "fingers_counted": "4 visible - 4 fingers draped over the bar (index at the top, little finger nearest the camera, 4 nails); thumb hidden behind the bar; natural, attached to a hairy forearm",
+    "ok": true,
+    "box": [
+     0.165,
+     0.027,
+     0.325,
+     0.165
+    ]
+   },
+   {
+    "whose": "practitioner left hand (hanging at his side, mid-frame)",
+    "fingers_counted": "3 visible - thumb pointing down with a broad nail plus 2 curled fingertips; the rest hidden; soft focus, no malformation",
+    "ok": true,
+    "box": [
+     0.52,
+     0.415,
+     0.6,
+     0.567
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "overlay",
+    "description": "The phalanx chains run into only the lower two toes (ending at about 1778,1457 px). The upper three toes, which have nails, have no bones. A careful viewer can see this; it is not noticeable at a glance.",
+    "box": [
+     0.835,
+     0.655,
+     0.915,
+     0.71
+    ]
+   },
+   {
+    "category": "foot",
+    "description": "Cosmetic: the top toe's nail has a dark rim, visible only at 3x zoom.",
+    "box": [
+     0.864,
+     0.656,
+     0.882,
+     0.665
+    ]
+   }
+  ],
+  "previous_failure_fixed": true,
+  "pick": true,
+  "notes": "The better of the pair. The white laser head [0.365,0.045,0.52,0.31] hangs on a single articulated arm entering from the left. The practitioner's right hand rests on the arm, as briefed; his face is out of frame (cut at the chest). Three thin straight parallel red lines, head about 480 px (about 10 cm) above the ankle skin, no contact. One right foot, attached at the ankle, 5 toes (3 upper toes with nails, 2 lower toes seen as pads; the red-channel crop confirms), natural size (about 1150 px vs calf about 430 px). The skeleton is the right way up with a large calcaneus filling the heel, so the round-2 'no heel bone' is fixed. Tibia/fibula, talus, midfoot and metatarsals are present, and the fascia runs along the sole from under the calcaneus. There is one red glow only, under the calcaneus at the fascia attachment: redness mean 79 vs 17 on the forefoot underside, so the round-2 second glow on the ball of the foot is fixed. The lines end at the upper-left edge of the glow halo, about 60-80 px from its core, which counts as landing on it. The background monitor is blurred; no readable text. 1:1, no crop."
+ },
+ {
+  "name": "svc-fx635-device-b",
+  "pair": "svc-fx635-device",
+  "verdict": "MINOR",
+  "hands": [
+   {
+    "whose": "practitioner right hand (gripping the joint knob of the laser arm)",
+    "fingers_counted": "5 - 4 fingers curl round the joint on the image-left/front (2 nails visible at the bottom); the thumb presses the right side of the knob with its nail visible. Thumb on the image-right is correct for his right hand (he faces image-left and toward the camera, palm down)",
+    "ok": true,
+    "box": [
+     0.47,
+     0.09,
+     0.62,
+     0.26
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "overlay",
+    "description": "The phalanx chains end at x about 1656-1718 px inside the proximal toes, so the distal halves of the four lesser toes (tips at 1805-1862 px) have no bones. The big-toe chain reaches its nail.",
+    "box": [
+     0.83,
+     0.68,
+     0.915,
+     0.73
+    ]
+   },
+   {
+    "category": "treatment",
+    "description": "The left laser line runs down the back of the heel, then bends about 90 degrees at the bottom (about 660,1457 px) to run along the sole into the glow, and the right line also angles in. A real beam cannot bend. This is stylized convergence and barely visible at page size; the middle line lands straight on the glow.",
+    "box": [
+     0.31,
+     0.635,
+     0.405,
+     0.73
+    ]
+   },
+   {
+    "category": "foot",
+    "description": "Zoom only: the 3rd and 4th toe tips are pressed into one rounded outline carrying two stacked nails. At page size it reads as two toes side by side; at 4x it could read as one toe with two nails. The toe count is 5.",
+    "box": [
+     0.879,
+     0.683,
+     0.911,
+     0.73
+    ]
+   }
+  ],
+  "previous_failure_fixed": true,
+  "pick": false,
+  "notes": "Usable, but -a is better. A large white laser head sits at the top: its top runs out of the frame and a horizontal arm ends in a joint knob in the practitioner's right hand. No stand is visible; plausible, not wrong. His face is out of frame (right edge: shoulder, sleeve, shirt front, belt). His left hand is not in frame. One right foot on a folded towel, attached at the ankle to a bare calf, natural size (about 1210 px vs leg about 435 px). Toes: 5. The skeleton is the right way up with the calcaneus filling the heel, the talus, tibia/fibula ends, midfoot and metatarsals, and the fascia along the sole. There is one glow, under the calcaneus at the fascia attachment: redness 102 vs 34-48 for skin. The pink underside of the big toe is skin, not a glow, so there is no second glow on the ball of the foot. Round-2 failure fixed. The three lines fan out from the emitter and converge on the glow. Head about 480 px above the ankle, no contact. The background monitor is blurred; no readable text. 1:1, no crop."
+ }
+]

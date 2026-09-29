@@ -1,0 +1,984 @@
+[
+ {
+  "name": "cond-auto-assess",
+  "page": "conditions/auto-accident-injury",
+  "section": "The questions this examination is built to answer",
+  "slot": "assessment",
+  "style": "overlay",
+  "aspect": "7:5",
+  "full": "final_v2/full/cond-auto-assess.jpg",
+  "web": "final_v2/web/cond-auto-assess.jpg",
+  "size": [
+   1904,
+   1360
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Practitioner's hand on the upper back of a seated man, with a glowing overlay of the neck, spine and shoulder blades and a red glow at the base of the neck."
+ },
+ {
+  "name": "cond-auto-treat",
+  "page": "conditions/auto-accident-injury",
+  "section": "Settle the irritated tissue, then restore what stopped moving",
+  "slot": "treatment",
+  "style": "overlay",
+  "aspect": "7:5",
+  "full": "final_v2/full/cond-auto-treat.jpg",
+  "web": "final_v2/web/cond-auto-treat.jpg",
+  "size": [
+   1904,
+   1360
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Man lying face down while a stand-mounted laser shines three red lines on his upper back, with a glowing overlay of the spine and shoulder blade and a red glow at the base of the neck."
+ },
+ {
+  "name": "cond-carpal-treat",
+  "page": "conditions/carpal-tunnel",
+  "section": "Free the tunnel, then unload the path into it",
+  "slot": "treatment",
+  "style": "overlay",
+  "aspect": "7:5",
+  "full": "final_v2/full/cond-carpal-treat.jpg",
+  "web": "final_v2/web/cond-carpal-treat.jpg",
+  "size": [
+   1904,
+   1360
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Handheld cold-laser probe shining on the wrist of a patient's outstretched hand, with a glowing overlay of the hand bones and nerve and a red glow at the carpal tunnel."
+ },
+ {
+  "name": "cond-fibro-assess",
+  "page": "conditions/fibromyalgia",
+  "section": "One appointment that looks at the whole load",
+  "slot": "assessment",
+  "style": "overlay",
+  "aspect": "7:5",
+  "full": "final_v2/full/cond-fibro-assess.jpg",
+  "web": "final_v2/web/cond-fibro-assess.jpg",
+  "size": [
+   1904,
+   1360
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Practitioner's hands resting on a seated woman's shoulders, with a glowing overlay of the spine and back muscles and several small red tender points."
+ },
+ {
+  "name": "cond-fibro-treat",
+  "page": "conditions/fibromyalgia",
+  "section": "Low force first, and less of it than you expect",
+  "slot": "treatment",
+  "style": "overlay",
+  "aspect": "7:5",
+  "full": "final_v2/full/cond-fibro-treat.jpg",
+  "web": "final_v2/web/cond-fibro-treat.jpg",
+  "size": [
+   1904,
+   1360
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Woman lying face down while the practitioner uses a small adjusting instrument beside her upper spine, with a glowing overlay of the spine and shoulder blades and red tender points."
+ },
+ {
+  "name": "cond-frozen-assess",
+  "page": "conditions/frozen-shoulder",
+  "section": "We test what the arm is standing on",
+  "slot": "assessment",
+  "style": "overlay",
+  "aspect": "7:5",
+  "full": "final_v2/full/cond-frozen-assess.jpg",
+  "web": "final_v2/web/cond-frozen-assess.jpg",
+  "size": [
+   1904,
+   1360
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Practitioner holding a seated woman's arm out to the side while feeling her shoulder blade, with a glowing overlay of the shoulder and arm bones and a red glow at the shoulder joint."
+ },
+ {
+  "name": "cond-frozen-treat",
+  "page": "conditions/frozen-shoulder",
+  "section": "Give the capsule a reason to let go",
+  "slot": "treatment",
+  "style": "overlay",
+  "aspect": "7:5",
+  "full": "final_v2/full/cond-frozen-treat.jpg",
+  "web": "final_v2/web/cond-frozen-treat.jpg",
+  "size": [
+   1904,
+   1360
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Practitioner steadying a seated woman's shoulder and supporting her outstretched arm, with a glowing overlay of the shoulder and arm bones and a red glow at the shoulder joint."
+ },
+ {
+  "name": "cond-headache-assess",
+  "page": "conditions/headache-migraine",
+  "section": "We look hardest at the days between the headaches",
+  "slot": "assessment",
+  "style": "overlay",
+  "aspect": "7:5",
+  "full": "final_v2/full/cond-headache-assess.jpg",
+  "web": "final_v2/web/cond-headache-assess.jpg",
+  "size": [
+   1904,
+   1360
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Practitioner's fingertips at the base of a seated woman's skull, with a glowing overlay of the neck vertebrae and a red glow at the upper neck."
+ },
+ {
+  "name": "cond-headache-treat",
+  "page": "conditions/headache-migraine",
+  "section": "Work the neck, the jaw and the load behind them",
+  "slot": "treatment",
+  "style": "overlay",
+  "aspect": "7:5",
+  "full": "final_v2/full/cond-headache-treat.jpg",
+  "web": "final_v2/web/cond-headache-treat.jpg",
+  "size": [
+   1904,
+   1360
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Handheld cold-laser probe at the base of a seated woman's skull, with a glowing overlay of the neck and a red glow at the top of the neck."
+ },
+ {
+  "name": "cond-lbp-assess",
+  "page": "conditions/low-back-pain",
+  "section": "We test the whole chain, not only the sore part",
+  "slot": "assessment",
+  "style": "overlay",
+  "aspect": "7:5",
+  "full": "final_v2/full/cond-lbp-assess.jpg",
+  "web": "final_v2/web/cond-lbp-assess.jpg",
+  "size": [
+   2336,
+   1669
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Straight-leg-raise test: the practitioner lifts a man's leg as he lies on his back, with a glowing overlay of the lower spine, pelvis and thigh bone and a red glow at the lower back."
+ },
+ {
+  "name": "cond-lbp-treat",
+  "page": "conditions/low-back-pain",
+  "section": "Hands and instruments, in the same room",
+  "slot": "treatment",
+  "style": "overlay",
+  "aspect": "7:5",
+  "full": "final_v2/full/cond-lbp-treat.jpg",
+  "web": "final_v2/web/cond-lbp-treat.jpg",
+  "size": [
+   1904,
+   1360
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Man lying face down while a stand-mounted laser shines three red lines on his lower back, with a glowing overlay of the lower spine and pelvis and a red glow at the lowest vertebrae."
+ },
+ {
+  "name": "cond-oa-assess",
+  "page": "conditions/osteoarthritis",
+  "section": "We measure what the joint is being asked to carry",
+  "slot": "assessment",
+  "style": "overlay",
+  "aspect": "7:5",
+  "full": "final_v2/full/cond-oa-assess.jpg",
+  "web": "final_v2/web/cond-oa-assess.jpg",
+  "size": [
+   1904,
+   1360
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Practitioner kneeling beside a man in a shallow squat and feeling the outside of his knee, with a glowing overlay of the knee joint and a red glow at the knee."
+ },
+ {
+  "name": "cond-oa-treat",
+  "page": "conditions/osteoarthritis",
+  "section": "Change the load before you change the joint",
+  "slot": "treatment",
+  "style": "overlay",
+  "aspect": "7:5",
+  "full": "final_v2/full/cond-oa-treat.jpg",
+  "web": "final_v2/web/cond-oa-treat.jpg",
+  "size": [
+   1904,
+   1360
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Man seated on the table with legs out straight while a stand-mounted laser shines red lines on his knee, with a glowing overlay of the leg bones and a red glow at the knee joint."
+ },
+ {
+  "name": "cond-osteo-assess",
+  "page": "conditions/osteoporosis",
+  "section": "The examination sets the force ceiling before anything else",
+  "slot": "assessment",
+  "style": "overlay",
+  "aspect": "7:5",
+  "full": "final_v2/full/cond-osteo-assess.jpg",
+  "web": "final_v2/web/cond-osteo-assess.jpg",
+  "size": [
+   1904,
+   1360
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Older woman balancing on one foot, holding the table edge, the practitioner ready to steady her; a glowing overlay of the spine and hip with red glows at the mid back and hip."
+ },
+ {
+  "name": "cond-osteo-treat",
+  "page": "conditions/osteoporosis",
+  "section": "Low force, and the parts of this that are not adjusting at all",
+  "slot": "treatment",
+  "style": "overlay",
+  "aspect": "7:5",
+  "full": "final_v2/full/cond-osteo-treat.jpg",
+  "web": "final_v2/web/cond-osteo-treat.jpg",
+  "size": [
+   1904,
+   1360
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Older woman lying face down while the practitioner applies a small adjusting instrument to her mid back, with a glowing overlay of the spine and inner ribs and a red glow at the mid back."
+ },
+ {
+  "name": "cond-pinched-assess",
+  "page": "conditions/pinched-nerve",
+  "section": "We test the whole run of the nerve",
+  "slot": "assessment",
+  "style": "overlay",
+  "aspect": "7:5",
+  "full": "final_v2/full/cond-pinched-assess.jpg",
+  "web": "final_v2/web/cond-pinched-assess.jpg",
+  "size": [
+   1904,
+   1360
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Practitioner testing the reflex at the elbow of a man lying on the table, with a glowing overlay of the nerve running from his neck down the arm and a red glow where it leaves the neck."
+ },
+ {
+  "name": "cond-pinched-treat",
+  "page": "conditions/pinched-nerve",
+  "section": "Take the pressure off, then keep it off",
+  "slot": "treatment",
+  "style": "overlay",
+  "aspect": "7:5",
+  "full": "final_v2/full/cond-pinched-treat.jpg",
+  "web": "final_v2/web/cond-pinched-treat.jpg",
+  "size": [
+   1904,
+   1360
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Man lying face down with a ring-shaped PEMF coil resting on his upper back, cabled to a console, with a glowing overlay of the spine and a red glow at the base of the neck."
+ },
+ {
+  "name": "cond-plantar-treat",
+  "page": "conditions/plantar-fasciitis",
+  "section": "What treatment involves",
+  "slot": "new frame beside the treatment section",
+  "style": "overlay",
+  "aspect": "1:1",
+  "full": "final_v2/full/cond-plantar-treat.jpg",
+  "web": "final_v2/web/cond-plantar-treat.jpg",
+  "size": [
+   2048,
+   2048
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Stand-mounted laser shining three red lines on the heel of a bare foot resting on a towel, with a glowing overlay of the foot bones and a red glow under the heel."
+ },
+ {
+  "name": "cond-pregnancy-treat",
+  "page": "conditions/pregnancy-pain",
+  "section": "What treatment involves",
+  "slot": "new frame beside the treatment section",
+  "style": "overlay",
+  "aspect": "1:1",
+  "full": "final_v2/full/cond-pregnancy-treat.jpg",
+  "web": "final_v2/web/cond-pregnancy-treat.jpg",
+  "size": [
+   2048,
+   2048
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Pregnant woman seated on the treatment table, the practitioner's hands on her lower back, with a glowing side view of the lower spine and pelvis and a red glow at the sacroiliac joint."
+ },
+ {
+  "name": "cond-sciatica-treat",
+  "page": "conditions/sciatica",
+  "section": "What treatment involves",
+  "slot": "new frame beside the treatment section",
+  "style": "overlay",
+  "aspect": "3:2",
+  "full": "final_v2/full/cond-sciatica-treat.jpg",
+  "web": "final_v2/web/cond-sciatica-treat.jpg",
+  "size": [
+   2040,
+   1360
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Man lying face down while the practitioner holds a laser probe over his buttock, with a glowing overlay of the pelvis and the sciatic nerve down the leg and a red glow at the buttock."
+ },
+ {
+  "name": "cond-scoliosis-treat",
+  "page": "conditions/scoliosis",
+  "section": "What treatment involves",
+  "slot": "new frame beside the treatment section",
+  "style": "overlay",
+  "aspect": "1:1",
+  "full": "final_v2/full/cond-scoliosis-treat.jpg",
+  "web": "final_v2/web/cond-scoliosis-treat.jpg",
+  "size": [
+   2048,
+   2048
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Woman lying face down while the practitioner's hands rest either side of her spine, with a glowing overlay of a gently curved spine and a red glow along the muscles on one side."
+ },
+ {
+  "name": "cond-shoulder-treat",
+  "page": "conditions/shoulder-pain",
+  "section": "What treatment involves",
+  "slot": "new frame beside the treatment section",
+  "style": "overlay",
+  "aspect": "1:1",
+  "full": "final_v2/full/cond-shoulder-treat.jpg",
+  "web": "final_v2/web/cond-shoulder-treat.jpg",
+  "size": [
+   2048,
+   2048
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Practitioner working along the edge of a seated man's shoulder blade, with a glowing overlay of the shoulder blade and rotator cuff and a red glow at the top of the shoulder."
+ },
+ {
+  "name": "cond-disc-treat",
+  "page": "conditions/slipped-disc",
+  "section": "What treatment involves",
+  "slot": "new frame beside the treatment section",
+  "style": "overlay",
+  "aspect": "1:1",
+  "full": "final_v2/full/cond-disc-treat.jpg",
+  "web": "final_v2/web/cond-disc-treat.jpg",
+  "size": [
+   2048,
+   2048
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Man lying face down with a ring-shaped PEMF coil on his lower back, cabled to a console, with a glowing overlay of the spine and a red glow at the lowest lumbar disc."
+ },
+ {
+  "name": "cond-stress-treat",
+  "page": "conditions/stress",
+  "section": "What treatment involves",
+  "slot": "new frame beside the treatment section",
+  "style": "overlay",
+  "aspect": "1:1",
+  "full": "final_v2/full/cond-stress-treat.jpg",
+  "web": "final_v2/web/cond-stress-treat.jpg",
+  "size": [
+   2048,
+   2048
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Practitioner's thumbs pressing into the tops of a face-down woman's shoulders, with a glowing overlay of the neck and upper back muscles and red glows at the base of the neck."
+ },
+ {
+  "name": "cond-tennis-treat",
+  "page": "conditions/tennis-elbow",
+  "section": "What treatment involves",
+  "slot": "new frame beside the treatment section",
+  "style": "overlay",
+  "aspect": "1:1",
+  "full": "final_v2/full/cond-tennis-treat.jpg",
+  "web": "final_v2/web/cond-tennis-treat.jpg",
+  "size": [
+   2048,
+   2048
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Handheld cold-laser probe at the outer elbow of a man lying on the table with his arm on a towel, with a glowing overlay of the elbow and forearm and a red glow at the outer elbow."
+ },
+ {
+  "name": "cond-neck-treat",
+  "page": "conditions/upper-back-neck-pain",
+  "section": "What treatment involves",
+  "slot": "new frame beside the treatment section",
+  "style": "overlay",
+  "aspect": "1:1",
+  "full": "final_v2/full/cond-neck-treat.jpg",
+  "web": "final_v2/web/cond-neck-treat.jpg",
+  "size": [
+   2048,
+   2048
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Practitioner's stacked hands on the upper back of a woman lying face down, with a glowing overlay of the spine and shoulder blades and a red glow between the shoulder blades."
+ },
+ {
+  "name": "cond-whiplash-treat",
+  "page": "conditions/whiplash",
+  "section": "What treatment involves",
+  "slot": "new frame beside the treatment section",
+  "style": "overlay",
+  "aspect": "1:1",
+  "full": "final_v2/full/cond-whiplash-treat.jpg",
+  "web": "final_v2/web/cond-whiplash-treat.jpg",
+  "size": [
+   2048,
+   2048
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Practitioner's hands on either side of the neck of a woman lying face down, with a glowing overlay of the neck vertebrae and a red glow along the neck muscles."
+ },
+ {
+  "name": "cond-work-treat",
+  "page": "conditions/work-injury",
+  "section": "What treatment involves",
+  "slot": "new frame beside the treatment section",
+  "style": "overlay",
+  "aspect": "1:1",
+  "full": "final_v2/full/cond-work-treat.jpg",
+  "web": "final_v2/web/cond-work-treat.jpg",
+  "size": [
+   2048,
+   2048
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Man in work clothes squatting to lift a box while the practitioner guides his lower back, with a glowing overlay of the lower spine and pelvis and a red glow at the lower back."
+ },
+ {
+  "name": "svc-cold-hero",
+  "page": "services/cold-laser-therapy",
+  "section": "Cold Laser Therapy in Roseville",
+  "slot": "hero",
+  "style": "overlay",
+  "aspect": "1:1",
+  "full": "final_v2/full/svc-cold-hero.jpg",
+  "web": "final_v2/web/svc-cold-hero.jpg",
+  "size": [
+   2048,
+   2048
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Handheld cold-laser probe at the inner knee of a woman sitting on the treatment table, with a glowing overlay of the knee joint and a red glow at the joint."
+ },
+ {
+  "name": "svc-fx635-device",
+  "page": "services/fx-635-laser-therapy",
+  "section": "The device, described honestly",
+  "slot": "frame",
+  "style": "overlay",
+  "aspect": "1:1",
+  "full": "final_v2/full/svc-fx635-device.jpg",
+  "web": "final_v2/web/svc-fx635-device.jpg",
+  "size": [
+   2048,
+   2048
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Stand-mounted low-level laser shining three red lines onto a patient's heel, with a glowing overlay of the foot bones and a red glow under the heel."
+ },
+ {
+  "name": "svc-pemf-hero",
+  "page": "services/pemf-therapy",
+  "section": "PEMF Therapy in Roseville",
+  "slot": "hero",
+  "style": "overlay",
+  "aspect": "1:1",
+  "full": "final_v2/full/svc-pemf-hero.jpg",
+  "web": "final_v2/web/svc-pemf-hero.jpg",
+  "size": [
+   2048,
+   2048
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Man lying face down with a ring-shaped PEMF coil resting on his lower back, cabled to its console, with a glowing overlay of the lower spine and pelvis and a red glow at the lower back."
+ },
+ {
+  "name": "ak-mtest",
+  "page": "applied-kinesiology (+ first-visit)",
+  "section": "Muscle testing, in plain terms",
+  "slot": "frame",
+  "style": "overlay",
+  "aspect": "5:4",
+  "full": "final_v2/full/ak-mtest.jpg",
+  "web": "final_v2/web/ak-mtest.jpg",
+  "size": [
+   1700,
+   1360
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Manual muscle test: the practitioner presses down on a seated woman's outstretched arm, with a glowing overlay of the arm and shoulder muscles and a red glow at the shoulder."
+ },
+ {
+  "name": "ak-roof",
+  "page": "applied-kinesiology",
+  "section": "The method and the instruments, under one roof",
+  "slot": "frame",
+  "style": "overlay",
+  "aspect": "1:1",
+  "full": "final_v2/full/ak-roof.jpg",
+  "web": "final_v2/web/ak-roof.jpg",
+  "size": [
+   2048,
+   2048
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Practitioner's hand on a seated man's shoulder, with a glowing overlay of the neck and shoulder and a red glow at the top of the shoulder."
+ },
+ {
+  "name": "ak-legit-hero",
+  "page": "applied-kinesiology/is-muscle-testing-legitimate (+ faq)",
+  "section": "Is Muscle Testing Real? An Honest Answer",
+  "slot": "hero",
+  "style": "overlay",
+  "aspect": "7:5",
+  "full": "final_v2/full/ak-legit-hero.jpg",
+  "web": "final_v2/web/ak-legit-hero.jpg",
+  "size": [
+   1904,
+   1360
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Manual muscle test: the practitioner's flat hand presses on a lying patient's raised forearm while he steadies her elbow; the forearm muscles glow, with red at the muscle being tested."
+ },
+ {
+  "name": "about-hero",
+  "page": "about",
+  "section": "Sacramento Applied Kinesiology, Roseville",
+  "slot": "hero",
+  "style": "overlay",
+  "aspect": "3:2",
+  "full": "final_v2/full/about-hero.jpg",
+  "web": "final_v2/web/about-hero.jpg",
+  "size": [
+   2040,
+   1360
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Practitioner holding a cold-laser probe to a seated woman's shoulder while supporting her arm, with a glowing overlay of the arm and shoulder bones and a red glow at the shoulder joint."
+ },
+ {
+  "name": "pi-first-hero",
+  "page": "patient-info/first-visit",
+  "section": "Your First Visit: What to Expect",
+  "slot": "hero",
+  "style": "overlay",
+  "aspect": "7:5",
+  "full": "final_v2/full/pi-first-hero.jpg",
+  "web": "final_v2/web/pi-first-hero.jpg",
+  "size": [
+   1904,
+   1360
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Practitioner with a clipboard talking with a seated man at his first visit, with a glowing overlay of his spine and a red glow at the lower back."
+ },
+ {
+  "name": "svc-hub-hero",
+  "page": "services",
+  "section": "Our Treatments in Roseville",
+  "slot": "hero",
+  "style": "editorial",
+  "aspect": "1:1",
+  "full": "final_v2/full/svc-hub-hero.jpg",
+  "web": "final_v2/web/svc-hub-hero.jpg",
+  "size": [
+   2048,
+   2048
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "The treatment room: a padded adjusting table, a stand-mounted laser on its arm, and a ring-shaped PEMF coil with its console on a side table."
+ },
+ {
+  "name": "ak-who-imaging",
+  "page": "applied-kinesiology/who-its-for",
+  "section": "What the assessment actually covers",
+  "slot": "motif",
+  "style": "editorial",
+  "aspect": "4:5",
+  "full": "final_v2/full/ak-who-imaging.jpg",
+  "web": "final_v2/web/ak-who-imaging.jpg",
+  "size": [
+   1744,
+   2180
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "A patient hands an X-ray of the lower spine across a table to the practitioner."
+ },
+ {
+  "name": "pi-faq-hero",
+  "page": "patient-info/faq",
+  "section": "Frequently Asked Questions",
+  "slot": "hero",
+  "style": "editorial",
+  "aspect": "4:3",
+  "full": "final_v2/full/pi-faq-hero.jpg",
+  "web": "final_v2/web/pi-faq-hero.jpg",
+  "size": [
+   2325,
+   1744
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Patient and practitioner talking across a small round table with cups of tea and a notebook, the clinic behind them."
+ },
+ {
+  "name": "pi-first-bring",
+  "page": "patient-info/first-visit",
+  "section": "Five minutes of preparation saves half the appointment",
+  "slot": "frame",
+  "style": "editorial",
+  "aspect": "7:5",
+  "full": "final_v2/full/pi-first-bring.jpg",
+  "web": "final_v2/web/pi-first-bring.jpg",
+  "size": [
+   1904,
+   1360
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "What to bring to a first visit: an X-ray in its envelope, a medication list, a pill organiser, medicine boxes, an intake form on a clipboard, and reading glasses."
+ },
+ {
+  "name": "pi-forms-hero",
+  "page": "patient-info/forms",
+  "section": "The forms are not downloadable here yet",
+  "slot": "hero",
+  "style": "editorial",
+  "aspect": "5:3",
+  "full": "final_v2/full/pi-forms-hero.jpg",
+  "web": "final_v2/web/pi-forms-hero.jpg",
+  "size": [
+   2048,
+   1229
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Blank intake form on a clipboard with a pen on the front counter, next to a desk telephone."
+ },
+ {
+  "name": "book-hero",
+  "page": "book",
+  "section": "Tell us what is going on",
+  "slot": "hero",
+  "style": "editorial",
+  "aspect": "7:4",
+  "full": "final_v2/full/book-hero.jpg",
+  "web": "final_v2/web/book-hero.jpg",
+  "size": [
+   2660,
+   1520
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Front desk by a window with a white desk telephone, an open appointment book and pen, and a sprig of eucalyptus, the treatment room behind."
+ },
+ {
+  "name": "about-drvw-learning",
+  "page": "about/dr-van-wagenen",
+  "section": "Still learning",
+  "slot": "new frame",
+  "style": "editorial",
+  "aspect": "1:1",
+  "full": "final_v2/full/about-drvw-learning.jpg",
+  "web": "final_v2/web/about-drvw-learning.jpg",
+  "size": [
+   2048,
+   2048
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Study desk in the clinic with a model spine, a stack of textbooks, an open notebook with reading glasses and a cup of coffee."
+ },
+ {
+  "name": "svc-nutrition-consult",
+  "page": "services/nutritional-counseling",
+  "section": "Who is actually giving the advice",
+  "slot": "new frame",
+  "style": "editorial",
+  "aspect": "1:1",
+  "full": "final_v2/full/svc-nutrition-consult.jpg",
+  "web": "final_v2/web/svc-nutrition-consult.jpg",
+  "size": [
+   2048,
+   2048
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare",
+  "alt_text": "Nutrition consultation: the practitioner with an open food diary, a bowl of greens, lentils and berries, supplement bottles and water, the patient across the table."
+ },
+ {
+  "name": "cond-auto-hero",
+  "page": "conditions/auto-accident-injury",
+  "section": "Auto Accident Injury Care in Roseville",
+  "slot": "hero (placeholder: collision impact through the neck)",
+  "style": "plate",
+  "aspect": "7:5",
+  "full": "final_v2/full/cond-auto-hero.jpg",
+  "web": "final_v2/web/cond-auto-hero.jpg",
+  "size": [
+   1904,
+   1360
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare (redrawn plate)",
+  "pick": "v2/plates/cond-auto-hero-c-edit-b.png",
+  "alt_text": "Engraving-style illustration of the seven neck vertebrae in side view, with concentric rings at mid-neck marking a whiplash impact."
+ },
+ {
+  "name": "cond-carpal-hero",
+  "page": "conditions/carpal-tunnel",
+  "section": "Carpal Tunnel Treatment in Roseville",
+  "slot": "hero (placeholder: carpal tunnel and the nerve path through the wrist)",
+  "style": "plate",
+  "aspect": "7:5",
+  "full": "final_v2/full/cond-carpal-hero.jpg",
+  "web": "final_v2/web/cond-carpal-hero.jpg",
+  "size": [
+   1904,
+   1360
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare (redrawn plate)",
+  "pick": "v2/plates/cond-carpal-hero-b-edit.png",
+  "alt_text": "Engraving-style illustration of the hand and wrist bones, with the median nerve passing under the ligament band at the wrist and branching into the thumb and first fingers."
+ },
+ {
+  "name": "cond-carpal-assess",
+  "page": "conditions/carpal-tunnel",
+  "section": "We follow the nerve from the neck to the fingertip",
+  "slot": "assessment (placeholder: nerve root leaving the spine)",
+  "style": "plate",
+  "aspect": "7:5",
+  "full": "final_v2/full/cond-carpal-assess.jpg",
+  "web": "final_v2/web/cond-carpal-assess.jpg",
+  "size": [
+   2374,
+   1696
+  ],
+  "alt": false,
+  "source": "fal Nano Banana Pro (first-set plate, kept)",
+  "pick": "v1",
+  "alt_text": "Engraving-style illustration of the arm from neck to fingertips, tracing the median nerve from the neck, past the shoulder and down the arm into the hand."
+ },
+ {
+  "name": "cond-fibro-hero",
+  "page": "conditions/fibromyalgia",
+  "section": "Fibromyalgia Care in Roseville",
+  "slot": "hero (placeholder: body map with widespread tender points)",
+  "style": "plate",
+  "aspect": "7:5",
+  "full": "final_v2/full/cond-fibro-hero.jpg",
+  "web": "final_v2/web/cond-fibro-hero.jpg",
+  "size": [
+   1904,
+   1360
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare (redrawn plate)",
+  "pick": "v2/plates/cond-fibro-hero-b.png",
+  "alt_text": "Engraving-style illustration of the human body from behind, with small dots marking the classic fibromyalgia tender points."
+ },
+ {
+  "name": "cond-frozen-hero",
+  "page": "conditions/frozen-shoulder",
+  "section": "Frozen Shoulder Treatment in Roseville",
+  "slot": "hero (placeholder: shoulder joint with a restricted arc)",
+  "style": "plate",
+  "aspect": "7:5",
+  "full": "final_v2/full/cond-frozen-hero.jpg",
+  "web": "final_v2/web/cond-frozen-hero.jpg",
+  "size": [
+   1904,
+   1360
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare (redrawn plate)",
+  "pick": "v2/plates/cond-frozen-hero-fixed.png",
+  "alt_text": "Engraving-style illustration of the shoulder joint, with a dotted arc showing the arm's full range and a short solid arc showing the limited range of a frozen shoulder."
+ },
+ {
+  "name": "cond-headache-hero",
+  "page": "conditions/headache-migraine",
+  "section": "Headache and Migraine Care in Roseville",
+  "slot": "hero (placeholder: head and neck with the upper cervical segments)",
+  "style": "plate",
+  "aspect": "7:5",
+  "full": "final_v2/full/cond-headache-hero.jpg",
+  "web": "final_v2/web/cond-headache-hero.jpg",
+  "size": [
+   1904,
+   1360
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare (redrawn plate)",
+  "pick": "v2/plates/cond-headache-hero-b.png",
+  "alt_text": "Engraving-style illustration of the skull and neck vertebrae in side view."
+ },
+ {
+  "name": "cond-lbp-hero",
+  "page": "conditions/low-back-pain",
+  "section": "Low Back Pain Treatment in Roseville",
+  "slot": "hero (placeholder: lumbar spine seen from the side)",
+  "style": "plate",
+  "aspect": "7:5",
+  "full": "final_v2/full/cond-lbp-hero.jpg",
+  "web": "final_v2/web/cond-lbp-hero.jpg",
+  "size": [
+   1904,
+   1360
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare (redrawn plate)",
+  "pick": "v2/plates/cond-lbp-hero-b.png",
+  "alt_text": "Engraving-style illustration of the five lumbar vertebrae and the sacrum in side view."
+ },
+ {
+  "name": "cond-oa-hero",
+  "page": "conditions/osteoarthritis",
+  "section": "Osteoarthritis Care in Roseville",
+  "slot": "hero (placeholder: joint surfaces with a narrowed space)",
+  "style": "plate",
+  "aspect": "7:5",
+  "full": "final_v2/full/cond-oa-hero.jpg",
+  "web": "final_v2/web/cond-oa-hero.jpg",
+  "size": [
+   1904,
+   1360
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare (redrawn plate)",
+  "pick": "v2/plates/cond-oa-hero-edit.png",
+  "alt_text": "Engraving-style illustration of the knee joint from the front, showing the thigh bone, shin bone, kneecap and the ligament between them."
+ },
+ {
+  "name": "cond-osteo-hero",
+  "page": "conditions/osteoporosis",
+  "section": "Osteoporosis Care in Roseville",
+  "slot": "hero (placeholder: trabecular bone becoming less dense)",
+  "style": "plate",
+  "aspect": "7:5",
+  "full": "final_v2/full/cond-osteo-hero.jpg",
+  "web": "final_v2/web/cond-osteo-hero.jpg",
+  "size": [
+   1904,
+   1360
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare (redrawn plate)",
+  "pick": "v2/plates/cond-osteo-hero-a.png",
+  "alt_text": "Engraving-style illustration of two thigh bones side by side, the one on the right with a sparser inner lattice, showing bone loss."
+ },
+ {
+  "name": "cond-pinched-hero",
+  "page": "conditions/pinched-nerve",
+  "section": "Pinched Nerve Treatment in Roseville",
+  "slot": "hero (placeholder: nerve root at a compressed segment)",
+  "style": "plate",
+  "aspect": "7:5",
+  "full": "final_v2/full/cond-pinched-hero.jpg",
+  "web": "final_v2/web/cond-pinched-hero.jpg",
+  "size": [
+   1904,
+   1360
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare (redrawn plate)",
+  "pick": "v2/plates/cond-pinched-hero-b.png",
+  "alt_text": "Engraving-style illustration of two vertebrae in side view, with a bulging disc pressing on a nerve root where it leaves the spine."
+ },
+ {
+  "name": "svc-hormone-thyroid",
+  "page": "services/hormone-therapy-management",
+  "section": "Hormone Therapy Management in Roseville",
+  "slot": "hero (replaces the thyroid plate, which does not show a thyroid)",
+  "style": "plate",
+  "aspect": "1:1",
+  "full": "final_v2/full/svc-hormone-thyroid.jpg",
+  "web": "final_v2/web/svc-hormone-thyroid.jpg",
+  "size": [
+   2048,
+   2048
+  ],
+  "alt": false,
+  "source": "Higgsfield Marketing Studio 2.5 Flare (redrawn plate)",
+  "pick": "v2/plates/svc-hormone-thyroid-a.png",
+  "alt_text": "Engraving-style illustration of the thyroid gland on the windpipe, below the larynx."
+ },
+ {
+  "name": "ak-balance",
+  "page": "applied-kinesiology (+ is-muscle-testing-legitimate, faq, first-visit)",
+  "section": "Applied Kinesiology in Roseville; A balance weighing what a method can and cannot claim",
+  "slot": "motif / balance placeholders",
+  "style": "plate",
+  "aspect": "1:1",
+  "full": "final_v2/full/ak-balance.jpg",
+  "web": "final_v2/web/ak-balance.jpg",
+  "size": [
+   2048,
+   2048
+  ],
+  "alt": false,
+  "source": "fal Nano Banana Pro (first-set plate, kept)",
+  "pick": "v1",
+  "alt_text": "Engraving-style illustration of a two-pan balance scale, level."
+ },
+ {
+  "name": "ak-chain",
+  "page": "applied-kinesiology/is-muscle-testing-legitimate (+ condition pages' chain concept)",
+  "section": "One input, always corroborated",
+  "slot": "frame (placeholder: one link in a chain)",
+  "style": "plate",
+  "aspect": "7:5",
+  "full": "final_v2/full/ak-chain.jpg",
+  "web": "final_v2/web/ak-chain.jpg",
+  "size": [
+   2374,
+   1696
+  ],
+  "alt": false,
+  "source": "fal Nano Banana Pro (first-set plate, kept)",
+  "pick": "v1",
+  "alt_text": "Engraving-style illustration of a chain with one larger link in the middle."
+ }
+]

@@ -1,0 +1,18 @@
+{
+ "pi-first-bring": {
+  "pick": "pi-first-bring-a",
+  "other": "b's intake form carries faint pseudo-text and the glasses a tiny mark"
+ },
+ "book-hero": {
+  "pick": "book-hero-b",
+  "other": "a shows a faint row of keys behind the handset"
+ },
+ "pi-forms-hero": {
+  "pick": "pi-forms-hero-a",
+  "other": "b shows a small label under the handset"
+ },
+ "svc-hub-hero": {
+  "pick": "svc-hub-hero-b",
+  "other": "a has a tiny pseudo-text strip on the laser head"
+ }
+}

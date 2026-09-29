@@ -1,0 +1,379 @@
+[
+ {
+  "name": "cond-osteo-treat-a",
+  "pair": "cond-osteo-treat",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner right hand (gripping adjusting instrument)",
+    "fingers_counted": "5 - thumb on right of barrel hooking the T-bar, index along barrel, middle/ring/little curled",
+    "ok": true
+   },
+   {
+    "whose": "practitioner left hand (flat on patient's far mid-back)",
+    "fingers_counted": "5 - thumb pointing left (correct side for a left hand seen from the back) + 4 fingers with nails",
+    "ok": true
+   },
+   {
+    "whose": "patient left hand (near arm, palm down on table beside towel)",
+    "fingers_counted": "3 visible - thumb not visible (tucked under palm), 4th finger under the towel edge; no malformation",
+    "ok": true
+   }
+  ],
+  "defects": [
+   {
+    "category": "overlay",
+    "description": "Rib cage still too long (previous failure persists): full-length ribs arise along the whole drawn column from x0.305 to x0.595 and reach the near flank (y~0.70). The column stops only ~0.06 W (~120 px, about 3 lumbar-vertebra heights) before the towel/waist line crosses the spine line (x~0.655), the same proportion the previous review failed. Brief asked for a short mid-back column with only the inner ends of a few ribs. Roughly 16 segment repeats (~34 px) over about T4-L2: mild over-segmentation, much improved from 27-38.",
+    "box": [
+     0.3,
+     0.46,
+     0.66,
+     0.72
+    ]
+   },
+   {
+    "category": "scene",
+    "description": "Practitioner's second hand rests on the far mid/lower back near the towel, not on her shoulder as briefed (not an anatomy defect).",
+    "box": [
+     0.46,
+     0.36,
+     0.62,
+     0.49
+    ]
+   }
+  ],
+  "previous_failure_fixed": false,
+  "notes": "Hands OK. Feet: both bare feet rest on the bolster (soft focus, toes curled over it), attached to two continuous legs from under the towel, natural size. Patient far arm hidden behind the torso (plausible from this angle); near arm complete. Overlay registration is good: horizontal posterior-view column along the back midline (y~0.55), red glow at the instrument tip on the mid back. Practitioner head/face out of frame. Chrome T-handle instrument with black rubber tip is plausible. Background console, bottles and shelves blurred: no readable text. Fails on the carried-over rib-cage length."
+ },
+ {
+  "name": "cond-osteo-treat-b",
+  "pair": "cond-osteo-treat",
+  "verdict": "MINOR",
+  "hands": [
+   {
+    "whose": "practitioner right hand (gripping pen-style instrument)",
+    "fingers_counted": "5 - thumb down right side of barrel, index tip on lower collar, 3 fingers curled",
+    "ok": true
+   },
+   {
+    "whose": "practitioner left hand (flat on far mid-back)",
+    "fingers_counted": "5 - thumb pointing left + 4 fingers with nails",
+    "ok": true
+   },
+   {
+    "whose": "patient left hand (near arm, loose fist resting on its little-finger edge)",
+    "fingers_counted": "3 visible - thumb tip tucked at the towel edge (correct side for this neutral posture) + 2 curled fingertips; others curled under",
+    "ok": true
+   }
+  ],
+  "defects": [
+   {
+    "category": "overlay",
+    "description": "Spine column runs ~20 deg oblique to the body axis: the neck end dips toward the near shoulder (~x0.315, y0.73) and the mid-back end sits in the far third of the back only ~0.02 H below the far contour (x0.50-0.52, y0.44-0.46), ~0.07 H off the estimated neck-to-sacrum midline. Still on the back and reads as a spine; not gross.",
+    "box": [
+     0.3,
+     0.42,
+     0.55,
+     0.76
+    ]
+   },
+   {
+    "category": "scene",
+    "description": "Practitioner's second hand rests on the far mid-back rather than her shoulder.",
+    "box": [
+     0.44,
+     0.33,
+     0.58,
+     0.47
+    ]
+   }
+  ],
+  "previous_failure_fixed": true,
+  "notes": "Previous failure fixed: ~14-16 posterior-view vertebrae from the neck base to ~x0.51 (about C7-T12), ribs on both sides (long on the near side, foreshortened on the far side) ending ~x0.51-0.54, leaving a rib-free lumbar zone (~5 segment heights) before the towel at ~x0.60. Red glow on the upper-mid back at the instrument tip. Feet: both on the bolster, soft focus, toes curled over, two continuous legs, natural size. Patient far arm hidden behind the torso (plausible). Practitioner face out of frame. Instrument (thick chrome pen, black rubber tip) plausible. No readable text. Column is longer than the briefed 'short mid-back' and ribs are full-length, not inner ends."
+ },
+ {
+  "name": "cond-pinched-treat-a",
+  "pair": "cond-pinched-treat",
+  "verdict": "MINOR",
+  "hands": [
+   {
+    "whose": "practitioner right hand (near-left edge of PEMF ring)",
+    "fingers_counted": "5 - thumb on top of rim (correct side), index tip at rim, middle/ring/little curled under rim",
+    "ok": true
+   },
+   {
+    "whose": "practitioner left hand (far-right edge of ring by cable collar)",
+    "fingers_counted": "3 visible - thumb on top of rim (correct side), index wrapping the rim, middle tip below the connector; ring/little hidden behind the ring",
+    "ok": true
+   }
+  ],
+  "defects": [
+   {
+    "category": "device",
+    "description": "Cable T/Y-merge: the coil cable arcs over the patient's head and continues down past the table's head end out of frame, while the console's front-port lead curves down and ends where it meets that cable (~x0.83, y0.60). Nothing emerges on the far side and only one cable continues below. The coil is visibly linked to the console, but cables do not merge like this.",
+    "box": [
+     0.78,
+     0.5,
+     0.93,
+     0.76
+    ]
+   }
+  ],
+  "previous_failure_fixed": true,
+  "notes": "Spine now registered: in an overlay-inpainted CLAHE view the column follows the back's groove from the blanket edge (x0.28, y0.68) to the upper back (x0.51, y0.50), within ~0.03 H of the furrow (was 0.15-0.18 off). At ~31 deg it is slightly steeper than the hip-to-neck axis but not slanted off the back. Red glow and nerve branch at ~(0.53-0.55, 0.47-0.51) just under the coil's near edge, fanning over the right scapula: a few segments below the true neck base, but reads as upper back/base of neck. Cable now reaches the console (with the T-merge above). Patient: near (right) arm hangs down the table side, hand below frame; far arm lies along the far side into the blanket; head face-down; no feet visible (blanket). Ring hole shows skin with overlay (cloth only under the rim), plausible. Practitioner face out of frame. Console screen: no readable text."
+ },
+ {
+  "name": "cond-pinched-treat-b",
+  "pair": "cond-pinched-treat",
+  "verdict": "PASS",
+  "hands": [
+   {
+    "whose": "practitioner right hand (image-left, on ring)",
+    "fingers_counted": "5 - thumb on top of ring on the right (correct side) + index/middle/ring/little",
+    "ok": true
+   },
+   {
+    "whose": "practitioner left hand (image-right, on ring)",
+    "fingers_counted": "5 - thumb on top of rim on the left (correct side) + 4 fingers curled over the rim",
+    "ok": true
+   },
+   {
+    "whose": "patient left hand (bottom-left corner)",
+    "fingers_counted": "0 visible - forearm/wrist continuous, hand cropped by bottom frame edge",
+    "ok": true
+   },
+   {
+    "whose": "patient right hand (bottom-right corner)",
+    "fingers_counted": "0 visible - forearm continuous, hand cropped by bottom frame edge",
+    "ok": true
+   }
+  ],
+  "defects": [],
+  "previous_failure_fixed": true,
+  "notes": "Both previous failures fixed. A straight posterior-view column (~14 vertebrae) runs exactly down the back's midline groove from the base of the neck (just under the ring) to the blanket. The PEMF cable runs from the ring in one clean U-loop into the front port of the white console on the side table. Glow at the base of the neck under the ring rim, also visible through the ring hole. Nerve is drawn as a bilateral fan of fibres plus horizontal root lines inside the ring hole: busier than 'one small branch' but anatomically reasonable (stylistic only). Both patient arms continuous down the table sides; legs under the blanket. Practitioner stands at the head end, face out of frame. No readable text on console or background equipment. Cloth under the ring shows only below the rim, with skin through the hole (plausible folded strip)."
+ },
+ {
+  "name": "cond-plantar-treat-a",
+  "pair": "cond-plantar-treat",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner right hand (on laser head)",
+    "fingers_counted": "5 - thumb on right of housing, 4 fingers curled down the left side",
+    "ok": true
+   },
+   {
+    "whose": "practitioner left hand (hanging at his side, right frame edge)",
+    "fingers_counted": "4 visible - thumb + index/middle/ring; little finger cut by right frame edge",
+    "ok": true
+   }
+  ],
+  "defects": [
+   {
+    "category": "feet",
+    "description": "Left foot has 6 toes: hallux plus 5 lesser toe pads, each separated by creases (numbered check).",
+    "box": [
+     0.38,
+     0.77,
+     0.55,
+     0.88
+    ]
+   },
+   {
+    "category": "feet",
+    "description": "Right foot has 6 toes: hallux plus 5 lesser toe pads (numbered check).",
+    "box": [
+     0.64,
+     0.69,
+     0.76,
+     0.86
+    ]
+   },
+   {
+    "category": "overlay",
+    "description": "Foot-bone overlay on the left foot draws 6 rays (hallux + 5 lesser rays) to match the 6 toes.",
+    "box": [
+     0.35,
+     0.52,
+     0.52,
+     0.85
+    ]
+   },
+   {
+    "category": "feet",
+    "description": "Feet still oversized: each foot ~650-700 px heel-to-toe vs the practitioner's hanging hand ~300-310 px (~2.2x vs ~1.4x expected at a similar depth). The previous oversize complaint persists.",
+    "box": [
+     0.33,
+     0.48,
+     0.98,
+     0.86
+    ]
+   }
+  ],
+  "previous_failure_fixed": false,
+  "notes": "Leg ownership now clear (both legs continuous from the shorts to the heels, feet side by side over the rolled towel, big toes medial), so that half of the previous failure is fixed. The foot-size half is not, and a new 6-toe defect appears on both feet. Laser: white head on an articulated arm on a pole stand, three red lines onto the right heel without contact, red glow at the plantar-fascia heel insertion: correct. Patient face visible (allowed); arms out of view under/beside the pillow. Practitioner face out of frame. Device screen blurred, no readable text."
+ },
+ {
+  "name": "cond-plantar-treat-b",
+  "pair": "cond-plantar-treat",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner right hand (gripping laser head)",
+    "fingers_counted": "4 visible - fingers curled around the housing, thumb hidden behind it",
+    "ok": true
+   },
+   {
+    "whose": "practitioner left hand",
+    "fingers_counted": "0 visible - in trouser pocket (forearm continuous)",
+    "ok": true
+   }
+  ],
+  "defects": [
+   {
+    "category": "overlay",
+    "description": "Foot skeleton overlay is inverted 180 deg on both feet: toe phalanges are drawn inside the skin heel pads (top of each foot) and the calcaneus with the fascia fan is drawn over the ball of the foot/toe base (bottom). The red 'heel insertion' glow therefore sits on the forefoot of the right foot.",
+    "box": [
+     0.2,
+     0.41,
+     0.61,
+     0.83
+    ]
+   },
+   {
+    "category": "feet",
+    "description": "Right foot shows only 4 toes: an abnormally broad big-toe pad (~2.3x the width of the next toe) plus 3 lesser toes, so a toe is missing or fused.",
+    "box": [
+     0.5,
+     0.77,
+     0.64,
+     0.88
+    ]
+   },
+   {
+    "category": "feet",
+    "description": "Feet grossly oversized: each foot ~860-880 px heel-to-toe vs the practitioner's hand on the laser ~250-260 px (~3.4x vs ~1.4x). The previous oversize failure is not fixed.",
+    "box": [
+     0.2,
+     0.29,
+     0.64,
+     0.86
+    ]
+   },
+   {
+    "category": "device",
+    "description": "Laser head is held well above and beside the foot; its three red lines land on the lateral forefoot (where the inverted glow is), not a hand's width above the heel.",
+    "box": [
+     0.55,
+     0.22,
+     0.72,
+     0.74
+    ]
+   }
+  ],
+  "previous_failure_fixed": false,
+  "notes": "Left foot has 5 toes (big toe medial). Legs: calves visible beside each heel, ownership readable. Practitioner face out of frame. Laser head on an articulated pole arm (plausible hardware). Patient face visible (allowed). Background device screens blurred, no readable text."
+ },
+ {
+  "name": "cond-pregnancy-treat-a",
+  "pair": "cond-pregnancy-treat",
+  "verdict": "MINOR",
+  "hands": [
+   {
+    "whose": "practitioner right hand (near, on lower back)",
+    "fingers_counted": "5 - thumb at upper right (correct side for back-of-hand view) + index/middle/ring/little tips all visible (numbered)",
+    "ok": true
+   },
+   {
+    "whose": "practitioner left hand (far)",
+    "fingers_counted": "dorsum/knuckles only - wraps behind the patient's back, digits occluded",
+    "ok": true
+   },
+   {
+    "whose": "patient right hand (near, resting on thigh)",
+    "fingers_counted": "4 visible - thumb on the hidden far side",
+    "ok": true
+   }
+  ],
+  "defects": [
+   {
+    "category": "composition",
+    "description": "Head not fully in frame: the top edge cuts just above the eyebrows, so the forehead and crown/bun top are outside the frame (brief asked for her whole head inside the frame).",
+    "box": [
+     0.29,
+     0.0,
+     0.53,
+     0.04
+    ]
+   },
+   {
+    "category": "overlay",
+    "description": "Proximal femur stub points straight down into the seat instead of forward along her horizontal thigh (a standing-pose femur on a seated patient). Small, below the pelvis.",
+    "box": [
+     0.43,
+     0.47,
+     0.52,
+     0.58
+    ]
+   }
+  ],
+  "previous_failure_fixed": true,
+  "notes": "Both previous issues fixed. The near hand now has thumb + 4 fingers. The overlay is a true lateral view: lumbar bodies toward the belly, spinous processes toward the back under the practitioner's fingertips, sacrum curving back with coccyx, ilium from the side, glow on the SI joint. Feet: near (right) foot 5 toes (numbered little to big toe), far foot's heel and big toe visible behind, both on the wooden step, natural size. 2 legs continuous; patient far arm hidden behind her body. Practitioner face out of frame (cropped at the shoulders). No readable text (background console blurred)."
+ },
+ {
+  "name": "cond-pregnancy-treat-b",
+  "pair": "cond-pregnancy-treat",
+  "verdict": "MINOR",
+  "hands": [
+   {
+    "whose": "practitioner right hand (near, on lower back)",
+    "fingers_counted": "5 - thumb at upper right + index/middle/ring/little (numbered)",
+    "ok": true
+   },
+   {
+    "whose": "practitioner left hand (far)",
+    "fingers_counted": "knuckles only - wraps behind the patient's back, digits occluded",
+    "ok": true
+   },
+   {
+    "whose": "patient right hand (near, on thigh, little-finger-side view)",
+    "fingers_counted": "3-4 visible - thumb on the hidden far side",
+    "ok": true
+   }
+  ],
+  "defects": [
+   {
+    "category": "hands/overlay",
+    "description": "Practitioner's thumb tip and index fingertip are tinted pale mint-green where they touch the spine overlay (glow bleeding onto the fingers). Small rendering glitch; the digits themselves are normal.",
+    "box": [
+     0.4,
+     0.34,
+     0.45,
+     0.42
+    ]
+   },
+   {
+    "category": "overlay",
+    "description": "Femoral shaft drawn angling down-forward into the seat (~50 deg) instead of running forward along the horizontal thigh.",
+    "box": [
+     0.44,
+     0.47,
+     0.54,
+     0.59
+    ]
+   },
+   {
+    "category": "composition",
+    "description": "Top of the hair bun/crown clipped by the top edge; face and forehead fully in frame.",
+    "box": [
+     0.36,
+     0.0,
+     0.52,
+     0.03
+    ]
+   }
+  ],
+  "previous_failure_fixed": true,
+  "notes": "Previous failure fixed: 5-digit near hand; lateral lumbar spine (bodies anterior, spinous processes posterior), sacrum curving back, ilium from the side, glow on the SI joint. Feet: near foot 5 toes (numbered), far foot's big toe behind, natural size, on the step. 2 legs continuous. Practitioner face out of frame. No readable text (background spine model/console blurred). Framing is closer to the brief than -a."
+ }
+]

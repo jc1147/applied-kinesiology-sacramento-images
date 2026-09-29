@@ -1,0 +1,45 @@
+{
+ "applied": {
+  "cond-auto-assess": {
+   "pick": "cond-auto-assess-b",
+   "verdict": "MINOR",
+   "replaced": "v2\\rejected\\cond-auto-assess-r2.png"
+  },
+  "cond-fibro-treat": {
+   "pick": "cond-fibro-treat-a",
+   "verdict": "MINOR",
+   "replaced": "v2\\rejected\\cond-fibro-treat-r2.png"
+  },
+  "cond-lbp-assess": {
+   "pick": "cond-lbp-assess-f",
+   "verdict": "MINOR",
+   "replaced": "v2\\rejected\\cond-lbp-assess-r2.png"
+  },
+  "cond-neck-treat": {
+   "pick": "cond-neck-treat-b",
+   "verdict": "MINOR",
+   "replaced": "v2\\rejected\\cond-neck-treat-r2.png"
+  },
+  "cond-osteo-assess": {
+   "pick": "cond-osteo-assess-a",
+   "verdict": "PASS",
+   "replaced": "v2\\rejected\\cond-osteo-assess-r2.png"
+  },
+  "cond-osteo-treat": {
+   "pick": "cond-osteo-treat-b",
+   "verdict": "MINOR",
+   "replaced": "v2\\rejected\\cond-osteo-treat-r2.png"
+  },
+  "cond-plantar-treat": {
+   "pick": "cond-plantar-treat-b",
+   "verdict": "MINOR",
+   "replaced": "v2\\rejected\\cond-plantar-treat-r2.png"
+  },
+  "svc-fx635-device": {
+   "pick": "svc-fx635-device-a",
+   "verdict": "MINOR",
+   "replaced": "v2\\rejected\\svc-fx635-device-r2.png"
+  }
+ },
+ "still_failing": []
+}

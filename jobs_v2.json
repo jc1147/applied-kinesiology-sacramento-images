@@ -1,0 +1,542 @@
+[
+ {
+  "name": "cond-auto-assess",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: the patient sits on the edge of the treatment table, seen from behind and slightly to the side; the practitioner's two hands rest flat on either side of the patient's mid back and lower ribs, examining how they move. Over the patient's body, a luminous augmented-reality anatomy overlay: the cervical and thoracic spine, the rib cage and the shoulder blades, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at the muscles of the lower neck and between the shoulder blades, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a man in his thirties in a plain navy t-shirt; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "cond-auto-treat",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: the patient lies face down on the treatment table; a white stand-mounted low-level laser head on an articulated arm, positioned a hand's width above the base of the neck and the upper back and projecting three thin red laser lines onto the skin without touching it; the practitioner's hand rests on the patient's shoulder blade. Over the patient's body, a luminous augmented-reality anatomy overlay: the cervical and upper thoracic spine and the shoulder blades, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at the base of the neck and the top of the shoulders, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a man in his thirties, lying face down, a light blanket over his legs; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "cond-carpal-assess",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: the patient sits on the treatment table holding one arm straight out to the side; the practitioner's fingertips trace along the inside of her upper arm, following the nerve. Over the patient's body, a luminous augmented-reality anatomy overlay: the median nerve running from the lower neck, under the collarbone, down the inner arm and through the wrist into the thumb and first fingers, with the arm bones faintly drawn, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at the carpal tunnel at the wrist, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a woman in her forties in a sleeveless top; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "cond-carpal-treat",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: a close view at table height: the patient's forearm and open hand rest palm-up on a folded white towel; the practitioner holds a small white handheld low-level laser probe held just above the crease of the wrist, casting a small red glow on the skin. Over the patient's body, a luminous augmented-reality anatomy overlay: the wrist and hand bones and the median nerve passing through the carpal tunnel, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at the carpal tunnel at the base of the palm, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a woman in her forties; only her forearm and open hand are in frame; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "cond-fibro-assess",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: the patient sits upright on the treatment table seen from behind; the practitioner's hands rest lightly on the tops of both shoulders, feeling the muscles. Over the patient's body, a luminous augmented-reality anatomy overlay: the spine from neck to pelvis and the shoulder blades, with the major back muscles in fine lines, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at several small, scattered tender points: the base of the neck, the tops of the shoulders and beside the shoulder blades, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a woman in her fifties in a soft oatmeal sweater; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "cond-fibro-treat",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: the patient lies face down on the treatment table; the practitioner holds a small chrome spring-loaded adjusting instrument shaped like a thick pen with a flat rubber tip (no needle) gently against the muscles beside her mid spine, his other hand resting flat on her back. Over the patient's body, a luminous augmented-reality anatomy overlay: the thoracic and lumbar spine with the muscles beside it, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at a few scattered tender points along the upper and mid back, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a woman in her fifties, lying face down, a soft blanket over her legs; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "cond-frozen-assess",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: the patient sits on the treatment table seen from behind and slightly to the side, slowly raising one arm forward; the practitioner's hand rests on her shoulder blade and his other hand lightly guides her elbow. Over the patient's body, a luminous augmented-reality anatomy overlay: the shoulder joint, the shoulder blade, the collarbone and the upper arm bone, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at the shoulder joint capsule, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a woman in her sixties in a sleeveless sage top; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "cond-frozen-treat",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: the patient sits upright on the edge of the treatment table, her whole upper body, head and both arms in frame; the practitioner stands beside and slightly behind her, one hand resting on her shoulder blade to steady it and the other hand supporting her elbow from below, gently guiding her arm up and out to the side in a slow, supported arc. Over the patient's body, a luminous augmented-reality anatomy overlay: the shoulder joint, the shoulder blade, the collarbone and the upper arm bone, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at the shoulder joint capsule, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a woman in her sixties in a sleeveless sage top, seated, her head and face in soft profile clearly visible; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "cond-headache-assess",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: the patient sits upright on the treatment table seen from behind and slightly to the side; the practitioner's fingertips rest at the base of her skull and on the jaw joint just in front of her ear. Over the patient's body, a luminous augmented-reality anatomy overlay: the skull base, the jaw joint and the upper neck vertebrae, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at the muscles at the base of the skull and the upper neck, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a woman in her thirties with her hair tied up; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "cond-headache-treat",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: the patient sits upright on the treatment table seen from behind; the practitioner holds a small white handheld low-level laser probe held just above the base of her skull where the neck meets the head, casting a small red glow on the skin, his other hand steadying her shoulder. Over the patient's body, a luminous augmented-reality anatomy overlay: the skull base and the upper neck vertebrae, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at the muscles at the base of the skull, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a woman in her thirties with her hair tied up; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "cond-lbp-assess",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: the patient lies on his back on the treatment table with one straight leg raised to about 30 degrees; the practitioner's flat hand presses gently down just above the ankle while his other hand steadies the opposite hip. Over the patient's body, a luminous augmented-reality anatomy overlay: the lumbar spine, the pelvis and the hip joint of the raised leg, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at the lower back and the hip flexor where it attaches to the lumbar spine, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a man in his forties in a grey t-shirt and dark training trousers, lying on his back with his head on a pillow; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "cond-lbp-treat",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: the patient lies face down on the treatment table; a white stand-mounted low-level laser head on an articulated arm, positioned a hand's width above the lower back and projecting three thin red laser lines onto the skin without touching it; the practitioner's hand rests on the patient's upper back. Over the patient's body, a luminous augmented-reality anatomy overlay: the lumbar vertebrae, the sacrum and the pelvis, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at the two lowest lumbar vertebrae and the muscles beside them, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a man in his forties, lying face down, a light blanket over his legs, lower back bare; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "cond-oa-assess",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: the patient stands barefoot on a pale wooden floor and bends his knees into a shallow squat; the practitioner kneels beside him with one hand on the side of the knee and the other at the hip, watching how the knee tracks. Over the patient's body, a luminous augmented-reality anatomy overlay: the knee joint, the hip joint and the thigh and shin bones, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at the inner side of the knee joint, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a man in his sixties in grey trousers rolled to mid-calf, barefoot; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "cond-oa-treat",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: both of the patient's legs are on the table and clearly visible: one leg extended straight along the table and the other knee bent with that foot flat on the table beside it; a white stand-mounted low-level laser head on an articulated arm, positioned a hand's width above the knee of the extended leg and projecting three thin red laser lines onto the skin without touching it. Over the patient's body, a luminous augmented-reality anatomy overlay: the knee joint with the thigh bone, shin bone and kneecap, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at the inner side of the knee joint, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a man in his sixties in dark shorts and a t-shirt, sitting on the treatment table leaning back on his hands; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "cond-osteo-assess",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: the patient stands on one foot beside the treatment table, fingertips of one hand resting on its edge, while the practitioner's hands hover close to her waist, ready to steady her. Over the patient's body, a luminous augmented-reality anatomy overlay: the spine, the pelvis and the hip joints, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at the mid back and the hip, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a woman in her seventies with short silver hair, in a soft cardigan and slacks; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "cond-osteo-treat",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: the patient lies face down on a well-padded treatment table; the practitioner holds a small chrome spring-loaded adjusting instrument shaped like a thick pen with a flat rubber tip (no needle) lightly against her upper back, his other hand resting still on her shoulder. Over the patient's body, a luminous augmented-reality anatomy overlay: the thoracic spine and the rib cage, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at the mid back, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a woman in her seventies with short silver hair, lying face down with a pillow under her chest and a bolster under her ankles; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "cond-pinched-assess",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: a reflex check: the patient sits on the treatment table, his relaxed forearm resting on the practitioner's forearm with the elbow bent, while the practitioner taps the inside of his elbow with a small rubber reflex hammer. Over the patient's body, a luminous augmented-reality anatomy overlay: the nerve running from the lower neck down the arm, with the neck vertebrae and the arm bones, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at where the nerve leaves the lower neck, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a man in his fifties in a short-sleeved grey t-shirt; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "cond-pinched-treat",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: the patient lies face down on the treatment table; a flat white ring-shaped PEMF coil resting on his upper back between the shoulder blades over a thin cloth, its cable running to a small white console; the practitioner's hand adjusts the cable. Over the patient's body, a luminous augmented-reality anatomy overlay: the cervical and upper thoracic spine with the nerve roots leaving it, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at a nerve root at the base of the neck, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a man in his fifties, lying face down, a light blanket over his legs; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "cond-plantar-treat",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: a close view of the feet: a white stand-mounted low-level laser head on an articulated arm, positioned a hand's width above the heel and the arch of one foot and projecting three thin red laser lines onto the skin without touching it. Over the patient's body, a luminous augmented-reality anatomy overlay: the bones of the foot and the plantar fascia band running from the heel to the toes, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at the plantar fascia where it attaches to the heel, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a woman in her forties, lying face down, bare feet over the end of the table on a rolled towel; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "1:1",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "cond-pregnancy-treat",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: the patient sits upright on the edge of the treatment table in side profile, her pregnant belly clearly visible, both feet resting on a small wooden step; the practitioner stands behind her with both hands resting gently on her lower back and the back of her pelvis. Over the patient's body, a luminous augmented-reality anatomy overlay: the pelvis, the sacrum and the lower lumbar spine, upright inside her body as she sits, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at the sacroiliac joint at the back of the pelvis, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a pregnant woman in her third trimester in a soft oatmeal knit dress, her rounded pregnant belly clearly visible in side profile; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "1:1",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "cond-sciatica-treat",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: the patient lies face down on the treatment table; the practitioner holds a small white handheld low-level laser probe held just above the outer side of the hip, over the deep buttock muscles, casting a small red glow on the skin, his other hand resting on the back of the thigh. Over the patient's body, a luminous augmented-reality anatomy overlay: the lower spine, the pelvis and the sciatic nerve running from the lower back through the buttock and down the back of the thigh, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at the sciatic nerve where it passes under the deep buttock muscle, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a man in his fifties in soft grey leggings, lying face down; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "cond-scoliosis-treat",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: the patient lies face down on the treatment table; the practitioner's hands work slowly along the muscles on one side of her mid back. Over the patient's body, a luminous augmented-reality anatomy overlay: a spine with a gentle sideways curve and the rib cage, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at the muscles on the side carrying the uneven load, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a woman in her twenties in a sage sports top, lying face down; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "1:1",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "cond-shoulder-treat",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: the patient lies on his side on the treatment table; the practitioner's fingertips hook gently under the inner edge of his shoulder blade while his other hand cups the front of his shoulder. Over the patient's body, a luminous augmented-reality anatomy overlay: the shoulder blade, the rotator cuff muscles and the shoulder joint, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at the rotator cuff tendon at the top of the shoulder, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a man in his forties in a plain grey tank top, lying on his side with his head on a pillow; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "1:1",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "cond-disc-treat",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: the patient lies on his back on the treatment table; a flat white ring-shaped PEMF coil resting on the table directly under his lower back over a thin cloth, its cable running to a small white console; the practitioner checks the console. Over the patient's body, a luminous augmented-reality anatomy overlay: the lumbar vertebrae with the discs between them, one disc bulging slightly, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at the bulging disc between the two lowest lumbar vertebrae, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a man in his thirties lying on his back with his knees over a soft bolster; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "1:1",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "cond-stress-treat",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: the patient lies face down on the treatment table; the practitioner's thumbs press slowly into the thick muscles running from her neck to the tops of her shoulders. Over the patient's body, a luminous augmented-reality anatomy overlay: the neck vertebrae, the shoulder blades and the trapezius muscle in fine lines, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at the tops of the shoulders and the base of the neck, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a woman in her thirties, lying face down with her face in the face cradle; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "1:1",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "cond-tennis-treat",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: a close view: the patient's arm rests on a folded white towel, fist loosely closed, the outer side of the elbow facing up; the practitioner holds a small white handheld low-level laser probe held just above the bony point on the outer side of the elbow, casting a small red glow on the skin. Over the patient's body, a luminous augmented-reality anatomy overlay: the elbow joint and the forearm extensor tendons, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at the tendon attachment on the outer side of the elbow, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a man in his fifties; only his arm is in frame, sleeve rolled well above the elbow; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "1:1",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "cond-neck-treat",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: the patient lies face down on the treatment table; the practitioner's two hands rest one over the other on her upper back between the shoulder blades, setting up a gentle adjustment. Over the patient's body, a luminous augmented-reality anatomy overlay: the cervical and upper thoracic spine and the shoulder blades, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at between the shoulder blades and the base of the neck, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a woman in her forties, lying face down with her face in the face cradle; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "1:1",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "cond-whiplash-treat",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: a close view from behind the seated patient: the back of her head, her neck and the tops of her shoulders fill the frame; the practitioner's two hands rest on either side of the base of her neck, thumbs easing into the muscles beside the spine. Over the patient's body, a luminous augmented-reality anatomy overlay: the neck vertebrae and the base of the skull, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at the deep muscles at the front and sides of the neck, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a woman in her twenties with her hair tied up, seen from directly behind; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "1:1",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "cond-work-treat",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: in the treatment room the patient squats with a straight back to lift a plain cardboard box from the floor, while the practitioner's hand rests lightly on his lower back, coaching the lift. Over the patient's body, a luminous augmented-reality anatomy overlay: the lumbar spine and the pelvis, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at the lower back, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a man in his forties in a faded denim work shirt, work trousers and leather work boots; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "1:1",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "svc-cold-hero",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: the practitioner holds a small white handheld low-level laser probe held just above the side of the knee, casting a small red glow on the skin. Over the patient's body, a luminous augmented-reality anatomy overlay: the knee joint, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at the inner side of the knee joint, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a woman in her fifties sitting on the treatment table with one leg extended, grey trousers rolled above the knee; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "1:1",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "svc-fx635-device",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: a close view of the device and the foot: a white stand-mounted low-level laser head on an articulated arm, positioned a hand's width above the bare heel and projecting three thin red laser lines onto the skin without touching it. Over the patient's body, a luminous augmented-reality anatomy overlay: the bones of the foot and the plantar fascia, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at the heel, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a woman in her forties, lying still, face down, bare feet over the end of the table on a rolled towel; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "1:1",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "svc-pemf-hero",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: the patient lies still on the treatment table; a flat white ring-shaped PEMF coil resting on his lower back over a thin cloth, its cable running to a small white console; nobody touches him. Over the patient's body, a luminous augmented-reality anatomy overlay: the lumbar spine and the pelvis, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at the lower back, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a man in his forties lying face down, a light blanket over his legs; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "1:1",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "ak-mtest",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: a manual muscle test: the patient sits on the edge of the treatment table holding one arm straight out to the side at shoulder height; the practitioner's flat hand presses gently down just above her wrist and his other hand steadies her shoulder. Over the patient's body, a luminous augmented-reality anatomy overlay: the shoulder joint, the shoulder blade and the muscles of the raised arm, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at the shoulder muscle being tested, at the top of the arm, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a woman in her thirties in a sleeveless top; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "ak-roof",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: the practitioner's hand rests on the seated patient's shoulder; just beyond them, in the room, stands the white stand-mounted laser on its articulated arm, not in use. Over the patient's body, a luminous augmented-reality anatomy overlay: the neck and the shoulder girdle, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at the top of the shoulder, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a man in his fifties in a plain grey sweater, seated, seen from behind; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "1:1",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "ak-legit-hero",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: an intimate close-up of a manual muscle test: the patient's forearm is held level with the elbow bent and the fist closed; the practitioner's flat palm rests on the back of her wrist pressing gently down, his other hand steadying her elbow; only the two pairs of hands and forearms fill the frame. Over the patient's body, a luminous augmented-reality anatomy overlay: the forearm bones and the forearm muscles, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at the forearm muscle being tested, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a woman in her thirties; only her forearm and hand are in frame; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "about-hero",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: in the foreground a manual muscle test, her arm held straight out to the side with the practitioner's hand pressing gently above the wrist; in the softly blurred background the white stand-mounted laser and a small side table with a white ring-shaped PEMF coil. Over the patient's body, a luminous augmented-reality anatomy overlay: the shoulder joint and the muscles of the raised arm, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at the shoulder, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a woman in her forties in a sleeveless top, seated on the table, seen from behind and slightly to the side; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "pi-first-hero",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: the practitioner stands facing the seated patient holding a clipboard of notes and explaining; a small anatomical spine model sits on the counter behind them. Over the patient's body, a luminous augmented-reality anatomy overlay: the patient's spine from neck to pelvis, faint and elegant, drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and anatomically precise, like a living anatomical plate. The painful area glows with a soft, diffuse red-orange warmth inside the body at the lower back, subtle, like inflamed tissue seen through the skin, and the treatment is focused precisely on that red area. The overlay follows the body's real position and orientation: it lies inside the body exactly where those structures are for this pose (for a person lying down, the spine runs along the length of the body, horizontal in the frame), never pasted flat or upright across it. The practitioner is a man in a crisp white dress shirt with the sleeves rolled to the forearm and dark trousers, framed from the chest down so his head and face are out of the frame. The patient is a man in his forties sitting on the edge of the treatment table; the patient's face may be seen, relaxed, eyes closed or looking away. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "svc-hub-hero",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: the treatment room that holds both halves of the practice, no people: a padded pale sage adjusting table with a folded towel, the white stand-mounted laser on its articulated arm parked beside it, and on a small white side table a white ring-shaped PEMF coil with its console; morning light through a large window. Clean, modern, warm and precise; crisp detail and fresh true-to-life colour. This practice has exactly one clinician: a man in a crisp white dress shirt with the sleeves rolled and dark trousers, always framed so his head is out of the frame. There is no receptionist, nurse or other staff, and nobody wears a white coat or scrubs. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "1:1",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "ak-who-imaging",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: across a small pale oak table, the patient's hands pass a large paper imaging envelope to the practitioner's hands; an X-ray film showing a lower spine is half drawn out of the envelope; hands and forearms only. Clean, modern, warm and precise; crisp detail and fresh true-to-life colour. This practice has exactly one clinician: a man in a crisp white dress shirt with the sleeves rolled and dark trousers, always framed so his head is out of the frame. There is no receptionist, nurse or other staff, and nobody wears a white coat or scrubs. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:4",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "pi-faq-hero",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: two people talking at a small round pale oak table by the window, framed at chest height so no faces are in view: the patient in a knit sweater with hands open mid-question, and the practitioner in his crisp white dress shirt with rolled sleeves, his hands resting on a closed notebook; two cups of tea between them. Clean, modern, warm and precise; crisp detail and fresh true-to-life colour. This practice has exactly one clinician: a man in a crisp white dress shirt with the sleeves rolled and dark trousers, always framed so his head is out of the frame. There is no receptionist, nurse or other staff, and nobody wears a white coat or scrubs. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "4:3",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "pi-first-bring",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: a styled flat lay on a pale oak table of what to bring to a first visit: a paper imaging envelope with an X-ray film edge showing, a folded blank sheet, a weekly pill organiser, two plain unlabelled medicine boxes, a blank intake form on a clipboard with a pen, and reading glasses; soft window light. Clean, modern, warm and precise; crisp detail and fresh true-to-life colour. This practice has exactly one clinician: a man in a crisp white dress shirt with the sleeves rolled and dark trousers, always framed so his head is out of the frame. There is no receptionist, nurse or other staff, and nobody wears a white coat or scrubs. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "pi-forms-hero",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: no people anywhere in the frame: on the counter by the window, a clipboard holding a blank paper intake form with a pen resting on it, and next to it a simple white desk telephone. Clean, modern, warm and precise; crisp detail and fresh true-to-life colour. This practice has exactly one clinician: a man in a crisp white dress shirt with the sleeves rolled and dark trousers, always framed so his head is out of the frame. There is no receptionist, nurse or other staff, and nobody wears a white coat or scrubs. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "book-hero",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: no people anywhere in the frame: a calm front desk by a large window with a white desk telephone, a small paper appointment book open to blank pages with a pen, and a sprig of eucalyptus in a glass; the treatment area softly blurred behind. Clean, modern, warm and precise; crisp detail and fresh true-to-life colour. This practice has exactly one clinician: a man in a crisp white dress shirt with the sleeves rolled and dark trousers, always framed so his head is out of the frame. There is no receptionist, nurse or other staff, and nobody wears a white coat or scrubs. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "16:9",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "about-drvw-learning",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: a study corner by a window: a pale oak desk with a stack of closed clinical textbooks with plain unmarked spines, a small anatomical spine model on a stand, reading glasses on an open notebook of soft, unreadable handwritten notes, and a cup of coffee; no people. Clean, modern, warm and precise; crisp detail and fresh true-to-life colour. This practice has exactly one clinician: a man in a crisp white dress shirt with the sleeves rolled and dark trousers, always framed so his head is out of the frame. There is no receptionist, nurse or other staff, and nobody wears a white coat or scrubs. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "1:1",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "svc-nutrition-consult",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: a nutrition consultation at a pale oak table by the window, framed at table height: the practitioner (the man in the white shirt, head out of frame) sits on one side with his hand resting on a food diary open to blank ruled pages, and the patient's hands rest on the other side; on the table a glass of water, a ceramic bowl of leafy greens, lentils and berries, and three plain amber supplement bottles with blank labels. Clean, modern, warm and precise; crisp detail and fresh true-to-life colour. This practice has exactly one clinician: a man in a crisp white dress shirt with the sleeves rolled and dark trousers, always framed so his head is out of the frame. There is no receptionist, nurse or other staff, and nobody wears a white coat or scrubs. Hands: every hand anatomically perfect, five fingers each with natural joints and nails, a natural grip, no fused, extra or missing fingers. Every body complete and continuous. No text, logos, labels or readable screens.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "1:1",
+   "enhance_prompt": false
+  }
+ }
+]

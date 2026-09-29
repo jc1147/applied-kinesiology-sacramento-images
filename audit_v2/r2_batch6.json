@@ -1,0 +1,38 @@
+[
+ {
+  "name": "svc-cold-hero-a",
+  "pair": "svc-cold-hero",
+  "path": "v2/round2/svc-cold-hero-a.png",
+  "scene": "the patient sits on the treatment table with one leg extended and grey trousers rolled above the knee; the practitioner holds a small white handheld low-level laser probe held just above the side of the knee, casting a small red glow on the skin with one hand; his other hand is out of frame",
+  "overlay_anatomy": "the knee joint",
+  "pain_site_red_glow": "the inner side of the knee joint",
+  "previous_failure_to_check": "Practitioner's left hand on the knee shows only a thumb and 3 fingers (nails on index, middle and ring). The ulnar edge of the hand ends at the ring finger, with grey trouser fabric where the little f"
+ },
+ {
+  "name": "svc-cold-hero-b",
+  "pair": "svc-cold-hero",
+  "path": "v2/round2/svc-cold-hero-b.png",
+  "scene": "the patient sits on the treatment table with one leg extended and grey trousers rolled above the knee; the practitioner holds a small white handheld low-level laser probe held just above the side of the knee, casting a small red glow on the skin with one hand; his other hand is out of frame",
+  "overlay_anatomy": "the knee joint",
+  "pain_site_red_glow": "the inner side of the knee joint",
+  "previous_failure_to_check": "Practitioner's left hand on the knee shows only a thumb and 3 fingers (nails on index, middle and ring). The ulnar edge of the hand ends at the ring finger, with grey trouser fabric where the little f"
+ },
+ {
+  "name": "svc-fx635-device-a",
+  "pair": "svc-fx635-device",
+  "path": "v2/round2/svc-fx635-device-a.png",
+  "scene": "a close view of the laser head on its single articulated arm above the patient's heels: both bare feet side by side over the end of the table on a rolled towel, soles toward the camera, natural adult size with five toes each; a white stand-mounted low-level laser head on an articulated arm, positioned a hand's width above one heel and projecting three thin red laser lines onto the skin without touching it",
+  "overlay_anatomy": "the bones of the foot and the plantar fascia",
+  "pain_site_red_glow": "the heel",
+  "previous_failure_to_check": "Far (image-left) bare foot has 6 digits: 5 separate lesser-toe lobes with a crease between each, plus the big toe. Confirmed on svc-fx635-device__toes_far_foot_edge.png.; Near (overlay) foot: big toe, toes 2 and 3, then one broad outer lobe about 108 px wide (the other toes are 62-68 px) with no cleft, i.e. toes 4 and 5 are fused."
+ },
+ {
+  "name": "svc-fx635-device-b",
+  "pair": "svc-fx635-device",
+  "path": "v2/round2/svc-fx635-device-b.png",
+  "scene": "a close view of the laser head on its single articulated arm above the patient's heels: both bare feet side by side over the end of the table on a rolled towel, soles toward the camera, natural adult size with five toes each; a white stand-mounted low-level laser head on an articulated arm, positioned a hand's width above one heel and projecting three thin red laser lines onto the skin without touching it",
+  "overlay_anatomy": "the bones of the foot and the plantar fascia",
+  "pain_site_red_glow": "the heel",
+  "previous_failure_to_check": "Far (image-left) bare foot has 6 digits: 5 separate lesser-toe lobes with a crease between each, plus the big toe. Confirmed on svc-fx635-device__toes_far_foot_edge.png.; Near (overlay) foot: big toe, toes 2 and 3, then one broad outer lobe about 108 px wide (the other toes are 62-68 px) with no cleft, i.e. toes 4 and 5 are fused."
+ }
+]

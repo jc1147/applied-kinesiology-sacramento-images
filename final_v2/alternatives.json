@@ -1,0 +1,17 @@
+[
+ {
+  "name": "cond-carpal-hero-alternative",
+  "for_slot": "cond-carpal-hero",
+  "aspect": "7:5",
+  "full": "final_v2/alternatives/full/cond-carpal-hero-alternative.jpg",
+  "web": "final_v2/alternatives/web/cond-carpal-hero-alternative.jpg",
+  "size": [
+   1904,
+   1360
+  ],
+  "source": "v2/plates/cond-carpal-hero-v1edit-a.png",
+  "review": "FAIL",
+  "note": "Edit of the owner's favourite first-set hand plate (nerve moved under the band). Failed review: finger outlines fused with the nerve at the web spaces; the band reads as a wristband.",
+  "alt_text": "Engraving-style illustration of the hand and wrist bones seen side-on, with a ligament band across the wrist and the median nerve passing under it into the thumb and fingers."
+ }
+]

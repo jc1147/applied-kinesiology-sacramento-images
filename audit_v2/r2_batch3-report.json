@@ -1,0 +1,326 @@
+[
+ {
+  "name": "cond-neck-treat-a",
+  "pair": "cond-neck-treat",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand (top of the stack; forearm enters from image-left; he stands at the far end facing the camera)",
+    "fingers_counted": "5 (4 fingers pointing toward the camera + thumb on the image-right side at ~(0.56,0.42)); back of hand up with fingers toward the viewer, so thumb image-right = correct for a right hand",
+    "ok": true,
+    "box": [0.47, 0.30, 0.58, 0.47]
+   },
+   {
+    "whose": "practitioner LEFT hand (underneath; forearm enters from image-right)",
+    "fingers_counted": "4 visible (thumb on the image-left side at ~(0.43,0.43) + 3 fingertips); 4th finger hidden under the top hand - plausible",
+    "ok": true,
+    "box": [0.42, 0.34, 0.50, 0.475]
+   }
+  ],
+  "defects": [
+   {
+    "category": "overlay_anatomy",
+    "description": "Image-left shoulder blade is drawn upside-down. She lies face down with her head at the bottom of the frame, and her arms leave the torso at the shoulder line (y ~0.47-0.50). The blade's spine/acromion edge sits on that line (lateral tip ~(0.29,0.49)), but the triangular body extends TOWARD the head, with its inferior angle at ~(0.37,0.63) beside the hairline. That lays the blade over the base of the neck and upper trapezius instead of the upper back. It should extend from the shoulder line away from the head (up the image, around the practitioner's hands), with the inferior angle pointing toward the feet.",
+    "box": [0.29, 0.45, 0.45, 0.64]
+   },
+   {
+    "category": "overlay_anatomy",
+    "description": "Image-right shoulder blade repeats the error as a mirror image: acromion/spine on the shoulder line (lateral tip ~(0.71,0.49)), inferior angle pointing toward the head at ~(0.63,0.63). Both blades are flipped 180 degrees along the body axis and sit between the shoulders and the head. A chiropractor would see upside-down shoulder blades over the neck.",
+    "box": [0.54, 0.45, 0.70, 0.64]
+   }
+  ],
+  "previous_failure_fixed": false,
+  "notes": "The specific old defects are gone: no blade floating in the mid/lower back, no stretched blade or pointed spike, no stray humerus to the table edge. But the shoulder blades are still misplaced, now as a symmetric pair flipped toward the head, so the overlay fails for the same structures. The spine is correct: a straight midline column of spinous processes from under the hands (y ~0.45) to the hairline (~0.72). The red glow sits around the upper spine between the drawn blades, from the hands toward the base of the neck, which matches the brief. Hands: two stacked hands, 9 digits visible, none extra, each joined to its own forearm. Patient arms hang continuously off both table sides to the bottom corners (elbows ~0.85); her hands are out of frame and her legs under the towel. Top edge is shirt chest only, no practitioner face. The console at right is blurred with no readable text."
+ },
+ {
+  "name": "cond-neck-treat-b",
+  "pair": "cond-neck-treat",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand (top of the stack; forearm from image-left)",
+    "fingers_counted": "5 (4 fingertips at y ~0.41-0.42 + thumb on the image-right side at ~(0.60,0.35)) - correct side for a right hand seen from the back with fingers toward the viewer",
+    "ok": true,
+    "box": [0.50, 0.30, 0.62, 0.43]
+   },
+   {
+    "whose": "practitioner LEFT hand (underneath; forearm from image-right)",
+    "fingers_counted": "5 (4 fingertips at lower-left ~(0.41-0.47,0.42-0.44) + thumb upper-left at ~(0.43,0.38)) - correct side for a left hand",
+    "ok": true,
+    "box": [0.40, 0.33, 0.50, 0.445]
+   }
+  ],
+  "defects": [
+   {
+    "category": "overlay_anatomy",
+    "description": "Image-left shoulder blade is upside-down, as in variant a. The spine/acromion edge runs along y ~0.43-0.50 at the shoulder line where the arm leaves the torso (lateral tip ~(0.27,0.49)). The inferior angle points toward the head at ~(0.37,0.62), right beside the hairline (hair starts ~0.62-0.63). The blade covers the base of the neck instead of the upper back.",
+    "box": [0.27, 0.43, 0.46, 0.625]
+   },
+   {
+    "category": "overlay_anatomy",
+    "description": "Image-right shoulder blade has the same flip mirrored: lateral tip ~(0.72,0.49), inferior angle ~(0.62,0.62) at the hairline. Both blades are rotated 180 degrees along the body axis.",
+    "box": [0.54, 0.43, 0.73, 0.625]
+   }
+  ],
+  "previous_failure_fixed": false,
+  "notes": "Same outcome as variant a: the old floating/stretched blades, spike and humerus are gone, but both blades are now flipped toward the head, so the shoulder-blade placement is still wrong. Spine: a straight midline column from the hands (y ~0.42) to the hairline (~0.63). The red glow runs from the hands toward the neck, as briefed. The hands are cleaner than in a: all 10 digits are visible and correctly sided. Patient arms hang off both sides with elbows near (0.03,0.80) and (0.97,0.80); the forearms curve under the face cradle, continuous and natural. No practitioner face. The console at right is blurred with no text."
+ },
+ {
+  "name": "cond-oa-assess-a",
+  "pair": "cond-oa-assess",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "patient RIGHT hand resting on his right knee (image-left)",
+    "fingers_counted": "5 (thumb on the medial/image-right side + 4 fingers, tips ~(0.23-0.26,0.56-0.57))",
+    "ok": true,
+    "box": [0.225, 0.46, 0.30, 0.58]
+   },
+   {
+    "whose": "patient LEFT hand (far arm)",
+    "fingers_counted": "0 - the far forearm stops at the top edge of the practitioner's hand at y ~0.478 (x 0.505-0.54); no wrist or hand of its own is visible anywhere",
+    "ok": false,
+    "box": [0.49, 0.40, 0.56, 0.50]
+   },
+   {
+    "whose": "practitioner LEFT (near) hand on the patient's knee",
+    "fingers_counted": "5 (thumb on the upper side, tip ~(0.47,0.536), + index, middle, ring, little); joined to his own wrist, forearm and cuff; small white rim highlights between the fingers",
+    "ok": true,
+    "box": [0.46, 0.48, 0.55, 0.60]
+   },
+   {
+    "whose": "practitioner RIGHT hand",
+    "fingers_counted": "not visible - forearm passes behind his own raised knee (plausible)",
+    "ok": true,
+    "box": [0.64, 0.34, 0.68, 0.50]
+   }
+  ],
+  "defects": [
+   {
+    "category": "hands/limbs",
+    "description": "Merged limbs, the same failure class as before. The patient's dark, hairy far (left) forearm runs from his elbow (~0.55,0.31) down to y ~0.478 and ends in a straight horizontal edge exactly where the practitioner's hand begins. The patient has no left wrist or hand anywhere in frame. The practitioner's hand on the knee therefore reads as attached to two forearms: its own from the right and the patient's from above.",
+    "box": [0.48, 0.40, 0.57, 0.53]
+   },
+   {
+    "category": "red_glow (minor)",
+    "description": "The glow sits on the lateral (outer) joint line under the practitioner's fingertips; the brief asks for the inner side of the knee.",
+    "box": [0.43, 0.51, 0.48, 0.58]
+   },
+   {
+    "category": "practitioner_face (minor)",
+    "description": "A sliver of dark jaw/stubble about 4 px tall touches the top edge above the practitioner's collar. It is barely visible but it is the chin.",
+    "box": [0.702, 0.0, 0.717, 0.003]
+   }
+  ],
+  "previous_failure_fixed": false,
+  "notes": "Partly fixed. The practitioner's upper forearm now has a wrist and hand, and the patient's near hand has countable fingers with no ribbon strips. The core merge persists: the patient's far forearm terminates in the practitioner's hand and has no hand of its own. Overlay: femur in the thigh, tibia and fibula in the shin with the fibula lateral (image-right); correct placement. Feet: the patient's left foot has 5 toes with the big toe medial; his right foot is turned out, with the big and 2nd toes visible and the rest occluded. The practitioner kneels in a natural lunge. Console at right is blurred, probes are cabled, no text."
+ },
+ {
+  "name": "cond-oa-assess-b",
+  "pair": "cond-oa-assess",
+  "verdict": "MINOR",
+  "hands": [
+   {
+    "whose": "patient RIGHT hand resting on his right knee (image-left)",
+    "fingers_counted": "5 (thumb on the medial/image-right side + index, middle, ring; little finger mostly behind the ring finger, its own tip visible at ~(0.22,0.56)) - confirmed at 7-12x and by luminance rows",
+    "ok": true,
+    "box": [0.205, 0.43, 0.30, 0.585]
+   },
+   {
+    "whose": "patient LEFT hand resting on his left thigh",
+    "fingers_counted": "4 fingers visible (4 PIP creases, little finger shortest on the lateral side); thumb hidden on the inner thigh - plausible",
+    "ok": true,
+    "box": [0.44, 0.38, 0.53, 0.58]
+   },
+   {
+    "whose": "practitioner RIGHT hand pinching the outer side of the patient's left knee",
+    "fingers_counted": "5 at most (thumb pointing down on the image-right side, nail ~(0.586,0.523); 2 fingers curled over the front of the knee; 2 fingertip-like pads curling under the thumb inside the red glow). Back of hand toward the camera with fingers down, so thumb image-right = correct for a right hand",
+    "ok": true,
+    "box": [0.545, 0.40, 0.635, 0.58]
+   },
+   {
+    "whose": "practitioner LEFT hand resting on his own knee",
+    "fingers_counted": "4 relaxed fingers visible, thumb hidden - plausible",
+    "ok": true,
+    "box": [0.72, 0.42, 0.85, 0.62]
+   }
+  ],
+  "defects": [
+   {
+    "category": "red_glow (minor)",
+    "description": "The glow sits on the lateral (outer) joint line under the practitioner's pinch; the brief asks for the inner side of the knee.",
+    "box": [0.555, 0.50, 0.59, 0.57]
+   },
+   {
+    "category": "overlay_anatomy (minor)",
+    "description": "Faint stray teal line on the medial calf below the tibia.",
+    "box": [0.52, 0.58, 0.54, 0.64]
+   },
+   {
+    "category": "hands (minor)",
+    "description": "Under the practitioner's thumb, two fingertip-like pads sit inside the red glow. The grip arrangement is ambiguous at 6-12x, but there is no extra digit (5 at most) and it reads as a natural pinch at normal size.",
+    "box": [0.57, 0.52, 0.60, 0.575]
+   }
+  ],
+  "previous_failure_fixed": true,
+  "notes": "Previous merge fixed: the practitioner's arm and the patient's forearms are separate, each with its own hand, and both patient hands rest on his own thighs with countable fingers and no ribbon strips. Overlay: femur, condyles, tibia and fibula sit correctly inside the left leg, fibula lateral. Feet: patient's left foot has 5 toes with the big toe medial; his right foot is turned out (big and 2nd toes visible). The practitioner kneels in black socks with natural proportions (thigh ~577 px, shin ~545 px). The top edge shows only the shirt placket and a sliver of chest skin at the V, no chin. The background console is blurred with no text."
+ },
+ {
+  "name": "cond-oa-treat-a",
+  "pair": "cond-oa-treat",
+  "verdict": "PASS",
+  "hands": [
+   {
+    "whose": "patient RIGHT hand flat on the table behind him (left frame edge)",
+    "fingers_counted": "4 visible (thumb on the image-right side + 3 fingers; the rest cut by the frame edge)",
+    "ok": true,
+    "box": [0.0, 0.64, 0.10, 0.76]
+   },
+   {
+    "whose": "practitioner RIGHT hand gripping the laser-head handle",
+    "fingers_counted": "5 (4 fingers wrapped around the handle + thumb) - plausible grip, joined to his forearm",
+    "ok": true,
+    "box": [0.48, 0.16, 0.60, 0.33]
+   },
+   {
+    "whose": "practitioner LEFT hand hanging at his side",
+    "fingers_counted": "5 (thumb on the image-left side + 4 fingers) - correct for a left hand seen from the back",
+    "ok": true,
+    "box": [0.84, 0.44, 0.96, 0.64]
+   }
+  ],
+  "defects": [],
+  "previous_failure_fixed": true,
+  "notes": "Three-leg defect fixed. Exactly two legs run straight along the table from the two shorts openings. Near/right leg: knee to shin to heel on the table, then a foot with its dorsum to the camera and the big toe on top plus 4 lesser toes, each with a nail (5 toes). Far/left leg: knee to shin, with the table visible above it, to its own heel, then a foot showing the sole with a big toe plus 4 lesser toes (5 toes). The knee-to-knee offset matches the heel-to-heel offset. The patient's left hand is hidden behind his torso as he leans back, which is plausible. Laser: white head on a handle, articulated arm to a stand pole, black cable along arm and pole to a connector. Three red beams land on top of the knee; the head is about a hand's width above the skin (~0.11 of the frame height), not touching. Overlay: femur, condyles, patella, tibia and fibula inside the near leg along its axis; the glow sits at the joint under the beams. In this lateral view the medial side faces away from the camera, so that placement is acceptable. Top edge is shirt only. The console is blurred with no text; the spine model on the windowsill is decor."
+ },
+ {
+  "name": "cond-oa-treat-b",
+  "pair": "cond-oa-treat",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "patient RIGHT hand gripping the table edge (left frame edge)",
+    "fingers_counted": "5 (thumb on the image-right side + 4 fingertips curled over the edge)",
+    "ok": true,
+    "box": [0.0, 0.66, 0.10, 0.86]
+   },
+   {
+    "whose": "patient LEFT hand flat on the table behind him",
+    "fingers_counted": "fingers held together and blurred; count not verifiable, no visible defect",
+    "ok": true,
+    "box": [0.06, 0.58, 0.18, 0.70]
+   },
+   {
+    "whose": "practitioner RIGHT hand holding the laser arm segment",
+    "fingers_counted": "thumb on top + curled fingers - plausible grip",
+    "ok": true,
+    "box": [0.59, 0.16, 0.69, 0.31]
+   },
+   {
+    "whose": "practitioner LEFT hand hanging at his side",
+    "fingers_counted": "5 (thumb on the image-left side + 4 fingers)",
+    "ok": true,
+    "box": [0.79, 0.46, 0.91, 0.62]
+   }
+  ],
+  "defects": [
+   {
+    "category": "body/limbs",
+    "description": "Two legs but only one foot. The near/right leg runs knee, shin, then ankle/heel on the table (~0.80-0.87, 0.82-0.90). The far/left shin runs from its knee (~0.55,0.52) along y ~0.57-0.72 and ends at x ~0.84-0.86 on the near foot's ankle and dorsum. The far leg has no foot of its own anywhere; no second heel, sole or toes appear behind, beside or above the near foot. The two legs read as merging into a single foot.",
+    "box": [0.76, 0.55, 0.99, 0.91]
+   },
+   {
+    "category": "feet",
+    "description": "The only visible foot has 6 toes: a large big toe on top (tip ~(0.965,0.59)) plus five lesser toes stacked below, each with its own nail (nails at y ~0.626, 0.645, 0.667, 0.693, 0.719). Confirmed at 5-14x and by nail-blob detection and luminance profiles along the toe line.",
+    "box": [0.90, 0.57, 0.985, 0.745]
+   }
+  ],
+  "previous_failure_fixed": false,
+  "notes": "The third leg is gone, but the leg and foot count is still wrong: two legs share one six-toed foot. Laser: white head on an articulated arm with a stand pole, 3 red beams from 3 apertures to the knee, about a hand-width gap, not touching; plausible. Overlay: femur, condyles, tibia and fibula inside the near leg along its axis, glow at the joint under the beams; correct. Top edge is shirt and button only. The console at right is blurred with no text."
+ },
+ {
+  "name": "cond-osteo-assess-a",
+  "pair": "cond-osteo-assess",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "patient RIGHT hand flat on the table edge (image-left)",
+    "fingers_counted": "4 visible (thumb on the near/camera side + index, middle, ring; little finger hidden behind the ring finger) - plausible; thumb side correct for a right hand pointing to her right",
+    "ok": true,
+    "box": [0.135, 0.535, 0.225, 0.605]
+   },
+   {
+    "whose": "patient LEFT hand hanging relaxed at her side",
+    "fingers_counted": "3 visible (thumb in front with a nail + 2 thin strip-like fingers); ring and little fingers not separated (merged mass) - not cleanly countable",
+    "ok": false,
+    "box": [0.515, 0.50, 0.585, 0.67]
+   },
+   {
+    "whose": "practitioner LEFT hand hovering at her hip",
+    "fingers_counted": "5 (thumb on top + 4 fingers pointing left) - correct for a left hand seen from the back",
+    "ok": true,
+    "box": [0.52, 0.34, 0.62, 0.49]
+   },
+   {
+    "whose": "practitioner RIGHT hand",
+    "fingers_counted": "hidden behind the patient's back (forearm visible reaching behind her) - plausible",
+    "ok": true,
+    "box": [0.49, 0.17, 0.57, 0.31]
+   }
+  ],
+  "defects": [
+   {
+    "category": "hands",
+    "description": "The patient's relaxed left hand has ribbon-strip fingers. Behind the thumb (nail ~(0.543,0.628)), the fingers are two thin strips, about half the thumb's width, outlined with white/pink rim lines and curling under the thumb tip (tips ~(0.541,0.657) and (0.545,0.658)). The ring and little fingers are not separated (merged mass at ~0.556-0.57, 0.60-0.648), so the fingers cannot be counted cleanly. This is the same ribbon-finger artifact flagged in earlier failures.",
+    "box": [0.533, 0.585, 0.572, 0.668]
+   }
+  ],
+  "previous_failure_fixed": true,
+  "notes": "Previous noodle-thin arm fixed. Her left arm now hangs freely beside the thigh at normal width (wrist ~45 px against a face width of ~140 px), and its length matches the other arm. The defect has moved to the hand at the end of that arm. Pose matches the brief: one hand on the table, the other arm relaxed, standing on her right leg. The raised left leg's bare foot has 5 toes with the big toe medial and natural size. Overlay: spine from the cervical to the lumbar region along the midline, curving with her lean; pelvis with both iliac wings; both hip joints; each femur inside its own thigh. Glows sit at the mid back and the left hip. Top edge is shirt collar and button only. The monitor is blurred with no text."
+ },
+ {
+  "name": "cond-osteo-assess-b",
+  "pair": "cond-osteo-assess",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "patient LEFT hand flat on the table edge (image-right)",
+    "fingers_counted": "5 (thumb on the near/camera side + 4 fingers, tips at x ~0.833-0.848) - thumb side correct",
+    "ok": true,
+    "box": [0.755, 0.46, 0.855, 0.545]
+   },
+   {
+    "whose": "patient RIGHT hand hanging relaxed at her side (image-left)",
+    "fingers_counted": "4 visible (thumb in front, nail ~(0.411,0.562), + 3 thin strip-like fingers; little finger hidden)",
+    "ok": false,
+    "box": [0.37, 0.47, 0.44, 0.60]
+   },
+   {
+    "whose": "practitioner RIGHT hand holding the patient's right forearm below the elbow",
+    "fingers_counted": "5 (thumb on top + 4 fingers pointing right) - correct for a right hand seen from the back; index finger partly translucent where it crosses her cuff",
+    "ok": true,
+    "box": [0.36, 0.285, 0.455, 0.42]
+   },
+   {
+    "whose": "practitioner LEFT hand",
+    "fingers_counted": "hidden behind her upper arm/back (forearm visible reaching behind her) - plausible",
+    "ok": true,
+    "box": [0.36, 0.15, 0.46, 0.27]
+   }
+  ],
+  "defects": [
+   {
+    "category": "hands",
+    "description": "The patient's relaxed right hand has ribbon-strip fingers. Beside the thumb, three thin strips (about half the thumb's width) are outlined with white/pink rim lines, tips at ~(0.401,0.588), (0.408,0.586) and (0.411,0.579). A stray white highlight fleck sits at ~(0.405,0.539). Same artifact class as variant a.",
+    "box": [0.383, 0.525, 0.428, 0.595]
+   },
+   {
+    "category": "hands (minor)",
+    "description": "The practitioner's right index finger turns semi-transparent where it crosses the patient's knit cuff; a ghost nail-like oval shows the knit through it.",
+    "box": [0.425, 0.352, 0.445, 0.372]
+   }
+  ],
+  "previous_failure_fixed": true,
+  "notes": "Previous noodle-thin arm fixed. The composition is mirrored: she faces the camera holding the table with her LEFT hand at image-right, and her relaxed RIGHT arm has normal width and length, matching the table arm. The practitioner grips that forearm rather than hovering at her waist, a small deviation from the brief. The raised right foot has 5 toes with the big toe medial; the standing foot is cut by the bottom edge at the ankle. Overlay: anterior-view spine in the torso midline down to the sacrum, pelvis with both iliac wings, and the standing left leg's femur inside the thigh to the knee. The raised thigh's femur is foreshortened toward the camera and not drawn, which is acceptable. Glows sit at the mid back and the left hip. The top edge shows only the collar V and neck skin, no chin. The monitor at left is blurred with no text."
+ }
+]

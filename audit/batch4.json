@@ -1,0 +1,93 @@
+[
+ {
+  "name": "ak-balance",
+  "path": "final/full/ak-balance.jpg",
+  "kind": "plate",
+  "page_section": "applied-kinesiology (+ is-muscle-testing-legitimate, faq, first-visit) :: Applied Kinesiology in Roseville; A balance weighing what a method can and cannot claim",
+  "intended_subject": "a classical two-pan balance scale: an upright central post on a round base, a level beam across the top, and a shallow pan hanging from each end on fine chains; the beam is perfectly level; three small circular marks run up the central post."
+ },
+ {
+  "name": "ak-chain",
+  "path": "final/full/ak-chain.jpg",
+  "kind": "plate",
+  "page_section": "applied-kinesiology/is-muscle-testing-legitimate (+ condition pages' chain concept) :: One input, always corroborated",
+  "intended_subject": "a short horizontal chain of seven oval links lying across the page; the middle link is drawn thicker and filled pale teal, visibly carrying the strain, while the links either side are thinner and slightly stretched."
+ },
+ {
+  "name": "cond-auto-hero",
+  "path": "final/full/cond-auto-hero.jpg",
+  "kind": "plate",
+  "page_section": "conditions/auto-accident-injury :: Auto Accident Injury Care in Roseville",
+  "intended_subject": "the cervical spine and the base of the skull in side profile, the neck bent slightly forward, with three thin concentric pale teal ripple lines passing through the upper neck like a travelling shockwave. The vertebrae carry no labels: no letters or numbers such as C3 or C7 anywhere. Anatomically accurate."
+ },
+ {
+  "name": "cond-carpal-assess",
+  "path": "final/full/cond-carpal-assess.jpg",
+  "kind": "plate",
+  "page_section": "conditions/carpal-tunnel :: We follow the nerve from the neck to the fingertip",
+  "intended_subject": "one whole arm and shoulder with the lower neck vertebrae and the collarbone drawn in outline, and a single fine pale teal nerve traced continuously from the lower neck, under the collarbone, down the inner arm and forearm, through the wrist and into the thumb and first fingers, showing the whole path of the nerve from neck to fingertip. Anatomically accurate."
+ },
+ {
+  "name": "cond-carpal-hero",
+  "path": "final/full/cond-carpal-hero.jpg",
+  "kind": "plate",
+  "page_section": "conditions/carpal-tunnel :: Carpal Tunnel Treatment in Roseville",
+  "intended_subject": "the bones of the hand and wrist seen palm-up, with the median nerve drawn as a fine continuous pale teal line running from the forearm through the carpal tunnel beneath a band of ligament across the wrist, and branching into the thumb, index, middle and half of the ring finger. Anatomically accurate."
+ },
+ {
+  "name": "cond-fibro-hero",
+  "path": "final/full/cond-fibro-hero.jpg",
+  "kind": "plate",
+  "page_section": "conditions/fibromyalgia :: Fibromyalgia Care in Roseville",
+  "intended_subject": "a full standing human figure seen from behind, drawn in fine outline like an anatomical study (no facial features, no genitals), with eighteen small solid deep-teal dots placed symmetrically at the classic tender points: the base of the skull, the lower neck, the tops of the shoulders, beside the shoulder blades, the elbows, the upper buttocks, the outer hips and the inner knees. Every dot sits ON the body surface exactly at its tender point; no dot floats beside the body. Plain warm cream paper background with no panel, card or frame behind the figure."
+ },
+ {
+  "name": "cond-frozen-hero",
+  "path": "final/full/cond-frozen-hero.jpg",
+  "kind": "plate",
+  "page_section": "conditions/frozen-shoulder :: Frozen Shoulder Treatment in Roseville",
+  "intended_subject": "the shoulder joint seen from the front: collarbone, shoulder blade and the upper arm bone hanging down, with a large dotted arc showing the full range the arm should travel overhead and a much shorter solid pale teal arc showing the restricted range it actually reaches. Anatomically accurate."
+ },
+ {
+  "name": "cond-headache-hero",
+  "path": "final/full/cond-headache-hero.jpg",
+  "kind": "plate",
+  "page_section": "conditions/headache-migraine :: Headache and Migraine Care in Roseville",
+  "intended_subject": "the base of the skull and the top two neck vertebrae (the ring-shaped atlas and the axis with its upright peg) in a three-quarter rear view, showing how the skull rests on the atlas, with the next three cervical vertebrae below. Anatomically accurate."
+ },
+ {
+  "name": "cond-lbp-hero",
+  "path": "final/full/cond-lbp-hero.jpg",
+  "kind": "plate",
+  "page_section": "conditions/low-back-pain :: Low Back Pain Treatment in Roseville",
+  "intended_subject": "the five lumbar vertebrae and the sacrum in side profile, with the discs between them and the gentle inward curve of the lower back, the spinous processes pointing to the right. Anatomically accurate."
+ },
+ {
+  "name": "cond-oa-hero",
+  "path": "final/full/cond-oa-hero.jpg",
+  "kind": "plate",
+  "page_section": "conditions/osteoarthritis :: Osteoarthritis Care in Roseville",
+  "intended_subject": "the knee joint seen from the front: the lower thigh bone, the shin bone and the fibula, with the joint space visibly narrowed on the inner side and a few small bony spurs at its edges, the kneecap drawn faintly. Anatomically accurate."
+ },
+ {
+  "name": "cond-osteo-hero",
+  "path": "final/full/cond-osteo-hero.jpg",
+  "kind": "plate",
+  "page_section": "conditions/osteoporosis :: Osteoporosis Care in Roseville",
+  "intended_subject": "engraved plate: upper femur cut open showing trabecular bone getting sparser (bone losing density)"
+ },
+ {
+  "name": "cond-pinched-hero",
+  "path": "final/full/cond-pinched-hero.jpg",
+  "kind": "plate",
+  "page_section": "conditions/pinched-nerve :: Pinched Nerve Treatment in Roseville",
+  "intended_subject": "two neck vertebrae in side profile with the disc between them bulging slightly backward and pressing on a nerve root as it leaves through the opening between the vertebrae; the nerve root is drawn in pale teal and narrows visibly at the pinch point, then continues outward. Anatomically accurate."
+ },
+ {
+  "name": "svc-hormone-thyroid",
+  "path": "final/full/svc-hormone-thyroid.jpg",
+  "kind": "plate",
+  "page_section": "services/hormone-therapy-management :: Hormone Therapy Management in Roseville",
+  "intended_subject": "the thyroid gland: a butterfly-shaped gland with two lobes joined by a narrow bridge, wrapped across the front of the windpipe just below the larynx, with the ringed cartilage of the windpipe running below it. Anatomically accurate."
+ }
+]

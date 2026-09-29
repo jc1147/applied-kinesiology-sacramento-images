@@ -1,0 +1,144 @@
+[
+  {
+    "name": "cond-neck-treat-a",
+    "pair": "cond-neck-treat",
+    "verdict": "FAIL",
+    "hands": [
+      {
+        "whose": "practitioner RIGHT hand (top of the stack; forearm enters from image-left; he stands at the far end facing the camera)",
+        "fingers_counted": "4 visible (4 fingers with nails pointing down-right); thumb on the upper-right (radial) side hidden under his left forearm/wrist, the correct side for a right hand palm-down with fingers toward the camera",
+        "ok": true,
+        "box": [0.40, 0.23, 0.60, 0.37]
+      },
+      {
+        "whose": "practitioner LEFT hand (underneath; forearm enters from image-right)",
+        "fingers_counted": "4 visible (4 fingers with nails pointing down-left); thumb tucked under the top hand on the upper-left, small rounded tip showing; no extra digit in the gap between the hands",
+        "ok": true,
+        "box": [0.42, 0.29, 0.58, 0.40]
+      }
+    ],
+    "defects": [
+      {
+        "category": "overlay_anatomy",
+        "description": "Both shoulder blades are UPSIDE DOWN relative to where her head really is, repeating the round-2 failure. The camera is still at the HEAD end: her head is in the face cradle at the bottom of the frame and her shoulder line (where the arms leave the torso) is at y~0.65-0.70. Each blade has its broad top edge / acromion hook at y~0.41-0.45 (toward the blanket and hips) and its lower tip at y~0.60-0.62, pointing down the frame toward her head and neck. They should have the broad edge at the shoulder line and the tips pointing up the frame toward her feet. The drawn upper back also sits too far toward the hips.",
+        "box": [0.28, 0.40, 0.68, 0.63]
+      },
+      {
+        "category": "scene",
+        "description": "The brief asked for the camera at the foot end, the practitioner at the side, and his hands between the shoulder blades. Here the camera is at the head end, the practitioner stands at the far (hip) end of the table, and his stacked hands rest at the blanket line on her lower back, far from the shoulders.",
+        "box": [0.40, 0.22, 0.60, 0.40]
+      },
+      {
+        "category": "pain_glow",
+        "description": "The red glow sits between the drawn blade tops on the hip-side half of the column (y~0.39-0.57), which is the mid back of the real body. It does not reach the base of the neck (the column ends at the hairline, y~0.63).",
+        "box": [0.36, 0.38, 0.58, 0.57]
+      }
+    ],
+    "previous_failure_fixed": false,
+    "pick": false,
+    "notes": "Variant -a still shows the head end, and the blade tips point toward her head, so the round-2 failure is NOT fixed. The spine itself is a single midline column. The patient's hands are out of frame (arms end at the elbows at the bottom edge) and no feet are visible (blanket). The practitioner's face is out of frame (cut at the chest). The background device screen is fully blurred, with no readable text. Page crop 1:1 (no crop) cuts nothing."
+  },
+  {
+    "name": "cond-neck-treat-b",
+    "pair": "cond-neck-treat",
+    "verdict": "MINOR",
+    "hands": [
+      {
+        "whose": "practitioner TOP hand of the stack on the base of her neck / top of the upper back (he stands at the side, image right)",
+        "fingers_counted": "4 visible (4 fingers with nails and knuckle creases pointing down-left); thumb not visible (tucked or hidden by the hand)",
+        "ok": true,
+        "box": [0.43, 0.36, 0.61, 0.49]
+      },
+      {
+        "whose": "practitioner LOWER hand of the stack (under the top hand)",
+        "fingers_counted": "1 visible (one finger with nail and 2 creases emerging from under the top hand's lower-right edge); rest covered by the top hand",
+        "ok": true,
+        "box": [0.50, 0.44, 0.615, 0.495]
+      }
+    ],
+    "defects": [
+      {
+        "category": "hands (minor)",
+        "description": "The stacked hands read naturally at page size (4 fingers on the top hand, 1 finger of the lower hand peeking out beneath). At 3.5x, the back of the top hand blends smoothly into the vertical (far/right) forearm's wrist, while the diagonal (near/left) forearm stops at a crease against its side. Which forearm owns the top hand is ambiguous, and neither thumb is visible. No wrong digit count, fusion or ribbon strips.",
+        "box": [0.51, 0.32, 0.645, 0.43]
+      }
+    ],
+    "previous_failure_fixed": true,
+    "pick": true,
+    "notes": "The camera is at the FOOT end as briefed, with her head at the top. The spine is one midline column from the base of the neck to the blanket. Both shoulder blades are correctly oriented: the broad top edge / acromion sits at the shoulder line (y~0.47-0.50) and the lower tips point down the back toward her feet (y~0.65-0.66). The round-2 failure is FIXED. The red glow sits at the base of the neck between the upper blades, right under his fingertips. The practitioner stands at the side with his face out of frame (cut at the chest). The patient's forearms are tucked under the blanket at the elbows. Her upper arms look long but match the high foot-end view (the elbows drop to table level). No feet are visible. The device screen and shelf are blurred, with no readable text. Page crop 1:1 (no crop) cuts nothing."
+  },
+  {
+    "name": "cond-osteo-assess-a",
+    "pair": "cond-osteo-assess",
+    "verdict": "PASS",
+    "hands": [
+      {
+        "whose": "patient LEFT hand, palm down on the near edge of the table",
+        "fingers_counted": "3 visible (index/middle on top, ring finger wearing a ring, little finger nearest the camera, joining at the knuckle line); thumb hidden on the far side, the correct side for a left hand seen from her left; crisp nails and knuckle creases",
+        "ok": true,
+        "box": [0.194, 0.465, 0.279, 0.532]
+      },
+      {
+        "whose": "practitioner LEFT hand (near arm) on her buttock/hip",
+        "fingers_counted": "5 (thumb extended toward her waist + 4 fingers pointing down, 4 nails); back of hand to the camera with the fingers down puts the thumb on the image left, the correct side for a left hand",
+        "ok": true,
+        "box": [0.466, 0.313, 0.535, 0.426]
+      },
+      {
+        "whose": "practitioner RIGHT hand (far arm) on her lower back at the waist",
+        "fingers_counted": "1 visible (thumb) + palm; 4 fingers wrapped around her flank out of view",
+        "ok": true,
+        "box": [0.428, 0.263, 0.476, 0.331]
+      }
+    ],
+    "defects": [],
+    "previous_failure_fixed": true,
+    "pick": true,
+    "notes": "Her right arm is fully out of view as briefed, and every visible hand is natural, so the round-2 ribbon-strip failure is FIXED. Feet: the raised near (left) foot shows all 5 toes; the standing (right) foot is seen from the inner side, with the big toe in front and the small toes behind it. At the knee, the raised left leg overlaps the standing leg correctly, limb lengths are consistent, and there are no extra limbs. The overlay (S-curved spine, pelvis, hip joint, and femur following the lifted thigh to the knee) is inside the body and matches the side-on lean. Back glow centroid (846,414) is about T12-L1, the low end of the mid back (acceptable). Hip glow centroid (922,615) is on the hip joint. The practitioner is cut at the collar (neck sliver only, no chin). Scene note, not a defect: his hands rest ON her back and buttock rather than hovering. The monitor is blurred, with no readable text. The 7:5 page crop (keeps x 72-1976) cuts nothing important. Her crown touches the top edge in the original framing."
+  },
+  {
+    "name": "cond-osteo-assess-b",
+    "pair": "cond-osteo-assess",
+    "verdict": "MINOR",
+    "hands": [
+      {
+        "whose": "patient LEFT hand, palm down on the near edge of the table",
+        "fingers_counted": "3 visible (seen from the little-finger side); thumb hidden on the far side (correct side). Structurally sound, but the fingers are low-detail (see defects)",
+        "ok": true,
+        "box": [0.164, 0.474, 0.244, 0.533]
+      },
+      {
+        "whose": "practitioner LEFT hand (near arm) on her buttock",
+        "fingers_counted": "5 (thumb pointing forward toward her waist + 4 fingers pointing down, 4 nails); thumb on the image left with the back of the hand to the camera, the correct side for a left hand",
+        "ok": true,
+        "box": [0.483, 0.324, 0.554, 0.423]
+      },
+      {
+        "whose": "practitioner RIGHT hand (far arm)",
+        "fingers_counted": "0 visible: the forearm reaches past her lower back and the hand is hidden behind her torso; the forearm ends cleanly at her back contour, not merged into it",
+        "ok": true,
+        "box": [0.439, 0.265, 0.483, 0.324]
+      }
+    ],
+    "defects": [
+      {
+        "category": "hands (minor)",
+        "description": "The patient's left hand on the table is structurally sound (wrist, veined back, normal finger length, thumb hidden on the correct far side) but low-detail. At 4-8x, the 3 visible fingers are flat, tapering strips with no visible nails or knuckle creases, ending in pointed tips. It reads as a normal flat hand at page size, but it is a mild echo of the round-2 ribbon look and clearly weaker than -a's crisp hand.",
+        "box": [0.164, 0.474, 0.244, 0.533]
+      },
+      {
+        "category": "overlay_anatomy (minor)",
+        "description": "The femur shaft drops almost vertically (~77 deg) from the hip joint and stops mid-thigh, while her visible near (left) thigh is lifted and angles forward to the knee (~53 deg). The femur does not follow the lifted leg and reads as the hidden standing leg's femur. Spine, pelvis and hip joint are correct.",
+        "box": [0.410, 0.471, 0.449, 0.618]
+      },
+      {
+        "category": "pain_glow (minor)",
+        "description": "The back glow centroid (851,446) sits ~83% of the way from the base of the neck to the iliac crest, about L1-L2 just above the pelvis, so it reads more as lower back than mid back. In -a it is ~75% (T12-L1). The hip glow (centroid 907,623) is correctly on the hip joint.",
+        "box": [0.386, 0.287, 0.447, 0.360]
+      }
+    ],
+    "previous_failure_fixed": true,
+    "pick": false,
+    "notes": "Her right arm is out of view, so the round-2 hanging-hand failure is FIXED; the only patient hand is on the table and is low-detail (MINOR). Pose: left knee lifted forward with ~120 deg flexion and the shin running back. Limb lengths are consistent (raised thigh ~333 px, raised shin ~332 px, standing leg ~650 px hip to ankle). The raised foot shows 5 toes; the standing foot is seen from the inner side with the big toe in front. The spine and pelvis overlay sit inside the body and match the side-on lean. The practitioner is cut at the collar (neck sliver only). The monitor and wall art are blurred, with no readable text. The 7:5 page crop cuts nothing important. Her crown touches the top edge in the original framing. Usable, but -a is the better variant."
+  }
+]

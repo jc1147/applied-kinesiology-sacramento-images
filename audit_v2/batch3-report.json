@@ -1,0 +1,672 @@
+[
+ {
+  "name": "cond-stress-treat",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner's right hand (image-left), thumb pressing top of far shoulder",
+    "fingers_counted": "5: thumb + index extended, middle/ring/little curled (3 knuckles visible)",
+    "ok": true,
+    "box": [
+     0.33,
+     0.34,
+     0.52,
+     0.49
+    ]
+   },
+   {
+    "whose": "practitioner's left hand (image-right), thumb pressing base of neck",
+    "fingers_counted": "5: thumb + 4 fingers wrapping over the far shoulder (tips hidden behind shoulder, plausible)",
+    "ok": true,
+    "box": [
+     0.52,
+     0.37,
+     0.7,
+     0.56
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "overlay",
+    "description": "Far shoulder blade is drawn in the mid/lower back (x 0.25-0.49, about T5-L2), with 7-8 vertebrae between its top edge and the neck. It sits far below the far shoulder (x 0.55-0.70) and floats detached from the shoulder joint.",
+    "box": [
+     0.25,
+     0.47,
+     0.49,
+     0.61
+    ]
+   },
+   {
+    "category": "overlay",
+    "description": "Near shoulder blade is the same: drawn in the mid/lower back (x 0.25-0.47), far below the near shoulder and detached from the arm that hangs off the table. The overlay puts both shoulder blades where the lower ribs are.",
+    "box": [
+     0.25,
+     0.66,
+     0.47,
+     0.78
+    ]
+   }
+  ],
+  "notes": "Spine runs correctly along the lying body with the neck vertebrae at the neck; trapezius fine lines present. Red glow at the tops of the shoulders and the base of the neck, with the thumbs on it (matches brief). Top edge: shirt chest and buttons only, no collar, neck or chin. Body complete: head in the face cradle, near arm hangs off the table edge and is continuous, far arm hidden, lower back under the towel. Clinic background (window, shelves, device with blurred screen); no readable text."
+ },
+ {
+  "name": "cond-tennis-treat",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner's right hand holding the handheld laser probe",
+    "fingers_counted": "4 visible: index laid along the probe, middle, ring, little curled; thumb hidden behind the probe",
+    "ok": true,
+    "box": [
+     0.1,
+     0.25,
+     0.37,
+     0.44
+    ]
+   },
+   {
+    "whose": "practitioner's left hand resting on the patient's forearm",
+    "fingers_counted": "5: thumb (image-left) + 4 fingers fanned",
+    "ok": true,
+    "box": [
+     0.45,
+     0.43,
+     0.68,
+     0.53
+    ]
+   },
+   {
+    "whose": "patient's right fist (lower-left)",
+    "fingers_counted": "4 curled fingers seen from the back, thumb hidden",
+    "ok": true,
+    "box": [
+     0.0,
+     0.54,
+     0.26,
+     0.77
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "overlay",
+    "description": "The overlay's forearm bones end in a joint-like knob at mid-forearm (x~0.39) instead of running to the wrist (x~0.26), so the distal forearm has no bones. The fanned 'tendon origin' is drawn at that knob, which reads as a second elbow in the middle of the forearm.",
+    "box": [
+     0.36,
+     0.46,
+     0.5,
+     0.6
+    ]
+   },
+   {
+    "category": "red_glow",
+    "description": "The probe and the main red glow sit at mid-forearm (x 0.38-0.48), about 0.3 of the frame width from the real outer elbow (x~0.72-0.80). The brief asks for the probe just above the bony point on the outer side of the elbow. The correctly drawn elbow joint has only a secondary glow.",
+    "box": [
+     0.36,
+     0.47,
+     0.5,
+     0.58
+    ]
+   },
+   {
+    "category": "render",
+    "description": "The probe's white cable runs into the top of the patient's closed fist and out below it, so he appears to be clutching the laser cable.",
+    "box": [
+     0.03,
+     0.37,
+     0.17,
+     1.0
+    ]
+   }
+  ],
+  "notes": "Correct elbow joint (humerus condyles, olecranon) drawn at the right, secondary glow at (0.66-0.80, 0.52-0.70). Top edge: shirt only. Patient's face is visible at the right edge: allowed, but the brief said only his arm is in frame. Clinic background, blurred monitor, no readable text. Probe is a small white handheld type with a cable (acceptable device)."
+ },
+ {
+  "name": "cond-neck-treat",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner's right hand (top of the stack, image-left forearm)",
+    "fingers_counted": "5: 4 fingers pointing down-right with nails + thumb at the right edge",
+    "ok": true,
+    "box": [
+     0.44,
+     0.38,
+     0.64,
+     0.52
+    ]
+   },
+   {
+    "whose": "practitioner's left hand (bottom of the stack, wrist visible under image-right forearm)",
+    "fingers_counted": "2 fingertips with nails visible under the top hand's little finger; rest hidden (stacked-hand pose, plausible)",
+    "ok": true,
+    "box": [
+     0.49,
+     0.37,
+     0.62,
+     0.5
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "overlay",
+    "description": "Far shoulder blade is drawn as a triangle above the spine at x 0.27-0.44 (about T8-L1), well below the far shoulder (x~0.60, under the hands). It floats in the mid/lower back.",
+    "box": [
+     0.26,
+     0.43,
+     0.46,
+     0.53
+    ]
+   },
+   {
+    "category": "overlay",
+    "description": "Near shoulder blade is stretched down to x~0.38 (about T10), with a stray pointed spike at (0.39, 0.73). A humerus-like long bone runs from the shoulder (0.57, 0.64) straight down to the table edge (0.51, 0.78), at right angles to her upper arm, which lies flat along her side toward the image-left.",
+    "box": [
+     0.37,
+     0.58,
+     0.64,
+     0.8
+    ]
+   }
+  ],
+  "notes": "Spine runs along the body correctly from the waistband (x~0.12) to the neck (x~0.73), but about 26-28 vertebrae were counted in that span, which is too many (note only, low visibility). Red glow on the upper thoracic spine between the shoulder blades, just under the stacked hands (matches brief). Top edge: shirt and buttons only, no collar or chin. Body complete: prone, side of face in the cradle (allowed), near arm along her side to the left edge, far arm hidden. Clinic background with a spine model and a device with a blank screen; no readable text."
+ },
+ {
+  "name": "cond-whiplash-treat",
+  "verdict": "PASS",
+  "hands": [
+   {
+    "whose": "practitioner's right hand (image-left), on the back-left of her neck",
+    "fingers_counted": "3 visible: thumb (pointing to the spine) + index + middle; ring/little hidden behind them as the hand wraps the neck",
+    "ok": true,
+    "box": [
+     0.2,
+     0.43,
+     0.43,
+     0.69
+    ]
+   },
+   {
+    "whose": "practitioner's left hand (image-right), on the back-right of her neck",
+    "fingers_counted": "4 visible: thumb (pointing to the spine) + 3 fingers; little hidden",
+    "ok": true,
+    "box": [
+     0.55,
+     0.43,
+     0.78,
+     0.69
+    ]
+   }
+  ],
+  "defects": [],
+  "notes": "Hands are anatomically consistent: palms on the back of the neck, fingers pointing down, right thumb points right and left thumb points left toward the spine. Nails and knuckle creases are normal; no extra or fused digits. Staging oddity, not a defect: the practitioner stands on the far side facing the camera (shirt buttons visible) and reaches round her head to press the back of her neck. Top edge: shirt front only, no collar or chin. Overlay: skull base at the hairline and the cervical spine vertical along the midline, continuing into the thoracic spine (correct). Red glow on both sides of the neck under the thumbs; the front of the neck is not visible from behind. The patient has a bare back (no clothing visible), so the owner should decide whether that suits the site. Clinic background; no readable text."
+ },
+ {
+  "name": "cond-work-treat",
+  "verdict": "PASS",
+  "hands": [
+   {
+    "whose": "practitioner's left hand on the patient's lower back",
+    "fingers_counted": "5: 4 fingers + thumb tucked",
+    "ok": true,
+    "box": [
+     0.57,
+     0.26,
+     0.72,
+     0.38
+    ]
+   },
+   {
+    "whose": "practitioner's right arm hanging at his side",
+    "fingers_counted": "hand not visible (hidden behind the patient's back, plausible)",
+    "ok": true,
+    "box": [
+     0.53,
+     0.15,
+     0.62,
+     0.33
+    ]
+   },
+   {
+    "whose": "patient's right hand gripping the near side of the box",
+    "fingers_counted": "5: thumb + 4 fingers, 5 nails",
+    "ok": true,
+    "box": [
+     0.16,
+     0.68,
+     0.3,
+     0.87
+    ]
+   },
+   {
+    "whose": "patient's left hand on the far side of the box",
+    "fingers_counted": "fingertips only, curled over the far edge of the box (plausible)",
+    "ok": true,
+    "box": [
+     0.3,
+     0.6,
+     0.34,
+     0.66
+    ]
+   }
+  ],
+  "defects": [],
+  "notes": "Feet: patient in 2 leather work boots and practitioner in 2 shoes, all accounted for. Top edge: shirt and belt, no face. Overlay: lumbar spine and pelvis along the back, oriented with the squat. Red glow on the lower back under the hand. Plain box with no printing; monitor blurred; clinic background."
+ },
+ {
+  "name": "svc-cold-hero",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner's right hand holding the handheld laser probe",
+    "fingers_counted": "5: 4 fingers wrapped round the probe, thumb along its side",
+    "ok": true,
+    "box": [
+     0.2,
+     0.36,
+     0.47,
+     0.53
+    ]
+   },
+   {
+    "whose": "practitioner's left hand resting on the patient's knee",
+    "fingers_counted": "4: thumb + index + middle + ring; NO little finger",
+    "ok": false,
+    "box": [
+     0.44,
+     0.38,
+     0.64,
+     0.53
+    ]
+   },
+   {
+    "whose": "patient's left hand resting on the table (right edge)",
+    "fingers_counted": "5: 4 fingers + thumb partly visible",
+    "ok": true,
+    "box": [
+     0.86,
+     0.6,
+     1.0,
+     0.74
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "hands",
+    "description": "Practitioner's left hand on the knee shows only a thumb and 3 fingers (nails on index, middle and ring). The ulnar edge of the hand ends at the ring finger, with grey trouser fabric where the little finger should be, so it reads as a 4-digit hand. Confirmed on enhanced crop svc-cold-hero__hand_prac_knee_enh.png.",
+    "box": [
+     0.44,
+     0.38,
+     0.64,
+     0.53
+    ]
+   }
+  ],
+  "notes": "Top edge: shirt with a small strip of neck skin in the collar V; no chin or jaw. Overlay: knee joint (femoral condyles, tibia, fibula) runs along the shin and matches the leg. Red glow at the inner side of the right knee's joint line; the probe beam enters at the upper edge of the knee and its axis points into the glow (acceptable). Legs: treated right leg with trousers rolled above the knee and bare shin running to the frame edge; left leg in grey trousers with bare ankle at the bottom. Both are continuous, no shared feet. Patient's face visible (allowed). Clinic background with a spine model; device screen blurred, no text."
+ },
+ {
+  "name": "svc-fx635-device",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner's right hand on the laser arm's handle",
+    "fingers_counted": "4 fingers wrapped round the handle, thumb hidden (plausible)",
+    "ok": true,
+    "box": [
+     0.03,
+     0.155,
+     0.22,
+     0.275
+    ]
+   },
+   {
+    "whose": "practitioner's left hand at the patient's ankle/heel",
+    "fingers_counted": "4 visible: thumb + index + middle + ring; little hidden by the angle",
+    "ok": true,
+    "box": [
+     0.36,
+     0.34,
+     0.49,
+     0.52
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "body",
+    "description": "Far (image-left) bare foot has 6 digits: 5 separate lesser-toe lobes with a crease between each, plus the big toe. Confirmed on svc-fx635-device__toes_far_foot_edge.png.",
+    "box": [
+     0.061,
+     0.698,
+     0.215,
+     0.874
+    ]
+   },
+   {
+    "category": "body",
+    "description": "Near (overlay) foot: big toe, toes 2 and 3, then one broad outer lobe about 108 px wide (the other toes are 62-68 px) with no cleft, i.e. toes 4 and 5 are fused.",
+    "box": [
+     0.28,
+     0.84,
+     0.34,
+     0.9
+    ]
+   },
+   {
+    "category": "overlay",
+    "description": "Toe bones do not match the toes: the phalanx columns sit over and between toes 2-5, none are drawn inside the big toe, and they stop short of the toe tips.",
+    "box": [
+     0.222,
+     0.752,
+     0.347,
+     0.894
+    ]
+   },
+   {
+    "category": "device",
+    "description": "Laser has two arms: a long arm enters from the top-left edge and a short arm rises from the stand column via a black grip. Both converge on the one laser head above the heel, so the arm is doubled or merged.",
+    "box": [
+     0.0,
+     0.02,
+     0.38,
+     0.4
+    ]
+   }
+  ],
+  "notes": "Laser head is white and projects 3 thin red lines onto the heel without touching (matches brief). Red glow on the heel where the lines land. Top edge: shirt only. Patient prone; part of her face visible at the right edge (allowed). Clinic background. Tiny unreadable label at the stand base (0.02, 0.97, 0.04, 1.0); not readable text."
+ },
+ {
+  "name": "svc-pemf-hero",
+  "verdict": "MINOR",
+  "hands": [
+   {
+    "whose": "practitioner's right hand on the PEMF coil rim",
+    "fingers_counted": "5: thumb + 4 fingers curled over the rim",
+    "ok": true,
+    "box": [
+     0.45,
+     0.36,
+     0.58,
+     0.46
+    ]
+   },
+   {
+    "whose": "practitioner's left hand hanging at his side",
+    "fingers_counted": "2 visible: thumb in front + curled index; others behind (out of focus, plausible)",
+    "ok": true,
+    "box": [
+     0.73,
+     0.31,
+     0.83,
+     0.45
+    ]
+   },
+   {
+    "whose": "patient's left hand on the table",
+    "fingers_counted": "4 fingers with 4 nails; thumb hidden medially",
+    "ok": true,
+    "box": [
+     0.44,
+     0.71,
+     0.66,
+     0.84
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "scene",
+    "description": "Brief says nobody touches him, but the practitioner's hand holds the coil rim and its little-finger edge touches the patient's back.",
+    "box": [
+     0.45,
+     0.36,
+     0.58,
+     0.46
+    ]
+   }
+  ],
+  "notes": "Top edge: shirt and collar opening, no chin. Body: face visible (allowed), near arm, torso, hips and legs under the blanket; far arm hidden on the far side (plausible). Overlay: spine from upper thoracic to sacrum plus the pelvis, oriented with the body. Red glow on the lumbar region under the coil. Device: white ring coil on a thin cloth, cable to a small white console, no text on it. Clinic background."
+ },
+ {
+  "name": "ak-mtest",
+  "verdict": "PASS",
+  "hands": [
+   {
+    "whose": "practitioner's right hand pressing just above the patient's wrist",
+    "fingers_counted": "5: 4 fingers (4 nails) draped over the near side + thumb along the top",
+    "ok": true,
+    "box": [
+     0.18,
+     0.35,
+     0.32,
+     0.5
+    ]
+   },
+   {
+    "whose": "practitioner's left hand steadying the patient's right shoulder",
+    "fingers_counted": "5: thumb along the top + 4 fingers (4 nails) over the front",
+    "ok": true,
+    "box": [
+     0.55,
+     0.25,
+     0.67,
+     0.35
+    ]
+   },
+   {
+    "whose": "patient's right hand on the raised arm",
+    "fingers_counted": "5: thumb below + 4 relaxed fingers",
+    "ok": true,
+    "box": [
+     0.06,
+     0.44,
+     0.21,
+     0.57
+    ]
+   },
+   {
+    "whose": "patient's left arm hanging at her side",
+    "fingers_counted": "hand below the bottom frame edge (plausible crop)",
+    "ok": true,
+    "box": [
+     0.87,
+     0.33,
+     0.94,
+     1.0
+    ]
+   }
+  ],
+  "defects": [],
+  "notes": "Top edge: shirt and chest hair in the collar V; no chin. Overlay: humeral head, glenoid, clavicle, scapula and arm muscles along the raised arm, oriented with the abducted pose. Red glow on the deltoid at the top of the arm, matching the test. Hands match the brief (one presses above the wrist, the other steadies the shoulder). Clinic background; monitor and shelf box labels blurred and unreadable."
+ },
+ {
+  "name": "ak-roof",
+  "verdict": "MINOR",
+  "hands": [
+   {
+    "whose": "practitioner's right hand on the patient's left upper back/trapezius",
+    "fingers_counted": "5: thumb on top + index/middle/ring/little, 5 nails, middle longest",
+    "ok": true,
+    "box": [
+     0.2,
+     0.46,
+     0.38,
+     0.64
+    ]
+   },
+   {
+    "whose": "practitioner's left arm",
+    "fingers_counted": "forearm only; hand hidden behind the patient's neck (plausible)",
+    "ok": true,
+    "box": [
+     0.23,
+     0.3,
+     0.31,
+     0.44
+    ]
+   },
+   {
+    "whose": "patient's left hand in his lap",
+    "fingers_counted": "small skin patch only, between arm and torso (plausible)",
+    "ok": true,
+    "box": [
+     0.63,
+     0.93,
+     0.65,
+     0.96
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "red_glow",
+    "description": "The glow is on the patient's right shoulder, but the practitioner's hand rests on the opposite (left) side of the upper back, so the hand is not on the glowing site.",
+    "box": [
+     0.48,
+     0.49,
+     0.67,
+     0.66
+    ]
+   }
+  ],
+  "notes": "Top edge: shirt with a sliver of neck skin in the collar V at x~0.12-0.13; no chin. Patient seen from behind in right profile (allowed); right arm hangs at his side, left arm in front of the torso. Overlay: cervical and upper thoracic spine, clavicle, scapular spine to the acromion, scapula and humeral head in posterior view, oriented correctly. Laser: white, stand-mounted on a wheeled base with an articulated arm and head, not in use (matches brief). Screens blurred; no text."
+ },
+ {
+  "name": "ak-legit-hero",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner's left hand pressing the patient's distal forearm",
+    "fingers_counted": "4 fingers (4 nails) draped over the near side; thumb hidden on the far side (correct side)",
+    "ok": true,
+    "box": [
+     0.47,
+     0.29,
+     0.64,
+     0.58
+    ]
+   },
+   {
+    "whose": "practitioner's right hand cupping the patient's elbow from below",
+    "fingers_counted": "4 visible: thumb curled up onto the near side + index, middle, ring; little hidden",
+    "ok": true,
+    "box": [
+     0.07,
+     0.66,
+     0.29,
+     0.88
+    ]
+   },
+   {
+    "whose": "patient's closed fist",
+    "fingers_counted": "4 curled fingers seen from the back; thumb tucked/hidden (plausible)",
+    "ok": true,
+    "box": [
+     0.64,
+     0.37,
+     0.86,
+     0.6
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "overlay",
+    "description": "Hand skeleton over the fist has only 3 metacarpals (the 4 knuckles need 4) and a single rounded carpal between the radius/ulna and the metacarpals (there should be 8 small carpal bones). The miscount is drawn large on the back of the fist.",
+    "box": [
+     0.61,
+     0.38,
+     0.82,
+     0.54
+    ]
+   },
+   {
+    "category": "scene",
+    "description": "Not to brief: the grip is a fingertip/claw grip on the distal forearm, not a flat palm on the back of the wrist. The practitioner's shirt and belt fill the upper third, although the brief asked for only the two pairs of hands and forearms.",
+    "box": [
+     0.0,
+     0.0,
+     0.72,
+     0.3
+    ]
+   }
+  ],
+  "notes": "Forearm part of the overlay is correct (radius, ulna, elbow joint, forearm muscles along the arm). Red glow on the mid-forearm extensor muscles, with the pressing hand just beyond it toward the wrist. Top edge: shirt only, no face. Patient arm continuous from the left edge through the elbow and forearm to the fist; grey fabric in the bottom-left corner is the patient's body/knee (plausible). Clinic background; monitor blurred, no text."
+ },
+ {
+  "name": "about-hero",
+  "verdict": "MINOR",
+  "hands": [
+   {
+    "whose": "practitioner's left hand pressing above the patient's right wrist",
+    "fingers_counted": "5: thumb along the top toward the elbow + 4 fingers with 4 nails",
+    "ok": true,
+    "box": [
+     0.75,
+     0.41,
+     0.87,
+     0.6
+    ]
+   },
+   {
+    "whose": "practitioner's right hand gripping a handheld laser probe",
+    "fingers_counted": "4 visible: thumb on top, index round the far side, 2 fingertips curled under; little hidden",
+    "ok": true,
+    "box": [
+     0.35,
+     0.21,
+     0.44,
+     0.36
+    ]
+   },
+   {
+    "whose": "patient's right hand on the raised arm",
+    "fingers_counted": "4 fingers with 4 nails (middle longest); thumb hidden on the far side",
+    "ok": true,
+    "box": [
+     0.82,
+     0.5,
+     0.97,
+     0.61
+    ]
+   },
+   {
+    "whose": "patient's left arm at her side",
+    "fingers_counted": "hand not visible, in front of her body (plausible)",
+    "ok": true,
+    "box": [
+     0.1,
+     0.36,
+     0.18,
+     0.78
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "scene",
+    "description": "The practitioner holds a handheld laser probe to her shoulder during the muscle test. The brief's foreground is a manual muscle test only, with the laser as the stand unit in the background.",
+    "box": [
+     0.34,
+     0.2,
+     0.45,
+     0.37
+    ]
+   },
+   {
+    "category": "device",
+    "description": "The background device on the left is a generic white wheeled cart with a touchscreen. It has no articulated arm or laser head, so it is not the specified white stand-mounted laser.",
+    "box": [
+     0.01,
+     0.26,
+     0.13,
+     0.82
+    ]
+   }
+  ],
+  "notes": "Top edge: shirt with the collar V at x~0.68; no chin. Patient seen from behind in profile (allowed); right thigh visible, other leg hidden behind her body (plausible). Overlay: scapula, humeral head, arm muscles, elbow and forearm along the abducted arm, oriented correctly. Red glow on top of the right shoulder, with the probe beam on it. PEMF ring coil with its cable on the side table (matches brief; console only partly visible at the right edge). No readable text (probe has a blank lit window; cart screen blurred)."
+ }
+]

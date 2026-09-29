@@ -1,0 +1,128 @@
+[
+ {
+  "name": "lowback-cinematic-fal-nbp",
+  "endpoint": "fal-ai/nano-banana-pro",
+  "prompt": "Premium cinematic editorial photograph. A dark, moody treatment room in deep slate-blue and teal tones; a single soft key light from above sculpting the body, a subtle rim light, deep shadows that keep their detail; the red laser light glowing in the dim room; matte-white modern equipment; shallow depth of field, 50mm lens, rich color grade, fine film grain. It looks like a luxury health-technology brand campaign, not stock photography. Scene: a patient lies face down on a padded treatment table, the whole body on the table and continuous from head to feet with the legs under a light blanket, the lower back bare; a white stand-mounted low-level laser head on an articulated arm is positioned a hand's width above the lower back, projecting three thin red laser lines across the skin without touching it; the practitioner's hand rests lightly on the patient's upper back. The practitioner is a man in a white dress shirt with the sleeves rolled, framed so that his head is out of the frame (from the chest down, or only his hands and forearms). The patient is a real-looking adult in simple contemporary clothing; the patient's face may be seen in soft profile, relaxed. Anatomically correct: every body complete and continuous, the correct number of arms, legs, hands and fingers. No text, logos or labels anywhere.",
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "lowback-cinematic-fal-seedream45",
+  "endpoint": "fal-ai/bytedance/seedream/v4.5/text-to-image",
+  "prompt": "Premium cinematic editorial photograph. A dark, moody treatment room in deep slate-blue and teal tones; a single soft key light from above sculpting the body, a subtle rim light, deep shadows that keep their detail; the red laser light glowing in the dim room; matte-white modern equipment; shallow depth of field, 50mm lens, rich color grade, fine film grain. It looks like a luxury health-technology brand campaign, not stock photography. Scene: a patient lies face down on a padded treatment table, the whole body on the table and continuous from head to feet with the legs under a light blanket, the lower back bare; a white stand-mounted low-level laser head on an articulated arm is positioned a hand's width above the lower back, projecting three thin red laser lines across the skin without touching it; the practitioner's hand rests lightly on the patient's upper back. The practitioner is a man in a white dress shirt with the sleeves rolled, framed so that his head is out of the frame (from the chest down, or only his hands and forearms). The patient is a real-looking adult in simple contemporary clothing; the patient's face may be seen in soft profile, relaxed. Anatomically correct: every body complete and continuous, the correct number of arms, legs, hands and fingers. No text, logos or labels anywhere.",
+  "params": {
+   "image_size": {
+    "width": 2400,
+    "height": 1600
+   }
+  }
+ },
+ {
+  "name": "lowback-overlay-fal-nbp",
+  "endpoint": "fal-ai/nano-banana-pro",
+  "prompt": "Premium editorial photograph in a clean, modern treatment room with soft directional light, with a luminous augmented-reality anatomy overlay: the lumbar vertebrae, the sacrum and the pelvis drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and precise, like a living anatomical plate. It looks like a luxury health-technology brand campaign, not stock photography. Scene: a patient lies face down on a padded treatment table, the whole body on the table and continuous from head to feet with the legs under a light blanket, the lower back bare; a white stand-mounted low-level laser head on an articulated arm is positioned a hand's width above the lower back, projecting three thin red laser lines across the skin without touching it; the practitioner's hand rests lightly on the patient's upper back. The practitioner is a man in a white dress shirt with the sleeves rolled, framed so that his head is out of the frame (from the chest down, or only his hands and forearms). The patient is a real-looking adult in simple contemporary clothing; the patient's face may be seen in soft profile, relaxed. Anatomically correct: every body complete and continuous, the correct number of arms, legs, hands and fingers. No text, logos or labels anywhere.",
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "lowback-overlay-fal-seedream45",
+  "endpoint": "fal-ai/bytedance/seedream/v4.5/text-to-image",
+  "prompt": "Premium editorial photograph in a clean, modern treatment room with soft directional light, with a luminous augmented-reality anatomy overlay: the lumbar vertebrae, the sacrum and the pelvis drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and precise, like a living anatomical plate. It looks like a luxury health-technology brand campaign, not stock photography. Scene: a patient lies face down on a padded treatment table, the whole body on the table and continuous from head to feet with the legs under a light blanket, the lower back bare; a white stand-mounted low-level laser head on an articulated arm is positioned a hand's width above the lower back, projecting three thin red laser lines across the skin without touching it; the practitioner's hand rests lightly on the patient's upper back. The practitioner is a man in a white dress shirt with the sleeves rolled, framed so that his head is out of the frame (from the chest down, or only his hands and forearms). The patient is a real-looking adult in simple contemporary clothing; the patient's face may be seen in soft profile, relaxed. Anatomically correct: every body complete and continuous, the correct number of arms, legs, hands and fingers. No text, logos or labels anywhere.",
+  "params": {
+   "image_size": {
+    "width": 2400,
+    "height": 1600
+   }
+  }
+ },
+ {
+  "name": "lowback-bright-fal-nbp",
+  "endpoint": "fal-ai/nano-banana-pro",
+  "prompt": "Bright contemporary editorial photograph in an architect-designed clinic: warm white plaster walls, pale oak, sage linen, a large steel-framed window, crisp morning sunlight casting clean defined shadows; modern equipment; a natural, unposed moment; confident composition with negative space; crisp detail and fresh, true-to-life color. It looks like a high-end magazine feature, not stock photography. Scene: a patient lies face down on a padded treatment table, the whole body on the table and continuous from head to feet with the legs under a light blanket, the lower back bare; a white stand-mounted low-level laser head on an articulated arm is positioned a hand's width above the lower back, projecting three thin red laser lines across the skin without touching it; the practitioner's hand rests lightly on the patient's upper back. The practitioner is a man in a white dress shirt with the sleeves rolled, framed so that his head is out of the frame (from the chest down, or only his hands and forearms). The patient is a real-looking adult in simple contemporary clothing; the patient's face may be seen in soft profile, relaxed. Anatomically correct: every body complete and continuous, the correct number of arms, legs, hands and fingers. No text, logos or labels anywhere.",
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "lowback-bright-fal-seedream45",
+  "endpoint": "fal-ai/bytedance/seedream/v4.5/text-to-image",
+  "prompt": "Bright contemporary editorial photograph in an architect-designed clinic: warm white plaster walls, pale oak, sage linen, a large steel-framed window, crisp morning sunlight casting clean defined shadows; modern equipment; a natural, unposed moment; confident composition with negative space; crisp detail and fresh, true-to-life color. It looks like a high-end magazine feature, not stock photography. Scene: a patient lies face down on a padded treatment table, the whole body on the table and continuous from head to feet with the legs under a light blanket, the lower back bare; a white stand-mounted low-level laser head on an articulated arm is positioned a hand's width above the lower back, projecting three thin red laser lines across the skin without touching it; the practitioner's hand rests lightly on the patient's upper back. The practitioner is a man in a white dress shirt with the sleeves rolled, framed so that his head is out of the frame (from the chest down, or only his hands and forearms). The patient is a real-looking adult in simple contemporary clothing; the patient's face may be seen in soft profile, relaxed. Anatomically correct: every body complete and continuous, the correct number of arms, legs, hands and fingers. No text, logos or labels anywhere.",
+  "params": {
+   "image_size": {
+    "width": 2400,
+    "height": 1600
+   }
+  }
+ },
+ {
+  "name": "mtest-cinematic-fal-nbp",
+  "endpoint": "fal-ai/nano-banana-pro",
+  "prompt": "Premium cinematic editorial photograph. A dark, moody treatment room in deep slate-blue and teal tones; a single soft key light from above sculpting the body, a subtle rim light, deep shadows that keep their detail; matte-white modern equipment; shallow depth of field, 50mm lens, rich color grade, fine film grain. It looks like a luxury health-technology brand campaign, not stock photography. Scene: a manual muscle test: a patient sits upright on the edge of a treatment table and holds one arm straight out to the side at shoulder height; the practitioner stands beside them, one flat hand pressing gently down just above the patient's wrist and the other hand steadying the patient's shoulder. The practitioner is a man in a white dress shirt with the sleeves rolled, framed so that his head is out of the frame (from the chest down, or only his hands and forearms). The patient is a real-looking adult in simple contemporary clothing; the patient's face may be seen in soft profile, relaxed. Anatomically correct: every body complete and continuous, the correct number of arms, legs, hands and fingers. No text, logos or labels anywhere.",
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "mtest-cinematic-fal-seedream45",
+  "endpoint": "fal-ai/bytedance/seedream/v4.5/text-to-image",
+  "prompt": "Premium cinematic editorial photograph. A dark, moody treatment room in deep slate-blue and teal tones; a single soft key light from above sculpting the body, a subtle rim light, deep shadows that keep their detail; matte-white modern equipment; shallow depth of field, 50mm lens, rich color grade, fine film grain. It looks like a luxury health-technology brand campaign, not stock photography. Scene: a manual muscle test: a patient sits upright on the edge of a treatment table and holds one arm straight out to the side at shoulder height; the practitioner stands beside them, one flat hand pressing gently down just above the patient's wrist and the other hand steadying the patient's shoulder. The practitioner is a man in a white dress shirt with the sleeves rolled, framed so that his head is out of the frame (from the chest down, or only his hands and forearms). The patient is a real-looking adult in simple contemporary clothing; the patient's face may be seen in soft profile, relaxed. Anatomically correct: every body complete and continuous, the correct number of arms, legs, hands and fingers. No text, logos or labels anywhere.",
+  "params": {
+   "image_size": {
+    "width": 2400,
+    "height": 1600
+   }
+  }
+ },
+ {
+  "name": "mtest-overlay-fal-nbp",
+  "endpoint": "fal-ai/nano-banana-pro",
+  "prompt": "Premium editorial photograph in a clean, modern treatment room with soft directional light, with a luminous augmented-reality anatomy overlay: the shoulder joint, the shoulder blade and the muscles of the raised arm drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and precise, like a living anatomical plate. It looks like a luxury health-technology brand campaign, not stock photography. Scene: a manual muscle test: a patient sits upright on the edge of a treatment table and holds one arm straight out to the side at shoulder height; the practitioner stands beside them, one flat hand pressing gently down just above the patient's wrist and the other hand steadying the patient's shoulder. The practitioner is a man in a white dress shirt with the sleeves rolled, framed so that his head is out of the frame (from the chest down, or only his hands and forearms). The patient is a real-looking adult in simple contemporary clothing; the patient's face may be seen in soft profile, relaxed. Anatomically correct: every body complete and continuous, the correct number of arms, legs, hands and fingers. No text, logos or labels anywhere.",
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "mtest-overlay-fal-seedream45",
+  "endpoint": "fal-ai/bytedance/seedream/v4.5/text-to-image",
+  "prompt": "Premium editorial photograph in a clean, modern treatment room with soft directional light, with a luminous augmented-reality anatomy overlay: the shoulder joint, the shoulder blade and the muscles of the raised arm drawn in delicate glowing teal engraving lines exactly where they sit under the skin, crisp and precise, like a living anatomical plate. It looks like a luxury health-technology brand campaign, not stock photography. Scene: a manual muscle test: a patient sits upright on the edge of a treatment table and holds one arm straight out to the side at shoulder height; the practitioner stands beside them, one flat hand pressing gently down just above the patient's wrist and the other hand steadying the patient's shoulder. The practitioner is a man in a white dress shirt with the sleeves rolled, framed so that his head is out of the frame (from the chest down, or only his hands and forearms). The patient is a real-looking adult in simple contemporary clothing; the patient's face may be seen in soft profile, relaxed. Anatomically correct: every body complete and continuous, the correct number of arms, legs, hands and fingers. No text, logos or labels anywhere.",
+  "params": {
+   "image_size": {
+    "width": 2400,
+    "height": 1600
+   }
+  }
+ },
+ {
+  "name": "mtest-bright-fal-nbp",
+  "endpoint": "fal-ai/nano-banana-pro",
+  "prompt": "Bright contemporary editorial photograph in an architect-designed clinic: warm white plaster walls, pale oak, sage linen, a large steel-framed window, crisp morning sunlight casting clean defined shadows; modern equipment; a natural, unposed moment; confident composition with negative space; crisp detail and fresh, true-to-life color. It looks like a high-end magazine feature, not stock photography. Scene: a manual muscle test: a patient sits upright on the edge of a treatment table and holds one arm straight out to the side at shoulder height; the practitioner stands beside them, one flat hand pressing gently down just above the patient's wrist and the other hand steadying the patient's shoulder. The practitioner is a man in a white dress shirt with the sleeves rolled, framed so that his head is out of the frame (from the chest down, or only his hands and forearms). The patient is a real-looking adult in simple contemporary clothing; the patient's face may be seen in soft profile, relaxed. Anatomically correct: every body complete and continuous, the correct number of arms, legs, hands and fingers. No text, logos or labels anywhere.",
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "mtest-bright-fal-seedream45",
+  "endpoint": "fal-ai/bytedance/seedream/v4.5/text-to-image",
+  "prompt": "Bright contemporary editorial photograph in an architect-designed clinic: warm white plaster walls, pale oak, sage linen, a large steel-framed window, crisp morning sunlight casting clean defined shadows; modern equipment; a natural, unposed moment; confident composition with negative space; crisp detail and fresh, true-to-life color. It looks like a high-end magazine feature, not stock photography. Scene: a manual muscle test: a patient sits upright on the edge of a treatment table and holds one arm straight out to the side at shoulder height; the practitioner stands beside them, one flat hand pressing gently down just above the patient's wrist and the other hand steadying the patient's shoulder. The practitioner is a man in a white dress shirt with the sleeves rolled, framed so that his head is out of the frame (from the chest down, or only his hands and forearms). The patient is a real-looking adult in simple contemporary clothing; the patient's face may be seen in soft profile, relaxed. Anatomically correct: every body complete and continuous, the correct number of arms, legs, hands and fingers. No text, logos or labels anywhere.",
+  "params": {
+   "image_size": {
+    "width": 2400,
+    "height": 1600
+   }
+  }
+ }
+]

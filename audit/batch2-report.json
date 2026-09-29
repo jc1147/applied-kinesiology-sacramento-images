@@ -1,0 +1,319 @@
+[
+  {
+    "name": "cond-headache-treat",
+    "verdict": "MINOR",
+    "defects": [
+      {
+        "category": "match",
+        "where": "centre-left, lower neck just above the sweater collar (approx. x 935-1060, y 580-725 of 2374x1696)",
+        "description": "The red glow sits on the lower neck at the collar line, below the nape hairline. It is not at the base of the skull where the neck meets the head, as the brief specifies; the base of the skull is roughly 100-200 px higher, under the hair."
+      },
+      {
+        "category": "text",
+        "where": "top of the probe body (approx. x 1155-1207, y 529-557)",
+        "description": "Small grey indicator window with two or three dot marks. Not legible, not letters, even at 2.5x. Note only."
+      },
+      {
+        "category": "faces",
+        "where": "right side of the patient's head (approx. x 1068-1140, y 250-415)",
+        "description": "Only the ear is visible. No eyes, nose, lips or chin. Note only."
+      }
+    ],
+    "match_notes": "Close match. Patient seen from behind with hair in a bun. Small white handheld probe on a thin cable, continuous from the probe to the bottom edge and passing behind the steadying hand's wrist. The other hand rests on the shoulder with natural fingers. Deviations: the glow is on the lower neck, not the base of the skull. The frame cuts at mid-back, so sitting on the table is implied (table visible either side) rather than shown."
+  },
+  {
+    "name": "cond-lbp-assess",
+    "verdict": "MINOR",
+    "defects": [
+      {
+        "category": "faces",
+        "where": "far right edge, just above the grey sweater shoulder (approx. x 1935-1971, y 555-620 of 1971x1408)",
+        "description": "A blurred skin-toned sliver with a pinkish centre sits at the frame edge. It is most likely the patient's chin/lips; her head lies just out of frame to the right. Small and soft at normal size, but it breaks the no-faces rule."
+      },
+      {
+        "category": "match",
+        "where": "raised leg, left half (foot approx. x 390-800, y 600-960; calf approx. x 830-1460, y 765-1055)",
+        "description": "The lift is shallow. Only the lower leg and foot angle up (about 10-15 degrees) while the knee end of the calf rests almost on the table, with the thigh flat under the towel. It reads as a lifted shin, not a straight-leg raise to about 30 degrees. The practitioner's near hand is on the lower shin/calf (approx. x 830-1220, y 690-920), roughly above the ankle, which is acceptable."
+      },
+      {
+        "category": "body integrity",
+        "where": "far side of the table behind the raised leg (approx. x 460-1100, y 820-1000) and the bottom-left foreground",
+        "description": "The second (resting) leg is not visible anywhere. It is plausibly under the towel behind the raised leg and hidden by the foreground cushion; no truncation is visible. Note only."
+      },
+      {
+        "category": "render quality",
+        "where": "bottom-left third (approx. x 0-1400, y 800-1408)",
+        "description": "A large out-of-focus sage cushion fills the foreground. It reads as deliberate blur but takes up a lot of the frame. Note only."
+      }
+    ],
+    "match_notes": "Partial match. Viewed from the side near the foot end, not straight down the table. Framed from the foot up to the chest (the patient's hand rests on her belly; her sweater shoulder reaches the right edge), not waist to feet. The far hand rests flat on the towel over the pelvis, roughly the steadying-hip hand. The leg raise is shallower than 30 degrees and reads as a lifted lower leg. Both practitioner arms attach correctly and the patient's hand has five digits."
+  },
+  {
+    "name": "cond-lbp-treat",
+    "verdict": "PASS",
+    "defects": [
+      {
+        "category": "faces",
+        "where": "far left, head in the face cradle (approx. x 165-295, y 830-970 of 2090x1493)",
+        "description": "Ear and a strip of cheek pressed against the cradle. No eyes, nose, lips or chin. Note only."
+      }
+    ],
+    "match_notes": "Good match. Face down, sweater lifted to bare the low back. A rounded white unbranded head on an articulated arm hovers above the back without touching. Three thin red lines fall on the low back only, well away from the head. The practitioner's hand rests beside the lines at the low back. Body complete: hips under the white towel, legs under the teal blanket running off the right edge. The patient's palm-up hand at her side is correct for prone, thumb toward the body. Small deviations: the arm enters from off-frame left, so the wheeled floor stand is not shown. The sweater is lifted to bare the whole lumbar band, more than 'a little'. The hand sits on the low back/flank at the towel edge, not clearly on the sacrum, which is under the towel. Background PEMF ring and console have a blank screen; no text."
+  },
+  {
+    "name": "cond-neck-treat",
+    "verdict": "PASS",
+    "defects": [
+      {
+        "category": "faces",
+        "where": "lower left, head in the face cradle (approx. x 730-965, y 1420-1615 of 2048x2048)",
+        "description": "Ear with a small stud earring and a strip of cheek/jaw against the cradle. No eyes, nose, lips or chin. Note only."
+      },
+      {
+        "category": "text",
+        "where": "bamboo side panel just right of the face-cradle bracket, bottom edge (approx. x 840-1000, y 1925-2048)",
+        "description": "Faint stamped mark on the wood. Illegible even at 8x and not readable at normal size. Note only."
+      }
+    ],
+    "match_notes": "Good match. Face down in the cradle. The practitioner's two hands rest one over the other between the shoulder blades, both forearms attached to rolled sleeves. Framed from the head of the table to the lower back, with a sage blanket over the lower back. The patient's near hand is partly cut off by the right frame edge (approx. x 1995-2048, y 1170-1250); this is ordinary cropping."
+  },
+  {
+    "name": "cond-oa-assess",
+    "verdict": "PASS",
+    "defects": [
+      {
+        "category": "render quality",
+        "where": "floorboards left of the near foot (approx. x 690-707, y 1386-1394 of 2209x1578)",
+        "description": "Tiny dark speck on the floor. Negligible. Note only."
+      }
+    ],
+    "match_notes": "Good match. Soft grey trousers rolled to mid-calf, bare feet on a pale wooden floor, shallow squat. The practitioner kneels on a mat with one hand on the side of the knee and the other at the hip; his head is out of frame. Framed from the waist to the floor. Both feet have five toes, all visible hands have five digits, and every limb attaches correctly. No faces, no text."
+  },
+  {
+    "name": "cond-oa-treat",
+    "verdict": "MINOR",
+    "defects": [
+      {
+        "category": "objects/devices",
+        "where": "upper centre-right, laser head and the practitioner's hands (head approx. x 840-1400, y 345-655; hands approx. x 1140-1590, y 300-690 of 2374x1696)",
+        "description": "The laser head is shaped like a large handheld massager with a handle, and the practitioner grips it in both hands. It is still joined by a silver joint and articulated arm to a white pole stand with two black knobs (approx. x 2000-2340, y 690-1140); base and wheels are out of frame. It reads as a handheld device, not a stand-mounted head set a hand's width above the knee."
+      },
+      {
+        "category": "match",
+        "where": "both knees, left-centre (approx. x 750-1095, y 735-1035)",
+        "description": "Four red lines, two across each knee, instead of three lines across one knee. The lines themselves are thin and sit on the skin."
+      },
+      {
+        "category": "body integrity",
+        "where": "feet at the right (approx. x 1660-2345, y 1055-1485)",
+        "description": "Feet are out of focus and one overlaps the other. The toes are soft but plausible; no fused or extra toes found at 4x. Note only."
+      }
+    ],
+    "match_notes": "Partial match. Grey sweat bottoms bunched above the knees, towel roll under the knees, framed from the thighs/hips to the feet. Deviations: the patient has both legs extended rather than sitting with one leg along the table. The head is hand-held. There are four lines over both knees rather than three over one. The patient's hand at the far-left edge is plausible. No faces, no text (the handle button is blank)."
+  },
+  {
+    "name": "cond-osteo-assess",
+    "verdict": "FAIL",
+    "defects": [
+      {
+        "category": "faces",
+        "where": "top-left corner (approx. x 135-250, y 0-60 of 2374x1696)",
+        "description": "The practitioner's lower lip, grey-stubbled chin and jawline are clearly visible above the white shirt collar. Obvious at normal size."
+      },
+      {
+        "category": "faces",
+        "where": "left edge of the patient's head silhouette, top centre (approx. x 1145-1200, y 50-170)",
+        "description": "The patient's head is turned slightly, so her cheek contour sits on the silhouette edge, with an eyelash and brow bump against the wall (lash approx. x 1157-1162, y 97-109). The cheek edge shows at normal size; the lash shows when zoomed."
+      },
+      {
+        "category": "match",
+        "where": "whole frame, bottom edge",
+        "description": "Framed from the top of the head to the shins; the brief asked for shoulders to floor. The feet are out of frame, so the one-foot balance stance is not shown at all. Both legs just leave the bottom edge."
+      },
+      {
+        "category": "match",
+        "where": "practitioner's hands, left-centre (approx. x 565-950, y 620-895)",
+        "description": "Both hands reach toward the patient's left arm/mid-back, about a hand-length away, not hovering close to her waist. The hands themselves are fine (five digits, attached to sleeves)."
+      },
+      {
+        "category": "body integrity",
+        "where": "patient's right side (approx. x 1680-1760, y 760-1220)",
+        "description": "Her right sleeve runs down to the cardigan hem and no forearm or hand appears. It is presumably in front of her body, which is plausible from behind. Note only."
+      }
+    ],
+    "match_notes": "Fails on faces. Older patient with silver hair and a soft cardigan, seen from behind, fingertips of her left hand on the table edge (five digits, fine). Two faces are visible (the practitioner's mouth and chin, and a sliver of the patient's profile). The one-foot stance is not visible because the feet are cropped, and the hands are not at the waist. The background frame and card are blank; no text."
+  },
+  {
+    "name": "cond-osteo-treat",
+    "verdict": "MINOR",
+    "defects": [
+      {
+        "category": "objects/devices",
+        "where": "top of the adjusting instrument, upper centre (approx. x 1170-1220, y 350-410 of 2374x1696)",
+        "description": "The instrument ends in a thin rod with a flat disc cap, like a syringe plunger. With the chrome barrel below it, the tool can read as a syringe at a glance, which the brief explicitly ruled out. The rest is correct: pen grip, visible coiled spring, knurled collar, flat black rubber tip on the upper back, no needle, no finger rings."
+      },
+      {
+        "category": "faces",
+        "where": "patient's head at the right (approx. x 1740-2130, y 1075-1420)",
+        "description": "Ear with a gold stud, jawline and neck skin; the face is turned into the cradle. No eyes, nose or lips. Note only."
+      }
+    ],
+    "match_notes": "Good match apart from the plunger-like top of the instrument. Silver hair tied back, bolster under the ankles with both feet visible behind it, pillow under the chest, face in the cradle. The practitioner's other hand rests flat and still on the shoulder. The patient's palm-up hand at her side has five digits. The practitioner's head is out of frame. No text."
+  },
+  {
+    "name": "cond-pinched-assess",
+    "verdict": "FAIL",
+    "defects": [
+      {
+        "category": "faces",
+        "where": "top-left corner (approx. x 0-85, y 0-190 of 2374x1696)",
+        "description": "The patient's closed lips and chin in profile are clearly visible at the top edge. Obvious at normal size."
+      },
+      {
+        "category": "match",
+        "where": "framing and the patient's arm (arm approx. x 830-2000, y 600-1100)",
+        "description": "Framing starts at the chin rather than the shoulder. The elbow is only slightly bent; the arm is nearly straight. The hammer taps the top of the supinated forearm just below the pushed-up cuff, near the elbow crease, which is acceptable."
+      }
+    ],
+    "match_notes": "The reflex-check content matches. Chrome reflex hammer with black rubber ends; the practitioner's other hand cradles the elbow; the patient's relaxed hand rests palm-up on his forearm. Three hands in total, all attached and plausible. It fails only on the visible face. The wall frame is blank; no text."
+  },
+  {
+    "name": "cond-pinched-treat",
+    "verdict": "FAIL",
+    "defects": [
+      {
+        "category": "body integrity",
+        "where": "lower right-centre, end of the patient's near sleeve at the teal blanket edge (approx. x 1605-1668, y 1489-1555 of 2374x1696)",
+        "description": "The patient's arm lies along her side in the sweater sleeve and ends in a ribbed cuff whose opening is a solid black void. There is no wrist or hand inside it, and no hand appears under or beyond the blanket. It reads as an empty sleeve, a missing hand. It is visible at normal size as the darkest spot in the lower half of the image."
+      },
+      {
+        "category": "text",
+        "where": "top-left rim of the PEMF ring (approx. x 1010-1055, y 728-742)",
+        "description": "Faint grey dash, like a moulded logo mark. Illegible at 7x and barely visible at normal size. Note only."
+      },
+      {
+        "category": "faces",
+        "where": "patient's head in the towel-covered cradle, left-centre (approx. x 510-640, y 875-985)",
+        "description": "Back of the head, ear and a small strip of cheek against the towel. No eyes, nose or lips. Note only."
+      }
+    ],
+    "match_notes": "Device content matches well. A flat white ring coil lies flat on a thin sage cloth on the upper back. A thin cable with strain relief runs to the practitioner's hand, which is adjusting it. A small white console with a blank dark screen sits behind; its own cable loops down behind the table and is not visibly joined to the ring cable, which is plausible routing. The practitioner's two forearms each come from a rolled sleeve. The image fails on the empty-sleeve void."
+  },
+  {
+    "name": "cond-plantar-treat",
+    "verdict": "MINOR",
+    "defects": [
+      {
+        "category": "objects/devices",
+        "where": "upper centre, laser head and handle (approx. x 545-1310, y 760-1060 of 1864x1864)",
+        "description": "The head is shaped like a handheld massager with a pistol-grip handle, and the practitioner holds it by the handle. It is attached by a joint to an articulated arm rising to a pivot on a white pole stand with a box housing and cable (approx. x 1380-1680, y 340-1400); the wheeled base is hidden behind the table. It reads as hand-held, not a hands-free plate-sized head. The black rectangular window on the head front (approx. x 1180-1230, y 1005-1025) carries no text."
+      },
+      {
+        "category": "match",
+        "where": "rolled towel between the feet (approx. x 1060-1180, y 1400-1435)",
+        "description": "Besides the three red lines across the far foot's heel and arch (approx. x 1170-1410, y 1170-1440), a fourth red line falls on the towel between the feet."
+      },
+      {
+        "category": "body integrity",
+        "where": "top-left (approx. x 0-320, y 920-1100)",
+        "description": "The far leg's knee/thigh shows as a soft rounded hump, and the legs diverge from the feet toward the hips as normal. No extra or missing limb. Both feet have five toes with the big toe on the inner side. Note only."
+      }
+    ],
+    "match_notes": "Close match. Prone patient, bare soles up, shins on a rolled towel, red lines on the heel and arch of one foot, framed from the calves to the feet. Deviations: the head is a handheld-style unit gripped by the practitioner rather than a plate-sized stand head, and a stray fourth line falls on the towel. Only the practitioner's forearm and shoulder are in frame. No faces, no text."
+  },
+  {
+    "name": "cond-pregnancy-treat",
+    "verdict": "FAIL",
+    "defects": [
+      {
+        "category": "match",
+        "where": "centre, large knit mound (approx. x 950-1600, y 650-1420 of 1905x1905)",
+        "description": "No identifiable pregnancy bump. The body reads as one large rounded knit mound, then a waist-like dip (x ~1580), then a second hump running off the right edge. Read as her back (hip/buttock, waist, ribcage), no bump is visible at all. Read as her front (belly, chest), the practitioner's lower hand is on the front of her hip/lower belly just above the thigh, not the sacrum, and the mound rests on the bare sheet between the two pillows (approx. x 760-1240, y 1380-1420), not on a pillow. Either way, the brief's 'rounded pregnant belly clearly visible in profile, resting on the pillow' with hands on the back of the pelvis and sacrum is not shown."
+      },
+      {
+        "category": "body integrity",
+        "where": "bare thigh and dress hem at the far left (approx. x 0-390, y 835-1060) versus the central mound",
+        "description": "Only one leg is visible: a bare thigh emerging from the ribbed dress hem, resting on the left pillow. The lower leg is not visible, possibly hidden under the pillow. The central mound is about 3.5 times as thick as that thigh, so the body reads as an amorphous knit mass rather than a legible pregnant figure. A visitor could read the hands as on her buttock or on her lower belly/groin."
+      },
+      {
+        "category": "match",
+        "where": "practitioner's hands (lower hand approx. x 560-1000, y 840-1220; upper hand approx. x 830-1000, y 740-800)",
+        "description": "The hands rest on the lower-left side of the mound and on its top slope, not identifiably on the sacrum or back of the pelvis. The hands themselves are anatomically fine (five digits, attached)."
+      }
+    ],
+    "match_notes": "Fails the core subject. The oatmeal knit dress, pillows and calm two-handed touch are present, and there is no face or text. But the image never clearly shows a third-trimester bump, or where the hands are relative to the sacrum. At normal size the patient's anatomy is hard to parse, which defeats the purpose of the pregnancy page."
+  },
+  {
+    "name": "cond-sciatica-treat",
+    "verdict": "PASS",
+    "defects": [
+      {
+        "category": "faces",
+        "where": "patient's head at the left in the towelled face cradle (approx. x 250-340, y 505-625 of 2048x1365)",
+        "description": "Ponytail, ear and a small strip of jaw/cheek below the ear against the towel. No eyes, nose or lips. Note only."
+      },
+      {
+        "category": "body integrity",
+        "where": "bottom-left below the table edge (approx. x 115-185, y 1180-1285)",
+        "description": "The near arm hangs beside the table with the hand resting on the armrest shelf. Blurred but continuous with the sleeve. Note only."
+      }
+    ],
+    "match_notes": "Good match. Grey leggings, face down in the cradle. A small white handheld probe on a thin continuous cable, held in a natural pen grip, casts a red glow over the upper-outer buttock (approx. x 920-1035, y 735-820). The other hand rests on the back of the thigh. The glow is on the leggings rather than bare skin, which the leggings make unavoidable. Both practitioner arms come from rolled sleeves. Body complete from head to knees. No text."
+  },
+  {
+    "name": "cond-scoliosis-assess",
+    "verdict": "MINOR",
+    "defects": [
+      {
+        "category": "body integrity",
+        "where": "left-centre, between the patient's left upper arm and waist (approx. x 785-840, y 745-870 of 2048x2048)",
+        "description": "The practitioner's upper forearm passes behind the patient's left arm and its hand never appears. Only a blurred patch of skin shows between her arm and waist, with no fingers. It reads as a hand hidden behind her arm, but the hand is effectively missing from view."
+      },
+      {
+        "category": "match",
+        "where": "patient's hips (visible hand approx. x 655-1055, y 800-1075)",
+        "description": "Only one hand is on a hip bone (her left posterior hip at the waistband); nothing is on her right hip, so the side-to-side hip-height comparison is not shown. The shoulders look level, whereas the brief asked for one very slightly higher."
+      },
+      {
+        "category": "faces",
+        "where": "top edge, centre (approx. x 900-1290, y 0-62)",
+        "description": "Only the nape and loose blonde hair. No face. Note only."
+      }
+    ],
+    "match_notes": "Partial match. Sage sports top, standing with her back to the camera, framed from the nape to around the knees (so barefoot is not visible). Both of her hands hang relaxed and plausibly. The practitioner is at the left edge with both arms in rolled sleeves, and the visible hip hand is natural (five digits). The key action, two hands level on both hip bones, is not depicted. No text."
+  },
+  {
+    "name": "cond-scoliosis-treat",
+    "verdict": "PASS",
+    "defects": [
+      {
+        "category": "faces",
+        "where": "patient's head on the towelled face cradle, left-centre (approx. x 235-400, y 1060-1250 of 1885x1885)",
+        "description": "Ear and the side of the cheek/temple pressed into the towel. No eyes, nose or lips. Note only."
+      },
+      {
+        "category": "render quality",
+        "where": "bottom-left, behind the near forearm (approx. x 60-200, y 1560-1640)",
+        "description": "A ribbed cuff edge peeks out behind the near forearm, which runs out of the bottom-left of the frame. At normal size it reads as part of the sweater. Note only."
+      }
+    ],
+    "match_notes": "Good match. Face down in the cradle, cream blanket over the hips and legs. The practitioner's two hands work on one side of the upper-to-mid back beside the spine; both are natural with five digits and attached to rolled sleeves, and his head is out of frame. Supportive, gentle hands-on look. No text."
+  },
+  {
+    "name": "cond-shoulder-assess",
+    "verdict": "MINOR",
+    "defects": [
+      {
+        "category": "match",
+        "where": "patient's arm and practitioner's hands, centre (upper grip approx. x 780-1360, y 430-850; forearm grip approx. x 780-1320, y 780-1240 of 1945x1945)",
+        "description": "The patient's elbow is held out in front of her body at an acute angle, not bent to a right angle and tucked against her side. Both practitioner hands grip the arm (one above the elbow, one at the pushed-up forearm cuff), and neither presses on the back of the wrist. The resisted outward push of a rotator-cuff test is not depicted."
+      },
+      {
+        "category": "faces",
+        "where": "top-right corner (approx. x 1560-1945, y 0-230)",
+        "description": "Only the sweater neckline and the side of the neck. No chin or face. Note only."
+      }
+    ],
+    "match_notes": "Partial match. Seated on the treatment table in a beige sweater with a sage drape over the lap, framed from the shoulder down. The practitioner's hands and arms are anatomically fine; the upper hand's fingertips wrap plausibly under the arm. The patient's relaxed fist at the right edge is plausible (four curled fingers, thumb hidden). The specific test described is not shown. No text."
+  }
+]

@@ -1,0 +1,665 @@
+{
+ "cond-auto-assess": {
+  "verdict": "MINOR",
+  "round": 3,
+  "by": "independent reviewer",
+  "hands": "4 hands checked, all correct",
+  "notes": [
+   "The spine continues below the shoulder blades, down to about y 0.73 (the full thoracic column); the brief said 'nothing below the shoulder blades'. It stays in the midline and stops higher than in variant a.",
+   "The shoulder blades and small humeral heads sit slightly inside the real shoulder tips (the left by about 0.03). Stylised, not gross."
+  ],
+  "variant": "cond-auto-assess-b",
+  "report": "audit_v2/r3c_batch1-report.json",
+  "md5": "120b863e4790d1d94a662e8da6963a62"
+ },
+ "cond-auto-treat": {
+  "verdict": "MINOR",
+  "round": 1,
+  "by": "independent reviewer",
+  "hands": "2 hands checked, all correct",
+  "notes": [
+   "Only the near (left) scapula is drawn; the far (right) scapula under the practitioner's hand is not depicted although 'the shoulder blades' was requested.",
+   "Tiny illegible pseudo-text glyphs on the side of the laser head (~15 px wide); not readable at any normal size."
+  ],
+  "report": "audit_v2/batch1-report.json",
+  "md5": "34a69cf868c4ea1ba5d75c62817e3267"
+ },
+ "cond-carpal-treat": {
+  "verdict": "MINOR",
+  "round": 2,
+  "by": "independent reviewer",
+  "hands": "2 hands checked, all correct",
+  "notes": [
+   "It is the patient's LEFT arm, not the requested right. She lies supine with her head at the far upper left and her torso running toward the camera (lower left), and the arm leaves the image-right side of her torso, so it is abducted to her left. The thumb points toward her head, which is correct for that left hand, so no mirroring; only the side differs from the brief."
+  ],
+  "variant": "cond-carpal-treat-b",
+  "report": "audit_v2/r2_batch1-report.json",
+  "md5": "d936c47a7a6731819887942962b04e0c"
+ },
+ "cond-fibro-assess": {
+  "verdict": "MINOR",
+  "round": 1,
+  "by": "independent reviewer",
+  "hands": "2 hands checked, all correct",
+  "notes": [
+   "Inside the overlay the oatmeal sweater disappears and bare skin shows in a sweater-shaped window from neck to waist, so the patient reads as wearing a backless sweater (other overlay images draw the anatomy over the clothing).",
+   "Probable spine over-segmentation: ~23-28 small posterior-view levels from the upper neck (~y 0.28) to the waist (~y 0.91) where ~22 (C3-L5) belong; dense lattice with no rib/sacrum anchor, so the exact count is uncertain.",
+   "Background anatomical spine model on the right-hand shelving passes through a shelf board (upper half above the board, column continuing below it). Out of focus, small.",
+   "Composition: the practitioner stands in front of the seated patient facing the camera and reaches over her shoulders, so her face is at his mid-torso; a clinician would normally stand behind her. Physically plausible, reads slightly odd."
+  ],
+  "report": "audit_v2/batch1-report.json",
+  "md5": "d5954327a63d497473fe97481f26d268"
+ },
+ "cond-fibro-treat": {
+  "verdict": "MINOR",
+  "round": 3,
+  "by": "independent reviewer",
+  "hands": "4 hands checked, all correct",
+  "notes": [
+   "The practitioner stands at the head end behind the face cradle, facing the camera, not 'at the side of the table' as briefed. This is still a plausible position for upper-back work, and his face is out of frame.",
+   "The spine is drawn from the neck base all the way to the blanket edge (y 0.785), past the mid back, and one tender point sits low at (0.55,0.755); the brief asked for the upper and mid back, with points beside the upper spine."
+  ],
+  "variant": "cond-fibro-treat-a",
+  "report": "audit_v2/r3c_batch1-report.json",
+  "md5": "c5413a3bd3efe74081a0bfe93cd58263"
+ },
+ "cond-frozen-assess": {
+  "verdict": "MINOR",
+  "round": 1,
+  "by": "independent reviewer",
+  "hands": "3 hands checked, all correct",
+  "notes": [
+   "Hidden-limb geometry: his LEFT arm shows only as a rolled cuff beside her neck (~0.43,0.32) and a hand cupping under her elbow (~0.70-0.78,0.46-0.55); the hidden cuff-to-wrist path is ~590-620 px, about 1.6-1.9x his visible hand length (~330-365 px), where a forearm is ~1.3-1.4x. Whether it is actually too long depends on where his elbow sits under the sleeve. The path is fully hidden behind her raised arm, so it does not read as a defect at normal size.",
+   "His stabilizing hand rests on her LEFT shoulder blade (image-left of the spine), not on the shoulder blade of the tested right arm that the overlay highlights."
+  ],
+  "report": "audit_v2/batch1-report.json",
+  "md5": "22825a0b204881946ed2438e6f282f90"
+ },
+ "cond-frozen-treat": {
+  "verdict": "MINOR",
+  "round": 1,
+  "by": "independent reviewer",
+  "hands": "4 hands checked, all correct",
+  "notes": [
+   "Brief not followed: the patient SITS upright on the table instead of lying on her back with her head on a pillow.",
+   "Hand placement differs from the brief: one hand rests on top of her shoulder and the other cradles her mid/distal forearm; the brief asked for holds at the elbow and the wrist."
+  ],
+  "report": "audit_v2/batch1-report.json",
+  "md5": "0ed3071ca941c4e3ddd99ebf5ff9b305"
+ },
+ "cond-headache-assess": {
+  "verdict": "MINOR",
+  "round": 2,
+  "by": "independent reviewer",
+  "hands": "2 hands checked, all correct",
+  "notes": [
+   "The practitioner stands in FRONT of her (far side), facing the camera: his white shirt with button placket, both rolled-sleeve forearms and his black trousers (image-right) are visible past her. The brief asked for him to stand behind her with only his two hands visible. Hand placement itself meets the brief (fingertips either side of the back of her neck just below the skull), so this is a composition deviation, not an anatomy defect.",
+   "Overlay continues from the skull base down the whole cervical and upper-thoracic spine to about mid-back (~y 0.87); the brief asked for the skull base and upper neck only. On her midline and correctly oriented."
+  ],
+  "variant": "cond-headache-assess-a",
+  "report": "audit_v2/r2_batch2-report.json",
+  "md5": "4ded7b6dea0b95491a96346f2d7ae5c2"
+ },
+ "cond-headache-treat": {
+  "verdict": "MINOR",
+  "round": 1,
+  "by": "independent reviewer",
+  "hands": "2 hands checked, all correct",
+  "notes": [
+   "Faint grey pseudo-glyph markings on the probe's front collar (~55x50 px), illegible, read as device engraving at normal size."
+  ],
+  "report": "audit_v2/batch1-report.json",
+  "md5": "dee12fa20323a5a9e52fb65fec5e9625"
+ },
+ "cond-lbp-assess": {
+  "verdict": "MINOR",
+  "round": 3,
+  "by": "independent reviewer",
+  "hands": "3 hands checked, all correct",
+  "notes": [
+   "The head is inside the frame but close to it. Columns 0-3 are wall only on every hair row. The outermost grey hair wisps start at x=17 and solid hair at x=25, so the head margin is 17 px, unchanged by the page crop. Only a thin strip of wall shows beyond the hair, less than the brief's 'well inside'.",
+   "Resting (right) foot toes end at x=2307 (4th toe): 28 px from the right edge. Clear but small.",
+   "The pelvis is a stylised rounded blob. The femur's proximal end (head + trochanter merged) sits on the pelvis' upper/front edge rather than centred in the socket. A short dog-bone stub at the pelvis' lower right reads as ischium/pubis or the resting femur's neck. No gross error, and the femur is in the RAISED thigh.",
+   "A small dark lens-shaped crease or mark (~12x10 px) on the raised big toe's knuckle. Not an extra digit and invisible at page size."
+  ],
+  "variant": "cond-lbp-assess-f",
+  "report": "audit_v2/r3c_batch4-report.json",
+  "md5": "7b6309aa8851ed9e0f82b31c50a729d0"
+ },
+ "cond-lbp-treat": {
+  "verdict": "MINOR",
+  "round": 2,
+  "by": "independent reviewer",
+  "hands": "1 hand checked, all correct",
+  "notes": [
+   "Laser head (aperture ~y 0.30) is still ~2 hand widths above the skin. The beams run ~290 px (~0.21 of image height) to their landing points on the lower back (~0.54-0.59, 0.50-0.52), next to the column and red glow. That is improved from ~0.30 at chest height last round, but still above the requested hand's width.",
+   "Above the lumbar region the column climbs more steeply (~63 degrees in frame) than his neck-to-sacrum axis (~36 degrees), so its upper end drifts toward the far edge of the upper back instead of heading for the base of the neck. The lumbar segments, triangular sacrum, coccyx (toward his feet) and both iliac wings are correctly placed and oriented."
+  ],
+  "variant": "cond-lbp-treat-b",
+  "report": "audit_v2/r2_batch2-report.json",
+  "md5": "0017837f1ccab55cfa2115bdd6e00ec2"
+ },
+ "cond-oa-assess": {
+  "verdict": "MINOR",
+  "round": 2,
+  "by": "independent reviewer",
+  "hands": "4 hands checked, all correct",
+  "notes": [
+   "The glow sits on the lateral (outer) joint line under the practitioner's pinch; the brief asks for the inner side of the knee.",
+   "Faint stray teal line on the medial calf below the tibia.",
+   "Under the practitioner's thumb, two fingertip-like pads sit inside the red glow. The grip arrangement is ambiguous at 6-12x, but there is no extra digit (5 at most) and it reads as a natural pinch at normal size."
+  ],
+  "variant": "cond-oa-assess-b",
+  "report": "audit_v2/r2_batch3-report.json",
+  "md5": "64a21ff320d5b40b8ba00a8403a919e4"
+ },
+ "cond-oa-treat": {
+  "verdict": "PASS",
+  "round": 2,
+  "by": "independent reviewer",
+  "hands": "3 hands checked, all correct",
+  "notes": [],
+  "variant": "cond-oa-treat-a",
+  "report": "audit_v2/r2_batch3-report.json",
+  "md5": "1cae8b5eeb2835f809fbc0b62747a9c1"
+ },
+ "cond-osteo-assess": {
+  "verdict": "PASS",
+  "round": 3,
+  "by": "independent reviewer",
+  "hands": "3 hands checked, all correct",
+  "notes": [],
+  "variant": "cond-osteo-assess-a",
+  "report": "audit_v2/r3c_batch3-report.json",
+  "md5": "e564e53e458a181dd2fd146d85509fc6"
+ },
+ "cond-osteo-treat": {
+  "verdict": "MINOR",
+  "round": 3,
+  "by": "independent reviewer",
+  "hands": "4 hands checked, all correct",
+  "notes": [
+   "About 7 pairs of rib arcs, each about 2/3 length, rather than only the inner ends of a few ribs. They float 20-35 px clear of the transverse processes. They stop about 50 px above the blanket, and the bottom 2-3 vertebrae have no ribs beside them, so they no longer run down to the waist.",
+   "The column runs from the base of the neck down to the blanket, longer than the 'short mid-back column' in the brief. It is straight and vertical in the midline (x about 0.515).",
+   "Practitioner stands at the head end of the table facing the camera, not at the side as briefed. His face is out of frame. Composition only."
+  ],
+  "variant": "cond-osteo-treat-b",
+  "report": "audit_v2/r3c_batch2-report.json",
+  "md5": "00c69bccfacb7f6c40a64a80ccdb2db1"
+ },
+ "cond-pinched-assess": {
+  "verdict": "MINOR",
+  "round": 1,
+  "by": "independent reviewer",
+  "hands": "3 hands checked, all correct",
+  "notes": [
+   "Humerus is registered too high: at x0.45 the upper arm spans y0.60-0.78 but the humerus shaft sits at y0.58-0.64, straddling the arm's top contour, with its upper half and glow halo over the T-shirt/chest instead of centred in the arm. The forearm bones and nerve path are correctly placed."
+  ],
+  "report": "audit_v2/batch2-report.json",
+  "md5": "ed5f81f35b7969d191459753886f32e9"
+ },
+ "cond-pinched-treat": {
+  "verdict": "PASS",
+  "round": 2,
+  "by": "independent reviewer",
+  "hands": "4 hands checked, all correct",
+  "notes": [],
+  "variant": "cond-pinched-treat-b",
+  "report": "audit_v2/r2_batch4-report.json",
+  "md5": "d91957e558525c00548fb47936a55d2f"
+ },
+ "cond-plantar-treat": {
+  "verdict": "MINOR",
+  "round": 3,
+  "by": "independent reviewer",
+  "hands": "2 hands checked, all correct",
+  "notes": [
+   "The toe-bone chains stop about 95 px short of the big-toe tip, so the nail half of the big toe has no bone."
+  ],
+  "variant": "cond-plantar-treat-b",
+  "report": "audit_v2/r3c_batch2-report.json",
+  "md5": "96b6c7ee5259f9e4d8a474a6e5231fcc"
+ },
+ "cond-pregnancy-treat": {
+  "verdict": "MINOR",
+  "round": 2,
+  "by": "independent reviewer",
+  "hands": "3 hands checked, all correct",
+  "notes": [
+   "Practitioner's thumb tip and index fingertip are tinted pale mint-green where they touch the spine overlay (glow bleeding onto the fingers). Small rendering glitch; the digits themselves are normal.",
+   "Femoral shaft drawn angling down-forward into the seat (~50 deg) instead of running forward along the horizontal thigh.",
+   "Top of the hair bun/crown clipped by the top edge; face and forehead fully in frame."
+  ],
+  "variant": "cond-pregnancy-treat-b",
+  "report": "audit_v2/r2_batch4-report.json",
+  "md5": "805d54c0fd433577c7d12b91053c4e5a"
+ },
+ "cond-sciatica-treat": {
+  "verdict": "MINOR",
+  "round": 1,
+  "by": "independent reviewer",
+  "hands": "2 hands checked, all correct",
+  "notes": [
+   "The probe's dark cable does not connect to the probe. It emerges from behind the practitioner's wrist, runs straight down beside the probe past its tail, and disappears behind the patient's buttock, so the probe is effectively cordless with a loose cable hanging next to it.",
+   "The pelvis is a tangle of doubled outlines (two obturator-like rings, overlapping wing and socket contours) rather than a clean pelvis. Location and orientation are right: posterolateral view inside the hip region with the sacrum continuing the spine."
+  ],
+  "report": "audit_v2/batch2-report.json",
+  "md5": "d69e9e27a83b7668b907318979eadbcb"
+ },
+ "cond-scoliosis-treat": {
+  "verdict": "PASS",
+  "round": 2,
+  "by": "independent reviewer",
+  "hands": "4 hands checked, all correct",
+  "notes": [],
+  "variant": "cond-scoliosis-treat-b",
+  "report": "audit_v2/r2_batch5-report.json",
+  "md5": "eade152cfd6b154f7b8fd312e0162596"
+ },
+ "cond-shoulder-treat": {
+  "verdict": "MINOR",
+  "round": 2,
+  "by": "independent reviewer",
+  "hands": "4 hands checked, all correct",
+  "notes": [
+   "Right scapula is drawn too medial and too large. Its medial border (about x0.43-0.46) and a long medial muscle band (about x0.40-0.46, from y0.33 down to a point at (0.44,0.67)) sit on or just across the estimated spine line (about x0.44-0.48, judged from the neck base and the symmetric position of the left strap). The medial border should lie about 5-8 cm lateral to the spine. As drawn, the overlay spans from the spine to the acromion, about 0.26 of the frame against roughly 0.20 expected. Orientation, joint attachment, rotator cuff layout and the supraspinatus glow are all correct.",
+   "The tank top has a left shoulder strap but no right strap. His right trapezius and shoulder are bare from the neck to the acromion, and the grey fabric only starts at the right armpit (about 0.60-0.62, 0.53-0.56). A one-strap tank top reads as a garment glitch, though the overlay partly masks it."
+  ],
+  "variant": "cond-shoulder-treat-b",
+  "report": "audit_v2/r2_batch5-report.json",
+  "md5": "4c60ab40a7fbca0d052e15e6c6d25e06"
+ },
+ "cond-disc-treat": {
+  "verdict": "MINOR",
+  "round": 2,
+  "by": "independent reviewer",
+  "hands": "4 hands checked, all correct",
+  "notes": [
+   "Overlay runs the whole thoracic spine up to the shoulders, not 'the lower back only: five lumbar vertebrae'. It is anatomically placed (midline, back view), so this is a scope deviation, not an error.",
+   "The PEMF ring sits at the thoracolumbar junction, above the glowing L4-L5 disc rather than over it."
+  ],
+  "variant": "cond-disc-treat-a",
+  "report": "audit_v2/r2_batch1-report.json",
+  "md5": "b065659370b07109f096db1eb8d48317"
+ },
+ "cond-stress-treat": {
+  "verdict": "PASS",
+  "round": 2,
+  "by": "independent reviewer",
+  "hands": "4 hands checked, all correct",
+  "notes": [],
+  "variant": "cond-stress-treat-b",
+  "report": "audit_v2/r2_batch5-report.json",
+  "md5": "5b0395faaad7c7a42199724c4a02a82d"
+ },
+ "cond-tennis-treat": {
+  "verdict": "PASS",
+  "round": 2,
+  "by": "independent reviewer",
+  "hands": "3 hands checked, all correct",
+  "notes": [],
+  "variant": "cond-tennis-treat-b",
+  "report": "audit_v2/r2_batch5-report.json",
+  "md5": "1ea8221fd1de9260460394e2712d293c"
+ },
+ "cond-neck-treat": {
+  "verdict": "MINOR",
+  "round": 3,
+  "by": "independent reviewer",
+  "hands": "2 hands checked, all correct",
+  "notes": [
+   "The stacked hands read naturally at page size (4 fingers on the top hand, 1 finger of the lower hand peeking out beneath). At 3.5x, the back of the top hand blends smoothly into the vertical (far/right) forearm's wrist, while the diagonal (near/left) forearm stops at a crease against its side. Which forearm owns the top hand is ambiguous, and neither thumb is visible. No wrong digit count, fusion or ribbon strips."
+  ],
+  "variant": "cond-neck-treat-b",
+  "report": "audit_v2/r3c_batch3-report.json",
+  "md5": "f17c8464c10477a15165e2177919c624"
+ },
+ "cond-whiplash-treat": {
+  "verdict": "PASS",
+  "round": 1,
+  "by": "independent reviewer",
+  "hands": "2 hands checked, all correct",
+  "notes": [],
+  "report": "audit_v2/batch3-report.json",
+  "md5": "8d85301af95bea3a1f0e0dc853983f55"
+ },
+ "cond-work-treat": {
+  "verdict": "PASS",
+  "round": 1,
+  "by": "independent reviewer",
+  "hands": "4 hands checked, all correct",
+  "notes": [],
+  "report": "audit_v2/batch3-report.json",
+  "md5": "f2d483f8ab8f96996575abd0ce20a4ff"
+ },
+ "svc-cold-hero": {
+  "verdict": "PASS",
+  "round": 2,
+  "by": "independent reviewer",
+  "hands": "3 hands checked, all correct",
+  "notes": [],
+  "variant": "svc-cold-hero-b",
+  "report": "audit_v2/r2_batch6-report.json",
+  "md5": "2e59bcc5d5930d6aac438e02c78ceb2e"
+ },
+ "svc-fx635-device": {
+  "verdict": "MINOR",
+  "round": 3,
+  "by": "independent reviewer",
+  "hands": "2 hands checked, all correct",
+  "notes": [
+   "The phalanx chains run into only the lower two toes (ending at about 1778,1457 px). The upper three toes, which have nails, have no bones. A careful viewer can see this; it is not noticeable at a glance.",
+   "Cosmetic: the top toe's nail has a dark rim, visible only at 3x zoom."
+  ],
+  "variant": "svc-fx635-device-a",
+  "report": "audit_v2/r3c_batch2-report.json",
+  "md5": "7f0f04b51b6feb9b8c4c197f9106f449"
+ },
+ "svc-pemf-hero": {
+  "verdict": "MINOR",
+  "round": 1,
+  "by": "independent reviewer",
+  "hands": "3 hands checked, all correct",
+  "notes": [
+   "Brief says nobody touches him, but the practitioner's hand holds the coil rim and its little-finger edge touches the patient's back."
+  ],
+  "report": "audit_v2/batch3-report.json",
+  "md5": "61ba68475befce27c4bfabc378403587"
+ },
+ "ak-mtest": {
+  "verdict": "PASS",
+  "round": 1,
+  "by": "independent reviewer",
+  "hands": "4 hands checked, all correct",
+  "notes": [],
+  "report": "audit_v2/batch3-report.json",
+  "md5": "4de9a2d691961b3d50b6834517ab8755"
+ },
+ "ak-roof": {
+  "verdict": "MINOR",
+  "round": 1,
+  "by": "independent reviewer",
+  "hands": "3 hands checked, all correct",
+  "notes": [
+   "The glow is on the patient's right shoulder, but the practitioner's hand rests on the opposite (left) side of the upper back, so the hand is not on the glowing site."
+  ],
+  "report": "audit_v2/batch3-report.json",
+  "md5": "152f23e7997211f1d6e76c00a02844a4"
+ },
+ "ak-legit-hero": {
+  "verdict": "MINOR",
+  "round": 2,
+  "by": "independent reviewer",
+  "hands": "3 hands checked, all correct",
+  "notes": [
+   "Reviewer said FAIL; Claude overruled: Framing waived: the reviewer failed it only because the practitioner's shirt and trousers fill the right half, where the round-2 brief asked for hands and forearms only. The one-clinician rule allows his torso as long as his head is out of frame, which it is; hands, overlay and red glow passed.",
+   "The practitioner's white shirt, buttons, belt and trousers fill the right half of the frame (plus his sleeve top-centre). The brief asks for an intimate close-up with only the two pairs of hands and forearms; this is a medium shot.",
+   "Forearm rises diagonally (~25 deg), not level. The grip is a full-hand drape over the distal forearm/wrist with fingers wrapped over the near side: improved from the fingertip claw, but not a flat palm on the back of the wrist.",
+   "Radius/ulna + forearm muscles, red glow on the muscle belly, no hand bones (good); the proximal end also draws the humeral condyles at the elbow."
+  ],
+  "variant": "ak-legit-hero-b",
+  "report": "audit_v2/r2_batch1-report.json",
+  "md5": "0780a682de0266f3bad3531474569975"
+ },
+ "about-hero": {
+  "verdict": "MINOR",
+  "round": 1,
+  "by": "independent reviewer",
+  "hands": "4 hands checked, all correct",
+  "notes": [
+   "The practitioner holds a handheld laser probe to her shoulder during the muscle test. The brief's foreground is a manual muscle test only, with the laser as the stand unit in the background.",
+   "The background device on the left is a generic white wheeled cart with a touchscreen. It has no articulated arm or laser head, so it is not the specified white stand-mounted laser."
+  ],
+  "report": "audit_v2/batch3-report.json",
+  "md5": "dfd9ad6cc99f4ddaacf242e1b8db6bb4"
+ },
+ "pi-first-hero": {
+  "verdict": "MINOR",
+  "round": 1,
+  "by": "independent reviewer",
+  "hands": "4 hands checked, all correct",
+  "notes": [
+   "Mixed projection at the bottom of the overlay. The lumbar spine is drawn in 3/4 lateral view (bodies to the right of the spinous processes), but the pelvis under it is drawn almost symmetric (both iliac wings fanned either side of the sacrum). The short femoral segment at the right hip angles DOWN into the table instead of running forward along the horizontal thigh. Only noticeable on close inspection; the spine itself is correct.",
+   "Woven label patch on the hem of the patient's shorts carries a tiny squiggly pseudo-logo (about 15x25 px). Unreadable, but logo-like.",
+   "The practitioner's left collar flap at the top edge renders semi-sheer, with skin tone showing through the fabric."
+  ],
+  "report": "audit_v2/batch4-report.json",
+  "md5": "aad26a1ca394869e18fc58b3903dd99a"
+ },
+ "svc-hub-hero": {
+  "verdict": "PASS",
+  "round": 3,
+  "by": "Claude (zoomed detail check)",
+  "hands": "no people in frame",
+  "notes": [],
+  "variant": "svc-hub-hero-b",
+  "md5": "c0073d8baf1a3e191c0c338303e66006"
+ },
+ "ak-who-imaging": {
+  "verdict": "MINOR",
+  "round": 1,
+  "by": "independent reviewer",
+  "hands": "4 hands checked, all correct",
+  "notes": [
+   "Tiny white pseudo-glyphs in the bottom-right corner of the X-ray film (a bulb shape, a triangle, a 'C', a '4'). They mimic film markers but are garbled."
+  ],
+  "report": "audit_v2/batch4-report.json",
+  "md5": "8775a994df9e0601c24061d1452968de"
+ },
+ "pi-faq-hero": {
+  "verdict": "PASS",
+  "round": 1,
+  "by": "independent reviewer",
+  "hands": "4 hands checked, all correct",
+  "notes": [],
+  "report": "audit_v2/batch4-report.json",
+  "md5": "66ab973a3d982f9dae7793d017c4fff3"
+ },
+ "pi-first-bring": {
+  "verdict": "PASS",
+  "round": 3,
+  "by": "Claude (zoomed detail check)",
+  "hands": "no people in frame",
+  "notes": [],
+  "variant": "pi-first-bring-a",
+  "md5": "bddd3a72be5d8ef8c0fdfef17935e2ba"
+ },
+ "pi-forms-hero": {
+  "verdict": "PASS",
+  "round": 3,
+  "by": "Claude (zoomed detail check)",
+  "hands": "no people in frame",
+  "notes": [],
+  "variant": "pi-forms-hero-a",
+  "md5": "b3d52debdcc8cac469741b86e527e846"
+ },
+ "book-hero": {
+  "verdict": "PASS",
+  "round": 3,
+  "by": "Claude (zoomed detail check)",
+  "hands": "no people in frame",
+  "notes": [],
+  "variant": "book-hero-b",
+  "md5": "50b6fb93f4bebd996f5d6180b25fb35a"
+ },
+ "about-drvw-learning": {
+  "verdict": "PASS",
+  "round": 1,
+  "by": "independent reviewer",
+  "hands": "",
+  "notes": [],
+  "report": "audit_v2/batch4-report.json",
+  "md5": "0617ca8e71d9e050667e3dafad655d72"
+ },
+ "svc-nutrition-consult": {
+  "verdict": "MINOR",
+  "round": 1,
+  "by": "independent reviewer",
+  "hands": "4 hands checked, all correct",
+  "notes": [
+   "The brief asked for the food diary open 'with a pen'. There is no pen anywhere on the table."
+  ],
+  "report": "audit_v2/batch4-report.json",
+  "md5": "dc447f584adc06024d7e21a9fae5cf2e"
+ },
+ "cond-auto-hero": {
+  "verdict": "MINOR",
+  "round": 3,
+  "by": "independent reviewer",
+  "hands": "",
+  "notes": [
+   "C1 atlas is drawn with a body-like anterior block and a disc band beneath it; the real atlas has no body and there is no C1-C2 disc. Counted as C1 because the spec wording (atlas + six bodies C2-C7) matches this drawing. Identical in both edits and in the source.",
+   "Lordosis is weak and reads nearly straight, tilted forward at the top. Anterior body edges (x, mid-height): C2 0.592, C3 0.584, C4 0.590, C5 0.584, C6 0.576, C7 0.5725. C4-C5 sit only ~0.005 (about 10-12 px) in front of the C2-C7 chord (sagitta ~1.4% of a ~708 px span, about 6-7 degrees of arc), and C3 sits slightly behind it. Technically bows toward the body side, as the spec asks, but weakly."
+  ],
+  "variant": "cond-auto-hero-c-edit-b",
+  "report": "audit_v2/r3_plates-report.json"
+ },
+ "cond-carpal-hero": {
+  "verdict": "MINOR",
+  "round": 2,
+  "by": "independent reviewer",
+  "hands": "",
+  "notes": [
+   "A short branch leaves the nerve just below the band and curves down-left, ending abruptly at ~(869,612) on the ulnar half of the ring-metacarpal base. It does NOT reach the little finger, so it is not the FAIL case, but it reads as the cut-off stump of the removed little-finger branch. Evidence: r2__plate__cond-carpal-hero-b-edit__nerve_branch_ends_labeled.png.",
+   "Two small teal wedge marks still flank the nerve just above the band, at ~(908-921,306-321) and ~(949-958,284-299). They were flagged in the previous round.",
+   "The nerve trunk starts as a tapered point at ~y180 between the forearm bones rather than running up out of the plate like the bones. Cosmetic."
+  ],
+  "variant": "cond-carpal-hero-b-edit",
+  "report": "audit_v2/r2_batch6-report.json"
+ },
+ "cond-carpal-assess": {
+  "verdict": "MINOR",
+  "round": 1,
+  "by": "independent reviewer (first-set audit)",
+  "hands": "",
+  "notes": [
+   "The top vertebra of the 5-level stack is a winged, centrally peaked atlas-like shape, so the stack reads as upper neck (C1-C5). Brachial plexus roots should arise from the lower neck (C5-T1), and here they leave between the upper levels of this stack.",
+   "The clavicle's medial end butts against the lowest vertebra's transverse process. With no sternum or first rib drawn, it reads as the collarbone articulating with the spine.",
+   "An unbounded teal wash smear with a ragged lower edge spills outside any outline under the scapula, next to an open-ended outline stroke that just stops.",
+   "The thumb branch of the nerve stops at the thumb web in a small starburst of radiating strokes instead of running into the thumb as the brief asks (into the thumb and first fingers)."
+  ],
+  "variant": "v1",
+  "report": "audit/batch4-report.json"
+ },
+ "cond-fibro-hero": {
+  "verdict": "MINOR",
+  "round": 1,
+  "by": "independent reviewer",
+  "hands": "",
+  "notes": [
+   "The elbow dots (829,542) and (1219,542) are only 3-4 px lateral of the arm's centreline (arm about 80 px wide). They sit on the back of the elbow beside the olecranon rather than clearly on the outer (lateral epicondyle) side."
+  ],
+  "variant": "cond-fibro-hero-b",
+  "report": "audit_v2/plates1-report.json"
+ },
+ "cond-frozen-hero": {
+  "verdict": "PASS",
+  "round": 2,
+  "by": "Claude (arcs redrawn geometrically on the reviewed base; checked at 4x)",
+  "hands": "",
+  "notes": [
+   "Base drawing reviewed: bones correct; the model's arcs were wrong, so they were removed and redrawn on one circle centred on the humeral head (frozen_arcs.py)."
+  ],
+  "variant": "cond-frozen-hero-fixed.png",
+  "base_review": "FAIL"
+ },
+ "cond-headache-hero": {
+  "verdict": "MINOR",
+  "round": 1,
+  "by": "independent reviewer",
+  "hands": "",
+  "notes": [
+   "No cervical lordosis. Anterior body margins at mid-height: C2 x=1064, C3 1063, C4 1071, C5 1079, C6 1078. The C2-C6 chord passes within 1 px of C4 (sagitta about 0 px), where a normal neck bows forward. The column reads as a straight or military neck, which a chiropractor will notice on a headache page.",
+   "Spinous proportions are off. C2 is not the dominant upper spine: the C3 and C5 tips (x 827 and 820) reach as far back as C2's (x 835), where C2 normally projects well past C3-C5. The C1 posterior arch is a thick, full-length spine-like bar (tip x 855) instead of a thin arch ending in a small posterior tubercle.",
+   "The lowest vertebra (C6 level, body y 1175-1241) has a body and articular knob but no lamina or spinous process, so the column ends in an incomplete vertebra.",
+   "Possible misread: horizontally ring-hatched cylinders between the skull base and C1 (about x 940-1030, y 625-705) and between C1 and C2 (about y 760-790) look like intervertebral discs. There is no disc at C0-C1 or C1-C2. If they are meant as the condyle and atlas lateral mass, the disc-style hatching misleads."
+  ],
+  "variant": "cond-headache-hero-b",
+  "report": "audit_v2/plates2-report.json"
+ },
+ "cond-lbp-hero": {
+  "verdict": "MINOR",
+  "round": 1,
+  "by": "independent reviewer",
+  "hands": "",
+  "notes": [
+   "The five intervertebral foramina are perfect circles (centres (1007,189) (1002,339) (1002,497) (1027,656) (1057,802)) instead of tall ear or teardrop openings.",
+   "Four sacral foramina are drawn as holes on the sacrum's lateral face. They are not visible in a true side view.",
+   "The spinous processes are slender rods with flared ends (about 50-60 px tall against 134-154 px bodies) rather than broad hatchet-shaped lumbar spines.",
+   "The sacral base is shallow, about 10-15 degrees from horizontal against a normal 35-45 degrees."
+  ],
+  "variant": "cond-lbp-hero-b",
+  "report": "audit_v2/plates2-report.json"
+ },
+ "cond-oa-hero": {
+  "verdict": "PASS",
+  "round": 1,
+  "by": "independent reviewer",
+  "hands": "",
+  "notes": [
+   "An unrequested collateral change: besides removing the three circles, the edit smoothed away the drippy osteophyte spikes along the inferior edge of the medial femoral condyle (original x about 1080-1210, y 680-720). Only a small hooked lip at the notch side and a flared lip at the medial rim remain. OA is still read from the narrowed medial joint space, the irregular medial plateau and marginal lipping, but the osteophyte signal is weaker than in the original."
+  ],
+  "variant": "cond-oa-hero-edit",
+  "report": "audit_v2/plates2-report.json"
+ },
+ "cond-osteo-hero": {
+  "verdict": "MINOR",
+  "round": 1,
+  "by": "independent reviewer",
+  "hands": "",
+  "notes": [
+   "Spongy trabecular lattice fills both shafts all the way to the cut end (y about 1180). The femoral diaphysis is a hollow tube (thick cortex around a medullary canal), and cancellous bone belongs mainly in the head, neck and trochanteric region.",
+   "Both shafts widen toward the cut end (silhouette 121 px at y 700 to 135 px at y 1050, about 11%), a slight trumpet flare where the proximal-to-mid shaft should run parallel or narrow slightly."
+  ],
+  "variant": "cond-osteo-hero-a",
+  "report": "audit_v2/plates2-report.json"
+ },
+ "cond-pinched-hero": {
+  "verdict": "MINOR",
+  "round": 1,
+  "by": "independent reviewer",
+  "hands": "",
+  "notes": [
+   "Reviewer said FAIL; Claude overruled: Accepted as a lower-back (lumbar) segment. The reviewer found it anatomically coherent as a lumbar nerve root pinched by a disc bulge where it leaves the spine; it failed only because the brief asked for a neck segment. The pinched-nerve page speaks of nerves caught where they leave the spine in general, so a lumbar example fits. Owner's call: the site also has a separate sciatica page (lower back).",
+   "The vertebrae are still lumbar-looking, not cervical: large waisted bodies (upper about 330 x 255 px, lower about 310 x 290, nearly square), a tall horn-like superior articular process (x about 1020-1120, y 245-420), and thick square-ended horizontal spines. None of the cervical hallmarks are present (uncinate process, anterior-inferior lip, articular pillar with 45-degree facets, short bifid spine). The spec requires two NECK vertebrae and names lumbar-looking vertebrae as a defect.",
+   "The root begins as a rounded blind end inside the foramen, with no cord or dural sleeve medially, so it reads as a free-floating tube rather than a branch of the cord.",
+   "A cluster of hatch strokes at the lower body's upper-left rim forms an 'icc'-like shape that reads as letters at 2x zoom. At 6x they are plain hatch dashes, invisible at display size."
+  ],
+  "variant": "cond-pinched-hero-b",
+  "report": "audit_v2/plates2-report.json"
+ },
+ "svc-hormone-thyroid": {
+  "verdict": "MINOR",
+  "round": 1,
+  "by": "independent reviewer",
+  "hands": "",
+  "notes": [
+   "Between the thyroid and cricoid cartilages a dark lens-shaped opening shows the airway lumen, as if seen from above, while the thyroid cartilage is face-on. From the front the cricothyroid membrane closes this gap. It is far less lip-like than the original's pouting bowl, but it is still an open slot at the spot that used to read as a mouth.",
+   "The trachea above and below the isthmus is drawn as funnel or bowl segments (stacked-cups perspective with elliptical rings), so at display size the airway looks hourglass-shaped at the isthmus instead of a straight ringed tube behind the gland.",
+   "The cricoid appears as a tall band (about 150 px against a 290 px thyroid cartilage) where its narrow anterior arch should show. The lobes' upper poles start at cricoid level (y about 808), not at mid-lamina of the thyroid cartilage, so the gland sits slightly low."
+  ],
+  "variant": "svc-hormone-thyroid-a",
+  "report": "audit_v2/plates2-report.json"
+ },
+ "ak-balance": {
+  "verdict": "PASS",
+  "round": 1,
+  "by": "independent reviewer (first-set audit)",
+  "hands": "",
+  "notes": [],
+  "variant": "v1",
+  "report": "audit/batch4-report.json"
+ },
+ "ak-chain": {
+  "verdict": "MINOR",
+  "round": 1,
+  "by": "independent reviewer (first-set audit)",
+  "hands": "",
+  "notes": [
+   "Chain has 9 links (5 face-on, 4 edge-on); the brief specifies 7.",
+   "Chain spans x~36-2337 of 2374: only 36px (1.5%) clear at each side. The end links nearly touch the frame and will be clipped by any object-fit crop, rounded-corner container or responsive re-crop."
+  ],
+  "variant": "v1",
+  "report": "audit/batch4-report.json"
+ }
+}

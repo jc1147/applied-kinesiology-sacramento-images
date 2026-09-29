@@ -1,0 +1,114 @@
+[
+ {
+  "name": "about-drvw-learning",
+  "path": "final/full/about-drvw-learning.jpg",
+  "kind": "photo",
+  "page_section": "about/dr-van-wagenen :: Still learning",
+  "intended_subject": "a study corner by a window: a pale wooden desk with a stack of closed clinical textbooks with plain unmarked spines, a small anatomical model of the spine on a stand, reading glasses resting on an open notebook of handwritten notes (too soft to read), and a cup of coffee. No people."
+ },
+ {
+  "name": "about-hero",
+  "path": "final/full/about-hero.jpg",
+  "kind": "photo",
+  "page_section": "about :: Sacramento Applied Kinesiology, Roseville",
+  "intended_subject": "one treatment room holding both the method and the equipment: in the foreground a manual muscle test, the patient seated on the table with an arm held straight out to the side and the practitioner's hand pressing gently above the wrist (framed from the chest down, the patient seen from behind); in the softly blurred background a stand-mounted low-level laser with no brand markings (a rounded white head about the size of a dinner plate on an articulated arm from a wheeled white floor stand), parked beside the table and not in use and a small white side table with a flat white ring-shaped PEMF c"
+ },
+ {
+  "name": "ak-legit-hero",
+  "path": "final/full/ak-legit-hero.jpg",
+  "kind": "photo",
+  "page_section": "applied-kinesiology/is-muscle-testing-legitimate :: Is Muscle Testing Real? An Honest Answer",
+  "intended_subject": "an intimate close-up of a manual muscle test: the patient's forearm is held level with the elbow bent and the fist closed, and the practitioner's flat palm rests on the back of the patient's wrist, pressing gently and steadily down; the practitioner's other hand steadies the patient's elbow. Only the two pairs of hands and forearms fill the frame."
+ },
+ {
+  "name": "ak-mtest",
+  "path": "final/full/ak-mtest.jpg",
+  "kind": "photo",
+  "page_section": "applied-kinesiology (+ faq, first-visit) :: Muscle testing, in plain terms",
+  "intended_subject": "manual muscle test: patient seated with one arm held out to the side, practitioner presses down above the wrist and steadies the shoulder"
+ },
+ {
+  "name": "ak-roof",
+  "path": "final/full/ak-roof.jpg",
+  "kind": "photo",
+  "page_section": "applied-kinesiology :: The method and the instruments, under one roof",
+  "intended_subject": "in one room: in the foreground the practitioner's hand rests on the shoulder of a patient seated on the treatment table (seen from behind), and just beyond them, softly out of focus, stands a stand-mounted low-level laser with no brand markings (a rounded white head about the size of a dinner plate on an articulated arm from a wheeled white floor stand), its head folded down, not in use."
+ },
+ {
+  "name": "ak-who-imaging",
+  "path": "final/full/ak-who-imaging.jpg",
+  "kind": "photo",
+  "page_section": "applied-kinesiology/who-its-for :: What the assessment actually covers",
+  "intended_subject": "across a small pale wooden table, the patient's hands pass a large paper imaging envelope to the practitioner's hands; an X-ray film showing the silhouette of a lower spine is half drawn out of the envelope. Framed at table height, hands and forearms only."
+ },
+ {
+  "name": "book-hero",
+  "path": "final/full/book-hero.jpg",
+  "kind": "photo",
+  "page_section": "book :: Tell us what is going on",
+  "intended_subject": "a calm reception desk by a window: a simple white desk telephone, a small paper appointment book lying open to blank pages with a pen, and a sprig of eucalyptus in a glass; the waiting room softly blurred behind. No people, no readable text."
+ },
+ {
+  "name": "cond-auto-assess",
+  "path": "final/full/cond-auto-assess.jpg",
+  "kind": "photo",
+  "page_section": "conditions/auto-accident-injury :: The questions this examination is built to answer",
+  "intended_subject": "a patient sits on the edge of the treatment table with their back to the camera; the practitioner's two hands rest flat on either side of the patient's mid back and lower rib cage, feeling how the ribs move as the patient breathes, examining the region after a car collision. Framed from the shoulders to the waist."
+ },
+ {
+  "name": "cond-auto-treat",
+  "path": "final/full/cond-auto-treat.jpg",
+  "kind": "photo",
+  "page_section": "conditions/auto-accident-injury :: Settle the irritated tissue, then restore what stopped moving",
+  "intended_subject": "a close view at table height of a patient lying face down: the upper back and shoulder blades fill the frame and the patient's head is completely outside the left edge of the frame; a stand-mounted low-level laser with no brand markings (a rounded white head about the size of a dinner plate on an articulated arm from a wheeled white floor stand) is positioned a hand's width above the upper back, where the neck meets the shoulders, casting three thin soft red light lines across the skin without touching it, its white head entering from the top of the frame on its arm; the practitioner's hand re"
+ },
+ {
+  "name": "cond-carpal-treat",
+  "path": "final/full/cond-carpal-treat.jpg",
+  "kind": "photo",
+  "page_section": "conditions/carpal-tunnel :: Free the tunnel, then unload the path into it",
+  "intended_subject": "close-up: patient's forearm on a towel, practitioner holds a small handheld low-level laser probe above the inside of the wrist"
+ },
+ {
+  "name": "cond-disc-treat",
+  "path": "final/full/cond-disc-treat.jpg",
+  "kind": "photo",
+  "page_section": "conditions/slipped-disc :: Instruments, where they are indicated",
+  "intended_subject": "photographed from the foot end of the table: a patient lies on their back with the knees over a soft sage bolster and the head beyond the frame at the far end; a flat white ring-shaped PEMF coil about 30 cm across, like a large smooth doughnut, connected by a thin cable to a small white console with a blank dark screen lies flat on the table directly under the patient's low back, its rim just visible at the waist, its cable running to the console. Framed from the chest to the knees."
+ },
+ {
+  "name": "cond-fibro-assess",
+  "path": "final/full/cond-fibro-assess.jpg",
+  "kind": "photo",
+  "page_section": "conditions/fibromyalgia :: One appointment that looks at the whole load",
+  "intended_subject": "a first-appointment history taking: at a small pale wood table by the window, the patient's hands rest around a cup of tea while across the table the practitioner's hands write in a notebook with a pen (the handwriting is too small and soft to read); a closed folder of reports lies beside the cup. Framed at table height, only hands and forearms."
+ },
+ {
+  "name": "cond-fibro-treat",
+  "path": "final/full/cond-fibro-treat.jpg",
+  "kind": "photo",
+  "page_section": "conditions/fibromyalgia :: Low force first, and less of it than you expect",
+  "intended_subject": "a patient lies face down on a pale sage treatment table, face in the face cradle, a soft blanket over the legs; the practitioner holds a small handheld chiropractic adjusting instrument shaped like a thick marker pen, brushed chrome with a visible coiled-spring section and a flat black rubber tip, held like a pen; clearly not a syringe, with no needle and no finger rings gently against the muscles beside the mid spine, his other hand resting flat on the patient's back, conveying very light, careful force."
+ },
+ {
+  "name": "cond-frozen-assess",
+  "path": "final/full/cond-frozen-assess.jpg",
+  "kind": "photo",
+  "page_section": "conditions/frozen-shoulder :: We test what the arm is standing on",
+  "intended_subject": "a patient sits on the treatment table with their back to the camera and slowly raises one arm forward; the practitioner's hand rests on the patient's shoulder blade feeling it glide across the rib cage, his other hand lightly guiding the patient's elbow. Framed from the shoulders to the waist, hair tied up."
+ },
+ {
+  "name": "cond-frozen-treat",
+  "path": "final/full/cond-frozen-treat.jpg",
+  "kind": "photo",
+  "page_section": "conditions/frozen-shoulder :: Give the capsule a reason to let go",
+  "intended_subject": "a patient lies on their back on the treatment table, seen from the chest down; the practitioner gently holds the patient's arm at the elbow and the wrist and eases it out to the side in a slow, supported arc, a folded towel under the shoulder. The patient's head is out of frame."
+ },
+ {
+  "name": "cond-headache-assess",
+  "path": "final/full/cond-headache-assess.jpg",
+  "kind": "photo",
+  "page_section": "conditions/headache-migraine :: We look hardest at the days between the headaches",
+  "intended_subject": "a patient sits upright on the treatment table seen from behind, hair tied up; the practitioner's fingertips rest lightly on the jaw joints just in front of both ears and at the base of the skull, examining the jaw and the upper neck. Framed from the top of the head to the shoulders, the face turned away from the camera."
+ }
+]

@@ -1,0 +1,62 @@
+[
+ {
+  "name": "cond-carpal-hero-v1edit-a",
+  "model": "marketing-studio/image/flare",
+  "images": [
+   "final\\full\\cond-carpal-hero.jpg"
+  ],
+  "input": {
+   "prompt": "Keep this exact illustration: the same composition, hand pose, style, colours, soft outline of the hand and line work. Change only these anatomical details: (1) the pale ligament band across the wrist spans the WHOLE width of the wrist bones, from the thumb side to the little-finger side, with clean ends inside the outline of the hand; (2) the nerve passes UNDER this band: the band is drawn on top of the nerve and hides it, so the nerve disappears under the band's upper edge and reappears at its lower edge; (3) each finger's outline joins the palm outline cleanly at the web spaces, with no small open hooks. Anatomically exact: a chiropractor will check every bone and count. No text, letters, numbers, labels, arrows or leader lines anywhere.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "cond-carpal-hero-v1edit-b",
+  "model": "marketing-studio/image/flare",
+  "images": [
+   "final\\full\\cond-carpal-hero.jpg"
+  ],
+  "input": {
+   "prompt": "Keep this exact illustration: the same composition, hand pose, style, colours, soft outline of the hand and line work. Change only these anatomical details: (1) the pale ligament band across the wrist spans the WHOLE width of the wrist bones, from the thumb side to the little-finger side, with clean ends inside the outline of the hand; (2) the nerve passes UNDER this band: the band is drawn on top of the nerve and hides it, so the nerve disappears under the band's upper edge and reappears at its lower edge; (3) each finger's outline joins the palm outline cleanly at the web spaces, with no small open hooks. Anatomically exact: a chiropractor will check every bone and count. No text, letters, numbers, labels, arrows or leader lines anywhere.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "cond-auto-hero-c-edit-a",
+  "model": "marketing-studio/image/flare",
+  "images": [
+   "v2\\plates\\cond-auto-hero-c.png"
+  ],
+  "input": {
+   "prompt": "Keep this exact illustration: the same composition, style, colours, line work, curve and the three concentric rings. Change only one thing: remove the LOWEST vertebra at the bottom of the column (the eighth one) together with the disc directly above it, so the column has exactly seven neck vertebrae, C1 at the top to C7 at the bottom, and ends with the complete body and spinous process of C7; where the removed vertebra was, show the same plain cream paper. Anatomically exact: a chiropractor will check every bone and count. No text, letters, numbers, labels, arrows or leader lines anywhere.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "cond-auto-hero-c-edit-b",
+  "model": "marketing-studio/image/flare",
+  "images": [
+   "v2\\plates\\cond-auto-hero-c.png"
+  ],
+  "input": {
+   "prompt": "Keep this exact illustration: the same composition, style, colours, line work, curve and the three concentric rings. Change only one thing: remove the LOWEST vertebra at the bottom of the column (the eighth one) together with the disc directly above it, so the column has exactly seven neck vertebrae, C1 at the top to C7 at the bottom, and ends with the complete body and spinous process of C7; where the removed vertebra was, show the same plain cream paper. Anatomically exact: a chiropractor will check every bone and count. No text, letters, numbers, labels, arrows or leader lines anywhere.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ }
+]

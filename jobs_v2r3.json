@@ -1,0 +1,98 @@
+[
+ {
+  "name": "pi-first-bring-a",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: a still life on a pale oak table by the window, seen at a low three-quarter angle with the clinic softly blurred behind: what to bring to a first visit, neatly arranged: a large paper imaging envelope with the edge of an X-ray film showing, a folded blank sheet of paper, a small clear pill organiser with plain unmarked lids, two plain white unlabelled medicine boxes, a blank intake form on a clipboard with a pen resting on it, and a pair of reading glasses; soft window light. Clean, modern, warm and precise; crisp detail and fresh true-to-life colour. This is an empty still life: there are no people, no hands, no arms and no body parts anywhere in the frame. No text, logos, labels, letters or readable screens; every object is plain and unbranded.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "pi-first-bring-b",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: a still life on a pale oak table by the window, seen at a low three-quarter angle with the clinic softly blurred behind: what to bring to a first visit, neatly arranged: a large paper imaging envelope with the edge of an X-ray film showing, a folded blank sheet of paper, a small clear pill organiser with plain unmarked lids, two plain white unlabelled medicine boxes, a blank intake form on a clipboard with a pen resting on it, and a pair of reading glasses; soft window light. Clean, modern, warm and precise; crisp detail and fresh true-to-life colour. This is an empty still life: there are no people, no hands, no arms and no body parts anywhere in the frame. No text, logos, labels, letters or readable screens; every object is plain and unbranded.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "book-hero-a",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: a calm front desk by a large window: a white desk telephone seen from the side, its handset resting in the cradle and its keypad turned away from the camera, a small paper appointment book open to blank pages with a pen, and a sprig of eucalyptus in a glass; the treatment area softly blurred behind. Clean, modern, warm and precise; crisp detail and fresh true-to-life colour. This is an empty still life: there are no people, no hands, no arms and no body parts anywhere in the frame. No text, logos, labels, letters or readable screens; every object is plain and unbranded.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "16:9",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "book-hero-b",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: a calm front desk by a large window: a white desk telephone seen from the side, its handset resting in the cradle and its keypad turned away from the camera, a small paper appointment book open to blank pages with a pen, and a sprig of eucalyptus in a glass; the treatment area softly blurred behind. Clean, modern, warm and precise; crisp detail and fresh true-to-life colour. This is an empty still life: there are no people, no hands, no arms and no body parts anywhere in the frame. No text, logos, labels, letters or readable screens; every object is plain and unbranded.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "16:9",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "pi-forms-hero-a",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: on the counter by the window, a clipboard holding a blank paper intake form with a pen resting on it, and next to it a white desk telephone seen from the side, its handset resting in the cradle and its keypad turned away from the camera; the treatment room softly blurred behind. Clean, modern, warm and precise; crisp detail and fresh true-to-life colour. This is an empty still life: there are no people, no hands, no arms and no body parts anywhere in the frame. No text, logos, labels, letters or readable screens; every object is plain and unbranded.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "pi-forms-hero-b",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: on the counter by the window, a clipboard holding a blank paper intake form with a pen resting on it, and next to it a white desk telephone seen from the side, its handset resting in the cradle and its keypad turned away from the camera; the treatment room softly blurred behind. Clean, modern, warm and precise; crisp detail and fresh true-to-life colour. This is an empty still life: there are no people, no hands, no arms and no body parts anywhere in the frame. No text, logos, labels, letters or readable screens; every object is plain and unbranded.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "svc-hub-hero-a",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: the treatment room that holds both halves of the practice: a padded pale sage adjusting table with a folded towel, the white stand-mounted laser on its articulated arm parked beside it, and on a small white side table a white ring-shaped PEMF coil with its small white console beside it, one continuous white cable running from the base of the coil straight into the console; morning light through a large window. Clean, modern, warm and precise; crisp detail and fresh true-to-life colour. This is an empty still life: there are no people, no hands, no arms and no body parts anywhere in the frame. No text, logos, labels, letters or readable screens; every object is plain and unbranded.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "1:1",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "svc-hub-hero-b",
+  "model": "marketing-studio/image/flare",
+  "input": {
+   "prompt": "Premium editorial photograph for a luxury health-technology brand campaign, not stock photography. The scene is set in a real, modern physical-medicine clinic fills the background: pale oak cabinetry, open shelves with folded towels and a few plants, a large window with soft daylight, contemporary medical equipment; shallow depth of field, so the room is softly blurred but clearly a real place, never a plain studio backdrop. Scene: the treatment room that holds both halves of the practice: a padded pale sage adjusting table with a folded towel, the white stand-mounted laser on its articulated arm parked beside it, and on a small white side table a white ring-shaped PEMF coil with its small white console beside it, one continuous white cable running from the base of the coil straight into the console; morning light through a large window. Clean, modern, warm and precise; crisp detail and fresh true-to-life colour. This is an empty still life: there are no people, no hands, no arms and no body parts anywhere in the frame. No text, logos, labels, letters or readable screens; every object is plain and unbranded.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "1:1",
+   "enhance_prompt": false
+  }
+ }
+]

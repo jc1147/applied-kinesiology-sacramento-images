@@ -1,0 +1,83 @@
+{
+ "applied": {
+  "ak-legit-hero": {
+   "pick": "ak-legit-hero-b",
+   "verdict": "MINOR"
+  },
+  "cond-carpal-treat": {
+   "pick": "cond-carpal-treat-b",
+   "verdict": "MINOR"
+  },
+  "cond-disc-treat": {
+   "pick": "cond-disc-treat-a",
+   "verdict": "MINOR"
+  },
+  "cond-headache-assess": {
+   "pick": "cond-headache-assess-a",
+   "verdict": "MINOR"
+  },
+  "cond-lbp-assess": {
+   "pick": "cond-lbp-assess-a",
+   "verdict": "MINOR"
+  },
+  "cond-lbp-treat": {
+   "pick": "cond-lbp-treat-b",
+   "verdict": "MINOR"
+  },
+  "cond-oa-assess": {
+   "pick": "cond-oa-assess-b",
+   "verdict": "MINOR"
+  },
+  "cond-oa-treat": {
+   "pick": "cond-oa-treat-a",
+   "verdict": "PASS"
+  },
+  "cond-osteo-treat": {
+   "pick": "cond-osteo-treat-b",
+   "verdict": "MINOR"
+  },
+  "cond-pinched-treat": {
+   "pick": "cond-pinched-treat-b",
+   "verdict": "PASS"
+  },
+  "cond-pregnancy-treat": {
+   "pick": "cond-pregnancy-treat-b",
+   "verdict": "MINOR"
+  },
+  "cond-scoliosis-treat": {
+   "pick": "cond-scoliosis-treat-b",
+   "verdict": "PASS"
+  },
+  "cond-shoulder-treat": {
+   "pick": "cond-shoulder-treat-b",
+   "verdict": "MINOR"
+  },
+  "cond-stress-treat": {
+   "pick": "cond-stress-treat-b",
+   "verdict": "PASS"
+  },
+  "cond-tennis-treat": {
+   "pick": "cond-tennis-treat-b",
+   "verdict": "PASS"
+  },
+  "svc-cold-hero": {
+   "pick": "svc-cold-hero-b",
+   "verdict": "PASS"
+  },
+  "svc-fx635-device": {
+   "pick": "svc-fx635-device-b",
+   "verdict": "MINOR"
+  }
+ },
+ "still_failing": [
+  "cond-auto-assess",
+  "cond-auto-hero",
+  "cond-fibro-treat",
+  "cond-neck-treat",
+  "cond-osteo-assess",
+  "cond-plantar-treat"
+ ],
+ "plates": {
+  "cond-carpal-hero": "v2/plates/cond-carpal-hero-b-edit.png"
+ }
+}

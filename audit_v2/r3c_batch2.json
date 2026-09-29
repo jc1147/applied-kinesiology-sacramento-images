@@ -1,0 +1,62 @@
+[
+ {
+  "name": "cond-osteo-treat-a",
+  "pair": "cond-osteo-treat",
+  "path": "v2/round3c/cond-osteo-treat-a.png",
+  "scene": "the camera stands at the foot end of the treatment table looking along the patient's back toward her head, so her spine runs straight up the middle of the frame: the patient, a woman in her seventies with short silver hair, lies face down on a well-padded treatment table with a pillow under her chest and a light blanket over her hips and legs; the practitioner stands at the side of the table and holds a small chrome spring-loaded adjusting instrument shaped like a thick pen with a flat rubber tip (no needle) lightly against her mid back, his other hand resting still on her shoulder",
+  "overlay_anatomy": "the mid back only: a short straight column of vertebrae running up the middle of her back, with the inner ends of a few ribs on either side",
+  "pain_site_red_glow": "the mid back",
+  "page_crop": "7:5 (the page crop trims 3.5% off the left and right edges)",
+  "previous_failure_to_check": "Round 2: side-on views drew the spine about 20 degrees off the body axis and the ribs full length down to the waist. Now shot from the foot end: the column must run straight up the middle of her back, with only the inner ends of a few ribs."
+ },
+ {
+  "name": "cond-osteo-treat-b",
+  "pair": "cond-osteo-treat",
+  "path": "v2/round3c/cond-osteo-treat-b.png",
+  "scene": "the camera stands at the foot end of the treatment table looking along the patient's back toward her head, so her spine runs straight up the middle of the frame: the patient, a woman in her seventies with short silver hair, lies face down on a well-padded treatment table with a pillow under her chest and a light blanket over her hips and legs; the practitioner stands at the side of the table and holds a small chrome spring-loaded adjusting instrument shaped like a thick pen with a flat rubber tip (no needle) lightly against her mid back, his other hand resting still on her shoulder",
+  "overlay_anatomy": "the mid back only: a short straight column of vertebrae running up the middle of her back, with the inner ends of a few ribs on either side",
+  "pain_site_red_glow": "the mid back",
+  "page_crop": "7:5 (the page crop trims 3.5% off the left and right edges)",
+  "previous_failure_to_check": "Round 2: side-on views drew the spine about 20 degrees off the body axis and the ribs full length down to the waist. Now shot from the foot end: the column must run straight up the middle of her back, with only the inner ends of a few ribs."
+ },
+ {
+  "name": "cond-plantar-treat-a",
+  "pair": "cond-plantar-treat",
+  "path": "v2/round3c/cond-plantar-treat-a.png",
+  "scene": "a close side view of the patient's bare right foot and ankle resting on a folded white towel at the end of the treatment table, the inner arch of the foot facing the camera; only this one foot is in the frame, natural adult size; a white stand-mounted low-level laser head on an articulated arm, positioned a hand's width above the heel and projecting three thin red laser lines onto the skin without touching it",
+  "overlay_anatomy": "a SIDE VIEW of the foot skeleton inside the foot: the heel bone (calcaneus) filling the heel, the ankle bone (talus) above it, the arch of the midfoot bones, the five long metatarsals and the toe bones running into the toes, and the plantar fascia as a band along the sole from the underside of the heel bone to the ball of the foot",
+  "pain_site_red_glow": "where the plantar fascia attaches to the underside of the heel bone",
+  "page_crop": "1:1 (no crop)",
+  "previous_failure_to_check": "Round 2: both feet grew 6 toes or 4 toes, the foot skeleton was drawn upside down (toes at the heel), and the feet were oversized. Now ONE foot in side view: the heel bone must sit in the heel, toe bones in the toes, fascia along the sole, red glow under the heel where the laser lands."
+ },
+ {
+  "name": "cond-plantar-treat-b",
+  "pair": "cond-plantar-treat",
+  "path": "v2/round3c/cond-plantar-treat-b.png",
+  "scene": "a close side view of the patient's bare right foot and ankle resting on a folded white towel at the end of the treatment table, the inner arch of the foot facing the camera; only this one foot is in the frame, natural adult size; a white stand-mounted low-level laser head on an articulated arm, positioned a hand's width above the heel and projecting three thin red laser lines onto the skin without touching it",
+  "overlay_anatomy": "a SIDE VIEW of the foot skeleton inside the foot: the heel bone (calcaneus) filling the heel, the ankle bone (talus) above it, the arch of the midfoot bones, the five long metatarsals and the toe bones running into the toes, and the plantar fascia as a band along the sole from the underside of the heel bone to the ball of the foot",
+  "pain_site_red_glow": "where the plantar fascia attaches to the underside of the heel bone",
+  "page_crop": "1:1 (no crop)",
+  "previous_failure_to_check": "Round 2: both feet grew 6 toes or 4 toes, the foot skeleton was drawn upside down (toes at the heel), and the feet were oversized. Now ONE foot in side view: the heel bone must sit in the heel, toe bones in the toes, fascia along the sole, red glow under the heel where the laser lands."
+ },
+ {
+  "name": "svc-fx635-device-a",
+  "pair": "svc-fx635-device",
+  "path": "v2/round3c/svc-fx635-device-a.png",
+  "scene": "the white stand-mounted low-level laser on its single articulated arm fills the upper half of the frame, its head a hand's width above the patient's heel and projecting three thin red laser lines onto it without touching; below it, the patient's bare right foot and lower leg lie on a folded white towel at the end of the treatment table, seen from the side with the inner arch facing the camera; only this one foot is in the frame, natural adult size; the practitioner's hand rests on the laser arm",
+  "overlay_anatomy": "a SIDE VIEW of the foot skeleton inside the foot: the heel bone (calcaneus) filling the heel, the ankle bone (talus) above it, the arch of the midfoot bones, the five long metatarsals and the toe bones running into the toes, and the plantar fascia as a band along the sole from the underside of the heel bone to the ball of the foot",
+  "pain_site_red_glow": "where the plantar fascia attaches to the underside of the heel bone",
+  "page_crop": "1:1 (no crop)",
+  "previous_failure_to_check": "Round 2: the foot skeleton had no heel bone, and a second glow sat on the ball of the foot. Now ONE foot in side view under the laser: heel bone in the heel, glow only under the heel where the three lines land."
+ },
+ {
+  "name": "svc-fx635-device-b",
+  "pair": "svc-fx635-device",
+  "path": "v2/round3c/svc-fx635-device-b.png",
+  "scene": "the white stand-mounted low-level laser on its single articulated arm fills the upper half of the frame, its head a hand's width above the patient's heel and projecting three thin red laser lines onto it without touching; below it, the patient's bare right foot and lower leg lie on a folded white towel at the end of the treatment table, seen from the side with the inner arch facing the camera; only this one foot is in the frame, natural adult size; the practitioner's hand rests on the laser arm",
+  "overlay_anatomy": "a SIDE VIEW of the foot skeleton inside the foot: the heel bone (calcaneus) filling the heel, the ankle bone (talus) above it, the arch of the midfoot bones, the five long metatarsals and the toe bones running into the toes, and the plantar fascia as a band along the sole from the underside of the heel bone to the ball of the foot",
+  "pain_site_red_glow": "where the plantar fascia attaches to the underside of the heel bone",
+  "page_crop": "1:1 (no crop)",
+  "previous_failure_to_check": "Round 2: the foot skeleton had no heel bone, and a second glow sat on the ball of the foot. Now ONE foot in side view under the laser: heel bone in the heel, glow only under the heel where the three lines land."
+ }
+]

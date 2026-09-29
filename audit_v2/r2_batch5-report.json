@@ -1,0 +1,289 @@
+[
+ {
+  "name": "cond-scoliosis-treat-a",
+  "pair": "cond-scoliosis-treat",
+  "verdict": "MINOR",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand on her far-side paraspinal muscles (image-left; he stands behind the table facing the camera)",
+    "fingers_counted": "5 (little, ring, middle, index pointing toward the camera, middle longest, + thumb on the image-right side pointing in toward the spine); correct for a palm-down right hand",
+    "ok": true,
+    "box": [0.42, 0.39, 0.56, 0.57]
+   },
+   {
+    "whose": "practitioner LEFT hand on the muscles at the curve (image-right)",
+    "fingers_counted": "5 (thumb on the image-left side pointing in + index, middle, ring, little); correct for a palm-down left hand",
+    "ok": true,
+    "box": [0.55, 0.40, 0.73, 0.61]
+   },
+   {
+    "whose": "patient LEFT hand (near arm lying along her side; she is prone with her head at image-left, so her left side faces the camera)",
+    "fingers_counted": "0 visible - the right frame edge cuts the hand just past the wrist crease (only the heel of the hand shows); nothing to count, no anomaly",
+    "ok": true,
+    "box": [0.94, 0.74, 1.0, 0.84]
+   }
+  ],
+  "defects": [
+   {
+    "category": "overlay_anatomy (minor)",
+    "description": "The scoliotic curve is drawn as one step-shift, not a gentle S. The column runs almost straight from the base of the neck (0.23,0.556) through the racerback junction to about x0.54, jogs toward the near flank between x0.55 and x0.62, then runs straight to the waistband (0.82,0.633). The upper segment sits about midway across the visible back, but the lumbar segment sits about 69% of the way toward her near (left) flank and never comes back to the midline at the pelvis. A chiropractor would read it as a lateral shift rather than an S-curve. Not gross: the column stays on the back, in back view, along the body axis.",
+    "box": [0.49, 0.53, 0.83, 0.67]
+   },
+   {
+    "category": "brief (minor)",
+    "description": "The overlay starts at the base of the neck (cervical and upper thoracic included), but the brief asked for the mid and lower back only. There are still about 22 vertebral units between the shoulders (x0.345) and the waistband, against 17 for T1-L5. That is down from about 26, and the count alone is not a fail item.",
+    "box": [0.22, 0.53, 0.55, 0.60]
+   }
+  ],
+  "previous_failure_fixed": true,
+  "notes": "Forearm elongation is fixed. Shoulder about x0.25, elbow about (0.67,0.80) with a clear olecranon depression, wrist about x0.96. Upper arm about 856 px and forearm about 600 px (ratio about 0.70), with the wrist reaching just past the waistband as expected. No rib cage is drawn any more; the leftover vertebra count is logged above. Her far (right) arm is hidden behind her torso, which is plausible at this camera height. Legs in leggings leave the right edge; no bare feet in frame. The red glow covers the paraspinal muscles around the bend, under the practitioner's left hand (about 0.52-0.73, 0.48-0.67). Practitioner face is out of frame (top edge shows shirt buttons only); patient face partly visible in the cradle (allowed). Left background device has a blank, blurred screen and the right shelf holds a physical spine model; no readable text. The left window area is posterized (render artifact common to this batch, outside the checklist). Pair pick: b."
+ },
+ {
+  "name": "cond-scoliosis-treat-b",
+  "pair": "cond-scoliosis-treat",
+  "verdict": "PASS",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand on her upper back left of the spine (image-left; he stands at the head end facing the camera)",
+    "fingers_counted": "5 (little, ring, middle, index pointing toward the camera + thumb on the image-right side pointing at the spine); correct for a palm-down right hand",
+    "ok": true,
+    "box": [0.31, 0.40, 0.48, 0.60]
+   },
+   {
+    "whose": "practitioner LEFT hand on her upper back right of the spine (image-right)",
+    "fingers_counted": "5 (thumb on the image-left side pointing at the spine + index, middle, ring, little); correct for a palm-down left hand",
+    "ok": true,
+    "box": [0.53, 0.42, 0.71, 0.63]
+   },
+   {
+    "whose": "patient LEFT hand",
+    "fingers_counted": "0 visible - the forearm runs out of the bottom-left of the frame; hand out of frame",
+    "ok": true,
+    "box": [0.04, 0.90, 0.18, 1.0]
+   },
+   {
+    "whose": "patient RIGHT hand",
+    "fingers_counted": "0 visible - the forearm runs out of the bottom-right of the frame; hand out of frame",
+    "ok": true,
+    "box": [0.83, 0.88, 0.97, 1.0]
+   }
+  ],
+  "defects": [],
+  "previous_failure_fixed": true,
+  "notes": "New composition: camera at her feet looking up the back, practitioner at the head end cropped at the chest (top edge shows shirt buttons only, no face). Both arms lie along her sides and are continuous. The elbow creases sit at waist level (about (0.17,0.78) and (0.87,0.76)). The forearms leave the bottom edge, and the visible forearm is shorter than the upper arm on both sides, so there is no elongation. The overlay is a back-view column along the midline, from about T1 at the bra's upper strap (0.48,0.40) to the waistband (0.50,0.82). It bows gently toward her left in the mid-thoracic region (to about x0.465) and returns to the centre over the lumbar spine, which reads as a gentle sideways curve. No ribs. The red glow runs along the right paraspinal muscles (about 0.50-0.65, 0.47-0.78). Observations, not defects: the column also covers the upper back (the brief said mid and lower back only), and there are still about 24 vertebral units from neck to waistband against about 17-18 (the count is not a fail item). Head is bowed face-down with the ear and bun visible. The bra is an open-back design (upper strap plus symmetric side panels) and reads as plausible. No bare feet in frame. Left device has a blurred screen and an orange button; the right shelf has towels, a plant and an unlabelled pump bottle; no readable text. Top-left window slightly posterized (render artifact). Pair pick: b (gentle midline curve, no placement issues)."
+ },
+ {
+  "name": "cond-shoulder-treat-a",
+  "pair": "cond-shoulder-treat",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand at the inner edge of the patient's right shoulder blade (forearm enters from image-left)",
+    "fingers_counted": "5 (thumb on top + index extended to the scapular border, middle, ring, little); back of hand to camera with fingers pointing right, so thumb-on-top = correct for a right hand",
+    "ok": true,
+    "box": [0.30, 0.40, 0.50, 0.53]
+   },
+   {
+    "whose": "practitioner LEFT hand cupping the top/front of the patient's right shoulder",
+    "fingers_counted": "5 (thumb over the top of the shoulder at about (0.716,0.342) + 4 fingertips down the lateral deltoid at about (0.718,0.455), (0.724,0.484), (0.742,0.494), (0.771,0.503)); digit count and layout fine, but the hand has no arm (see defects)",
+    "ok": false,
+    "box": [0.69, 0.31, 0.79, 0.51]
+   },
+   {
+    "whose": "patient RIGHT hand resting on the table edge (bottom-right corner)",
+    "fingers_counted": "partial - back of the hand plus 2-3 finger bases curling over the table edge; fingertips cut by the bottom frame edge, thumb side out of view; no anomaly in what is visible",
+    "ok": true,
+    "box": [0.80, 0.82, 1.0, 1.0]
+   },
+   {
+    "whose": "patient LEFT hand",
+    "fingers_counted": "0 visible - the left upper arm hangs beside the torso to the elbow (about y0.59) and the forearm goes forward out of view; plausibly hidden",
+    "ok": true,
+    "box": [0.24, 0.32, 0.33, 0.62]
+   }
+  ],
+  "defects": [
+   {
+    "category": "hands/body",
+    "description": "The practitioner's LEFT hand has no arm of its own. His left forearm comes out of the rolled cuff at about (0.30,0.20) and disappears behind the patient's LEFT trapezius/neck at about (0.415,0.275). The hand then reappears on the far side, cupping the patient's RIGHT shoulder, with its wrist hidden in front of it. Joining them needs about 0.30 of the frame (about 600 px) of hidden forearm across the front of the patient's neck. That implies a cuff-to-wrist forearm of about 0.43 of the frame, well over 1.5x a normal forearm against the patient's head size. It reads as a detached, extra hand on the shoulder. The strict rule (every hand must connect to its own arm; no over-long limbs) makes this a FAIL.",
+    "box": [0.29, 0.17, 0.79, 0.52]
+   },
+   {
+    "category": "overlay_anatomy (minor)",
+    "description": "Right scapula is oversized and too medial. Its medial border sits at about x0.485-0.495, touching the drawn spine column (x0.457-0.495) instead of lying about 5-7 cm lateral to it. It spans about y0.336-0.645, roughly 1.6x a normal scapula height against the shoulder width. The faint left scapula shows the same size. Not gross: correct side, back-view orientation and shoulder-joint attachment.",
+    "box": [0.40, 0.32, 0.72, 0.66]
+   }
+  ],
+  "previous_failure_fixed": true,
+  "notes": "Previous failure (standing posterior chart pasted onto a side-lying man) is fixed: the patient now sits upright and the upright chart matches his pose. Rotator cuff and humeral head sit at the right shoulder, with the humerus running down the arm. The red glow is on the supraspinatus tendon at the top of the shoulder (about 0.61-0.68, 0.31-0.35). Patient: seated, grey tank top with both straps, head turned right in profile (patient face/beard allowed). Both patient arms are continuous; no bare feet. Practitioner is cropped at the shoulder; the top edge shows only his shirt collar, so no chin, lips or nose. Background device screen is blurred, no readable text. Right window area is posterized (render artifact). The FAIL is driven only by the disconnected practitioner left hand; the overlay issue alone would be MINOR. Pair pick: b."
+ },
+ {
+  "name": "cond-shoulder-treat-b",
+  "pair": "cond-shoulder-treat",
+  "verdict": "MINOR",
+  "hands": [
+   {
+    "whose": "practitioner LEFT hand (upper), fingertips at the inner edge of the patient's right shoulder blade near the base of the neck",
+    "fingers_counted": "5 (thumb on the image-left + index, middle, ring, little pointing down); back of hand to camera with fingers down, so thumb image-left = correct for a left hand",
+    "ok": true,
+    "box": [0.35, 0.19, 0.51, 0.36]
+   },
+   {
+    "whose": "practitioner RIGHT hand (lower) wrapped round the patient's right flank below the scapula",
+    "fingers_counted": "5 (thumb on top pressing into the lateral border + index, middle, ring, little pointing right, little shortest); thumb-on-top = correct for a right hand with its back to the camera",
+    "ok": true,
+    "box": [0.45, 0.47, 0.66, 0.65]
+   },
+   {
+    "whose": "patient RIGHT hand resting on his right knee (bottom-right)",
+    "fingers_counted": "partial - back of the hand on the knee with 1-2 finger bases curling over it at the right frame edge; the rest of the fingers and the thumb are cut by the frame or hidden on the far side; no anomaly in what is visible",
+    "ok": true,
+    "box": [0.90, 0.76, 1.0, 0.89]
+   },
+   {
+    "whose": "patient LEFT hand",
+    "fingers_counted": "0 visible - the left upper arm hangs beside the torso to the elbow (about y0.68) and the forearm goes forward out of view; plausibly hidden",
+    "ok": true,
+    "box": [0.24, 0.27, 0.34, 0.71]
+   }
+  ],
+  "defects": [
+   {
+    "category": "overlay_anatomy (minor)",
+    "description": "Right scapula is drawn too medial and too large. Its medial border (about x0.43-0.46) and a long medial muscle band (about x0.40-0.46, from y0.33 down to a point at (0.44,0.67)) sit on or just across the estimated spine line (about x0.44-0.48, judged from the neck base and the symmetric position of the left strap). The medial border should lie about 5-8 cm lateral to the spine. As drawn, the overlay spans from the spine to the acromion, about 0.26 of the frame against roughly 0.20 expected. Orientation, joint attachment, rotator cuff layout and the supraspinatus glow are all correct.",
+    "box": [0.39, 0.27, 0.71, 0.68]
+   },
+   {
+    "category": "garment (minor)",
+    "description": "The tank top has a left shoulder strap but no right strap. His right trapezius and shoulder are bare from the neck to the acromion, and the grey fabric only starts at the right armpit (about 0.60-0.62, 0.53-0.56). A one-strap tank top reads as a garment glitch, though the overlay partly masks it.",
+    "box": [0.53, 0.20, 0.72, 0.57]
+   }
+  ],
+  "previous_failure_fixed": true,
+  "notes": "Previous failure (upright chart on a side-lying man) is fixed: he sits upright, seen from behind-right, and the upright posterior chart matches. The scapular spine runs to the acromion, with supraspinatus above and infraspinatus below. The humeral head (about 0.64-0.70, 0.35-0.41) sits under the deltoid. The red glow is at the top of the shoulder (about 0.61-0.68, 0.31-0.35) on the supraspinatus tendon. The practitioner stands at image-left and is cropped at the shoulder; the top-left corner shows only shirt and sleeve, so no face. Patient head turned right in profile (allowed). Both patient arms are continuous; no bare feet. Background device on the right is blurred, no readable text. Window area is posterized (render artifact). Pair pick: b (a fails on the practitioner's disconnected left hand)."
+ },
+ {
+  "name": "cond-stress-treat-a",
+  "pair": "cond-stress-treat",
+  "verdict": "PASS",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand on her left shoulder (image-left; he stands at the head end facing the camera)",
+    "fingers_counted": "5 - thumb pressing the upper trapezius beside the neck (nail visible) + index curled over the shoulder + middle/ring/little curled over the front of the shoulder with a natural knuckle row; thumb image-right = correct for a right hand",
+    "ok": true,
+    "box": [0.35, 0.34, 0.50, 0.50]
+   },
+   {
+    "whose": "practitioner LEFT hand on her right shoulder (image-right)",
+    "fingers_counted": "5 - thumb pressing beside the neck + curled index, middle, ring (wedding band), little over the shoulder; thumb image-left = correct for a left hand",
+    "ok": true,
+    "box": [0.57, 0.34, 0.73, 0.50]
+   },
+   {
+    "whose": "patient LEFT hand",
+    "fingers_counted": "0 visible - the arm rests out and down to the bottom-left and leaves the frame at the elbow/forearm; hand out of frame",
+    "ok": true,
+    "box": [0.0, 0.75, 0.12, 0.88]
+   },
+   {
+    "whose": "patient RIGHT hand",
+    "fingers_counted": "0 visible - the arm rests out and down to the right and leaves the right frame edge; hand out of frame",
+    "ok": true,
+    "box": [0.92, 0.70, 1.0, 0.86]
+   }
+  ],
+  "defects": [],
+  "previous_failure_fixed": true,
+  "notes": "Previous failure (both shoulder blades drawn in the mid/lower back, detached) is fixed. The scapulae now sit on the upper back beside the midline column: L about (0.31-0.42, 0.53-0.705), R about (0.635-0.735, 0.53-0.71). Their tops are just below the shoulder line (about y0.49-0.51), spanning roughly T2-T8, in back view. The cervical column runs from the skull base (about 0.52,0.39) down the midline to the towel. The trapezius fans from the neck to both shoulders, and the broad red glow covers the upper trapezius and the base of the neck, matching the brief. Observation, not a defect: the scapulae's lateral corners stop about 2-4 cm short of the shoulder joints and their inferior angles tilt outward, consistent with upward rotation with the arms resting out and down. Patient face-down in the cradle (only bun and back of head visible). Both arms are continuous and leave the frame; the low back is under the towel; no bare feet. Practitioner is cropped at the chest, no face. Background device cart is blurred, no readable text. Top-left window is posterized (render artifact). Pair pick: b."
+ },
+ {
+  "name": "cond-stress-treat-b",
+  "pair": "cond-stress-treat",
+  "verdict": "PASS",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand on her left shoulder (image-left; head end, facing the camera)",
+    "fingers_counted": "5 - thumb pressing the upper trapezius beside the neck (nail visible); index-to-little curled over the front of the shoulder out of view with a smooth knuckle row (no extra or fused digits); thumb image-right = correct for a right hand",
+    "ok": true,
+    "box": [0.29, 0.31, 0.45, 0.46]
+   },
+   {
+    "whose": "practitioner LEFT hand on her right shoulder (image-right)",
+    "fingers_counted": "5 - thumb pressing beside the neck, fingers curled over the shoulder out of view, smooth knuckle row; thumb image-left = correct for a left hand",
+    "ok": true,
+    "box": [0.53, 0.32, 0.69, 0.46]
+   },
+   {
+    "whose": "patient LEFT hand",
+    "fingers_counted": "0 visible - the arm rests out and down and leaves the left frame edge; hand out of frame",
+    "ok": true,
+    "box": [0.0, 0.70, 0.10, 0.82]
+   },
+   {
+    "whose": "patient RIGHT hand",
+    "fingers_counted": "0 visible - the arm rests out and down and leaves the right frame edge; hand out of frame",
+    "ok": true,
+    "box": [0.92, 0.72, 1.0, 0.86]
+   }
+  ],
+  "defects": [],
+  "previous_failure_fixed": true,
+  "notes": "Previous failure is fixed: both shoulder blades sit on the upper back with their tops just below the shoulders and the acromion reaching each shoulder tip. L is about (0.235-0.375, 0.495-0.67), R about (0.595-0.735, 0.495-0.67), in back view. The cervical column rises into the skull-base hairline and continues down the midline to the towel. The trapezius fans from the skull base out to both shoulders. The red glow is two round spots at the thumb points on the upper trapezius at the base of the neck; the shoulder tops get only the fringe of the glow. Patient face-down in the cradle. Both arms are continuous and leave the frame; the towel covers her from the low back; no bare feet. Practitioner is cropped at the chest (top edge shows shirt buttons only), no face. Right-hand console is blurred, no readable text. Top-left window slightly posterized (render artifact). Pair pick: b (scapulae articulate with the shoulders; in a they sit slightly medial of the shoulder joints). a has the broader glow over the shoulder tops."
+ },
+ {
+  "name": "cond-tennis-treat-a",
+  "pair": "cond-tennis-treat",
+  "verdict": "PASS",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand holding the laser probe (he stands behind the arm facing the camera)",
+    "fingers_counted": "5 (index, middle, ring, little curled round the handle on the image-left side, index nail visible, + thumb on the image-right side of the handle; checked on an edge-enhanced crop); back of hand to camera with fingers down, so thumb image-right = correct for a right hand",
+    "ok": true,
+    "box": [0.24, 0.23, 0.41, 0.43]
+   },
+   {
+    "whose": "practitioner LEFT hand resting on the patient's forearm",
+    "fingers_counted": "5 (thumb extended image-left along the forearm + index, middle, ring, little draped over it); correct for a palm-down left hand",
+    "ok": true,
+    "box": [0.51, 0.44, 0.74, 0.59]
+   },
+   {
+    "whose": "patient RIGHT hand (palm down, fingers draped over the table corner; he is supine with his head at image-left)",
+    "fingers_counted": "4 fingers (index, middle, ring, little; middle longest, correct length order from near to far); thumb on the far side of the hand, hidden, as expected for a palm-down right hand",
+    "ok": true,
+    "box": [0.73, 0.60, 1.0, 0.90]
+   }
+  ],
+  "defects": [],
+  "previous_failure_fixed": true,
+  "notes": "Both parts of the previous failure are fixed. The radius and ulna now run from the elbow joint (about 0.25-0.32, 0.48-0.58) all the way to the real wrist, with their distal ends and the carpals at about (0.70-0.74, 0.61-0.67); no mid-forearm knob. The probe tip and red glow sit on the elbow at the extensor origin (about 0.29-0.32, 0.43-0.47), with the extensor tendons fanning from it along the back of the forearm onto the hand. The probe is a white handheld with a metal ring and red tip; its grey cable leaves the back of the probe, arcs up and hangs down past the practitioner's trousers. The arm is continuous from sleeve to hand, with a natural forearm-to-hand ratio (about 1.36). Practitioner cropped at the chest, no face; patient face allowed. Background monitor blurred, no readable text; no bare feet. Brief/composition notes, not defects: the elbow sits in the left third (x about 0.29) rather than the centre, and the arm is nearly straight rather than bent. Top-left window is posterized (render artifact). Pair pick: b."
+ },
+ {
+  "name": "cond-tennis-treat-b",
+  "pair": "cond-tennis-treat",
+  "verdict": "PASS",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand holding the laser probe",
+    "fingers_counted": "5 (three fingers on the image-left side of the handle with nails visible, a fourth fingertip wrapping round below the thumb, thumb on the image-right side; confirmed on an edge-enhanced crop); correct right-hand power grip",
+    "ok": true,
+    "box": [0.25, 0.27, 0.41, 0.50]
+   },
+   {
+    "whose": "practitioner LEFT hand at the patient's wrist",
+    "fingers_counted": "5 (thumb extended image-left along the forearm + index, middle, ring, little); correct for a palm-down left hand",
+    "ok": true,
+    "box": [0.70, 0.60, 0.94, 0.76]
+   },
+   {
+    "whose": "patient RIGHT hand lying flat on the table (supine, head at image-left)",
+    "fingers_counted": "4 fingers (index, middle, ring, little with correct relative lengths); thumb on the far side under the practitioner's fingers; the whole hand is in frame",
+    "ok": true,
+    "box": [0.64, 0.68, 1.0, 0.94]
+   }
+  ],
+  "defects": [],
+  "previous_failure_fixed": true,
+  "notes": "Both parts of the previous failure are fixed. The humerus runs into a proper elbow joint (about 0.22-0.33, 0.52-0.64), and the radius and ulna run to the real wrist (distal ends and carpals at about 0.67-0.71, 0.69-0.75), with metacarpals out to the knuckles. The probe tip and small red glow sit on the elbow at the extensor origin (about 0.31-0.36, 0.52-0.56), with the extensor tendons fanning down the forearm. The grey cable leaves the back of the probe, arcs right and hangs down behind the table. The arm is continuous. Practitioner cropped at the chest, no face; patient face allowed. The wall poster is a blurred anatomy figure and the counter device has a blurred screen; no readable text; no bare feet. Same composition note as a: the elbow is in the left third (x about 0.28) and the arm is nearly straight rather than bent. Top-left window is posterized (render artifact). Pair pick: b (the whole hand lies in frame, with the overlay continuing to the knuckles)."
+ }
+]

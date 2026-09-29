@@ -1,0 +1,62 @@
+[
+ {
+  "name": "cond-auto-assess-a",
+  "pair": "cond-auto-assess",
+  "path": "v2/round3c/cond-auto-assess-a.png",
+  "scene": "the patient sits on the edge of the treatment table, seen from behind; the practitioner stands at the patient's right side and rests only his RIGHT hand flat on the patient's upper back just beside the spine, fingertips pointing toward the neck, while his left arm hangs relaxed at his side; nothing else touches the patient, and no arm or hand enters the frame from the camera side or from any edge",
+  "overlay_anatomy": "the neck and upper back only: the seven neck vertebrae and the upper thoracic spine in one midline column, with the two shoulder blades on either side, seen from behind; nothing below the shoulder blades",
+  "pain_site_red_glow": "the lowest neck vertebrae and the muscles between the shoulder blades",
+  "page_crop": "7:5 (the page crop trims 3.5% off the left and right edges)",
+  "previous_failure_to_check": "Round 2: both variants had a THIRD ARM (a forearm entering from the bottom-left / camera side with a hand on the back), and one practitioner hand had 3 fingers; the lower neck had no red glow."
+ },
+ {
+  "name": "cond-auto-assess-b",
+  "pair": "cond-auto-assess",
+  "path": "v2/round3c/cond-auto-assess-b.png",
+  "scene": "the patient sits on the edge of the treatment table, seen from behind; the practitioner stands at the patient's right side and rests only his RIGHT hand flat on the patient's upper back just beside the spine, fingertips pointing toward the neck, while his left arm hangs relaxed at his side; nothing else touches the patient, and no arm or hand enters the frame from the camera side or from any edge",
+  "overlay_anatomy": "the neck and upper back only: the seven neck vertebrae and the upper thoracic spine in one midline column, with the two shoulder blades on either side, seen from behind; nothing below the shoulder blades",
+  "pain_site_red_glow": "the lowest neck vertebrae and the muscles between the shoulder blades",
+  "page_crop": "7:5 (the page crop trims 3.5% off the left and right edges)",
+  "previous_failure_to_check": "Round 2: both variants had a THIRD ARM (a forearm entering from the bottom-left / camera side with a hand on the back), and one practitioner hand had 3 fingers; the lower neck had no red glow."
+ },
+ {
+  "name": "cond-fibro-treat-a",
+  "pair": "cond-fibro-treat",
+  "path": "v2/round3c/cond-fibro-treat-a.png",
+  "scene": "the camera stands at the foot end of the treatment table looking along the patient's back toward her head, so her spine runs straight up the middle of the frame: the patient lies face down with her face in the face cradle and a soft blanket over her hips and legs; the practitioner stands at the side of the table and holds a small chrome spring-loaded adjusting instrument shaped like a thick pen with a flat rubber tip (no needle) gently against the muscles beside her upper spine, his other hand resting flat on her back",
+  "overlay_anatomy": "the upper and mid back only: the spine as one straight midline column running up the middle of the frame to the base of her neck, with the two shoulder blades on either side of it",
+  "pain_site_red_glow": "a few small scattered tender points on the muscles on either side of the upper spine",
+  "page_crop": "7:5 (the page crop trims 3.5% off the left and right edges)",
+  "previous_failure_to_check": "Round 2: the back-view overlay was rotated 60-90 degrees against the body (the spine drawn across her back). Now shot from the foot end: the spine must run along her back, up the middle of the frame, with a shoulder blade on each side of the upper back."
+ },
+ {
+  "name": "cond-fibro-treat-b",
+  "pair": "cond-fibro-treat",
+  "path": "v2/round3c/cond-fibro-treat-b.png",
+  "scene": "the camera stands at the foot end of the treatment table looking along the patient's back toward her head, so her spine runs straight up the middle of the frame: the patient lies face down with her face in the face cradle and a soft blanket over her hips and legs; the practitioner stands at the side of the table and holds a small chrome spring-loaded adjusting instrument shaped like a thick pen with a flat rubber tip (no needle) gently against the muscles beside her upper spine, his other hand resting flat on her back",
+  "overlay_anatomy": "the upper and mid back only: the spine as one straight midline column running up the middle of the frame to the base of her neck, with the two shoulder blades on either side of it",
+  "pain_site_red_glow": "a few small scattered tender points on the muscles on either side of the upper spine",
+  "page_crop": "7:5 (the page crop trims 3.5% off the left and right edges)",
+  "previous_failure_to_check": "Round 2: the back-view overlay was rotated 60-90 degrees against the body (the spine drawn across her back). Now shot from the foot end: the spine must run along her back, up the middle of the frame, with a shoulder blade on each side of the upper back."
+ },
+ {
+  "name": "cond-lbp-assess-a",
+  "pair": "cond-lbp-assess",
+  "path": "v2/round3c/cond-lbp-assess-a.png",
+  "scene": "the patient lies on his back on the treatment table, one leg raised straight to about 30 degrees; the practitioner's flat hand presses gently down just above that ankle while his other hand steadies the patient's hip; the camera is far enough back that the patient's whole body fits inside the frame with clear space beyond the top of his head and beyond his toes; natural adult proportions: the legs are longer than the torso",
+  "overlay_anatomy": "the lumbar spine, the pelvis, and the thigh bone drawn inside the RAISED thigh",
+  "pain_site_red_glow": "the lower back and the hip flexor where it attaches to the lumbar spine",
+  "page_crop": "7:5 (the page crop trims 2.1% off the top and bottom edges)",
+  "previous_failure_to_check": "Round 2: a toe-like lobe grew from the resting ankle (variant b), the thigh bone was drawn in the resting leg instead of the raised one (variant a), and the back of his head touched the frame edge. This render is 4:3 so the whole body should fit, with space beyond the head and the toes."
+ },
+ {
+  "name": "cond-lbp-assess-b",
+  "pair": "cond-lbp-assess",
+  "path": "v2/round3c/cond-lbp-assess-b.png",
+  "scene": "the patient lies on his back on the treatment table, one leg raised straight to about 30 degrees; the practitioner's flat hand presses gently down just above that ankle while his other hand steadies the patient's hip; the camera is far enough back that the patient's whole body fits inside the frame with clear space beyond the top of his head and beyond his toes; natural adult proportions: the legs are longer than the torso",
+  "overlay_anatomy": "the lumbar spine, the pelvis, and the thigh bone drawn inside the RAISED thigh",
+  "pain_site_red_glow": "the lower back and the hip flexor where it attaches to the lumbar spine",
+  "page_crop": "7:5 (the page crop trims 2.1% off the top and bottom edges)",
+  "previous_failure_to_check": "Round 2: a toe-like lobe grew from the resting ankle (variant b), the thigh bone was drawn in the resting leg instead of the raised one (variant a), and the back of his head touched the frame edge. This render is 4:3 so the whole body should fit, with space beyond the head and the toes."
+ }
+]

@@ -1,0 +1,35 @@
+# Sacramento Applied Kinesiology images: git tracks the finals, the review page, the pipeline and the review record.
+# The saved copy of the client's preview site (site/) is not published here; it lives on the client's own GitHub Pages.
+# Everything else (raw renders, rejects, round variants, review crops, mirrors, screenshots, the rejected first set)
+# stays on the machine that made it (~3.8 GB). See README.md.
+/*
+!/.gitignore
+!/index.html
+!/README.md
+!/*.py
+!/*.mjs
+!/*.mts
+!/package.json
+!/package-lock.json
+!/jobs*.json
+!/shotlist*.json
+!/plates*_jobs.json
+!/bakeoff-jobs.json
+!/hf-openapi.json
+!/renders.log
+!/renders2.log
+!/final_v2/
+!/page_v2/
+!/audit_v2/
+/audit_v2/crops/
+/audit_v2/*.py
+!/audit/
+/audit/crops/
+!/v2/
+/v2/*/
+/v2/*.jpg
+/v2/*.png
+!/compare/
+/compare/out/
+/compare/*.jpg
+__pycache__/

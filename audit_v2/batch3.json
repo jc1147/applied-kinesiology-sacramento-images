@@ -1,0 +1,122 @@
+[
+ {
+  "name": "cond-stress-treat",
+  "path": "v2/renders/cond-stress-treat.png",
+  "kind": "overlay",
+  "page_section": "conditions/stress :: What treatment involves",
+  "scene": "the patient lies face down on the treatment table; the practitioner's thumbs press slowly into the thick muscles running from her neck to the tops of her shoulders",
+  "patient": "a woman in her thirties, lying face down with her face in the face cradle",
+  "overlay_anatomy": "the neck vertebrae, the shoulder blades and the trapezius muscle in fine lines",
+  "pain_site_red_glow": "the tops of the shoulders and the base of the neck"
+ },
+ {
+  "name": "cond-tennis-treat",
+  "path": "v2/renders/cond-tennis-treat.png",
+  "kind": "overlay",
+  "page_section": "conditions/tennis-elbow :: What treatment involves",
+  "scene": "a close view: the patient's arm rests on a folded white towel, fist loosely closed, the outer side of the elbow facing up; the practitioner holds a small white handheld low-level laser probe held just above the bony point on the outer side of the elbow, casting a small red glow on the skin",
+  "patient": "a man in his fifties; only his arm is in frame, sleeve rolled well above the elbow",
+  "overlay_anatomy": "the elbow joint and the forearm extensor tendons",
+  "pain_site_red_glow": "the tendon attachment on the outer side of the elbow"
+ },
+ {
+  "name": "cond-neck-treat",
+  "path": "v2/renders/cond-neck-treat.png",
+  "kind": "overlay",
+  "page_section": "conditions/upper-back-neck-pain :: What treatment involves",
+  "scene": "the patient lies face down on the treatment table; the practitioner's two hands rest one over the other on her upper back between the shoulder blades, setting up a gentle adjustment",
+  "patient": "a woman in her forties, lying face down with her face in the face cradle",
+  "overlay_anatomy": "the cervical and upper thoracic spine and the shoulder blades",
+  "pain_site_red_glow": "between the shoulder blades and the base of the neck"
+ },
+ {
+  "name": "cond-whiplash-treat",
+  "path": "v2/renders/cond-whiplash-treat.png",
+  "kind": "overlay",
+  "page_section": "conditions/whiplash :: What treatment involves",
+  "scene": "a close view from behind the seated patient: the back of her head, her neck and the tops of her shoulders fill the frame; the practitioner's two hands rest on either side of the base of her neck, thumbs easing into the muscles beside the spine",
+  "patient": "a woman in her twenties with her hair tied up, seen from directly behind",
+  "overlay_anatomy": "the neck vertebrae and the base of the skull",
+  "pain_site_red_glow": "the deep muscles at the front and sides of the neck"
+ },
+ {
+  "name": "cond-work-treat",
+  "path": "v2/renders/cond-work-treat.png",
+  "kind": "overlay",
+  "page_section": "conditions/work-injury :: What treatment involves",
+  "scene": "in the treatment room the patient squats with a straight back to lift a plain cardboard box from the floor, while the practitioner's hand rests lightly on his lower back, coaching the lift",
+  "patient": "a man in his forties in a faded denim work shirt, work trousers and leather work boots",
+  "overlay_anatomy": "the lumbar spine and the pelvis",
+  "pain_site_red_glow": "the lower back"
+ },
+ {
+  "name": "svc-cold-hero",
+  "path": "v2/renders/svc-cold-hero.png",
+  "kind": "overlay",
+  "page_section": "services/cold-laser-therapy :: Cold Laser Therapy in Roseville",
+  "scene": "the practitioner holds a small white handheld low-level laser probe held just above the side of the knee, casting a small red glow on the skin",
+  "patient": "a woman in her fifties sitting on the treatment table with one leg extended, grey trousers rolled above the knee",
+  "overlay_anatomy": "the knee joint",
+  "pain_site_red_glow": "the inner side of the knee joint"
+ },
+ {
+  "name": "svc-fx635-device",
+  "path": "v2/renders/svc-fx635-device.png",
+  "kind": "overlay",
+  "page_section": "services/fx-635-laser-therapy :: The device, described honestly",
+  "scene": "a close view of the device and the foot: a white stand-mounted low-level laser head on an articulated arm, positioned a hand's width above the bare heel and projecting three thin red laser lines onto the skin without touching it",
+  "patient": "a woman in her forties, lying still, face down, bare feet over the end of the table on a rolled towel",
+  "overlay_anatomy": "the bones of the foot and the plantar fascia",
+  "pain_site_red_glow": "the heel"
+ },
+ {
+  "name": "svc-pemf-hero",
+  "path": "v2/renders/svc-pemf-hero.png",
+  "kind": "overlay",
+  "page_section": "services/pemf-therapy :: PEMF Therapy in Roseville",
+  "scene": "the patient lies still on the treatment table; a flat white ring-shaped PEMF coil resting on his lower back over a thin cloth, its cable running to a small white console; nobody touches him",
+  "patient": "a man in his forties lying face down, a light blanket over his legs",
+  "overlay_anatomy": "the lumbar spine and the pelvis",
+  "pain_site_red_glow": "the lower back"
+ },
+ {
+  "name": "ak-mtest",
+  "path": "v2/renders/ak-mtest.png",
+  "kind": "overlay",
+  "page_section": "applied-kinesiology (+ first-visit) :: Muscle testing, in plain terms",
+  "scene": "a manual muscle test: the patient sits on the edge of the treatment table holding one arm straight out to the side at shoulder height; the practitioner's flat hand presses gently down just above her wrist and his other hand steadies her shoulder",
+  "patient": "a woman in her thirties in a sleeveless top",
+  "overlay_anatomy": "the shoulder joint, the shoulder blade and the muscles of the raised arm",
+  "pain_site_red_glow": "the shoulder muscle being tested, at the top of the arm"
+ },
+ {
+  "name": "ak-roof",
+  "path": "v2/renders/ak-roof.png",
+  "kind": "overlay",
+  "page_section": "applied-kinesiology :: The method and the instruments, under one roof",
+  "scene": "the practitioner's hand rests on the seated patient's shoulder; just beyond them, in the room, stands the white stand-mounted laser on its articulated arm, not in use",
+  "patient": "a man in his fifties in a plain grey sweater, seated, seen from behind",
+  "overlay_anatomy": "the neck and the shoulder girdle",
+  "pain_site_red_glow": "the top of the shoulder"
+ },
+ {
+  "name": "ak-legit-hero",
+  "path": "v2/renders/ak-legit-hero.png",
+  "kind": "overlay",
+  "page_section": "applied-kinesiology/is-muscle-testing-legitimate (+ faq) :: Is Muscle Testing Real? An Honest Answer",
+  "scene": "an intimate close-up of a manual muscle test: the patient's forearm is held level with the elbow bent and the fist closed; the practitioner's flat palm rests on the back of her wrist pressing gently down, his other hand steadying her elbow; only the two pairs of hands and forearms fill the frame",
+  "patient": "a woman in her thirties; only her forearm and hand are in frame",
+  "overlay_anatomy": "the forearm bones and the forearm muscles",
+  "pain_site_red_glow": "the forearm muscle being tested"
+ },
+ {
+  "name": "about-hero",
+  "path": "v2/renders/about-hero.png",
+  "kind": "overlay",
+  "page_section": "about :: Sacramento Applied Kinesiology, Roseville",
+  "scene": "in the foreground a manual muscle test, her arm held straight out to the side with the practitioner's hand pressing gently above the wrist; in the softly blurred background the white stand-mounted laser and a small side table with a white ring-shaped PEMF coil",
+  "patient": "a woman in her forties in a sleeveless top, seated on the table, seen from behind and slightly to the side",
+  "overlay_anatomy": "the shoulder joint and the muscles of the raised arm",
+  "pain_site_red_glow": "the shoulder"
+ }
+]

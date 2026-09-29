@@ -1,0 +1,22 @@
+[
+ {
+  "name": "cond-auto-hero-c",
+  "pair": "cond-auto-hero",
+  "path": "v2/plates/cond-auto-hero-c.png"
+ },
+ {
+  "name": "cond-auto-hero-d",
+  "pair": "cond-auto-hero",
+  "path": "v2/plates/cond-auto-hero-d.png"
+ },
+ {
+  "name": "cond-carpal-hero-b-edit",
+  "pair": "cond-carpal-hero-b",
+  "path": "v2/plates/cond-carpal-hero-b-edit.png"
+ },
+ {
+  "name": "cond-carpal-hero-c",
+  "pair": "cond-carpal-hero",
+  "path": "v2/plates/cond-carpal-hero-c.png"
+ }
+]

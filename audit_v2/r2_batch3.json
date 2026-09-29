@@ -1,0 +1,74 @@
+[
+ {
+  "name": "cond-neck-treat-a",
+  "pair": "cond-neck-treat",
+  "path": "v2/round2/cond-neck-treat-a.png",
+  "scene": "the patient lies face down on the treatment table with her face in the face cradle; the practitioner's two hands rest one over the other on her upper back between the shoulder blades",
+  "overlay_anatomy": "the upper back only: the upper thoracic spine in a midline column and the two shoulder blades on either side",
+  "pain_site_red_glow": "between the shoulder blades and the base of the neck",
+  "previous_failure_to_check": "Far shoulder blade is drawn as a triangle above the spine at x 0.27-0.44 (about T8-L1), well below the far shoulder (x~0.60, under the hands). It floats in the mid/lower back.; Near shoulder blade is stretched down to x~0.38 (about T10), with a stray pointed spike at (0.39, 0.73). A humerus-like long bone runs from the shoulder (0.57, 0.64) straight down to the table edge (0"
+ },
+ {
+  "name": "cond-neck-treat-b",
+  "pair": "cond-neck-treat",
+  "path": "v2/round2/cond-neck-treat-b.png",
+  "scene": "the patient lies face down on the treatment table with her face in the face cradle; the practitioner's two hands rest one over the other on her upper back between the shoulder blades",
+  "overlay_anatomy": "the upper back only: the upper thoracic spine in a midline column and the two shoulder blades on either side",
+  "pain_site_red_glow": "between the shoulder blades and the base of the neck",
+  "previous_failure_to_check": "Far shoulder blade is drawn as a triangle above the spine at x 0.27-0.44 (about T8-L1), well below the far shoulder (x~0.60, under the hands). It floats in the mid/lower back.; Near shoulder blade is stretched down to x~0.38 (about T10), with a stray pointed spike at (0.39, 0.73). A humerus-like long bone runs from the shoulder (0.57, 0.64) straight down to the table edge (0"
+ },
+ {
+  "name": "cond-oa-assess-a",
+  "pair": "cond-oa-assess",
+  "path": "v2/round2/cond-oa-assess-a.png",
+  "scene": "the patient stands barefoot on a pale wooden floor in a shallow squat with his hands resting on his own thighs; the practitioner kneels on one knee beside him in a natural kneeling pose, one hand on the outer side of the patient's knee",
+  "overlay_anatomy": "the knee joint with the thigh and shin bones",
+  "pain_site_red_glow": "the inner side of the knee joint",
+  "previous_failure_to_check": "Merged limbs: the practitioner's upper forearm (from the top rolled white cuff) runs down-left and fuses into the patient's far forearm at the patient's elbow crease, with no wrist or hand. Four forea; The patient's two hands, stacked on the practitioner's cuff, render their fingers as layered ribbon-like strips with white rim highlights; the far hand's fingers cannot be counted."
+ },
+ {
+  "name": "cond-oa-assess-b",
+  "pair": "cond-oa-assess",
+  "path": "v2/round2/cond-oa-assess-b.png",
+  "scene": "the patient stands barefoot on a pale wooden floor in a shallow squat with his hands resting on his own thighs; the practitioner kneels on one knee beside him in a natural kneeling pose, one hand on the outer side of the patient's knee",
+  "overlay_anatomy": "the knee joint with the thigh and shin bones",
+  "pain_site_red_glow": "the inner side of the knee joint",
+  "previous_failure_to_check": "Merged limbs: the practitioner's upper forearm (from the top rolled white cuff) runs down-left and fuses into the patient's far forearm at the patient's elbow crease, with no wrist or hand. Four forea; The patient's two hands, stacked on the practitioner's cuff, render their fingers as layered ribbon-like strips with white rim highlights; the far hand's fingers cannot be counted."
+ },
+ {
+  "name": "cond-oa-treat-a",
+  "pair": "cond-oa-treat",
+  "path": "v2/round2/cond-oa-treat-a.png",
+  "scene": "the patient sits on the treatment table leaning back on his hands with BOTH legs straight out in front of him along the table, side by side; a white stand-mounted low-level laser head on an articulated arm, positioned a hand's width above the knee of the leg nearer the camera and projecting three thin red laser lines onto the skin without touching it",
+  "overlay_anatomy": "the knee joint with the thigh bone, shin bone and kneecap of that leg",
+  "pain_site_red_glow": "the inner side of that knee joint",
+  "previous_failure_to_check": "Patient has THREE legs and three bare feet. The shorts have two leg openings, used by (B) the raised bent leg with its foot flat mid-table and (C) the lower leg running to the big foreground foot. A t; Second leg belonging to the same patient (lower leg C) - listed so both candidate extra legs are located; together with B and A the patient shows three legs."
+ },
+ {
+  "name": "cond-oa-treat-b",
+  "pair": "cond-oa-treat",
+  "path": "v2/round2/cond-oa-treat-b.png",
+  "scene": "the patient sits on the treatment table leaning back on his hands with BOTH legs straight out in front of him along the table, side by side; a white stand-mounted low-level laser head on an articulated arm, positioned a hand's width above the knee of the leg nearer the camera and projecting three thin red laser lines onto the skin without touching it",
+  "overlay_anatomy": "the knee joint with the thigh bone, shin bone and kneecap of that leg",
+  "pain_site_red_glow": "the inner side of that knee joint",
+  "previous_failure_to_check": "Patient has THREE legs and three bare feet. The shorts have two leg openings, used by (B) the raised bent leg with its foot flat mid-table and (C) the lower leg running to the big foreground foot. A t; Second leg belonging to the same patient (lower leg C) - listed so both candidate extra legs are located; together with B and A the patient shows three legs."
+ },
+ {
+  "name": "cond-osteo-assess-a",
+  "pair": "cond-osteo-assess",
+  "path": "v2/round2/cond-osteo-assess-a.png",
+  "scene": "the patient, a woman in her seventies with short silver hair in a soft cardigan and slacks, stands on one foot beside the treatment table holding its edge with ONE hand, her other arm relaxed at her side; the practitioner's hands hover close to her waist, ready to steady her",
+  "overlay_anatomy": "the spine, the pelvis and the hip joints",
+  "pain_site_red_glow": "the mid back and the hip",
+  "previous_failure_to_check": "Patient's far (left) arm is stretched and noodle-thin: the wrist leaves the cardigan cuff at hip level (x0.52,y0.45) and goes behind the thigh, then a pencil-thin skin strip (about 22 px wide against "
+ },
+ {
+  "name": "cond-osteo-assess-b",
+  "pair": "cond-osteo-assess",
+  "path": "v2/round2/cond-osteo-assess-b.png",
+  "scene": "the patient, a woman in her seventies with short silver hair in a soft cardigan and slacks, stands on one foot beside the treatment table holding its edge with ONE hand, her other arm relaxed at her side; the practitioner's hands hover close to her waist, ready to steady her",
+  "overlay_anatomy": "the spine, the pelvis and the hip joints",
+  "pain_site_red_glow": "the mid back and the hip",
+  "previous_failure_to_check": "Patient's far (left) arm is stretched and noodle-thin: the wrist leaves the cardigan cuff at hip level (x0.52,y0.45) and goes behind the thigh, then a pencil-thin skin strip (about 22 px wide against "
+ }
+]

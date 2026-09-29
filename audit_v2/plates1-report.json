@@ -1,0 +1,484 @@
+[
+ {
+  "name": "cond-auto-hero-a",
+  "verdict": "FAIL",
+  "defects": [
+   {
+    "category": "anatomy: cervical curve reversed",
+    "description": "The neck curves the wrong way (kyphotic). The front edges of the vertebral bodies bow POSTERIORLY (toward the spinous processes) away from the C2-C7 line: x = 836, 880, 920, 941, 950, 957 at C2..C7, i.e. +41 px behind the chord at C4. A quadratic fit gives +50 px over a 791 px chord (about 6%, roughly 20-30 degrees of kyphosis). The upper neck (C2-C4) leans forward about 21 degrees while C5-C7 is vertical. A normal side-view cervical spine is lordotic (bulging toward the bodies). The previous version measured -69 px over 827 px (lordotic) by the same method, so this is a new error. Unless a post-whiplash reversed curve is intended (the spec does not ask for one), a chiropractor will read it as wrong.",
+    "box": [
+     0.4,
+     0.279,
+     0.654,
+     0.897
+    ]
+   },
+   {
+    "category": "anatomy: skull base fragment",
+    "description": "The 'base of the skull' is only a thin slab (y about 100-255) whose top dissolves into a comb of loose hatch strokes, with no recognisable occiput, condyles or mastoid. It is inside the frame (117 px top margin), so the spec is met, but it reads as a cut-off fragment.",
+    "box": [
+     0.317,
+     0.074,
+     0.566,
+     0.188
+    ]
+   }
+  ],
+  "counts": {
+   "vertebrae_C1_to_C7": 7,
+   "vertebral_bodies_C2_C7": 6,
+   "posterior_processes_incl_C1_tubercle": 7,
+   "rings": 3,
+   "ring_radii_left_px": [
+    175,
+    223,
+    274
+   ],
+   "ring_radii_right_px": [
+    173,
+    224,
+    278
+   ],
+   "ring_centre_px": [
+    1018,
+    715
+   ],
+   "top_margin_px": 117,
+   "bottom_margin_px": 144,
+   "text_or_labels": 0
+  },
+  "notes": "Spec checks that pass: exactly 7 vertebrae in side view (C1 with anterior arch, posterior tubercle and a dens knob; C2-C7 bodies at y 390-530, 530-650, 650-790, 800-905, 915-1040, 1060-1200; spinous tips x 1170/1155/1190/1225/1265/1330, with C7 longest, which is correct). Exactly 3 rings, concentric within each side (centres within 3 px) and centred at the C4 level, i.e. mid-neck. The left and right halves of each ring fit centres 45 px apart horizontally, so the rings are about 8-13% wider than tall; negligible. No text, nothing touching the frame, house style kept. Blocking issue: the reversed curve. Better of the pair: a."
+ },
+ {
+  "name": "cond-auto-hero-b",
+  "verdict": "FAIL",
+  "defects": [
+   {
+    "category": "anatomy: cervical curve reversed",
+    "description": "Symmetric ')'-shaped reversed (kyphotic) curve. The front edges of the bodies run x = 844 (C2), 874, 882, 885, 868, 841 (C7), bowing +42 px POSTERIORLY at C4-C5. A quadratic fit gives +49 px over a 735 px chord, and the tangent turns about 23 degrees the wrong way between C2-C3 and C6-C7. A normal neck is lordotic; the previous version was lordotic (-69 px). This textbook 'reversed cervical curve' look is the most conspicuous error of the pair.",
+    "box": [
+     0.391,
+     0.324,
+     0.615,
+     0.901
+    ]
+   },
+   {
+    "category": "anatomy: skull base sliced",
+    "description": "The skull-base slab has a straight, flat-cut horizontal top edge at y about 115 across x about 700-1185, with a flat wash. It reads as a skull sliced off inside the picture (the cut-off look the spec wanted gone), just moved 112 px below the frame edge. It is also not a recognisable occiput.",
+    "box": [
+     0.322,
+     0.081,
+     0.581,
+     0.221
+    ]
+   },
+   {
+    "category": "anatomy: C1 posterior process",
+    "description": "C1 is drawn with a long, spinous-like posterior process whose tip (1153,416) reaches as far back as C2's spinous tip (1153,553). The atlas has only a small posterior tubercle, and C2's spinous should be the dominant upper-cervical process.",
+    "box": [
+     0.4,
+     0.221,
+     0.566,
+     0.324
+    ]
+   }
+  ],
+  "counts": {
+   "vertebrae_C1_to_C7": 7,
+   "vertebral_bodies_C2_C7": 6,
+   "posterior_processes_incl_C1": 7,
+   "rings": 3,
+   "ring_radii_left_px": [
+    150,
+    205,
+    254
+   ],
+   "ring_centre_px": [
+    958,
+    695
+   ],
+   "top_margin_px": 112,
+   "bottom_margin_px": 132,
+   "text_or_labels": 0
+  },
+  "notes": "Passes the count (7: C1 plus bodies at y 460-560, 570-680, 680-795, 805-910, 920-1040, 1050-1220) and the 3 rings (left arcs concentric within 7 px, centred at the C4 level; the right halves are partly hidden behind spinous processes and the outer right arc's centre is about 40 px right of the left arcs' centre). A thin 2-3 px ligament-like tick between the C1 anterior arch and the C2 body at about (864,466) is negligible. No text, no edge contact, house style kept. Worse than a: sliced skull slab, spinous-like C1 and a more obvious reversed curve."
+ },
+ {
+  "name": "cond-carpal-assess-edit",
+  "verdict": "FAIL",
+  "defects": [
+   {
+    "category": "anatomy: nerve roots not from lower neck (not fixed)",
+    "description": "The drawn cervical column (front view, 6 levels: y 131-185, 189-231, 235-277, 277-318, 322-360, 364-418) gives off 5 root strands at y about 175-190 (directly under the top vertebra), 205-230, 245-265, 290-315 and 320-345, i.e. from levels 1/2 through 5/6. The lowest vertebra gives none. The plexus still visibly comes from the whole upper and mid neck, not the lower neck (C5-T1), the same as the original, which also sprouted roots from the top two-thirds of the column. The column has no skull, so the exact levels are not provable, which is why the roots need to come visibly from the lower half of the drawn neck.",
+    "box": [
+     0.84,
+     0.118,
+     0.894,
+     0.265
+    ]
+   },
+   {
+    "category": "anatomy: clavicle complex still touches spine",
+    "description": "The clavicle shaft now ends at x about 1725-1740, but a separate scalloped 'sternal' bone (about 1725-1795, 368-440) continues medially. Its outline merges with the lowest vertebra's left transverse process and body: there is no paper gap at y about 374-376 or 388-392 (row scan). The collarbone chain therefore still connects to the neck. A manubrium-like piece sitting beside the cervical spine is also misplaced; it belongs midline in front of the upper thoracic spine.",
+    "box": [
+     0.84,
+     0.261,
+     0.884,
+     0.327
+    ]
+   }
+  ],
+  "counts": {
+   "cervical_levels_drawn": 6,
+   "root_strands": 5,
+   "root_exit_levels": "1/2,2/3,3/4,4/5,5/6 of 6",
+   "digits": 5,
+   "thumb_phalanges": 2,
+   "nerve_continuous_neck_to_hand": true,
+   "teal_smear_under_scapula": 0,
+   "text_or_labels": 0
+  },
+  "notes": "Edit vs original: the composition (arm pose, scapula, spine top-right, hand lower-left) and the engraving style are kept, and the hand and its nerve branching are unchanged. The teal smear under the shoulder blade is removed (FIXED). The nerve trace is intact (not lost): the plexus strands converge on the upper edge of the clavicle and a single nerve comes out below it (reads as passing behind the clavicle, correct for a front view), crosses in front of the scapula from (1600,385) to (1420,530), runs down the inner upper arm to the elbow, along the forearm to the centre of the wrist (about 530,979), and fans in the palm at (458,1018) into about 4 branches. No distinct thumb branch is visible (not verified in detail; same as the original). Fails because two named spec items (lower-neck roots, clavicle not touching the spine) are not met."
+ },
+ {
+  "name": "cond-carpal-hero-a",
+  "verdict": "FAIL",
+  "defects": [
+   {
+    "category": "anatomy: extra digits (7 digits)",
+    "description": "Two extra finger-like chains of 3 phalanges each, with NO metacarpal, grow out of nerve strands. One sits between the ring and middle fingers (the strand ends at about (940,970) and phalanges continue to about (915-960,1260)). The other sits between the middle and index fingers (the strand ends at about (1070-1090,960-990) and phalanges continue to about (1080-1110,1255)). The hand has 7 digits and 20 phalanges.",
+    "box": [
+     0.437,
+     0.699,
+     0.547,
+     0.93
+    ]
+   },
+   {
+    "category": "anatomy: nerve becomes bone",
+    "description": "Median-nerve strands turn into the phalanges of the extra digits instead of ending as digital branches, so the thumb/index/middle/radial-ring distribution cannot be read.",
+    "box": [
+     0.439,
+     0.316,
+     0.547,
+     0.735
+    ]
+   },
+   {
+    "category": "anatomy: ulna too large",
+    "description": "The distal ulna (little-finger side, about 125 px wide) is almost as broad as the distal radius (thumb side, about 165 px); the ratio of 0.76 is too high. Minor.",
+    "box": [
+     0.391,
+     0.044,
+     0.552,
+     0.243
+    ]
+   }
+  ],
+  "counts": {
+   "digits": 7,
+   "metacarpals": 5,
+   "phalanges_total": 20,
+   "phalanges_per_digit_little_to_thumb": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    2
+   ],
+   "carpals_visible": "about 8 (4 proximal above band, about 4 distal below; band hides the midcarpal region)",
+   "band_full_width": true,
+   "nerve_under_band": true,
+   "text_or_labels": 0
+  },
+  "notes": "The band spans the whole wrist width and is drawn on top of the nerve (correct). The thumb is on the right with the radius on the thumb side (a left hand, palm up, consistent). The polydactyly alone is an immediate FAIL. Worse than b."
+ },
+ {
+  "name": "cond-carpal-hero-b",
+  "verdict": "FAIL",
+  "defects": [
+   {
+    "category": "anatomy: nerve to all five digits",
+    "description": "One median-nerve branch runs from under the band (about 945,440) diagonally across the ring metacarpal to the head of the little-finger metacarpal, ending at about (785,740). Together with the branches to the ring, middle and index fingers and the thumb (about 1180,570), the nerve reaches all five digits. That is the error the spec names; the little finger is ulnar-nerve territory.",
+    "box": [
+     0.376,
+     0.316,
+     0.469,
+     0.559
+    ]
+   },
+   {
+    "category": "anatomy: radius/ulna proportions inverted",
+    "description": "The little-finger-side forearm bone (about 790-935, about 140 px wide) is broader than the thumb-side bone (about 960-1070, about 110 px) and reaches about 40 px further toward the hand (y about 330 vs about 290). The distal radius (thumb side) should be the broad bone, with its styloid the more distal. Minor.",
+    "box": [
+     0.381,
+     0.044,
+     0.527,
+     0.25
+    ]
+   },
+   {
+    "category": "stray marks",
+    "description": "Two small teal wedge marks beside the nerve just above the band, at about (912-920,308-317) and (950-958,283-296).",
+    "box": [
+     0.442,
+     0.204,
+     0.47,
+     0.237
+    ]
+   }
+  ],
+  "counts": {
+   "digits": 5,
+   "metacarpals": 5,
+   "phalanges_total": 14,
+   "phalanges_per_digit_little_to_thumb": [
+    3,
+    3,
+    3,
+    3,
+    2
+   ],
+   "carpals_visible": "about 8 (about 4 proximal, about 4 distal; band hides the midcarpal region, not exactly countable)",
+   "band_full_width": true,
+   "nerve_under_band": true,
+   "digits_receiving_nerve_branches": 5,
+   "text_or_labels": 0
+  },
+  "notes": "Skeleton counts are correct, the thumb is on the right (a left hand, palm up), and the band spans the wrist with the nerve under it (band drawn on top, verified on the grid crop). It fails only because the nerve branches reach the little finger; deleting the branch that ends at (785,740) would fix it. Better of the pair: b."
+ },
+ {
+  "name": "cond-fibro-hero-a",
+  "verdict": "FAIL",
+  "defects": [
+   {
+    "category": "anatomy: mirrored hands on a back view",
+    "description": "Both hands show PALMS (palm-crease stipple lines, finger creases, no nails or knuckles) with the thumbs pointing OUTWARD, on a back-view figure. Seen from behind, a palm is only visible with the thumb pointing toward the body; palm plus outward thumb is a front-view hand pasted onto a back view, which is anatomically impossible. Clear at zoom, subtle at thumbnail size.",
+    "box": [
+     0.337,
+     0.5,
+     0.659,
+     0.618
+    ]
+   },
+   {
+    "category": "dot placement: hip dots on the outline",
+    "description": "The two 'just behind the outer hip' dots (910,739) and (1136,739) sit on the silhouette edge. Their centres are 9 px inside the body, 25-32% of a 14 px ring around each falls outside it, and the white halo breaks the body outline, so they look half off the body. They are also at gluteal-fold level (y about 735-740), low for the trochanteric point.",
+    "box": [
+     0.436,
+     0.531,
+     0.563,
+     0.556
+    ]
+   },
+   {
+    "category": "dot placement: elbow dots not on outer side",
+    "description": "The elbow dots (845,554) and (1202,554) are within 2-3 px of the arm's centreline (arm about 73 px wide). That is the back of the elbow (olecranon), not the outer (lateral epicondyle) side the spec asks for.",
+    "box": [
+     0.403,
+     0.393,
+     0.597,
+     0.423
+    ]
+   }
+  ],
+  "counts": {
+   "dots": 14,
+   "dot_diameter_px": "16-17",
+   "dots_on_body": 14,
+   "dots_touching_outline": 2,
+   "top_margin_px": 98,
+   "bottom_margin_px": 79,
+   "wrist_bands": 0,
+   "text_or_labels": 0
+  },
+  "notes": "Dot positions: base of skull (994,234)/(1052,234), on the skull-base/neck junction (the neck starts at y about 228); top of shoulder (915,323)/(1131,323), 41% of the way from neck to acromion; above the inner scapula (964,373)/(1083,373), 59 px from the midline; upper-outer buttock (933,657)/(1113,657), in the outer quarter; knees (998,953)/(1049,953), 14 px from the inner edge = inner side. The whole figure is inside the frame. The two symmetric dark marks at the waist (y about 455) are the arm-torso outline, not dots. Worse than b."
+ },
+ {
+  "name": "cond-fibro-hero-b",
+  "verdict": "MINOR",
+  "defects": [
+   {
+    "category": "dot placement: elbow dots not on outer side",
+    "description": "The elbow dots (829,542) and (1219,542) are only 3-4 px lateral of the arm's centreline (arm about 80 px wide). They sit on the back of the elbow beside the olecranon rather than clearly on the outer (lateral epicondyle) side.",
+    "box": [
+     0.395,
+     0.384,
+     0.605,
+     0.413
+    ]
+   }
+  ],
+  "counts": {
+   "dots": 14,
+   "dot_diameter_px": "16-17",
+   "dots_on_body": 14,
+   "min_dot_to_outline_px": 17,
+   "top_margin_px": 68,
+   "bottom_margin_px": 63,
+   "wrist_bands": 0,
+   "text_or_labels": 0
+  },
+  "notes": "All 14 dots are fully inside the body (a 14 px ring around each is 100% inside the silhouette). Base of skull (992,196)/(1057,196), at the skull-base/neck junction (the neck starts at y about 196). Top of shoulder (890,308)/(1160,309), about 61% toward the acromion (slightly lateral, acceptable). Above the inner scapula (971,362)/(1079,362), 53 px from the midline. Upper-outer buttock (934,647)/(1114,646). Behind the outer hip (915,711)/(1134,711), 18 px inside the outline at mid/lower buttock level. Inner knee (982,965)/(1067,965). The hands show the back of the hand (nails, knuckle creases, extensor tendons) with thumbs outward, which is correct for a back view. No text, no wrist bands, whole figure framed. Better of the pair: b."
+ },
+ {
+  "name": "cond-frozen-hero-a",
+  "verdict": "FAIL",
+  "defects": [
+   {
+    "category": "geometry: arcs not on the same path",
+    "description": "The solid arc (fitted circle centre (923,609), r=213 px) and the dotted arc (fitted centre (1027,520), r=369 px, 42 dots, residual sd 4.7 px) are different circles: the radii differ by 156 px and the centres are 137 px apart. The solid arc is a separate inner arc, not a stretch of the dotted path.",
+    "box": [
+     0.312,
+     0.096,
+     0.51,
+     0.632
+    ]
+   },
+   {
+    "category": "geometry: dotted arc not centred on the joint",
+    "description": "The dotted arc's centre is 101 px (27% of its radius) up and to the right of the humeral-head centre (about 937,567). Only the solid arc is roughly joint-centred (45 px off).",
+    "box": [
+     0.425,
+     0.331,
+     0.518,
+     0.471
+    ]
+   },
+   {
+    "category": "geometry: solid arc too long",
+    "description": "The solid arc runs from the humerus (about 854,804) to its end knob (about 823,415), about 120-130 degrees about the joint. It should cover only the first ~70 degrees; as drawn it covers most of the full range, so 'restricted' is not conveyed.",
+    "box": [
+     0.337,
+     0.294,
+     0.425,
+     0.603
+    ]
+   },
+   {
+    "category": "style: frayed bone ends",
+    "description": "The clavicle's inner end and the bottom of the humerus are left open, with hatch lines trailing off and no closing outline (vignette-style). Reads as unfinished bone. Minor.",
+    "box": [
+     0.635,
+     0.324,
+     0.708,
+     0.441
+    ]
+   }
+  ],
+  "counts": {
+   "dotted_arc_dots_fitted": 42,
+   "dotted_arc_radius_px": 369,
+   "solid_arc_radius_px": 213,
+   "centre_offset_solid_vs_dotted_px": 137,
+   "dotted_centre_offset_from_joint_px": 101,
+   "solid_arc_span_deg": "about 120-130",
+   "text_or_labels": 0
+  },
+  "notes": "The anatomy otherwise reads correctly: a right shoulder seen from the front, humerus hanging vertically on the viewer's left, clavicle and scapula (with coracoid) toward the midline on the right. A teal disc between the humeral head and glenoid is stylised cartilage and looks like a spacer; not scored. Joint centre estimated from the head outline (plus or minus 10 px). The second frayed end (bottom of the humerus) is at about (800-980,1080-1215). Better of the pair (marginally): a, because its arcs at least read as rotation arcs around the shoulder."
+ },
+ {
+  "name": "cond-frozen-hero-b",
+  "verdict": "FAIL",
+  "defects": [
+   {
+    "category": "geometry: solid stroke is not a motion arc",
+    "description": "The solid arc (fitted centre (974,814), r=344 px, i.e. a centre 359 px BELOW the joint) starts at a dot on the dotted arc (about 627,717) and curves inward to an end dot beside the humeral head (about 805,513). Its distance from the joint drops from about 373 px to about 107 px, so it reads as a leader line cutting across the range, not a segment of the dotted path.",
+    "box": [
+     0.293,
+     0.36,
+     0.405,
+     0.544
+    ]
+   },
+   {
+    "category": "geometry: first part of range not solid",
+    "description": "The range from the arm hanging down (bottom dot at about 851,937 on the humerus) up to about 47 degrees is drawn dotted, so the solid arc does not cover the first ~70 degrees as specified.",
+    "box": [
+     0.293,
+     0.515,
+     0.425,
+     0.706
+    ]
+   },
+   {
+    "category": "geometry: dotted arc not centred on the joint",
+    "description": "The dotted arc (fitted centre (998,557), r=407 px, 47 dots, residual sd 2.2 px) is centred 136 px (33% of r) below and to the right of the humeral-head centre (about 900,463).",
+    "box": [
+     0.42,
+     0.309,
+     0.508,
+     0.441
+    ]
+   }
+  ],
+  "counts": {
+   "dotted_arc_dots_fitted": 47,
+   "dotted_arc_radius_px": 407,
+   "solid_arc_radius_px": 344,
+   "centre_offset_solid_vs_dotted_px": 258,
+   "dotted_centre_offset_from_joint_px": 136,
+   "text_or_labels": 0
+  },
+  "notes": "Anatomy: a right shoulder from the front with the humerus hanging, clavicle, scapula and coracoid are all reasonable. Bone ends are closed but stylised: the inner end of the clavicle is drawn as a hollow cut tube, and the bottom of the humerus is a flared stump with no condyles. Style kept. Worse than a: the solid stroke misrepresents the restricted range."
+ },
+ {
+  "name": "cond-headache-hero-a",
+  "verdict": "MINOR",
+  "defects": [
+   {
+    "category": "anatomy: C3-C5 spinous processes too long",
+    "description": "The C3-C5 spinous processes project further back than C2's. The spinous tips sit at x about 777/763/763 vs C2 at about 806, with body fronts at 1052-1069, so C3-C5 are 15-24% longer front-to-back than C2. In reality C2's bifid spinous process is the largest of C2-C6 (the first bump felt under the skull) and C3-C5 are short; here they look thoracic.",
+    "box": [
+     0.366,
+     0.618,
+     0.439,
+     0.908
+    ]
+   },
+   {
+    "category": "anatomy: holes in articular pillars",
+    "description": "Round through-holes are drawn in the articular pillars of C3, C4 and C5 (about (927,920), (923,1018), (922,1123)). Transverse foramina run vertically and do not show as holes in a true side view.",
+    "box": [
+     0.437,
+     0.654,
+     0.466,
+     0.838
+    ]
+   },
+   {
+    "category": "anatomy: proportions",
+    "description": "The vertebrae are about 1.5-2x oversized relative to the skull (C3 body depth about 130 px vs skull length about 690 px, a 1:5.3 ratio; real is about 1:11). Reads as a chunky neck. Minor.",
+    "box": [
+     0.366,
+     0.515,
+     0.525,
+     0.908
+    ]
+   },
+   {
+    "category": "stray mark (negligible)",
+    "description": "A tiny 'rho'-shaped light highlight (about 4x13 px) inside the dark outline between C2 and C3 at about (902-906,880-895). It is not readable text and is invisible at display size.",
+    "box": [
+     0.437,
+     0.643,
+     0.445,
+     0.662
+    ]
+   }
+  ],
+  "counts": {
+   "vertebrae": 5,
+   "levels": "C1-C5",
+   "skull_complete": true,
+   "top_margin_px": 108,
+   "bottom_margin_px": 132,
+   "skull_junction_fraction_from_back": 0.42,
+   "text_or_labels": 0
+  },
+  "notes": "All spec items pass. The skull is complete (108 px top margin) and in true profile facing right, and the vertebrae are in the same side view (bodies anterior/right, spinous processes posterior/left). The spine meets the skull under its middle-back, about 42% of skull length from the back, below the ear-canal/mastoid level and not at the face. C1 is recognisable in side view (anterior tubercle, posterior arch and tubercle at (846,765)); C2 has its body and a large spinous process; C3-C5 are distinct, not melted. The mandibular condyle sits in front of the ear canal. The column is slightly lordotic (front line bulges 3-8 px forward) but C2 sits about 15 px behind C5, so the neck leans slightly back (very minor). Previous errors (flat-cut skull, face-on atlas) are fixed. Single variant."
+ }
+]

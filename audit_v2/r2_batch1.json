@@ -1,0 +1,74 @@
+[
+ {
+  "name": "ak-legit-hero-a",
+  "pair": "ak-legit-hero",
+  "path": "v2/round2/ak-legit-hero-a.png",
+  "scene": "an intimate close-up of a manual muscle test: the patient's forearm is held level with the elbow bent and the fist closed; the practitioner's FLAT palm rests on the back of her wrist pressing gently down, his other hand steadying her elbow; only the two pairs of hands and forearms fill the frame",
+  "overlay_anatomy": "the two forearm bones (radius and ulna) and the forearm muscles only, no hand bones",
+  "pain_site_red_glow": "the forearm muscle being tested",
+  "previous_failure_to_check": "Hand skeleton over the fist has only 3 metacarpals (the 4 knuckles need 4) and a single rounded carpal between the radius/ulna and the metacarpals (there should be 8 small carpal bones). The miscount ; Not to brief: the grip is a fingertip/claw grip on the distal forearm, not a flat palm on the back of the wrist. The practitioner's shirt and belt fill the upper third, although the brief asked for on"
+ },
+ {
+  "name": "ak-legit-hero-b",
+  "pair": "ak-legit-hero",
+  "path": "v2/round2/ak-legit-hero-b.png",
+  "scene": "an intimate close-up of a manual muscle test: the patient's forearm is held level with the elbow bent and the fist closed; the practitioner's FLAT palm rests on the back of her wrist pressing gently down, his other hand steadying her elbow; only the two pairs of hands and forearms fill the frame",
+  "overlay_anatomy": "the two forearm bones (radius and ulna) and the forearm muscles only, no hand bones",
+  "pain_site_red_glow": "the forearm muscle being tested",
+  "previous_failure_to_check": "Hand skeleton over the fist has only 3 metacarpals (the 4 knuckles need 4) and a single rounded carpal between the radius/ulna and the metacarpals (there should be 8 small carpal bones). The miscount ; Not to brief: the grip is a fingertip/claw grip on the distal forearm, not a flat palm on the back of the wrist. The practitioner's shirt and belt fill the upper third, although the brief asked for on"
+ },
+ {
+  "name": "cond-auto-assess-a",
+  "pair": "cond-auto-assess",
+  "path": "v2/round2/cond-auto-assess-a.png",
+  "scene": "the patient sits on the edge of the treatment table, seen from behind; the practitioner's two hands rest flat on the upper back, one on each side of the spine",
+  "overlay_anatomy": "the neck and upper back only: the seven neck vertebrae and the upper part of the thoracic spine with the two shoulder blades, seen from behind; nothing below the shoulder blades",
+  "pain_site_red_glow": "the lower neck and the muscles between the shoulder blades",
+  "previous_failure_to_check": "Wrong, countable vertebra count: below the last rib attachment (~y 0.65) the column shows 8-9 rib-free lumbar-type vertebrae (distinct transverse-process 'butterfly' shapes, ~0.035 image-height spacin; Glow sits only on mid-thoracic spine between the shoulder blades (~T3-T8); the requested lower-neck component has no glow."
+ },
+ {
+  "name": "cond-auto-assess-b",
+  "pair": "cond-auto-assess",
+  "path": "v2/round2/cond-auto-assess-b.png",
+  "scene": "the patient sits on the edge of the treatment table, seen from behind; the practitioner's two hands rest flat on the upper back, one on each side of the spine",
+  "overlay_anatomy": "the neck and upper back only: the seven neck vertebrae and the upper part of the thoracic spine with the two shoulder blades, seen from behind; nothing below the shoulder blades",
+  "pain_site_red_glow": "the lower neck and the muscles between the shoulder blades",
+  "previous_failure_to_check": "Wrong, countable vertebra count: below the last rib attachment (~y 0.65) the column shows 8-9 rib-free lumbar-type vertebrae (distinct transverse-process 'butterfly' shapes, ~0.035 image-height spacin; Glow sits only on mid-thoracic spine between the shoulder blades (~T3-T8); the requested lower-neck component has no glow."
+ },
+ {
+  "name": "cond-carpal-treat-a",
+  "pair": "cond-carpal-treat",
+  "path": "v2/round2/cond-carpal-treat-a.png",
+  "scene": "a close view from above at table height: the patient's right forearm and open right hand rest palm-up on a folded white towel, the hand natural adult size with the thumb on its correct side; the practitioner holds a small white handheld low-level laser probe held just above the crease of the wrist, casting a small red glow on the skin; his other hand is out of frame",
+  "overlay_anatomy": "the wrist and hand bones, each finger's bones running the full length of the finger, and the median nerve passing through the carpal tunnel",
+  "pain_site_red_glow": "the carpal tunnel at the base of the palm",
+  "previous_failure_to_check": "Mirrored hand / thumb on the wrong side. The patient is supine with her head to the left, so the near arm on the towel is her RIGHT arm, palm up; a palm-up right hand must have its thumb on the latera; Patient's hand is oversized/elongated: her finger widths (~47 px) equal the practitioner's, and by her own finger-width scale the wrist-to-middle-fingertip length is ~30% longer than a normal female h"
+ },
+ {
+  "name": "cond-carpal-treat-b",
+  "pair": "cond-carpal-treat",
+  "path": "v2/round2/cond-carpal-treat-b.png",
+  "scene": "a close view from above at table height: the patient's right forearm and open right hand rest palm-up on a folded white towel, the hand natural adult size with the thumb on its correct side; the practitioner holds a small white handheld low-level laser probe held just above the crease of the wrist, casting a small red glow on the skin; his other hand is out of frame",
+  "overlay_anatomy": "the wrist and hand bones, each finger's bones running the full length of the finger, and the median nerve passing through the carpal tunnel",
+  "pain_site_red_glow": "the carpal tunnel at the base of the palm",
+  "previous_failure_to_check": "Mirrored hand / thumb on the wrong side. The patient is supine with her head to the left, so the near arm on the towel is her RIGHT arm, palm up; a palm-up right hand must have its thumb on the latera; Patient's hand is oversized/elongated: her finger widths (~47 px) equal the practitioner's, and by her own finger-width scale the wrist-to-middle-fingertip length is ~30% longer than a normal female h"
+ },
+ {
+  "name": "cond-disc-treat-a",
+  "pair": "cond-disc-treat",
+  "path": "v2/round2/cond-disc-treat-a.png",
+  "scene": "the patient lies face down on the treatment table, a light blanket over his legs; a flat white ring-shaped PEMF coil resting on his lower back over a thin cloth, its cable running to a small white console, the console standing on a side table; the practitioner checks the console",
+  "overlay_anatomy": "the lower back only: five lumbar vertebrae in a straight midline column ending at the sacrum",
+  "pain_site_red_glow": "between the two lowest lumbar vertebrae",
+  "previous_failure_to_check": "Lumbar spine is flipped front-to-back. The patient lies SUPINE (his back is on the table/coil at about y0.625, belly surface about y0.44), yet the overlay puts the vertebral bodies and discs along the; The requested 'one disc bulging slightly' is not drawn as a bulge: the red-glowing disc stays within the vertebral margins; only the glow indicates it. The level is ambiguous: 6 full bodies before the"
+ },
+ {
+  "name": "cond-disc-treat-b",
+  "pair": "cond-disc-treat",
+  "path": "v2/round2/cond-disc-treat-b.png",
+  "scene": "the patient lies face down on the treatment table, a light blanket over his legs; a flat white ring-shaped PEMF coil resting on his lower back over a thin cloth, its cable running to a small white console, the console standing on a side table; the practitioner checks the console",
+  "overlay_anatomy": "the lower back only: five lumbar vertebrae in a straight midline column ending at the sacrum",
+  "pain_site_red_glow": "between the two lowest lumbar vertebrae",
+  "previous_failure_to_check": "Lumbar spine is flipped front-to-back. The patient lies SUPINE (his back is on the table/coil at about y0.625, belly surface about y0.44), yet the overlay puts the vertebral bodies and discs along the; The requested 'one disc bulging slightly' is not drawn as a bulge: the red-glowing disc stays within the vertebral margins; only the glow indicates it. The level is ambiguous: 6 full bodies before the"
+ }
+]

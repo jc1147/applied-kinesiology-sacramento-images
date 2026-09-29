@@ -1,0 +1,42 @@
+[
+ {
+  "name": "cond-lbp-assess-c",
+  "pair": "cond-lbp-assess",
+  "path": "v2/round3c/cond-lbp-assess-c.png",
+  "scene": "a wide shot from further back: the patient lies on his back on the treatment table, one leg raised straight to about 30 degrees; the practitioner's flat hand presses gently down just above that ankle while his other hand steadies the patient's hip; the table and the patient sit in the middle of the frame, with the pillow, a strip of floor and clinic furniture clearly visible beyond the top of his head on one side and beyond his toes on the other, so his whole body including the back of his head and all his toes is well inside the frame; natural adult proportions: the legs are longer than the torso",
+  "overlay_anatomy": "the lumbar spine, the pelvis with the hip joint of the raised leg, and the thigh bone inside the raised thigh",
+  "pain_site_red_glow": "the lower back and the hip flexor where it attaches to the lumbar spine",
+  "page_crop": "7:5 from a square image: the page crop keeps the full width and trims about 14.3% off the top and bottom each",
+  "previous_failure_to_check": "Rounds 2-3: the back of the patient's head was cut off by (or touched) the left frame edge and the resting toes touched the right edge; earlier the thigh bone was drawn in the resting leg and a toe-like lobe grew from an ankle. The head (including the back of the skull and hair) and all toes must be fully inside the frame."
+ },
+ {
+  "name": "cond-lbp-assess-d",
+  "pair": "cond-lbp-assess",
+  "path": "v2/round3c/cond-lbp-assess-d.png",
+  "scene": "a wide shot from further back: the patient lies on his back on the treatment table, one leg raised straight to about 30 degrees; the practitioner's flat hand presses gently down just above that ankle while his other hand steadies the patient's hip; the table and the patient sit in the middle of the frame, with the pillow, a strip of floor and clinic furniture clearly visible beyond the top of his head on one side and beyond his toes on the other, so his whole body including the back of his head and all his toes is well inside the frame; natural adult proportions: the legs are longer than the torso",
+  "overlay_anatomy": "the lumbar spine, the pelvis with the hip joint of the raised leg, and the thigh bone inside the raised thigh",
+  "pain_site_red_glow": "the lower back and the hip flexor where it attaches to the lumbar spine",
+  "page_crop": "7:5 from a square image: the page crop keeps the full width and trims about 14.3% off the top and bottom each",
+  "previous_failure_to_check": "Rounds 2-3: the back of the patient's head was cut off by (or touched) the left frame edge and the resting toes touched the right edge; earlier the thigh bone was drawn in the resting leg and a toe-like lobe grew from an ankle. The head (including the back of the skull and hair) and all toes must be fully inside the frame."
+ },
+ {
+  "name": "cond-lbp-assess-e",
+  "pair": "cond-lbp-assess",
+  "path": "v2/round3c/cond-lbp-assess-e.png",
+  "scene": "a wide shot from further back: the patient lies on his back on the treatment table, one leg raised straight to about 30 degrees; the practitioner's flat hand presses gently down just above that ankle while his other hand steadies the patient's hip; the table and the patient sit in the middle of the frame, with the pillow, a strip of floor and clinic furniture clearly visible beyond the top of his head on one side and beyond his toes on the other, so his whole body including the back of his head and all his toes is well inside the frame; natural adult proportions: the legs are longer than the torso",
+  "overlay_anatomy": "the lumbar spine, the pelvis with the hip joint of the raised leg, and the thigh bone inside the raised thigh",
+  "pain_site_red_glow": "the lower back and the hip flexor where it attaches to the lumbar spine",
+  "page_crop": "7:5 from 4:3: the page crop keeps the full width and trims about 2.1% off the top and bottom each",
+  "previous_failure_to_check": "Rounds 2-3: the back of the patient's head was cut off by (or touched) the left frame edge and the resting toes touched the right edge; earlier the thigh bone was drawn in the resting leg and a toe-like lobe grew from an ankle. The head (including the back of the skull and hair) and all toes must be fully inside the frame."
+ },
+ {
+  "name": "cond-lbp-assess-f",
+  "pair": "cond-lbp-assess",
+  "path": "v2/round3c/cond-lbp-assess-f.png",
+  "scene": "a wide shot from further back: the patient lies on his back on the treatment table, one leg raised straight to about 30 degrees; the practitioner's flat hand presses gently down just above that ankle while his other hand steadies the patient's hip; the table and the patient sit in the middle of the frame, with the pillow, a strip of floor and clinic furniture clearly visible beyond the top of his head on one side and beyond his toes on the other, so his whole body including the back of his head and all his toes is well inside the frame; natural adult proportions: the legs are longer than the torso",
+  "overlay_anatomy": "the lumbar spine, the pelvis with the hip joint of the raised leg, and the thigh bone inside the raised thigh",
+  "pain_site_red_glow": "the lower back and the hip flexor where it attaches to the lumbar spine",
+  "page_crop": "7:5 from 4:3: the page crop keeps the full width and trims about 2.1% off the top and bottom each",
+  "previous_failure_to_check": "Rounds 2-3: the back of the patient's head was cut off by (or touched) the left frame edge and the resting toes touched the right edge; earlier the thigh bone was drawn in the resting leg and a toe-like lobe grew from an ankle. The head (including the back of the skull and hair) and all toes must be fully inside the frame."
+ }
+]

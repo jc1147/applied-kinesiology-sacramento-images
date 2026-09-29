@@ -1,0 +1,14 @@
+[16:48:10] 12 jobs, 12 to run, concurrency 4
+[16:48:25] ok   lowback-overlay-fal-seedream45  nullxnull  15 s  (01a0e8ea-b393-7ba2-8a9d-946e3da233d2)
+[16:48:27] ok   lowback-cinematic-fal-seedream45  nullxnull  17 s  (01a0e8ea-b393-7700-bcba-68f693161343)
+[16:48:37] ok   lowback-overlay-fal-nbp  nullxnull  27 s  (01a0e8ea-b38d-75d0-be5e-f17a84189328)
+[16:48:39] ok   lowback-cinematic-fal-nbp  nullxnull  28 s  (01a0e8ea-b39b-7112-ba89-df11d26c3977)
+[16:48:45] ok   lowback-bright-fal-seedream45  nullxnull  18 s  (01a0e8ea-f1af-75d2-9696-135368130eeb)
+[16:48:52] ok   lowback-bright-fal-nbp  nullxnull  26 s  (01a0e8ea-ea90-7122-99ee-8c0326b8f224)
+[16:48:56] ok   mtest-cinematic-fal-seedream45  nullxnull  17 s  (01a0e8eb-1f34-79d1-ab02-f1b5475c6589)
+[16:49:06] ok   mtest-overlay-fal-seedream45  nullxnull  14 s  (01a0e8eb-51b3-7b23-a37a-9970f3984533)
+[16:49:07] ok   mtest-cinematic-fal-nbp  nullxnull  29 s  (01a0e8eb-193c-7762-b392-b6ae72c7547f)
+[16:49:12] ok   mtest-overlay-fal-nbp  nullxnull  27 s  (01a0e8eb-3650-7092-a98d-9d96ea649886)
+[16:49:20] ok   mtest-bright-fal-seedream45  nullxnull  14 s  (01a0e8eb-89d8-78a2-94d2-536ce28d0d52)
+[16:49:36] ok   mtest-bright-fal-nbp  nullxnull  41 s  (01a0e8eb-6176-7ef3-b3c4-8832d3b20ef8)
+[16:49:36] done: 12 ok, 0 failed

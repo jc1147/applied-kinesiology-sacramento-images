@@ -1,0 +1,68 @@
+[
+ {
+  "name": "cond-auto-hero-c",
+  "model": "marketing-studio/image/flare",
+  "images": [
+   "site\\assets\\gen_anatomy_vertebra_disc.jpg",
+   "site\\assets\\gen_anatomy_shoulder_joint.jpg",
+   "site\\assets\\gen_anatomy_knee_joint.jpg"
+  ],
+  "input": {
+   "prompt": "The reference images show the house illustration style of a clinic website. Create a NEW illustration in exactly that style: a vintage medical engraving printed in deep teal ink with pale teal fills, crisp dark outlines and fine engraved hatching, on warm cream paper with a soft vignette; one subject centred with generous empty margins on every side; no background scene, no panel or frame behind the subject. Subject: the seven neck vertebrae C1 to C7 alone (no skull), in a true side view facing right, each vertebra with its body at the front (right side of the image) and its spinous process pointing back (left); the column has the NORMAL gentle forward curve of a healthy neck (lordosis): its middle, around C4, bows toward the FRONT (to the right, toward where the face would be), and C2 has the largest spinous process of the upper neck. Three thin concentric pale-teal rings, and no more than three, are centred on the middle of the neck like a shockwave. The whole column sits well inside the frame with generous margins. Anatomically exact: a chiropractor will check every bone and count. No text, letters, numbers, labels, arrows or leader lines anywhere.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "cond-auto-hero-d",
+  "model": "marketing-studio/image/flare",
+  "images": [
+   "site\\assets\\gen_anatomy_vertebra_disc.jpg",
+   "site\\assets\\gen_anatomy_shoulder_joint.jpg",
+   "site\\assets\\gen_anatomy_knee_joint.jpg"
+  ],
+  "input": {
+   "prompt": "The reference images show the house illustration style of a clinic website. Create a NEW illustration in exactly that style: a vintage medical engraving printed in deep teal ink with pale teal fills, crisp dark outlines and fine engraved hatching, on warm cream paper with a soft vignette; one subject centred with generous empty margins on every side; no background scene, no panel or frame behind the subject. Subject: the seven neck vertebrae C1 to C7 alone (no skull), in a true side view facing right, each vertebra with its body at the front (right side of the image) and its spinous process pointing back (left); the column has the NORMAL gentle forward curve of a healthy neck (lordosis): its middle, around C4, bows toward the FRONT (to the right, toward where the face would be), and C2 has the largest spinous process of the upper neck. Three thin concentric pale-teal rings, and no more than three, are centred on the middle of the neck like a shockwave. The whole column sits well inside the frame with generous margins. Anatomically exact: a chiropractor will check every bone and count. No text, letters, numbers, labels, arrows or leader lines anywhere.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "cond-carpal-hero-b-edit",
+  "model": "marketing-studio/image/flare",
+  "images": [
+   "v2\\plates\\cond-carpal-hero-b.png"
+  ],
+  "input": {
+   "prompt": "Keep this exact illustration: the same composition, style, colours and line work. Change only the nerve: the median nerve branches go ONLY to the thumb, the index finger, the middle finger and the thumb side of the ring finger; remove any nerve branch that goes to the little finger, so the little finger has no nerve branch at all. Also remove the two small teal wedge marks beside the nerve just above the band. Anatomically exact: a chiropractor will check every bone and count. No text, letters, numbers, labels, arrows or leader lines anywhere.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ },
+ {
+  "name": "cond-carpal-hero-c",
+  "model": "marketing-studio/image/flare",
+  "images": [
+   "site\\assets\\gen_anatomy_vertebra_disc.jpg",
+   "site\\assets\\gen_anatomy_shoulder_joint.jpg",
+   "site\\assets\\gen_anatomy_knee_joint.jpg"
+  ],
+  "input": {
+   "prompt": "The reference images show the house illustration style of a clinic website. Create a NEW illustration in exactly that style: a vintage medical engraving printed in deep teal ink with pale teal fills, crisp dark outlines and fine engraved hatching, on warm cream paper with a soft vignette; one subject centred with generous empty margins on every side; no background scene, no panel or frame behind the subject. Subject: a palm-up view of the right hand and wrist skeleton: the ends of the radius and ulna on the left, the eight carpal bones in two rows, five metacarpals and all finger bones (three per finger, two in the thumb). A broad, semi-transparent pale band, the transverse carpal ligament, spans the WHOLE width of the wrist from the thumb side to the little-finger side. The median nerve is a single smooth pale-teal cord that runs from the forearm and passes UNDERNEATH the ligament band: the band is drawn on top of the nerve, the nerve is hidden beneath it and reappears below it, then divides into branches to the thumb, the index finger, the middle finger and the thumb side of the ring finger. The little finger receives NO branch of the median nerve. Exactly five digits: a thumb with two finger bones and four fingers with three each. Anatomically exact: a chiropractor will check every bone and count. No text, letters, numbers, labels, arrows or leader lines anywhere.",
+   "quality": "high",
+   "moderation": "auto",
+   "resolution": "2k",
+   "aspect_ratio": "3:2",
+   "enhance_prompt": false
+  }
+ }
+]

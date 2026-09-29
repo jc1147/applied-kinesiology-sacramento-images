@@ -1,0 +1,26 @@
+[
+ {
+  "name": "cond-auto-hero-c-edit-a",
+  "pair": "cond-auto-hero",
+  "path": "v2/plates/cond-auto-hero-c-edit-a.png",
+  "spec": "Side view of the cervical spine: EXACTLY SEVEN neck vertebrae C1-C7 (C1 the atlas at the top, then six vertebral bodies C2-C7), the normal forward (lordotic) curve (the middle of the neck bows toward the vertebral-body side), C2 with the largest upper spinous process, exactly 3 concentric rings through the mid-neck, no skull, nothing cut off by the frame. These are edits of cond-auto-hero-c (which had 8 vertebrae): the edit should have removed only the lowest vertebra and its disc; check for leftovers of the removed vertebra, open outlines or smudges at the bottom of the column."
+ },
+ {
+  "name": "cond-auto-hero-c-edit-b",
+  "pair": "cond-auto-hero",
+  "path": "v2/plates/cond-auto-hero-c-edit-b.png",
+  "spec": "Side view of the cervical spine: EXACTLY SEVEN neck vertebrae C1-C7 (C1 the atlas at the top, then six vertebral bodies C2-C7), the normal forward (lordotic) curve (the middle of the neck bows toward the vertebral-body side), C2 with the largest upper spinous process, exactly 3 concentric rings through the mid-neck, no skull, nothing cut off by the frame. These are edits of cond-auto-hero-c (which had 8 vertebrae): the edit should have removed only the lowest vertebra and its disc; check for leftovers of the removed vertebra, open outlines or smudges at the bottom of the column."
+ },
+ {
+  "name": "cond-carpal-hero-v1edit-a",
+  "pair": "cond-carpal-hero",
+  "path": "v2/plates/cond-carpal-hero-v1edit-a.png",
+  "spec": "Edit of the first-set plate the owner loves (original: final/full/cond-carpal-hero.jpg). Palm-side hand and wrist skeleton with 5 digits (thumb 2 phalanges, fingers 3 each), a ligament band across the WHOLE wrist, and the median nerve passing UNDER the band (the band drawn over it; the nerve disappears at one edge and reappears at the other) with branches only to the thumb, index, middle and the thumb side of the ring finger; a branch to the little finger is a FAIL. The edit must keep the original's composition, soft hand outline, colours and line work (compare side by side); finger outlines should join the palm outline cleanly at the web spaces; flag any leftover of the old band, stray marks, patches or text."
+ },
+ {
+  "name": "cond-carpal-hero-v1edit-b",
+  "pair": "cond-carpal-hero",
+  "path": "v2/plates/cond-carpal-hero-v1edit-b.png",
+  "spec": "Edit of the first-set plate the owner loves (original: final/full/cond-carpal-hero.jpg). Palm-side hand and wrist skeleton with 5 digits (thumb 2 phalanges, fingers 3 each), a ligament band across the WHOLE wrist, and the median nerve passing UNDER the band (the band drawn over it; the nerve disappears at one edge and reappears at the other) with branches only to the thumb, index, middle and the thumb side of the ring finger; a branch to the little finger is a FAIL. The edit must keep the original's composition, soft hand outline, colours and line work (compare side by side); finger outlines should join the palm outline cleanly at the web spaces; flag any leftover of the old band, stray marks, patches or text."
+ }
+]

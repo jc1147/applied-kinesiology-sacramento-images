@@ -1,0 +1,74 @@
+[
+ {
+  "name": "cond-fibro-treat-a",
+  "pair": "cond-fibro-treat",
+  "path": "v2/round2/cond-fibro-treat-a.png",
+  "scene": "the patient lies face down on the treatment table with a soft blanket over her legs; the practitioner holds a small chrome spring-loaded adjusting instrument shaped like a thick pen with a flat rubber tip (no needle) gently against the muscles beside her upper spine, his other hand resting flat on her back",
+  "overlay_anatomy": "the upper and mid back only: the spine's midline column and the two shoulder blades",
+  "pain_site_red_glow": "a few small scattered tender points on the muscles either side of the upper spine",
+  "previous_failure_to_check": "Misoriented (flipped) spine: drawn in side view with the rectangular vertebral bodies along the skin of the back and each long spinous process hanging DOWN into the body toward the table. For a prone ; Over-segmentation: ~22-24 vertebrae drawn between the base of the neck (~x 0.24) and the blanket edge (~x 0.80) where ~17-18 (T1-L5) belong."
+ },
+ {
+  "name": "cond-fibro-treat-b",
+  "pair": "cond-fibro-treat",
+  "path": "v2/round2/cond-fibro-treat-b.png",
+  "scene": "the patient lies face down on the treatment table with a soft blanket over her legs; the practitioner holds a small chrome spring-loaded adjusting instrument shaped like a thick pen with a flat rubber tip (no needle) gently against the muscles beside her upper spine, his other hand resting flat on her back",
+  "overlay_anatomy": "the upper and mid back only: the spine's midline column and the two shoulder blades",
+  "pain_site_red_glow": "a few small scattered tender points on the muscles either side of the upper spine",
+  "previous_failure_to_check": "Misoriented (flipped) spine: drawn in side view with the rectangular vertebral bodies along the skin of the back and each long spinous process hanging DOWN into the body toward the table. For a prone ; Over-segmentation: ~22-24 vertebrae drawn between the base of the neck (~x 0.24) and the blanket edge (~x 0.80) where ~17-18 (T1-L5) belong."
+ },
+ {
+  "name": "cond-headache-assess-a",
+  "pair": "cond-headache-assess",
+  "path": "v2/round2/cond-headache-assess-a.png",
+  "scene": "the patient sits upright on the treatment table seen from behind and slightly to the side; the practitioner stands behind her and only his two hands are visible, resting on either side of the back of her neck just below the base of her skull, fingertips pressing gently",
+  "overlay_anatomy": "the skull base and the upper neck vertebrae",
+  "pain_site_red_glow": "the muscles at the base of the skull and the upper neck",
+  "previous_failure_to_check": "Mirrored hand: the hand cupping the back of her skull is attached to the practitioner's LEFT arm (sleeve from the image-right side of his torso; his shirt placket is visible, so he half-faces the came; Brief not followed: the jaw joint is touched by the PATIENT's own right hand, not by the practitioner's fingertips; his second hand grips the base of her neck instead."
+ },
+ {
+  "name": "cond-headache-assess-b",
+  "pair": "cond-headache-assess",
+  "path": "v2/round2/cond-headache-assess-b.png",
+  "scene": "the patient sits upright on the treatment table seen from behind and slightly to the side; the practitioner stands behind her and only his two hands are visible, resting on either side of the back of her neck just below the base of her skull, fingertips pressing gently",
+  "overlay_anatomy": "the skull base and the upper neck vertebrae",
+  "pain_site_red_glow": "the muscles at the base of the skull and the upper neck",
+  "previous_failure_to_check": "Mirrored hand: the hand cupping the back of her skull is attached to the practitioner's LEFT arm (sleeve from the image-right side of his torso; his shirt placket is visible, so he half-faces the came; Brief not followed: the jaw joint is touched by the PATIENT's own right hand, not by the practitioner's fingertips; his second hand grips the base of her neck instead."
+ },
+ {
+  "name": "cond-lbp-assess-a",
+  "pair": "cond-lbp-assess",
+  "path": "v2/round2/cond-lbp-assess-a.png",
+  "scene": "the patient lies on his back on the treatment table with his whole body in frame from head to feet, one leg raised straight to about 30 degrees; the practitioner's flat hand presses gently down just above that ankle while his other hand steadies the patient's hip; natural adult proportions: the legs are longer than the torso",
+  "overlay_anatomy": "the lumbar spine, the pelvis and the hip joint of the raised leg",
+  "pain_site_red_glow": "the lower back and the hip flexor where it attaches to the lumbar spine",
+  "previous_failure_to_check": "Proportion defect - raised (left) leg too short: hip joint (~0.54,0.58) to inner ankle (~0.95,0.31) = ~920-930 px, which is ~64 cm at the image's own scale (patient's hand ~275 px = ~19 cm; face gives; Proportion defect - torso too long: shoulder joint (~0.13,0.645) to hip joint = ~845 px = ~58 cm vs ~51 cm normal; together with the short leg the patient reads long-bodied and short-legged."
+ },
+ {
+  "name": "cond-lbp-assess-b",
+  "pair": "cond-lbp-assess",
+  "path": "v2/round2/cond-lbp-assess-b.png",
+  "scene": "the patient lies on his back on the treatment table with his whole body in frame from head to feet, one leg raised straight to about 30 degrees; the practitioner's flat hand presses gently down just above that ankle while his other hand steadies the patient's hip; natural adult proportions: the legs are longer than the torso",
+  "overlay_anatomy": "the lumbar spine, the pelvis and the hip joint of the raised leg",
+  "pain_site_red_glow": "the lower back and the hip flexor where it attaches to the lumbar spine",
+  "previous_failure_to_check": "Proportion defect - raised (left) leg too short: hip joint (~0.54,0.58) to inner ankle (~0.95,0.31) = ~920-930 px, which is ~64 cm at the image's own scale (patient's hand ~275 px = ~19 cm; face gives; Proportion defect - torso too long: shoulder joint (~0.13,0.645) to hip joint = ~845 px = ~58 cm vs ~51 cm normal; together with the short leg the patient reads long-bodied and short-legged."
+ },
+ {
+  "name": "cond-lbp-treat-a",
+  "pair": "cond-lbp-treat",
+  "path": "v2/round2/cond-lbp-treat-a.png",
+  "scene": "the patient lies face down on the treatment table, a light blanket over his legs, his lower back bare; a white stand-mounted low-level laser head on an articulated arm, positioned a hand's width above the lower back and projecting three thin red laser lines onto the skin without touching it; the practitioner's hand rests on his upper back",
+  "overlay_anatomy": "the lower back only: five lumbar vertebrae in a straight midline column ending at the triangular sacrum, with the two hip bones spreading to either side of the lower back like wings; the tailbone points toward his feet",
+  "pain_site_red_glow": "the two lowest lumbar vertebrae and the muscles beside them",
+  "previous_failure_to_check": "Pelvis and sacrum rotated ~90 degrees (sideways). The pelvis is drawn like an upright pelvis seen from behind: near iliac wing at left, sacrum with foramina hanging vertically on the right with the CO; Laser head is ~0.30 of the image height above the skin (at the practitioner's chest height), well over the requested 'hand's width' above the lower back."
+ },
+ {
+  "name": "cond-lbp-treat-b",
+  "pair": "cond-lbp-treat",
+  "path": "v2/round2/cond-lbp-treat-b.png",
+  "scene": "the patient lies face down on the treatment table, a light blanket over his legs, his lower back bare; a white stand-mounted low-level laser head on an articulated arm, positioned a hand's width above the lower back and projecting three thin red laser lines onto the skin without touching it; the practitioner's hand rests on his upper back",
+  "overlay_anatomy": "the lower back only: five lumbar vertebrae in a straight midline column ending at the triangular sacrum, with the two hip bones spreading to either side of the lower back like wings; the tailbone points toward his feet",
+  "pain_site_red_glow": "the two lowest lumbar vertebrae and the muscles beside them",
+  "previous_failure_to_check": "Pelvis and sacrum rotated ~90 degrees (sideways). The pelvis is drawn like an upright pelvis seen from behind: near iliac wing at left, sacrum with foramina hanging vertically on the right with the CO; Laser head is ~0.30 of the image height above the skin (at the practitioner's chest height), well over the requested 'hand's width' above the lower back."
+ }
+]

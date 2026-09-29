@@ -1,0 +1,4 @@
+[21:09:57] 2 jobs, 2 to run, concurrency 2
+[21:10:25] ok   cond-auto-hero-c-edit-b  28 s  no fixed quote (metered). Per 1M tokens: text input $5, cached text input $1.25, text output $10; image input $8, cached image input $2, image output $30. Quality defaults to high. Final cost uses actual token usage and standard credit rounding. The initial charge is an estimate reconciled on completion.  (c6fa1786-3a6d-41e8-b967-35fe3e83de64)
+[21:10:26] ok   cond-auto-hero-c-edit-a  29 s  no fixed quote (metered). Per 1M tokens: text input $5, cached text input $1.25, text output $10; image input $8, cached image input $2, image output $30. Quality defaults to high. Final cost uses actual token usage and standard credit rounding. The initial charge is an estimate reconciled on completion.  (e6135a8e-6dd1-45b8-a246-3f611a68bcd7)
+[21:10:26] done: 2 ok, 0 failed

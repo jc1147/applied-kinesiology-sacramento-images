@@ -1,0 +1,137 @@
+[
+ {
+  "name": "t-osteo-nbp",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference images show the house illustration style of a clinic website. Create a NEW illustration in exactly that style: a vintage medical engraving printed in deep teal ink with pale teal fills, crisp dark outlines, fine engraved hatching for shading, on warm cream paper with a soft vignette, one subject centred with generous empty margins, no background scene. Subject: the upper end of a human thigh bone (femoral head and neck) cut open lengthwise to show the inner spongy trabecular bone lattice; the lattice is dense and well formed on the left of the cut and becomes visibly sparser, thinner and more porous toward the right, showing bone losing density. Anatomically accurate. No text, letters, numbers, labels, logos, readable screens or watermark.",
+  "refs": [
+   "site/assets/gen_anatomy_vertebra_disc.jpg",
+   "site/assets/gen_anatomy_knee_joint.jpg",
+   "site/assets/gen_anatomy_shoulder_joint.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "t-osteo-sd45",
+  "endpoint": "fal-ai/bytedance/seedream/v4.5/edit",
+  "prompt": "The reference images show the house illustration style of a clinic website. Create a NEW illustration in exactly that style: a vintage medical engraving printed in deep teal ink with pale teal fills, crisp dark outlines, fine engraved hatching for shading, on warm cream paper with a soft vignette, one subject centred with generous empty margins, no background scene. Subject: the upper end of a human thigh bone (femoral head and neck) cut open lengthwise to show the inner spongy trabecular bone lattice; the lattice is dense and well formed on the left of the cut and becomes visibly sparser, thinner and more porous toward the right, showing bone losing density. Anatomically accurate. No text, letters, numbers, labels, logos, readable screens or watermark.",
+  "refs": [
+   "site/assets/gen_anatomy_vertebra_disc.jpg",
+   "site/assets/gen_anatomy_knee_joint.jpg",
+   "site/assets/gen_anatomy_shoulder_joint.jpg"
+  ],
+  "params": {
+   "image_size": {
+    "width": 2240,
+    "height": 1600
+   }
+  }
+ },
+ {
+  "name": "t-osteo-nb",
+  "endpoint": "fal-ai/nano-banana/edit",
+  "prompt": "The reference images show the house illustration style of a clinic website. Create a NEW illustration in exactly that style: a vintage medical engraving printed in deep teal ink with pale teal fills, crisp dark outlines, fine engraved hatching for shading, on warm cream paper with a soft vignette, one subject centred with generous empty margins, no background scene. Subject: the upper end of a human thigh bone (femoral head and neck) cut open lengthwise to show the inner spongy trabecular bone lattice; the lattice is dense and well formed on the left of the cut and becomes visibly sparser, thinner and more porous toward the right, showing bone losing density. Anatomically accurate. No text, letters, numbers, labels, logos, readable screens or watermark.",
+  "refs": [
+   "site/assets/gen_anatomy_vertebra_disc.jpg",
+   "site/assets/gen_anatomy_knee_joint.jpg",
+   "site/assets/gen_anatomy_shoulder_joint.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "t-wrist-nbp",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: close-up of a patient's forearm and open hand resting palm-up on a folded white towel on a treatment table, while the practitioner holds a small white handheld low-level laser probe just above the inside of the wrist; a faint soft red glow falls on the skin at the wrist crease. The patient wears a soft oatmeal knit sleeve. The practitioner is seen only as hands and forearms or from the chest down: a man, white dress shirt with the sleeves rolled to the forearm. No faces in frame. Photorealistic, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, readable screens or watermark.",
+  "refs": [
+   "site/assets/img_clinic_instr_laser_head.jpg",
+   "site/assets/img_clinic_method_muscle_test.jpg",
+   "site/assets/img_clinic_method_shoulder.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "t-wrist-sd45",
+  "endpoint": "fal-ai/bytedance/seedream/v4.5/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: close-up of a patient's forearm and open hand resting palm-up on a folded white towel on a treatment table, while the practitioner holds a small white handheld low-level laser probe just above the inside of the wrist; a faint soft red glow falls on the skin at the wrist crease. The patient wears a soft oatmeal knit sleeve. The practitioner is seen only as hands and forearms or from the chest down: a man, white dress shirt with the sleeves rolled to the forearm. No faces in frame. Photorealistic, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, readable screens or watermark.",
+  "refs": [
+   "site/assets/img_clinic_instr_laser_head.jpg",
+   "site/assets/img_clinic_method_muscle_test.jpg",
+   "site/assets/img_clinic_method_shoulder.jpg"
+  ],
+  "params": {
+   "image_size": {
+    "width": 2240,
+    "height": 1600
+   }
+  }
+ },
+ {
+  "name": "t-wrist-nb",
+  "endpoint": "fal-ai/nano-banana/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: close-up of a patient's forearm and open hand resting palm-up on a folded white towel on a treatment table, while the practitioner holds a small white handheld low-level laser probe just above the inside of the wrist; a faint soft red glow falls on the skin at the wrist crease. The patient wears a soft oatmeal knit sleeve. The practitioner is seen only as hands and forearms or from the chest down: a man, white dress shirt with the sleeves rolled to the forearm. No faces in frame. Photorealistic, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, readable screens or watermark.",
+  "refs": [
+   "site/assets/img_clinic_instr_laser_head.jpg",
+   "site/assets/img_clinic_method_muscle_test.jpg",
+   "site/assets/img_clinic_method_shoulder.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "t-mtest-nbp",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a manual muscle test in progress. An adult patient seated on the edge of a pale sage treatment table holds one arm straight out to the side at shoulder height; the practitioner standing beside them rests one flat hand just above the patient's wrist, pressing gently and steadily downward, and steadies the patient's opposite shoulder with his other hand. Framed from the patient's shoulders to the table; the patient's face is turned away or cropped out. The practitioner is seen only as hands and forearms or from the chest down: a man, white dress shirt with the sleeves rolled to the forearm. No faces in frame. Photorealistic, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, readable screens or watermark.",
+  "refs": [
+   "site/assets/img_clinic_method_muscle_test.jpg",
+   "site/assets/img_clinic_method_shoulder.jpg",
+   "site/assets/img_clinic_instr_room.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "t-mtest-sd45",
+  "endpoint": "fal-ai/bytedance/seedream/v4.5/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a manual muscle test in progress. An adult patient seated on the edge of a pale sage treatment table holds one arm straight out to the side at shoulder height; the practitioner standing beside them rests one flat hand just above the patient's wrist, pressing gently and steadily downward, and steadies the patient's opposite shoulder with his other hand. Framed from the patient's shoulders to the table; the patient's face is turned away or cropped out. The practitioner is seen only as hands and forearms or from the chest down: a man, white dress shirt with the sleeves rolled to the forearm. No faces in frame. Photorealistic, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, readable screens or watermark.",
+  "refs": [
+   "site/assets/img_clinic_method_muscle_test.jpg",
+   "site/assets/img_clinic_method_shoulder.jpg",
+   "site/assets/img_clinic_instr_room.jpg"
+  ],
+  "params": {
+   "image_size": {
+    "width": 2240,
+    "height": 1600
+   }
+  }
+ },
+ {
+  "name": "t-mtest-nb",
+  "endpoint": "fal-ai/nano-banana/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a manual muscle test in progress. An adult patient seated on the edge of a pale sage treatment table holds one arm straight out to the side at shoulder height; the practitioner standing beside them rests one flat hand just above the patient's wrist, pressing gently and steadily downward, and steadies the patient's opposite shoulder with his other hand. Framed from the patient's shoulders to the table; the patient's face is turned away or cropped out. The practitioner is seen only as hands and forearms or from the chest down: a man, white dress shirt with the sleeves rolled to the forearm. No faces in frame. Photorealistic, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, readable screens or watermark.",
+  "refs": [
+   "site/assets/img_clinic_method_muscle_test.jpg",
+   "site/assets/img_clinic_method_shoulder.jpg",
+   "site/assets/img_clinic_instr_room.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "output_format": "png"
+  }
+ }
+]

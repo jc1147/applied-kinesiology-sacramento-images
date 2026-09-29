@@ -1,0 +1,122 @@
+[
+ {
+  "name": "cond-oa-assess",
+  "path": "v2/renders/cond-oa-assess.png",
+  "kind": "overlay",
+  "page_section": "conditions/osteoarthritis :: We measure what the joint is being asked to carry",
+  "scene": "the patient stands barefoot on a pale wooden floor and bends his knees into a shallow squat; the practitioner kneels beside him with one hand on the side of the knee and the other at the hip, watching how the knee tracks",
+  "patient": "a man in his sixties in grey trousers rolled to mid-calf, barefoot",
+  "overlay_anatomy": "the knee joint, the hip joint and the thigh and shin bones",
+  "pain_site_red_glow": "the inner side of the knee joint"
+ },
+ {
+  "name": "cond-oa-treat",
+  "path": "v2/renders/cond-oa-treat.png",
+  "kind": "overlay",
+  "page_section": "conditions/osteoarthritis :: Change the load before you change the joint",
+  "scene": "both of the patient's legs are on the table and clearly visible: one leg extended straight along the table and the other knee bent with that foot flat on the table beside it; a white stand-mounted low-level laser head on an articulated arm, positioned a hand's width above the knee of the extended leg and projecting three thin red laser lines onto the skin without touching it",
+  "patient": "a man in his sixties in dark shorts and a t-shirt, sitting on the treatment table leaning back on his hands",
+  "overlay_anatomy": "the knee joint with the thigh bone, shin bone and kneecap",
+  "pain_site_red_glow": "the inner side of the knee joint"
+ },
+ {
+  "name": "cond-osteo-assess",
+  "path": "v2/renders/cond-osteo-assess.png",
+  "kind": "overlay",
+  "page_section": "conditions/osteoporosis :: The examination sets the force ceiling before anything else",
+  "scene": "the patient stands on one foot beside the treatment table, fingertips of one hand resting on its edge, while the practitioner's hands hover close to her waist, ready to steady her",
+  "patient": "a woman in her seventies with short silver hair, in a soft cardigan and slacks",
+  "overlay_anatomy": "the spine, the pelvis and the hip joints",
+  "pain_site_red_glow": "the mid back and the hip"
+ },
+ {
+  "name": "cond-osteo-treat",
+  "path": "v2/renders/cond-osteo-treat.png",
+  "kind": "overlay",
+  "page_section": "conditions/osteoporosis :: Low force, and the parts of this that are not adjusting at all",
+  "scene": "the patient lies face down on a well-padded treatment table; the practitioner holds a small chrome spring-loaded adjusting instrument shaped like a thick pen with a flat rubber tip (no needle) lightly against her upper back, his other hand resting still on her shoulder",
+  "patient": "a woman in her seventies with short silver hair, lying face down with a pillow under her chest and a bolster under her ankles",
+  "overlay_anatomy": "the thoracic spine and the rib cage",
+  "pain_site_red_glow": "the mid back"
+ },
+ {
+  "name": "cond-pinched-assess",
+  "path": "v2/renders/cond-pinched-assess.png",
+  "kind": "overlay",
+  "page_section": "conditions/pinched-nerve :: We test the whole run of the nerve",
+  "scene": "a reflex check: the patient sits on the treatment table, his relaxed forearm resting on the practitioner's forearm with the elbow bent, while the practitioner taps the inside of his elbow with a small rubber reflex hammer",
+  "patient": "a man in his fifties in a short-sleeved grey t-shirt",
+  "overlay_anatomy": "the nerve running from the lower neck down the arm, with the neck vertebrae and the arm bones",
+  "pain_site_red_glow": "where the nerve leaves the lower neck"
+ },
+ {
+  "name": "cond-pinched-treat",
+  "path": "v2/renders/cond-pinched-treat.png",
+  "kind": "overlay",
+  "page_section": "conditions/pinched-nerve :: Take the pressure off, then keep it off",
+  "scene": "the patient lies face down on the treatment table; a flat white ring-shaped PEMF coil resting on his upper back between the shoulder blades over a thin cloth, its cable running to a small white console; the practitioner's hand adjusts the cable",
+  "patient": "a man in his fifties, lying face down, a light blanket over his legs",
+  "overlay_anatomy": "the cervical and upper thoracic spine with the nerve roots leaving it",
+  "pain_site_red_glow": "a nerve root at the base of the neck"
+ },
+ {
+  "name": "cond-plantar-treat",
+  "path": "v2/renders/cond-plantar-treat.png",
+  "kind": "overlay",
+  "page_section": "conditions/plantar-fasciitis :: What treatment involves",
+  "scene": "a close view of the feet: a white stand-mounted low-level laser head on an articulated arm, positioned a hand's width above the heel and the arch of one foot and projecting three thin red laser lines onto the skin without touching it",
+  "patient": "a woman in her forties, lying face down, bare feet over the end of the table on a rolled towel",
+  "overlay_anatomy": "the bones of the foot and the plantar fascia band running from the heel to the toes",
+  "pain_site_red_glow": "the plantar fascia where it attaches to the heel"
+ },
+ {
+  "name": "cond-pregnancy-treat",
+  "path": "v2/renders/cond-pregnancy-treat.png",
+  "kind": "overlay",
+  "page_section": "conditions/pregnancy-pain :: What treatment involves",
+  "scene": "the patient sits upright on the edge of the treatment table in side profile, her pregnant belly clearly visible, both feet resting on a small wooden step; the practitioner stands behind her with both hands resting gently on her lower back and the back of her pelvis",
+  "patient": "a pregnant woman in her third trimester in a soft oatmeal knit dress, her rounded pregnant belly clearly visible in side profile",
+  "overlay_anatomy": "the pelvis, the sacrum and the lower lumbar spine, upright inside her body as she sits",
+  "pain_site_red_glow": "the sacroiliac joint at the back of the pelvis"
+ },
+ {
+  "name": "cond-sciatica-treat",
+  "path": "v2/renders/cond-sciatica-treat.png",
+  "kind": "overlay",
+  "page_section": "conditions/sciatica :: What treatment involves",
+  "scene": "the patient lies face down on the treatment table; the practitioner holds a small white handheld low-level laser probe held just above the outer side of the hip, over the deep buttock muscles, casting a small red glow on the skin, his other hand resting on the back of the thigh",
+  "patient": "a man in his fifties in soft grey leggings, lying face down",
+  "overlay_anatomy": "the lower spine, the pelvis and the sciatic nerve running from the lower back through the buttock and down the back of the thigh",
+  "pain_site_red_glow": "the sciatic nerve where it passes under the deep buttock muscle"
+ },
+ {
+  "name": "cond-scoliosis-treat",
+  "path": "v2/renders/cond-scoliosis-treat.png",
+  "kind": "overlay",
+  "page_section": "conditions/scoliosis :: What treatment involves",
+  "scene": "the patient lies face down on the treatment table; the practitioner's hands work slowly along the muscles on one side of her mid back",
+  "patient": "a woman in her twenties in a sage sports top, lying face down",
+  "overlay_anatomy": "a spine with a gentle sideways curve and the rib cage",
+  "pain_site_red_glow": "the muscles on the side carrying the uneven load"
+ },
+ {
+  "name": "cond-shoulder-treat",
+  "path": "v2/renders/cond-shoulder-treat.png",
+  "kind": "overlay",
+  "page_section": "conditions/shoulder-pain :: What treatment involves",
+  "scene": "the patient lies on his side on the treatment table; the practitioner's fingertips hook gently under the inner edge of his shoulder blade while his other hand cups the front of his shoulder",
+  "patient": "a man in his forties in a plain grey tank top, lying on his side with his head on a pillow",
+  "overlay_anatomy": "the shoulder blade, the rotator cuff muscles and the shoulder joint",
+  "pain_site_red_glow": "the rotator cuff tendon at the top of the shoulder"
+ },
+ {
+  "name": "cond-disc-treat",
+  "path": "v2/renders/cond-disc-treat.png",
+  "kind": "overlay",
+  "page_section": "conditions/slipped-disc :: What treatment involves",
+  "scene": "the patient lies on his back on the treatment table; a flat white ring-shaped PEMF coil resting on the table directly under his lower back over a thin cloth, its cable running to a small white console; the practitioner checks the console",
+  "patient": "a man in his thirties lying on his back with his knees over a soft bolster",
+  "overlay_anatomy": "the lumbar vertebrae with the discs between them, one disc bulging slightly",
+  "pain_site_red_glow": "the bulging disc between the two lowest lumbar vertebrae"
+ }
+]

@@ -1,0 +1,344 @@
+[
+ {
+  "name": "cond-auto-hero-c-edit-a",
+  "pair": "cond-auto-hero",
+  "verdict": "MINOR",
+  "counts": {
+   "vertebrae": 7,
+   "atlas_C1": 1,
+   "vertebral_bodies_C2_C7": 6,
+   "posterior_elements_spinous": 7,
+   "disc_bands": 6,
+   "concentric_rings": 3,
+   "skull": 0,
+   "C2_largest_spinous": true,
+   "source_vertebrae_before_edit": 8
+  },
+  "defects": [
+   {
+    "category": "anatomy (inherited from base plate)",
+    "description": "C1 atlas is drawn with a body-like anterior block and a disc band beneath it; the real atlas has no body and there is no C1-C2 disc. Counted as C1 because the spec wording (atlas + six bodies C2-C7) matches this drawing. Identical in both edits and in the source.",
+    "box": [
+     0.555,
+     0.09,
+     0.61,
+     0.225
+    ]
+   },
+   {
+    "category": "anatomy (inherited from base plate)",
+    "description": "Lordosis is weak and reads nearly straight, tilted forward at the top. Anterior body edges (x, mid-height): C2 0.592, C3 0.584, C4 0.590, C5 0.585, C6 0.579, C7 0.574. C4-C5 sit only ~0.005 (about 10-12 px) in front of the C2-C7 chord (sagitta ~1.4% of a ~708 px span, about 6-7 degrees of arc), and C3 sits slightly behind it. Technically bows toward the body side, as the spec asks, but weakly.",
+    "box": [
+     0.52,
+     0.2,
+     0.61,
+     0.84
+    ]
+   },
+   {
+    "category": "edit artifact (negligible)",
+    "description": "A 2-3 px cream nick in the dark outline where C7's spinous-process underside meets the body (~0.498,0.772). It reads as a highlight, not an open outline, and is invisible at page size.",
+    "box": [
+     0.49,
+     0.76,
+     0.51,
+     0.785
+    ]
+   }
+  ],
+  "pick": false,
+  "notes": "The edit is clean. There are 7 vertebrae and C7 is complete (closed outline, lower endplate (0.511,0.818)->(0.576,0.837), longest lower spinous process = vertebra prominens). The paper below C7 matches clean paper (blurred deviation mean 1.88 / p99 4.4 vs 1.77 / 4.9) and shows no ghost, patch or smudge even at 8x contrast. Rings: exactly 3, concentric, centre x 0.51 at C4. No text; style unchanged; nothing cut off; 7:5 strips empty (subject x 0.376-0.645). The column sits a little high (top margin 0.077, bottom 0.161). This edit also redrew parts of the C6/C7 posterior elements (diff p99 88 at y 0.6-0.7 vs the source); that is not visible as a defect but is less faithful than edit-b."
+ },
+ {
+  "name": "cond-auto-hero-c-edit-b",
+  "pair": "cond-auto-hero",
+  "verdict": "MINOR",
+  "counts": {
+   "vertebrae": 7,
+   "atlas_C1": 1,
+   "vertebral_bodies_C2_C7": 6,
+   "posterior_elements_spinous": 7,
+   "disc_bands": 6,
+   "concentric_rings": 3,
+   "skull": 0,
+   "C2_largest_spinous": true,
+   "source_vertebrae_before_edit": 8
+  },
+  "defects": [
+   {
+    "category": "anatomy (inherited from base plate)",
+    "description": "C1 atlas is drawn with a body-like anterior block and a disc band beneath it; the real atlas has no body and there is no C1-C2 disc. Counted as C1 because the spec wording (atlas + six bodies C2-C7) matches this drawing. Identical in both edits and in the source.",
+    "box": [
+     0.555,
+     0.09,
+     0.61,
+     0.225
+    ]
+   },
+   {
+    "category": "anatomy (inherited from base plate)",
+    "description": "Lordosis is weak and reads nearly straight, tilted forward at the top. Anterior body edges (x, mid-height): C2 0.592, C3 0.584, C4 0.590, C5 0.584, C6 0.576, C7 0.5725. C4-C5 sit only ~0.005 (about 10-12 px) in front of the C2-C7 chord (sagitta ~1.4% of a ~708 px span, about 6-7 degrees of arc), and C3 sits slightly behind it. Technically bows toward the body side, as the spec asks, but weakly.",
+    "box": [
+     0.52,
+     0.2,
+     0.61,
+     0.83
+    ]
+   }
+  ],
+  "pick": true,
+  "notes": "The edit is clean and the most faithful: C1-C6 are essentially unchanged from the approved source (diff p99 <= 14 everywhere above y 0.70); only the lowest vertebra, its disc and the lower edge of C7 changed. C7 is complete, with a continuous outline (no nick), lower endplate (0.503,0.804)->(0.576,0.827) and the longest lower spinous process. The paper below C7 matches clean paper (mean 1.34 / p99 4.4 vs 1.34 / 3.5); the only faint object is C7's normal light halo, and 8x contrast shows no ghost of the removed vertebra. Rings: exactly 3, concentric, centred at C4. No text; style unchanged; nothing cut off; 7:5 strips empty. Picked over edit-a (marginal) for fidelity to the source and the clean C7 outline. Neither edit fixes the inherited atlas 'body' or the weak curve."
+ },
+ {
+  "name": "cond-carpal-hero-v1edit-a",
+  "pair": "cond-carpal-hero",
+  "verdict": "FAIL",
+  "counts": {
+   "digits": 5,
+   "phalanges_thumb": 2,
+   "phalanges_index": 3,
+   "phalanges_middle": 3,
+   "phalanges_ring": 3,
+   "phalanges_little": 3,
+   "phalanges_total": 14,
+   "metacarpals": 5,
+   "carpals_visible": "2 partial (proximal row, left of band) + 4 (distal row, right of band); rest hidden by band",
+   "nerve_branches": 4,
+   "nerve_branch_targets": [
+    "thumb",
+    "index",
+    "middle",
+    "thumb side of ring"
+   ],
+   "little_finger_branch": false,
+   "nerve_under_band": true,
+   "band_spans_whole_wrist": true,
+   "clean_web_spaces_of_4": 1
+  },
+  "defects": [
+   {
+    "category": "soft outline / web spaces (spec requirement)",
+    "description": "Index-middle web is formed by the nerve itself. The index's lower skin outline and the middle's upper skin outline grow out of the nerve fork at (0.643-0.665,0.44-0.478), so there is no U-shaped web and the nerve and skin outline are fused.",
+    "box": [
+     0.62,
+     0.42,
+     0.7,
+     0.5
+    ]
+   },
+   {
+    "category": "soft outline / web spaces (spec requirement)",
+    "description": "Middle finger's lower skin outline ends by fusing into the MCP/P1 bone contour at (0.655-0.66,0.565); no middle-ring web.",
+    "box": [
+     0.64,
+     0.55,
+     0.68,
+     0.58
+    ]
+   },
+   {
+    "category": "soft outline / web spaces (spec requirement)",
+    "description": "Ring finger has no upper skin outline along P1-P2 (x 0.62-0.84). Its outline starts at the DIP (0.84,0.627), so it is only a cap around the tip.",
+    "box": [
+     0.62,
+     0.575,
+     0.85,
+     0.635
+    ]
+   },
+   {
+    "category": "soft outline / web spaces (spec requirement)",
+    "description": "Ring finger's lower outline ends on the little finger's P1 at (0.635,0.70); no ring-little web.",
+    "box": [
+     0.62,
+     0.68,
+     0.68,
+     0.72
+    ]
+   },
+   {
+    "category": "soft outline / web spaces (spec requirement)",
+    "description": "Little finger's upper skin outline is missing along P1 and only starts at P2 (0.745,0.748).",
+    "box": [
+     0.61,
+     0.685,
+     0.75,
+     0.755
+    ]
+   },
+   {
+    "category": "ligament band",
+    "description": "The band spans the whole wrist, but it runs from the top skin outline to the bottom skin outline across the soft tissue, so it reads as a wrist strap or bracelet rather than a ligament across the carpal bones. Its ends are not 'clean ends inside the outline'.",
+    "box": [
+     0.31,
+     0.33,
+     0.4,
+     0.69
+    ]
+   },
+   {
+    "category": "artifact",
+    "description": "Frayed, hairy dark fringe on the band's right edge at its top end, next to the trapezium; possibly a remnant of the old band's fibres.",
+    "box": [
+     0.372,
+     0.33,
+     0.395,
+     0.385
+    ]
+   },
+   {
+    "category": "artifact",
+    "description": "Frayed, hairy dark fringe on the band's right edge at its bottom end, reaching into the cream gap above the skin outline.",
+    "box": [
+     0.383,
+     0.62,
+     0.397,
+     0.685
+    ]
+   },
+   {
+    "category": "composition / page crop",
+    "description": "Hand is re-framed about 7% larger than the original and sits lower (bottom 0.809 vs 0.770). After the page's 7:5 crop the middle fingertip outline (x 1966 px) is only about 10 px from the right edge and the forearm lines about 20 px from the left (the original has about 92/101 px). Nothing is cut, but the hand is cramped against both page edges.",
+    "box": [
+     0.93,
+     0.5,
+     0.965,
+     0.56
+    ]
+   }
+  ],
+  "pick": false,
+  "notes": "What works: 5 digits (thumb 2 phalanges, fingers 3 each), a band across the whole wrist, and the nerve correctly UNDER it (it stops at the band's unbroken left edge x~0.332, y 0.51-0.535, and reappears at the right edge x~0.398, where the thumb branch forks). Branches go to the thumb, index, middle and the thumb side of the ring (ending at 0.61,0.575 between the middle and ring MC heads); no little-finger branch. Colours and line work are kept (ink (10,68,79) vs (21,67,77), fill (201,232,224) vs (200,228,219)). No old-band leftover, patches or text; the stray scan finds only a 5 px hatch fleck. It FAILS because the explicit requirement that finger outlines join the palm cleanly at the web spaces is not met: 3 of 4 finger webs are gone and the nerve forms the index-middle web. The owner's loved soft outline is visibly degraded (the ring and little fingers lose their proximal outline). It is still the closer of the pair: no patch, no specks, no nerve/outline fusion on the ring."
+ },
+ {
+  "name": "cond-carpal-hero-v1edit-b",
+  "pair": "cond-carpal-hero",
+  "verdict": "FAIL",
+  "counts": {
+   "digits": 5,
+   "phalanges_thumb": 2,
+   "phalanges_index": 3,
+   "phalanges_middle": 3,
+   "phalanges_ring": 3,
+   "phalanges_little": 3,
+   "phalanges_total": 14,
+   "metacarpals": 5,
+   "carpals_visible": "2 partial (proximal row, left of band) + 4 (distal row, right of band); rest hidden by band",
+   "nerve_branches": 4,
+   "nerve_branch_targets": [
+    "thumb",
+    "index",
+    "middle",
+    "thumb side of ring"
+   ],
+   "little_finger_branch": false,
+   "nerve_under_band": true,
+   "band_spans_whole_wrist": true,
+   "clean_web_spaces_of_4": 1
+  },
+  "defects": [
+   {
+    "category": "leftover / patch",
+    "description": "A pale hatched quadrilateral right of the band's lower end, over the hamate/pisiform area: uneven horizontal hatch strokes, a ragged right edge with no outline, and its lowest strokes lying on the skin outline. It reads as a stray band fragment and is visible at page size.",
+    "box": [
+     0.378,
+     0.641,
+     0.405,
+     0.702
+    ]
+   },
+   {
+    "category": "soft outline / web spaces (spec requirement)",
+    "description": "Index-middle web is formed by the nerve fork at (0.64-0.665,0.44-0.478); both finger skin outlines grow out of the nerve.",
+    "box": [
+     0.62,
+     0.42,
+     0.7,
+     0.5
+    ]
+   },
+   {
+    "category": "soft outline / web spaces (spec requirement)",
+    "description": "Middle finger's lower outline fuses into the MCP/P1 bone at (0.655,0.565); no middle-ring web.",
+    "box": [
+     0.64,
+     0.55,
+     0.68,
+     0.58
+    ]
+   },
+   {
+    "category": "soft outline + nerve",
+    "description": "The ring-side nerve branch runs along the upper contour of ring P1, merges into it at ~(0.735,0.62), and the ring's upper skin outline starts right there (0.745,0.62). Nerve, bone edge and skin outline read as one line.",
+    "box": [
+     0.59,
+     0.54,
+     0.76,
+     0.63
+    ]
+   },
+   {
+    "category": "soft outline / web spaces (spec requirement)",
+    "description": "Ring finger's lower outline only begins at ~(0.745,0.683); no ring-little web.",
+    "box": [
+     0.62,
+     0.66,
+     0.76,
+     0.7
+    ]
+   },
+   {
+    "category": "soft outline / open outline",
+    "description": "Little finger's upper outline is broken: missing along P1, then a dark stub (0.705-0.727,0.725) ending in a dot, a faint grey section to 0.765, and solid only after that.",
+    "box": [
+     0.6,
+     0.69,
+     0.77,
+     0.745
+    ]
+   },
+   {
+    "category": "stray marks",
+    "description": "A ~6 px diagonal dash at (0.714,0.692) and several dust dots (0.695-0.735,0.697-0.712) on the paper in the ring-little gap.",
+    "box": [
+     0.69,
+     0.685,
+     0.74,
+     0.715
+    ]
+   },
+   {
+    "category": "stray marks",
+    "description": "Two tiny dots on the paper near the left forearm ends (0.043-0.046,0.59-0.60).",
+    "box": [
+     0.04,
+     0.585,
+     0.05,
+     0.605
+    ]
+   },
+   {
+    "category": "ligament band",
+    "description": "The band (gently curved) runs from the top skin outline to the bottom skin outline, so it reads as a wrist strap; its ends are not 'clean ends inside the outline'.",
+    "box": [
+     0.31,
+     0.33,
+     0.4,
+     0.7
+    ]
+   },
+   {
+    "category": "composition / page crop",
+    "description": "Same re-framing as edit-a: hand about 7% larger. After the 7:5 page crop the middle fingertip outline (x 1968 px) is only about 8 px from the right edge and the forearm lines about 17 px from the left (the original has about 92/101 px). Nothing cut, but cramped.",
+    "box": [
+     0.93,
+     0.5,
+     0.965,
+     0.56
+    ]
+   }
+  ],
+  "pick": false,
+  "notes": "What works: 5 digits with correct phalanges; band across the whole wrist; nerve correctly UNDER it (squared end at x~0.346, just short of the continuous band edge at 0.35; it reappears at x~0.398). Branches go to the thumb (plus a twig at the MCP), index, middle (digital branch along P1 to P2, as in the original) and the thumb side of the ring; no little-finger branch. Colours and line work are kept. The band top end is cleaner than edit-a's. It FAILS for the same broken web spaces / soft outline as edit-a, plus a visible leftover band patch, stray specks, and the ring nerve fused into the skin outline. It is worse than edit-a. Pair pick: neither is usable as-is; re-edit from edit-a (restore complete finger outlines with U-shaped webs clear of the nerve, stop the band ends inside the skin outline, keep the original's framing)."
+ }
+]

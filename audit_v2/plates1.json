@@ -1,0 +1,62 @@
+[
+ {
+  "name": "cond-auto-hero-a",
+  "path": "v2/plates/cond-auto-hero-a.png",
+  "spec": "all seven cervical vertebrae C1-C7 in a true side view (count them: exactly 7 between the skull base and the bottom), the base of the skull above C1 fully inside the frame (not cut by the top edge), and exactly three concentric rings through the mid-neck",
+  "original_for_comparison": "final/full/cond-auto-hero.jpg"
+ },
+ {
+  "name": "cond-auto-hero-b",
+  "path": "v2/plates/cond-auto-hero-b.png",
+  "spec": "all seven cervical vertebrae C1-C7 in a true side view (count them: exactly 7 between the skull base and the bottom), the base of the skull above C1 fully inside the frame (not cut by the top edge), and exactly three concentric rings through the mid-neck",
+  "original_for_comparison": "final/full/cond-auto-hero.jpg"
+ },
+ {
+  "name": "cond-carpal-assess-edit",
+  "path": "v2/plates/cond-carpal-assess-edit.png",
+  "spec": "an EDIT of an arm plate the owner likes: must keep the original composition and engraving style AND still clearly show the nerve traced from the lower neck down the arm into the hand (if the nerve line is lost, that is a FAIL); nerve roots from the LOWER neck; collarbone not touching the spine; no teal smear under the shoulder blade",
+  "original_for_comparison": "final/full/cond-carpal-assess.jpg"
+ },
+ {
+  "name": "cond-carpal-hero-a",
+  "path": "v2/plates/cond-carpal-hero-a.png",
+  "spec": "palm-up hand and wrist skeleton: radius+ulna, 8 carpals in two rows, 5 metacarpals, 3 phalanges per finger and 2 in the thumb (count them), the thumb on the correct side for the hand shown; a band (transverse carpal ligament) spanning the whole wrist width; the median nerve passes UNDER the band (band drawn on top) and branches to the thumb, index, middle and the thumb side of the ring finger only (branches going into all five digits, like tendons, is an error)",
+  "original_for_comparison": "final/full/cond-carpal-hero.jpg"
+ },
+ {
+  "name": "cond-carpal-hero-b",
+  "path": "v2/plates/cond-carpal-hero-b.png",
+  "spec": "palm-up hand and wrist skeleton: radius+ulna, 8 carpals in two rows, 5 metacarpals, 3 phalanges per finger and 2 in the thumb (count them), the thumb on the correct side for the hand shown; a band (transverse carpal ligament) spanning the whole wrist width; the median nerve passes UNDER the band (band drawn on top) and branches to the thumb, index, middle and the thumb side of the ring finger only (branches going into all five digits, like tendons, is an error)",
+  "original_for_comparison": "final/full/cond-carpal-hero.jpg"
+ },
+ {
+  "name": "cond-fibro-hero-a",
+  "path": "v2/plates/cond-fibro-hero-a.png",
+  "spec": "a back-view figure with 14 solid dots ON the body: base of skull either side of the spine, top of each shoulder, above the inner end of each shoulder blade, outer side of each elbow, upper OUTER quarter of each buttock, just behind each outer hip, INNER side of each knee; no dots floating off the body; no text, no wrist bands; whole figure inside the frame with margin",
+  "original_for_comparison": "final/full/cond-fibro-hero.jpg"
+ },
+ {
+  "name": "cond-fibro-hero-b",
+  "path": "v2/plates/cond-fibro-hero-b.png",
+  "spec": "a back-view figure with 14 solid dots ON the body: base of skull either side of the spine, top of each shoulder, above the inner end of each shoulder blade, outer side of each elbow, upper OUTER quarter of each buttock, just behind each outer hip, INNER side of each knee; no dots floating off the body; no text, no wrist bands; whole figure inside the frame with margin",
+  "original_for_comparison": "final/full/cond-fibro-hero.jpg"
+ },
+ {
+  "name": "cond-frozen-hero-a",
+  "path": "v2/plates/cond-frozen-hero-a.png",
+  "spec": "right shoulder from the front (clavicle, scapula, humerus hanging down); a dotted full-range arc and a short solid restricted arc that BOTH share one centre, the shoulder joint, and lie on the SAME path (the solid arc covers only the first ~70 degrees from the arm hanging down)",
+  "original_for_comparison": "final/full/cond-frozen-hero.jpg"
+ },
+ {
+  "name": "cond-frozen-hero-b",
+  "path": "v2/plates/cond-frozen-hero-b.png",
+  "spec": "right shoulder from the front (clavicle, scapula, humerus hanging down); a dotted full-range arc and a short solid restricted arc that BOTH share one centre, the shoulder joint, and lie on the SAME path (the solid arc covers only the first ~70 degrees from the arm hanging down)",
+  "original_for_comparison": "final/full/cond-frozen-hero.jpg"
+ },
+ {
+  "name": "cond-headache-hero-a",
+  "path": "v2/plates/cond-headache-hero-a.png",
+  "spec": "a complete skull (not cut off) and the upper cervical vertebrae ALL in the same true side view; the spine meets the skull under its middle-back (foramen magnum region), not at the face; recognisable C1/C2 in side view; C3-C5 distinct, not melted",
+  "original_for_comparison": "final/full/cond-headache-hero.jpg"
+ }
+]

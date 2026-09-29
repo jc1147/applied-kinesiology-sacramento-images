@@ -1,0 +1,12 @@
+{
+ "applied": {
+  "cond-auto-hero": {
+   "pick": "cond-auto-hero-c-edit-b",
+   "verdict": "MINOR",
+   "was": "v1"
+  }
+ },
+ "kept": {
+  "cond-carpal-hero": "v2/plates/cond-carpal-hero-b-edit.png"
+ }
+}

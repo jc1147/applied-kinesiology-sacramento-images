@@ -1,0 +1,239 @@
+[
+ {
+  "name": "cond-shoulder-treat",
+  "verdict": "MINOR",
+  "defects": [
+   {
+    "category": "faces",
+    "where": "right edge, patient's head on the pillow, above the ear (px approx x1610-1863, y1170-1270; ear at x1655-1720, y1260-1310)",
+    "description": "The patient's head is in frame (brief: head out of frame). A sliver of the patient's jawline/cheek silhouette runs to the right edge above the ear; ear, hair and back of the neck are visible. No eyes, nose or lips."
+   },
+   {
+    "category": "render_quality",
+    "where": "left edge, at the patient's waist between the sweater hem and the blanket (px approx x80-275, y1050-1550)",
+    "description": "Flat, textureless pure-black band (trousers/shadow) with no fabric detail; it reads as a void at the waist. The body is NOT truncated: a pale blanket beyond it covers the hips and rises over the hip at the far left edge."
+   }
+  ],
+  "match_notes": "Patient lies on their side with their back to the camera; the practitioner's left hand is spread on the shoulder blade and his right hand cups the top/front of the shoulder. Both hands are anatomically correct and there is no text. Differences: the head is in frame on the pillow at right (brief: out of frame), and the fingertips lie flat on the shoulder blade rather than visibly hooking under its inner edge."
+ },
+ {
+  "name": "cond-stress-treat",
+  "verdict": "FAIL",
+  "defects": [
+   {
+    "category": "faces",
+    "where": "top edge, centre-right (px approx x1250-1370, y0-80)",
+    "description": "The practitioner's nose tip, nostril, philtrum and stubbled upper lip poke into the frame from the top edge. A clear facial feature."
+   },
+   {
+    "category": "match",
+    "where": "right third, patient's head (px approx x1640-1870, y1420-1730)",
+    "description": "There is no face cradle. The patient's head lies on a white fleece pad with a sage cloth draped over it, and crown hair peeks out. A cloth over a face-down patient's head can read as a shrouded body."
+   }
+  ],
+  "match_notes": "Treatment matches otherwise: two practitioner hands with thumbs pressing into the muscles at the base of the neck and the tops of the shoulders; calm, soft light. Hands and forearms are anatomically correct. The patient's arm lies along the side and the body continues under a sage blanket to the left edge (not truncated). No text. The nose and lip sit entirely within the top ~80 px."
+ },
+ {
+  "name": "cond-tennis-treat",
+  "verdict": "MINOR",
+  "defects": [
+   {
+    "category": "match",
+    "where": "upper-left quadrant: forearm rising from the elbow on the towel (px approx x720-930, y850-1110) to the hand at top-left (px approx x0-330, y310-560)",
+    "description": "The forearm is raised diagonally in mid-air, unsupported, with the loosely closed hand floating at the top-left and its fingertips cut off by the left edge. The brief has the arm resting on the folded towel."
+   }
+  ],
+  "match_notes": "Device matches: a small white handheld probe on a thin white cable (the cable is connected and runs to the bottom edge), with a soft red glow at the outer/back of the elbow joint. The sleeve is pushed just above the elbow. Both practitioner hands are correct (one holds the probe, one cradles the elbow). No face; no text (grey button only). Render is clean. The only difference is the arm pose."
+ },
+ {
+  "name": "cond-whiplash-treat",
+  "verdict": "PASS",
+  "defects": [],
+  "match_notes": "Seated patient seen from directly behind: hair in a bun, back of the neck, both ears, tops of the shoulders. Both practitioner thumbs sit at the base of the neck beside the spine. Hands are anatomically correct (the left thumb looks longer only because of the viewing angle). No face, no text. Differences: not a tight close-up, since the room is visible in the background. The practitioner's forearms and rolled sleeves are visible, including a large out-of-focus white sleeve across the top right (brief: only hands and cuffs). Negligible: a tiny dark indistinct smudge at the very top edge (px approx x243-297, y0-5)."
+ },
+ {
+  "name": "cond-work-assess",
+  "verdict": "MINOR",
+  "defects": [
+   {
+    "category": "faces",
+    "where": "top-right corner (px approx x1880-2048, y0-235)",
+    "description": "The patient's ear lobe and stubbled jaw/neck edge are visible in the corner."
+   },
+   {
+    "category": "match",
+    "where": "centre-left, the patient's arm (shoulder approx x1535,y460; elbow approx x1024,y975; hand at x300-800, y900-1450)",
+    "description": "The arm is not held straight out at shoulder height: the upper arm angles down, the forearm is roughly horizontal and the hand droops. The practitioner's lower hand rests on the rolled cuff just below the elbow instead of pressing down on the forearm. It does not read as a shoulder muscle test."
+   }
+  ],
+  "match_notes": "Faded denim work shirt, patient seated on the table, practitioner's upper hand steadies the shoulder. All hands and limbs are anatomically plausible. No text (blurred wall frame, unlabelled jar). Differences: the arm position and press point (above), and a sliver of the patient's face at top right."
+ },
+ {
+  "name": "cond-work-treat",
+  "verdict": "FAIL",
+  "defects": [
+   {
+    "category": "faces",
+    "where": "top-left, at the top edge (px approx x450-655, y0-82)",
+    "description": "The practitioner's lower face is visible: nose tip, lips and stubbled chin."
+   },
+   {
+    "category": "faces",
+    "where": "upper centre-right, the patient's head (px approx x1320-1460, y330-600)",
+    "description": "The patient's whole head is in frame (brief: shoulders down, face out of frame): hair, right ear, and the stubbled cheek/jaw profile."
+   },
+   {
+    "category": "match",
+    "where": "centre, the patient's back and the practitioner's hand",
+    "description": "The patient's back is visibly rounded with the head dropped, the opposite of the 'straight back' lift being coached. The practitioner's hand is on the mid-back below the shoulder blades rather than the low back."
+   }
+  ],
+  "match_notes": "Otherwise matches: treatment room, faded denim shirt, work trousers, two leather work boots, a plain cardboard box (blank tape, no text). Split-stance squat with the right hand gripping the box. The practitioner's hand has 5 digits; legs and boots are plausible. The failures are both faces in frame and a posture that contradicts the coaching message."
+ },
+ {
+  "name": "pi-faq-hero",
+  "verdict": "PASS",
+  "defects": [],
+  "match_notes": "Two people at a small round pale-wood pedestal table by the window. The patient's hands are open mid-question (correct finger counts); the practitioner's hands rest on a closed notebook with a ribbon bookmark; two cups of tea. No faces, mouths or chins; no text. Small framing difference: the top edge cuts at the practitioner's open collar/neck rather than mid-chest (neck skin visible at px approx x220-310, y0-45). The collar point at the top edge looks slightly glossy, but only at high zoom."
+ },
+ {
+  "name": "pi-first-bring",
+  "verdict": "PASS",
+  "defects": [],
+  "match_notes": "All items are present and unlabelled: an imaging envelope with chest X-ray film showing (no markers or text), a blank folded sheet, a clear pill organiser, two plain boxes (cream and sage), a blank form on a clipboard with a pen, and tortoiseshell reading glasses. Window light comes from the left. No readable text anywhere. Differences: an angled tabletop view with the room in the top third rather than a true top-down flat lay; the organiser has 5 columns, not 7 (not a strict 7-day box); the folded sheet is shown opened flat."
+ },
+ {
+  "name": "pi-first-hero",
+  "verdict": "MINOR",
+  "defects": [
+   {
+    "category": "faces",
+    "where": "top edge, right (px approx x1976-2121, y0-50)",
+    "description": "The underside of the patient's chin/jaw is visible curving into the neck above the sweater collar."
+   },
+   {
+    "category": "body_integrity",
+    "where": "centre-right, the patient's legs (knee at px approx x1440-1545, y1130-1280)",
+    "description": "Only the patient's thigh is visible, running along the table to a knee that sits exactly on the table's far edge. No shins or feet appear anywhere. This is plausible if the lower legs hang behind the far side, but at a glance the leg can read as ending at the knee."
+   }
+  ],
+  "match_notes": "Patient sits on the treatment table, seen from behind and from the shoulders down. The practitioner is seen from the chest down, standing, holding a clipboard and writing; both hands are correct and his chin is not visible. A spine model and a blank manila imaging envelope sit on the counter behind. No text. Differences: the chin sliver, and the ambiguous legs."
+ },
+ {
+  "name": "pi-forms-hero",
+  "verdict": "MINOR",
+  "defects": [
+   {
+    "category": "text",
+    "where": "right third, top surface of the phone base right of the handset (px approx x2096-2171, y903-920)",
+    "description": "A faint grey logo-like pseudo-text mark; illegible."
+   },
+   {
+    "category": "objects_devices",
+    "where": "left-centre, top of the clipboard (px approx x695-1075, y1030-1112)",
+    "description": "The wire clip clamps only the paper stack where it overhangs the board's far edge. There is no board under the clip, so the clip is not attached to the clipboard."
+   }
+  ],
+  "match_notes": "Reception counter by the window; blank paper (no text) with a white pen resting on it; plain white desk phone with a coiled cord and a blank keypad (no digits). Difference: a thick stack of about 10 blank sheets rather than a single intake form."
+ },
+ {
+  "name": "svc-cold-hero",
+  "verdict": "FAIL",
+  "defects": [
+   {
+    "category": "faces",
+    "where": "top-left corner (px approx x0-100, y0-195)",
+    "description": "The patient's face is plainly visible: nose, nostril, lips and chin."
+   },
+   {
+    "category": "faces",
+    "where": "top edge, right of centre (px approx x1655-1741, y0-18)",
+    "description": "The practitioner's bearded chin at the top edge."
+   },
+   {
+    "category": "body_integrity",
+    "where": "bottom-right, where the two legs meet (px approx x1420-1720, y1520-1630)",
+    "description": "The bent leg's shin runs down to an ankle bump and then flows into the top of the extended leg's foot. No heel or toes of the bent leg are shown anywhere, so the image reads as two legs sharing one foot. Its foot could in principle be hidden directly behind the other foot, but the render gives no edge or heel to show it."
+   },
+   {
+    "category": "text",
+    "where": "on the probe body, below the grey window (px approx x1066-1091, y960-980)",
+    "description": "A dark printed emblem and a small illegible glyph/swoosh logo on the probe."
+   },
+   {
+    "category": "render_quality",
+    "where": "top-right edge, the practitioner's collar (px approx x1755-1843, y0-55)",
+    "description": "The collar looks translucent, with neck skin showing through the fabric."
+   }
+  ],
+  "match_notes": "The device matches: a small white handheld probe on a thin grey cable (connected), casting a soft red glow on the side of the knee. The practitioner's hands are anatomically correct. Differences: the framing is not hips-to-feet, since the patient's face and the practitioner's chin are in frame. The treated knee belongs to the bent, raised leg, not the extended leg. The extended leg's trousers are only rolled to mid-calf."
+ },
+ {
+  "name": "svc-fx635-device",
+  "verdict": "FAIL",
+  "defects": [
+   {
+    "category": "body_integrity",
+    "where": "left half into the centre: a leg entering from the left edge (px approx x0-570, y980-1330) joined to the front bare foot (px approx x600-1200, y1000-1600)",
+    "description": "A grey knit trouser leg with a ribbed cuff enters from the LEFT edge and attaches at the ankle to the front bare foot. The patient's body lies to the right (head on the face cradle at far right, px approx x1420-1810, y530-780). A second grey leg behind also runs toward the left edge. Both soles face the camera while the shin runs sideways, which is a ~90 degree ankle twist. The legs come from the wrong direction: an extra or misattached leg at the focal point of the image."
+   },
+   {
+    "category": "objects_devices",
+    "where": "centre, on the back of the heel and in the air under the laser head (px approx x680-830, y1010-1240)",
+    "description": "Four wavy red lines are drawn down the back of the heel/Achilles, with faint beams in the air above. They look like glowing wires or veins rather than straight projected light lines (brief: three thin lines across the skin)."
+   }
+  ],
+  "match_notes": "The laser head itself matches well: a rounded white head about dinner-plate size, on an articulated arm (two joints, cable looped over the joint) down to a white floor stand, with no brand markings. The practitioner's hand resting on top is anatomically correct. Differences: a practitioner is touching the head (not in the brief), the wheeled base is out of frame, and the light lines are wavy and number 4, not 3. The leg geometry is broken (above). No face, no text."
+ },
+ {
+  "name": "svc-hub-hero",
+  "verdict": "MINOR",
+  "defects": [
+   {
+    "category": "objects_devices",
+    "where": "right half, the floor-standing lamp (head px approx x1180-1460, y440-760; wheeled base approx x1370-1870, y1500-1980)",
+    "description": "The 'laser' is a spring-balanced Anglepoise-style floor lamp: a bell-shaped shade with vent slots on top, a gooseneck cable and exposed tension springs. It reads as a household reading/heat lamp, not a laser head, and does not match the rounded dinner-plate head shown in svc-fx635-device."
+   },
+   {
+    "category": "objects_devices",
+    "where": "centre, the white side table (ring px approx x890-1195, y1020-1130; console approx x1230-1420, y975-1120)",
+    "description": "The PEMF ring's cable runs across the tabletop in front of the console without plugging into it, then drops off the table's right edge to the floor. The console has no cable attached. The ring is also a thick, puffy, cushion-like doughnut rather than a flat coil."
+   }
+  ],
+  "match_notes": "Empty room with no people and no text; warm window light; a pale sage adjusting table with a folded towel; a white side table; a console with a blank dark screen. Equipment rendering is clean. The issues are the lamp standing in for the laser and the unconnected ring cable."
+ },
+ {
+  "name": "svc-nutrition-consult",
+  "verdict": "MINOR",
+  "defects": [
+   {
+    "category": "body_integrity",
+    "where": "centre, the practitioner's right hand curled on the right-hand diary page (thumb area px approx x735-775, y1420-1455)",
+    "description": "The thumb is only a faint translucent ghost outline on the page, a render artifact. The four fingers are fine."
+   },
+   {
+    "category": "text",
+    "where": "diary page headers (right page px approx x1040-1060, y1377-1383 and x1125-1160, y1395-1405; left page approx x820-835, y1330-1338)",
+    "description": "Tiny, faint grey pseudo-text marks in the page headers; illegible."
+   }
+  ],
+  "match_notes": "All requested items are present: a food diary open to blank ruled pages, a pen, a glass of water, a speckled ceramic bowl of greens, lentils and berries, and three amber bottles with blank labels. The practitioner's hands rest on the diary (left hand has 5 digits and looks natural). No faces. Differences: the pen lies on the table beside the glass rather than on the diary, and a patient in an oatmeal sweater sits at the right edge (not in the brief; head out of frame, hands in lap)."
+ },
+ {
+  "name": "svc-pemf-hero",
+  "verdict": "MINOR",
+  "defects": [
+   {
+    "category": "objects_devices",
+    "where": "left half: cable from the ring connector (px approx x700-740, y815-850) running down to the bottom edge (px approx x320-700, y1741)",
+    "description": "The coil's cable runs down the near side of the patient and off the bottom of the frame. The console (upper-left, behind the table, px approx x300-600, y465-690) has no visible connection to it."
+   },
+   {
+    "category": "match",
+    "where": "centre-top, the practitioner standing behind the table (hands hidden at px approx x825-910, y640-680 and x1175-1260, y710-780)",
+    "description": "A practitioner stands directly behind the patient with both hands out of sight behind the patient's back. It is ambiguous whether he is touching them (brief: nobody touches the patient; no practitioner requested)."
+   }
+  ],
+  "match_notes": "The patient lies face down with the head out of frame and a blanket over the legs. A flat white ring coil (no text) rests on a thin sage cloth on the low back. The console has a blank dark screen. No faces, no text. The patient's arm and body are anatomically plausible (arm along the side, forearm running under the blanket). Differences: the cable does not reach the console, and a practitioner is present."
+ }
+]

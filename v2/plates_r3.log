@@ -1,0 +1,4 @@
+[21:08:11] 2 jobs, 2 to run, concurrency 2
+[21:08:39] ok   cond-carpal-hero-v1edit-a  28 s  no fixed quote (metered). Per 1M tokens: text input $5, cached text input $1.25, text output $10; image input $8, cached image input $2, image output $30. Quality defaults to high. Final cost uses actual token usage and standard credit rounding. The initial charge is an estimate reconciled on completion.  (26c42702-9ad9-4441-9e3c-86b25c6e12cc)
+[21:08:40] ok   cond-carpal-hero-v1edit-b  28 s  no fixed quote (metered). Per 1M tokens: text input $5, cached text input $1.25, text output $10; image input $8, cached image input $2, image output $30. Quality defaults to high. Final cost uses actual token usage and standard credit rounding. The initial charge is an estimate reconciled on completion.  (bc31a088-2bd1-4da4-b689-a101fad78cd0)
+[21:08:40] done: 2 ok, 0 failed

@@ -1,0 +1,795 @@
+[
+ {
+  "name": "cond-oa-assess",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner, near/left hand on the side of the patient's knee",
+    "fingers_counted": "5 (thumb on upper edge + 4 fingers)",
+    "ok": true,
+    "box": [
+     0.493,
+     0.485,
+     0.62,
+     0.617
+    ]
+   },
+   {
+    "whose": "practitioner, second (upper-cuff) arm",
+    "fingers_counted": "0 - no hand exists; the forearm blends into the patient's far forearm",
+    "ok": false,
+    "box": [
+     0.518,
+     0.125,
+     0.669,
+     0.309
+    ]
+   },
+   {
+    "whose": "patient, near/right hand resting on the practitioner's lower cuff",
+    "fingers_counted": "4 visible (thumb hidden underneath, plausible)",
+    "ok": false,
+    "box": [
+     0.58,
+     0.32,
+     0.68,
+     0.395
+    ]
+   },
+   {
+    "whose": "patient, far/left hand resting on the practitioner's shirt",
+    "fingers_counted": "2-3 visible, rest occluded by the near hand - count not verifiable",
+    "ok": false,
+    "box": [
+     0.62,
+     0.31,
+     0.695,
+     0.35
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "hands",
+    "description": "Merged limbs: the practitioner's upper forearm (from the top rolled white cuff) runs down-left and fuses into the patient's far forearm at the patient's elbow crease, with no wrist or hand. Four forearms meet in the cluster but only three hands exist. The scene asked for his second hand to be at the patient's hip; it is nowhere in frame.",
+    "box": [
+     0.518,
+     0.125,
+     0.669,
+     0.309
+    ]
+   },
+   {
+    "category": "hands",
+    "description": "The patient's two hands, stacked on the practitioner's cuff, render their fingers as layered ribbon-like strips with white rim highlights; the far hand's fingers cannot be counted.",
+    "box": [
+     0.58,
+     0.3,
+     0.7,
+     0.4
+    ]
+   },
+   {
+    "category": "body",
+    "description": "Practitioner's kneeling legs are geometrically impossible: the flat-soled front shoe is planted behind (to the right of) the knee that rests on the floor and overlaps the rear shin; the front shin tilts about 60 degrees off vertical with the foot flat.",
+    "box": [
+     0.61,
+     0.55,
+     0.99,
+     0.95
+    ]
+   },
+   {
+    "category": "red_glow",
+    "description": "Glow sits on the front/outer face of the near knee joint line (the camera sees the lateral side), not visibly on the inner side as specified. Minor on its own.",
+    "box": [
+     0.46,
+     0.5,
+     0.53,
+     0.62
+    ]
+   }
+  ],
+  "notes": "Overlay OK: pelvis, femur along the horizontal thigh, knee with patella, tibia/fibula and foot bones inside the near (right) leg, oriented to the squat. Patient body complete; near foot 5 toes, far foot partly hidden but plausible. Practitioner face: only neck skin above the collar at the top edge (x 0.72-0.74); the jaw is just out of frame, so no breach. Background is a real clinic (shelves, towels, treatment table, exercise ball, equipment cart); the cart screen is blurred with no readable text. No devices required."
+ },
+ {
+  "name": "cond-oa-treat",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner, right hand gripping the laser arm/handle beside the head",
+    "fingers_counted": "4 fingers wrapped, thumb hidden behind the arm (plausible)",
+    "ok": true,
+    "box": [
+     0.23,
+     0.237,
+     0.36,
+     0.34
+    ]
+   },
+   {
+    "whose": "practitioner, left hand hanging relaxed at his side (out of focus)",
+    "fingers_counted": "thumb + 3 curled fingers visible, rest curled out of sight",
+    "ok": true,
+    "box": [
+     0.278,
+     0.437,
+     0.32,
+     0.557
+    ]
+   },
+   {
+    "whose": "patient, right hand on the table edge beside his hip",
+    "fingers_counted": "thumb (pointing toward his body) + index + middle; ring and little cut off by the right frame edge",
+    "ok": true,
+    "box": [
+     0.926,
+     0.649,
+     1.0,
+     0.718
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "body",
+    "description": "Patient has THREE legs and three bare feet. The shorts have two leg openings, used by (B) the raised bent leg with its foot flat mid-table and (C) the lower leg running to the big foreground foot. A third, extended leg carrying the overlay and the laser target enters from the left edge (heel on the table at far left); its thigh ends behind the raised leg's shin and never reaches the hips.",
+    "box": [
+     0.0,
+     0.47,
+     0.6,
+     0.84
+    ]
+   },
+   {
+    "category": "body",
+    "description": "Second leg belonging to the same patient (lower leg C) - listed so both candidate extra legs are located; together with B and A the patient shows three legs.",
+    "box": [
+     0.34,
+     0.55,
+     0.8,
+     0.92
+    ]
+   },
+   {
+    "category": "overlay",
+    "description": "Knee anatomy is wrong: the top of the shin bone is drawn as a large round ball (like a femoral head in a ball-and-socket joint) instead of a flat tibial plateau; the kneecap is a separate floating sphere.",
+    "box": [
+     0.37,
+     0.5,
+     0.5,
+     0.66
+    ]
+   }
+  ],
+  "notes": "Laser matches spec: white stand-mounted head on an articulated arm, a hand's width above the knee of the extended leg, three thin red lines, no contact. Red glow is at that knee joint, where the beams land. The patient's left hand is not visible (he leans back behind himself), which is plausible. Practitioner face: none (top edge shows shirt only). Real clinic background (shelves, towels, plants, equipment); screens and binders are blurred with no readable text. Scene asked for exactly one extended and one bent leg; the render added a third."
+ },
+ {
+  "name": "cond-osteo-assess",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "patient, near/right hand flat on the treatment table edge",
+    "fingers_counted": "4 visible (thumb wrapped over the edge + 3 fingers; little finger plausibly hidden behind)",
+    "ok": true,
+    "box": [
+     0.1,
+     0.57,
+     0.2,
+     0.673
+    ]
+   },
+   {
+    "whose": "practitioner, left hand hovering at the patient's hip",
+    "fingers_counted": "5 (thumb on top + 4 fingers)",
+    "ok": true,
+    "box": [
+     0.524,
+     0.405,
+     0.63,
+     0.532
+    ]
+   },
+   {
+    "whose": "practitioner, right hand",
+    "fingers_counted": "0 visible - forearm passes behind the patient's far arm toward her back; plausibly hidden",
+    "ok": true,
+    "box": [
+     0.44,
+     0.15,
+     0.57,
+     0.34
+    ]
+   },
+   {
+    "whose": "patient, far/left hand gripping the side of her lifted knee",
+    "fingers_counted": "thumb + 2-3 curled fingers visible",
+    "ok": false,
+    "box": [
+     0.545,
+     0.58,
+     0.58,
+     0.71
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "hands",
+    "description": "Patient's far (left) arm is stretched and noodle-thin: the wrist leaves the cardigan cuff at hip level (x0.52,y0.45) and goes behind the thigh, then a pencil-thin skin strip (about 22 px wide against a 51 px wrist) reappears along the back edge of the lifted thigh and widens into a hand gripping the knee about 200 px lower. Measured shoulder to hand, this far arm is about 15% longer than her near arm despite being farther from the camera.",
+    "box": [
+     0.505,
+     0.43,
+     0.58,
+     0.71
+    ]
+   }
+  ],
+  "notes": "Overlay OK: spine follows the leaning torso midline into a front-view pelvis with both hip joints; the femurs go into the standing leg and the lifted thigh. Red glows at the thoracolumbar spine (mid back) and the lifted-side hip joint, both where specified. The lifted leg's shin and foot fold behind the thigh and the practitioner's leg (plausibly hidden); the standing leg exits the bottom edge. Practitioner face: none (only a few pixels of neck at the collar opening). Real clinic background; equipment screens blurred with no readable text. Scene deviations (not scored as defects): patient's palm is flat on the table rather than fingertips; the practitioner's right hand is at her upper back, not her waist."
+ },
+ {
+  "name": "cond-osteo-treat",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner, right hand holding the adjusting instrument",
+    "fingers_counted": "5 (4 fingers wrapped in a fist grip + thumb behind the tool)",
+    "ok": true,
+    "box": [
+     0.32,
+     0.25,
+     0.45,
+     0.41
+    ]
+   },
+   {
+    "whose": "practitioner, left hand resting on the patient's mid/lower back",
+    "fingers_counted": "5",
+    "ok": true,
+    "box": [
+     0.49,
+     0.395,
+     0.597,
+     0.532
+    ]
+   },
+   {
+    "whose": "patient, near arm hanging off the table",
+    "fingers_counted": "0 visible - hand exits the bottom-left frame edge (plausibly cropped)",
+    "ok": true,
+    "box": [
+     0.0,
+     0.58,
+     0.3,
+     1.0
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "overlay",
+    "description": "Wrong vertebra count: the spine is over-segmented, with vertebral units repeating every 23-36 px, giving roughly 27-38 segments between the base of the neck (x0.20) and the sacrum (x0.68). T1-L5 is 17.",
+    "box": [
+     0.19,
+     0.5,
+     0.7,
+     0.62
+    ]
+   },
+   {
+    "category": "overlay",
+    "description": "Rib cage is anatomically too long: ribs arise along the spine from x0.21 to x0.61 and wrap the whole back down toward the waistband, leaving only about 3-4 rib-free lumbar segments before the pelvis (ribbed:rib-free length about 4:1, real thoracic:lumbar about 1.5:1). Rib arcs number well over 12 per side.",
+    "box": [
+     0.19,
+     0.44,
+     0.62,
+     0.75
+    ]
+   },
+   {
+    "category": "overlay",
+    "description": "Pelvis is drawn as a long tapering spindle/leaf outline stretching from the sacrum across the buttocks toward the thighs, with no iliac wings or hip sockets. It reads as a melted pelvis.",
+    "box": [
+     0.67,
+     0.535,
+     0.95,
+     0.7
+    ]
+   }
+  ],
+  "notes": "Overlay orientation is right (spine runs along the length of the prone body); the defects are count and extent. Red glow sits at the mid thoracic spine exactly under the instrument tip. Instrument matches spec: chrome thick-pen body with a flat black rubber tip, not syringe-like. Hands OK. Patient body complete: head turned on the pillow, near arm hanging off the edge (hand cropped by the frame), legs resting on the raised end section; torso reads somewhat long but within plausible range. Practitioner face: none (shirt only at the top edge). Real clinic background; equipment screen and framed print are blurred with no readable text. Scene deviation: his free hand rests on her lower back, not her shoulder."
+ },
+ {
+  "name": "cond-pinched-assess",
+  "verdict": "MINOR",
+  "hands": [
+   {
+    "whose": "practitioner, right hand holding the reflex hammer",
+    "fingers_counted": "4 visible (thumb + 1 finger extended down the handle + 2 curled); the 4th finger is plausibly curled behind the handle",
+    "ok": true,
+    "box": [
+     0.456,
+     0.24,
+     0.567,
+     0.47
+    ]
+   },
+   {
+    "whose": "practitioner, left hand cupping the patient's elbow from below",
+    "fingers_counted": "thumb + 1-2 fingers visible, rest under the patient's arm (plausible)",
+    "ok": true,
+    "box": [
+     0.6,
+     0.594,
+     0.77,
+     0.76
+    ]
+   },
+   {
+    "whose": "patient, near hand gripping the practitioner's forearm (continuous with the patient's own wrist)",
+    "fingers_counted": "3-4 curled fingers visible, thumb underneath (plausible)",
+    "ok": true,
+    "box": [
+     0.755,
+     0.444,
+     0.9,
+     0.61
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "overlay",
+    "description": "Humerus is registered too high: at x0.45 the upper arm spans y0.60-0.78 but the humerus shaft sits at y0.58-0.64, straddling the arm's top contour, with its upper half and glow halo over the T-shirt/chest instead of centred in the arm. The forearm bones and nerve path are correctly placed.",
+    "box": [
+     0.28,
+     0.5,
+     0.58,
+     0.72
+    ]
+   }
+  ],
+  "notes": "Arm ownership traced and coherent: the practitioner's left forearm leaves the right-side cuff, passes under the patient's hand and forearm, and ends in the hand cupping the elbow; the patient's hand is continuous with his own wrist. Overlay otherwise correct: cervical spine in the neck with spinous processes toward the table, nerve from the lower neck down the arm, arm bones along the limb. Red glows at the lower-neck nerve root (specified) and the inner elbow under the hammer. Reflex hammer: black rubber head on a chrome handle, aimed at the inner elbow. Practitioner face: none (shirt only). Real clinic background; device screen blurred, no text. Scene deviation: patient reclines on an inclined table rather than sitting upright."
+ },
+ {
+  "name": "cond-pinched-treat",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner, right hand (image left) resting on the PEMF coil rim",
+    "fingers_counted": "4 visible (little, ring, middle + thumb on the medial side; index tucked behind, plausible)",
+    "ok": true,
+    "box": [
+     0.39,
+     0.35,
+     0.49,
+     0.45
+    ]
+   },
+   {
+    "whose": "practitioner, left hand (image right) holding the coil cable",
+    "fingers_counted": "5 (4 fingers wrapped over the cable + thumb tip on the medial side)",
+    "ok": true,
+    "box": [
+     0.625,
+     0.31,
+     0.72,
+     0.445
+    ]
+   },
+   {
+    "whose": "patient, near hand folded under the face cradle",
+    "fingers_counted": "0 visible - loose fist, back of hand only, cut off by the bottom edge (plausible)",
+    "ok": true,
+    "box": [
+     0.0,
+     0.88,
+     0.14,
+     1.0
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "overlay",
+    "description": "Spine overlay is misregistered and slanted. The render's own spinal furrow runs just under the top contour of the back (y0.50-0.56 across x0.51-0.72), but the glowing spine runs about 0.15-0.18 of image height (about 230 px) lower, across the near flank and ribs. It drops from y0.59 at x0.30 to y0.73 at x0.72 while the back contour drops only about 0.05, a slant about 8 degrees off the body axis, so its lumbar end lies on the side of the waist near the table instead of on the midline.",
+    "box": [
+     0.14,
+     0.52,
+     0.8,
+     0.8
+    ]
+   },
+   {
+    "category": "devices",
+    "description": "The PEMF cable does not reach a console: it runs from the coil through the practitioner's left hand and down into the towel draped over the patient's hips. The white console behind the practitioner is not connected.",
+    "box": [
+     0.6,
+     0.33,
+     0.86,
+     0.62
+    ]
+   }
+  ],
+  "notes": "Red glow at the base of the neck/upper thoracic nerve root as specified, just below the coil's cloth, so the coil is aimed at it approximately. The overlay's nerve branching spreads across the whole back as a stylized tree (more than the requested cervical/upper-thoracic roots; not scored). Coil matches spec: white flat ring on a thin cloth over the upper back. Hands OK. Patient body complete: head in the face cradle (face visible, allowed), near arm folded under the cradle, legs under the towel. Practitioner face: none (shirt only). Real clinic background; screens blurred, no readable text; the coil's small blue panel has no legible marks."
+ },
+ {
+  "name": "cond-plantar-treat",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner, right hand (image left) pressing the heel of the patient's left foot",
+    "fingers_counted": "5 (4 fingers + adducted thumb on the radial side, its base hidden by the laser head; thumb tip reaches index-tip level, slightly long)",
+    "ok": true,
+    "box": [
+     0.155,
+     0.36,
+     0.34,
+     0.54
+    ]
+   },
+   {
+    "whose": "practitioner, left hand (image right) gripping the patient's lower leg",
+    "fingers_counted": "thumb + 3 curled fingers visible, 4th curled out of sight (plausible)",
+    "ok": true,
+    "box": [
+     0.455,
+     0.4,
+     0.58,
+     0.52
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "body",
+    "description": "Both bare feet are oversized and elongated relative to the practitioner's hand resting on them at the same depth. At the heel the scale is consistent (his index finger about 38 px, about 1.8 cm; foot A's heel about 143 px, about 6.8 cm; about 21 px/cm), but foot B's big toe is 94 px wide (2.5x his finger; real about 1.3x) and foot A projects 983 px long, when a 24 cm foot at that heel scale can reach at most about 550-620 px at any tilt. The feet are about 1.6x too long and read as giant feet next to his hand; they are the hero element of the shot.",
+    "box": [
+     0.155,
+     0.47,
+     0.72,
+     0.87
+    ]
+   },
+   {
+    "category": "body",
+    "description": "Leg ownership is hard to read: the two heels touch under the practitioner's fingers and the feet splay in a V. The far leg is visible only as a thin leggings band that ends near the ankle, while the near leg's leggings stop at the knee over a bare calf, so the pair looks mismatched.",
+    "box": [
+     0.4,
+     0.42,
+     0.66,
+     0.63
+    ]
+   },
+   {
+    "category": "red_glow",
+    "description": "The three laser lines land on the upper heel near the ankle (about x0.37-0.39, y0.53), about 100 px up-right of the red glow centre on the plantar heel (x0.343, y0.568); the beams also continue faintly through the foot past their landing points.",
+    "box": [
+     0.31,
+     0.5,
+     0.41,
+     0.6
+    ]
+   }
+  ],
+  "notes": "Toe counts: foot A 5 and foot B 5, each with the big toe on the medial side (correct for a prone patient). Overlay correct and contained in foot A: plantar-view calcaneus, tarsals, 5 metatarsals and phalangeal chains (the little-toe chain stops short of its toe), plantar fascia fanning from the heel. Red glow at the fascia's heel attachment as specified. Laser matches spec: white head on an arm with an articulated joint entering from the left edge, three thin red lines, about 270 px clear of the skin. Patient body continuous (face visible at the right edge, allowed; arms hidden under or beside the pillow, plausible). Practitioner face: none (shirt only at the top). Real clinic background; the device screen is blurred with no legible text. The window looked blotchy in a downscaled preview, but at 1:1 it is clean bokeh (33,840 unique colours, mean step 4.9), so not a defect."
+ },
+ {
+  "name": "cond-pregnancy-treat",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner, right (near) hand on the back of her pelvis, fingers pointing down",
+    "fingers_counted": "4 (thumb + 3 fingers; by length these are index, middle and ring - no little finger)",
+    "ok": false,
+    "box": [
+     0.265,
+     0.36,
+     0.395,
+     0.53
+    ]
+   },
+   {
+    "whose": "practitioner, left (far) hand at her waist",
+    "fingers_counted": "1 visible (thumb + thenar pad); fingers wrap around her far side out of view (plausible)",
+    "ok": true,
+    "box": [
+     0.325,
+     0.3,
+     0.375,
+     0.39
+    ]
+   },
+   {
+    "whose": "patient, right hand resting on her thigh (ulnar side toward camera)",
+    "fingers_counted": "3 visible fingers, thumb on the far side (plausible)",
+    "ok": true,
+    "box": [
+     0.575,
+     0.435,
+     0.7,
+     0.5
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "hands",
+    "description": "Practitioner's near (right) hand is seen back-on with the fingers extended flat, but only a thumb and three fingers are rendered. Tip heights (0.505 / 0.525 / 0.515) match index, middle and ring; the ulnar edge is a smooth, unobstructed line from wrist to ring finger with no little finger or little-finger knuckle. It reads as a four-digit hand. Knuckle breadth is about 100 px, room for only three fingers.",
+    "box": [
+     0.265,
+     0.36,
+     0.395,
+     0.53
+    ]
+   },
+   {
+    "category": "overlay",
+    "description": "The lumbar spine is drawn in a back (AP) view, with symmetric transverse processes sticking out toward her front and back, although she is in strict side profile. The pelvis is a front-oblique view showing both iliac blades side by side, and no lumbar lordosis is shown. The anatomy is rotated about 90 degrees about the vertical axis relative to her body; upright as requested, but in the wrong view for the pose.",
+    "box": [
+     0.325,
+     0.3,
+     0.505,
+     0.6
+    ]
+   },
+   {
+    "category": "scene",
+    "description": "The top frame edge cuts through the patient's forehead just above her eyes; the top of her head is out of frame.",
+    "box": [
+     0.28,
+     0.0,
+     0.5,
+     0.04
+    ]
+   }
+  ],
+  "notes": "Red glow sits at the back of the pelvis at the sacroiliac joint (x0.37, y0.475), under the practitioner's hands, as specified. Patient body complete and proportionate (checked sitting shoulder height and popliteal height against buttock-knee length): near leg to the foot on the step, 5 toes in lateral view of the right foot, far foot's toes behind; far leg hidden behind the near leg (plausible). Belly clearly visible in profile. Practitioner face: none (shirt only at the top-left). Real clinic background; the equipment screen and framed print are blurred with no readable text. No devices required."
+ },
+ {
+  "name": "cond-sciatica-treat",
+  "verdict": "MINOR",
+  "hands": [
+   {
+    "whose": "practitioner, right hand holding the handheld laser probe",
+    "fingers_counted": "5 (4 fingers wrapped round the front of the probe + thumb on its back/right side)",
+    "ok": true,
+    "box": [
+     0.425,
+     0.22,
+     0.535,
+     0.43
+    ]
+   },
+   {
+    "whose": "practitioner, left hand resting on the back of the patient's far thigh",
+    "fingers_counted": "5 (thumb on the image-left + 4 fingers)",
+    "ok": true,
+    "box": [
+     0.755,
+     0.49,
+     0.905,
+     0.705
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "devices",
+    "description": "The probe's dark cable does not connect to the probe. It emerges from behind the practitioner's wrist, runs straight down beside the probe past its tail, and disappears behind the patient's buttock, so the probe is effectively cordless with a loose cable hanging next to it.",
+    "box": [
+     0.515,
+     0.2,
+     0.545,
+     0.47
+    ]
+   },
+   {
+    "category": "overlay",
+    "description": "The pelvis is a tangle of doubled outlines (two obturator-like rings, overlapping wing and socket contours) rather than a clean pelvis. Location and orientation are right: posterolateral view inside the hip region with the sacrum continuing the spine.",
+    "box": [
+     0.33,
+     0.4,
+     0.53,
+     0.73
+    ]
+   }
+  ],
+  "notes": "Patient body complete: head face-down on the towel (face partly visible, allowed); near arm runs off the left edge beside the head (plausible); both legs present, feet off the right edge. Overlay: about 9-10 lower thoracic/lumbar vertebrae along the back into the sacrum and pelvis, sciatic nerve from the sacrum through the buttock and down the back of the near thigh, oriented along the prone body. Red glow in the deep buttock where the nerve passes, directly below the probe tip; the probe (small white handheld with a red emitter) is aimed at it. Practitioner face: none (shirt only at the top). Real clinic background (window with city view, shelves, plants, spine model, equipment); the equipment screen is blurred tiles with no readable text."
+ },
+ {
+  "name": "cond-scoliosis-treat",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner, right hand (image left) pressing her mid back on the far side of the spine",
+    "fingers_counted": "5 (little, ring, middle, index + thumb on the image-right side, correct for a right hand facing camera)",
+    "ok": true,
+    "box": [
+     0.49,
+     0.36,
+     0.625,
+     0.54
+    ]
+   },
+   {
+    "whose": "practitioner, left hand (image right) on the paraspinal muscles/red glow",
+    "fingers_counted": "5 (thumb on the image-left side + index, middle, ring, little)",
+    "ok": true,
+    "box": [
+     0.64,
+     0.41,
+     0.8,
+     0.58
+    ]
+   },
+   {
+    "whose": "patient, near hand palm-up on the table at the right edge",
+    "fingers_counted": "0 visible - wrist and palm only, fingers cut off by the right frame edge (plausible)",
+    "ok": true,
+    "box": [
+     0.89,
+     0.75,
+     1.0,
+     0.85
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "body",
+    "description": "Patient's near forearm is grossly elongated. Shoulder joint about (0.235, 0.59) to elbow (clear olecranon bend at about x0.48, y0.80) is about 660 px; elbow to the distal wrist crease at x0.91 is about 880 px, so the forearm is 1.33x the upper arm against a real ratio of about 0.77 (about 1.7x too long). At the ear scale (ear 123 px, about 6.3 cm, so 19-20 px/cm) the upper arm is a normal about 31-33 cm but the forearm is about 43-46 cm (real about 24 cm). The arm reads as a stretched noodle across the whole lower half of the frame.",
+    "box": [
+     0.46,
+     0.72,
+     0.93,
+     0.85
+    ]
+   },
+   {
+    "category": "overlay",
+    "description": "Spine is over-segmented and the rib cage runs over the lumbar region: about 26 vertebral units between the shoulders (x0.345) and the waistband (x0.82), against 17 for T1-L5; ribs arise from nearly every segment up to x0.80, giving well over 12 ribs per side (about 20+ near-side rib tubes cross y0.65) and leaving only about 60 px of rib-free spine above the leggings waistband, where the whole lumbar spine should be rib-free.",
+    "box": [
+     0.32,
+     0.43,
+     0.83,
+     0.72
+    ]
+   },
+   {
+    "category": "overlay",
+    "description": "A stray tube-shaped rib segment lies horizontally across the rib fan near the armpit instead of radiating from the spine, broken into two pieces with a rounded free end at x0.505; a smaller stray piece sits at about x0.43-0.45, y0.67.",
+    "box": [
+     0.385,
+     0.6,
+     0.51,
+     0.64
+    ]
+   },
+   {
+    "category": "red_glow",
+    "description": "The glow is centred on the vertebral column at x0.63-0.68 and spreads to both sides, so it reads as spinal pain rather than the one-sided muscles carrying the uneven load. The practitioner's hands do touch it. Minor on its own.",
+    "box": [
+     0.57,
+     0.49,
+     0.73,
+     0.67
+    ]
+   }
+  ],
+  "notes": "Gentle sideways spinal curve is present and the overlay stays on the torso (no spill onto the arm). Patient: face visible (allowed), near arm along her side, far arm hidden behind the torso (plausible), body continuous to the hips at the right edge (legs out of frame by framing, not a half body). Practitioner face: none (shirt chest only at the top edge). Real clinic background (window, shelves, plants, equipment cart, stool); the equipment screen is dark and blurred with no text. No devices required."
+ },
+ {
+  "name": "cond-shoulder-treat",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner, right hand (image left) hooking the medial edge of the shoulder blade",
+    "fingers_counted": "5 (thumb on the image-right side, correct for a right hand seen from the back, + 4 curled fingers with tips tucked under the scapular edge at y0.64-0.655)",
+    "ok": true,
+    "box": [
+     0.27,
+     0.43,
+     0.445,
+     0.66
+    ]
+   },
+   {
+    "whose": "practitioner, left hand (image right) cupping the top of the shoulder",
+    "fingers_counted": "5 (thumb on the image-left side + index and middle nails clear, ring nail peeking, little finger along the outer edge)",
+    "ok": true,
+    "box": [
+     0.565,
+     0.34,
+     0.76,
+     0.575
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "overlay",
+    "description": "The overlay is a stock upright (standing, posterior-view) shoulder chart pasted onto a side-lying man without rotating it to the pose: supraspinatus straight across the top, medial border drawn vertical at x0.38-0.40, inferior angle pointing down at y0.705, humerus hanging straight down to a pointed tip at y0.69. With his head to the right, his spine runs horizontally through the base of the neck (midpoint of the tank's back neckline, about y0.69), so the medial border should run parallel to it and the inferior angle should point toward his hips (left). As drawn, the scapula is rotated about 90 degrees and its inferior angle reaches the spine line, which a real scapula cannot do (it sits about 7 cm lateral to the spine).",
+    "box": [
+     0.36,
+     0.38,
+     0.67,
+     0.72
+    ]
+   }
+  ],
+  "notes": "Red glow at the rotator cuff tendon at the top of the shoulder (subacromial, x0.52-0.62, y0.42-0.49) as specified, directly under the practitioner's cupping thumb. Patient: body continuous from the hips (dark trousers at the left edge) through the torso and shoulder to the head on the pillow; neither of his arms is visible (upper arm plausibly resting forward behind his torso, lower arm under him). His head is turned face-down into the pillow while his torso is side-lying, a neck rotation near its limit but possible; his face is visible (allowed). Practitioner face: none (shirt chest only at the top edge). Real clinic background; equipment screens blurred with no readable text. Scene deviation: his cupping hand sits on the top/back of the shoulder rather than the front."
+ },
+ {
+  "name": "cond-disc-treat",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "patient, near (right) hand resting palm-down on his belly",
+    "fingers_counted": "3 curled fingers visible draping over the belly; thumb on the far side (plausible for a right hand seen from his right side)",
+    "ok": true,
+    "box": [
+     0.415,
+     0.385,
+     0.525,
+     0.47
+    ]
+   },
+   {
+    "whose": "practitioner, right hand hanging relaxed by the patient's belly",
+    "fingers_counted": "5 (4 fingers with 4 knuckles + thumb on the medial/image-right side, correct for a right hand facing camera)",
+    "ok": true,
+    "box": [
+     0.56,
+     0.37,
+     0.66,
+     0.48
+    ]
+   },
+   {
+    "whose": "practitioner, left hand on the PEMF console touchscreen",
+    "fingers_counted": "4 visible (thumb + 3 fingers pressing the screen; little finger out of sight, plausible; depth-of-field blurred)",
+    "ok": true,
+    "box": [
+     0.85,
+     0.24,
+     0.975,
+     0.3
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "overlay",
+    "description": "Lumbar spine is flipped front-to-back. The patient lies SUPINE (his back is on the table/coil at about y0.625, belly surface about y0.44), yet the overlay puts the vertebral bodies and discs along the table side (y0.555-0.625) and the laminae and spinous processes rising from their top edge toward his belly and ceiling (y0.51-0.56), also angled toward his head. In a supine patient the posterior elements must point down toward the table and the vertebral bodies must face the abdomen. The spine is shown upside down inside the body.",
+    "box": [
+     0.33,
+     0.49,
+     0.75,
+     0.66
+    ]
+   },
+   {
+    "category": "overlay",
+    "description": "The requested 'one disc bulging slightly' is not drawn as a bulge: the red-glowing disc stays within the vertebral margins; only the glow indicates it. The level is ambiguous: 6 full bodies before the sacrum put the red disc at L4/L5 if the last block is S1, or L3/L4 if it is L5.",
+    "box": [
+     0.55,
+     0.555,
+     0.59,
+     0.63
+    ]
+   },
+   {
+    "category": "render",
+    "description": "Small white scribble/glyph artefact inside the vertebral body just caudal to the red disc.",
+    "box": [
+     0.572,
+     0.582,
+     0.595,
+     0.605
+    ]
+   }
+  ],
+  "notes": "Red glow at the lower lumbar disc directly above the PEMF coil. Coil matches spec: white flat ring on a thin grey cloth on the table under his lower back. Its cable leaves from the side port over the table edge and exits the bottom frame edge at x0.87; the connection to the console on the counter (which the practitioner is operating, as specified) is not shown but is plausible off-frame. Patient body complete: head on the pillow (face visible, allowed); near arm with the elbow dropped to the near table edge (upper arm foreshortened toward the camera; forearm about 26 cm at the ear scale of 19.5 px/cm, plausible); far arm hidden; knees over the bolster with the far leg hidden behind the near leg and the lower legs off the right edge (plausible). Practitioner face: none (only chest skin in the open-collar V at x0.687-0.70, y0-0.012; no chin, lips or beard). Real clinic background (window, shelves with towels, spine model, framed landscape print, equipment); console screen and print are blurred with no readable text."
+ }
+]

@@ -1,0 +1,18 @@
+{
+ "cond-carpal-treat": "cond-carpal-treat-b",
+ "cond-disc-treat": "cond-disc-treat-a",
+ "cond-headache-assess": "cond-headache-assess-a",
+ "cond-lbp-assess": "cond-lbp-assess-a",
+ "cond-lbp-treat": "cond-lbp-treat-b",
+ "cond-scoliosis-treat": "cond-scoliosis-treat-b",
+ "cond-shoulder-treat": "cond-shoulder-treat-b",
+ "cond-stress-treat": "cond-stress-treat-b",
+ "cond-tennis-treat": "cond-tennis-treat-b",
+ "cond-osteo-treat": "cond-osteo-treat-b",
+ "cond-pinched-treat": "cond-pinched-treat-b",
+ "cond-pregnancy-treat": "cond-pregnancy-treat-b",
+ "svc-cold-hero": "svc-cold-hero-b",
+ "svc-fx635-device": "svc-fx635-device-b",
+ "cond-oa-assess": "cond-oa-assess-b",
+ "cond-oa-treat": "cond-oa-treat-a"
+}

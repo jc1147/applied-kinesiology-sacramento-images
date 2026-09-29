@@ -1,0 +1,297 @@
+[
+  {
+    "name": "ak-balance",
+    "verdict": "PASS",
+    "defects": [],
+    "match_notes": "Matches the brief. Two-pan balance with upright post (ball finial), round stepped base, beam pixel-verified level (beam lower edge at y~614-623 on both arms at mirrored offsets from post centre x~1025), each pan hung on three fine chains, three small circles running up the post (x~980-1000, y~947-1070). No text, no stray marks (speck scan found 0), ~15% margins all round. Coordinates are in source pixels (2048x2048)."
+  },
+  {
+    "name": "ak-chain",
+    "verdict": "MINOR",
+    "defects": [
+      {
+        "category": "match",
+        "where": "whole chain, y~667-1012",
+        "description": "Chain has 9 links (5 face-on, 4 edge-on); the brief specifies 7."
+      },
+      {
+        "category": "framing",
+        "where": "left end link x~36-360 and right end link x~2000-2337",
+        "description": "Chain spans x~36-2337 of 2374: only 36px (1.5%) clear at each side. The end links nearly touch the frame and will be clipped by any object-fit crop, rounded-corner container or responsive re-crop."
+      }
+    ],
+    "match_notes": "Middle link is larger, thicker and measurably more teal (fill B-R ~ +18 against -8 to +6 on the other links); adjacent links are thinner and slightly elongated; all interlocks render consistently (front bar over, back bar under); no text; plain paper. Source pixels 2374x1696."
+  },
+  {
+    "name": "cond-auto-hero",
+    "verdict": "FAIL",
+    "defects": [
+      {
+        "category": "text",
+        "where": "upper-right edge of the occipital wedge, x~1445-1720, y~235-400",
+        "description": "A row of cursive pseudo-handwriting (script-like glyphs) runs along the upper edge of the skull fragment. It reads as scribbled writing at hero size, and the brief bans any letters."
+      },
+      {
+        "category": "anatomy",
+        "where": "top of plate, x~750-1720, y~190-620",
+        "description": "The skull base is unrecognisable: a floating hull-shaped hatched slab projects backward, a thin flat shelf projects forward, and there are hollow cavities with a spike beneath. There is no cranial vault, no mastoid process and no occipital condyles seated on the atlas. A chiropractor would not read this as the base of the skull."
+      },
+      {
+        "category": "render",
+        "where": "x~1295-1330, y~270-320",
+        "description": "A zigzag suture line starts in empty paper above the bone outline and runs down into the bone, i.e. a stray mark outside the silhouette."
+      },
+      {
+        "category": "match",
+        "where": "rings centred ~(1190,830), spanning y~320-1340",
+        "description": "At least 5 concentric pale-teal rings (radii ~180/257/343/427px plus an outer ring ~510px, and a partial inner ring) instead of the 3 specified. They cover the whole neck and skull base rather than reading as three thin ripples through the upper neck."
+      },
+      {
+        "category": "render",
+        "where": "C3 articular pillar region, x~1045-1110, y~880-930",
+        "description": "A curled U-shaped strip in the articular pillar reads as a melted fragment."
+      }
+    ],
+    "match_notes": "Cervical count is correct: 7 posterior tips (atlas tubercle plus C2-C7) at y~696, 834, 985, 1106, 1203, 1303, 1429. The neck leans forward as asked and the vertebrae carry no C-numbers or labels. Fails on the pseudo-script and the unrecognisable skull base."
+  },
+  {
+    "name": "cond-carpal-assess",
+    "verdict": "MINOR",
+    "defects": [
+      {
+        "category": "anatomy",
+        "where": "top of vertebral stack, x~2000-2213, y~190-273",
+        "description": "The top vertebra of the 5-level stack is a winged, centrally peaked atlas-like shape, so the stack reads as upper neck (C1-C5). Brachial plexus roots should arise from the lower neck (C5-T1), and here they leave between the upper levels of this stack."
+      },
+      {
+        "category": "anatomy",
+        "where": "medial end of clavicle, x~1960-2075, y~465-540",
+        "description": "The clavicle's medial end butts against the lowest vertebra's transverse process. With no sternum or first rib drawn, it reads as the collarbone articulating with the spine."
+      },
+      {
+        "category": "render",
+        "where": "below the scapula, x~1620-1830, y~775-960",
+        "description": "An unbounded teal wash smear with a ragged lower edge spills outside any outline under the scapula, next to an open-ended outline stroke that just stops."
+      },
+      {
+        "category": "render",
+        "where": "thumb web, x~385-425, y~1155-1190",
+        "description": "The thumb branch of the nerve stops at the thumb web in a small starburst of radiating strokes instead of running into the thumb as the brief asks (into the thumb and first fingers)."
+      }
+    ],
+    "match_notes": "Whole arm, shoulder, clavicle, scapula and a short cervical stack are present. The nerve is one continuous line: from roots at the neck, under the clavicle (the clavicle fill overlaps the nerve at x~1895-1935, y~430-470), down the medial half of the upper arm and the centre of the forearm (single ~6-11px line in cross-section), over the carpus into the palm, then fanning toward the index, middle and ring fingers. No branch was confirmed entering the little finger. Hand: 5 digits, thumb with 2 phalanges plus metacarpal, fingers with 3 phalanges each. No text; margins fine."
+  },
+  {
+    "name": "cond-carpal-hero",
+    "verdict": "FAIL",
+    "defects": [
+      {
+        "category": "anatomy",
+        "where": "wrist crossing, x~870-965, y~760-820",
+        "description": "The median nerve is drawn ON TOP of the ligament band: its outlines run unbroken across the band, and the ligament fibres stop at the nerve's edges above and below it. The nerve passes over the transverse carpal ligament, not beneath it, which inverts the anatomy a carpal tunnel page exists to show."
+      },
+      {
+        "category": "anatomy",
+        "where": "ligament band, x~840-970, y~575-840",
+        "description": "The band covers only the radial (thumb-side) half of the carpus. It overshoots past the bones into soft tissue and ends in a frayed, brush-like tip. A transverse carpal ligament should bridge the whole carpal arch, radial to ulnar."
+      },
+      {
+        "category": "render",
+        "where": "finger webs at x~1600-1640,y~710-760; x~1597-1644,y~926-950; x~1531-1579,y~1098-1122",
+        "description": "Finger outlines start at the web spaces with small open curled hooks that do not join the palm outline."
+      },
+      {
+        "category": "framing",
+        "where": "whole plate",
+        "description": "The subject sits high, with a 168px (10%) top margin against 389px (23%) at the bottom. The forearm runs off to about 100px from the left edge with open-ended fills."
+      }
+    ],
+    "match_notes": "Bone anatomy is good: radius on the thumb side, ulna, 8 carpals, 5 metacarpals, thumb with 2 phalanges, fingers with 3. Nerve branches go to the thumb, index and middle fingers, with a short branch toward the ring finger, which is the correct median distribution. No text. The fail is the nerve-over-ligament relationship plus the half-width band."
+  },
+  {
+    "name": "cond-fibro-hero",
+    "verdict": "FAIL",
+    "defects": [
+      {
+        "category": "anatomy",
+        "where": "gluteal dots at (1139,788) and (1234,788)",
+        "description": "The upper-buttock dots sit beside the natal cleft, 48px either side of the midline on a pelvis 294px wide (x1040-1334). That is the inner third of each buttock, the PSIS/sacroiliac area. The gluteal tender points belong in the upper OUTER quadrants (around x~1080 and ~1295)."
+      },
+      {
+        "category": "anatomy",
+        "where": "knee dots at (1102,1207) and (1270,1207)",
+        "description": "The inner-knee dots are centred on the back of each knee (popliteal fossa): x1102 on a leg spanning 1053-1159, and x1270 on 1216-1321. They should sit on the medial (inner) side of the knee, as the brief and the standard tender-point chart specify."
+      },
+      {
+        "category": "render",
+        "where": "outer-hip dots at (1038,892) and (1335,892)",
+        "description": "Both outer-hip dots straddle the silhouette edge, with about a third of each dot on bare paper (33-36% of a surrounding ring is paper). This violates the brief's 'no dot floats beside the body'."
+      },
+      {
+        "category": "match",
+        "where": "whole figure",
+        "description": "There are 16 dots, not the 18 the brief asks for. 16 is what a posterior view can honestly show, because the second-rib pair is on the front, so the brief is internally inconsistent. Resolve this before regenerating, or any page copy saying 18 will not match the picture."
+      },
+      {
+        "category": "text",
+        "where": "left wrist band x~922-934, y~864-872; knuckles x~856-930, y~930-988",
+        "description": "Both wrists carry non-anatomical cuffs or bands. The left band contains a small 'e5'-like glyph, and the knuckle creases are drawn as curls that resemble tiny numerals (9, 3, 7, 6) when zoomed."
+      },
+      {
+        "category": "framing",
+        "where": "head top y~69, feet bottom y~1636",
+        "description": "The head and feet are only 69px and 59px from the frame (4.1% and 3.5%). This is tight for a hero, and any crop will clip the head or feet."
+      }
+    ],
+    "match_notes": "Back view, no face, no genitals, plain cream paper with no panel or card. The base-of-skull, lower-neck, shoulder-top, beside-scapula and lateral-elbow pairs are placed acceptably, and each hand has 5 digits."
+  },
+  {
+    "name": "cond-frozen-hero",
+    "verdict": "FAIL",
+    "defects": [
+      {
+        "category": "match",
+        "where": "solid arc, x~1085-1440, y~1095-1205",
+        "description": "The short solid 'restricted range' arc is not on the overhead path. It sits below the scapula's inferior angle and curves from the humeral shaft toward the midline, the opposite direction to the dotted overhead arc. It does not share that arc's pivot either (fitted centre (1193,865), r~334, against the dotted arc's (1224,828), r~669). It reads as a stray curve or adduction, not as abduction/flexion that stops short. A chiropractor will see that the diagram's core comparison is wrong."
+      },
+      {
+        "category": "anatomy",
+        "where": "dotted arc from the elbow (~819,1379) over the top (~1145,167) to (~1714,416)",
+        "description": "The dotted full-range arc is not centred on the glenohumeral joint (humeral head centre ~(1123,637)). Its distance from the joint shrinks from ~840px at the elbow end to ~466px overhead, so it is not the path the arm would trace."
+      }
+    ],
+    "match_notes": "Shoulder bones read correctly: clavicle to the acromion, acromion hooking over the humeral head, coracoid, glenoid, scapula with suprascapular notch, humerus hanging down with its distal condyles. The dotted arc spans from the arm's rest position up over the top. No text; balanced margins including the arc."
+  },
+  {
+    "name": "cond-headache-hero",
+    "verdict": "FAIL",
+    "defects": [
+      {
+        "category": "anatomy",
+        "where": "atlas x~830-1580, y~665-880; axis x~914-1496, y~878-1068",
+        "description": "Projection mismatch. The skull is a pure lateral profile (face, teeth, mandible and zygomatic arch to the right), but the atlas and axis are drawn face-on: both transverse processes spread left-right and the dens stands in the ring. The upper cervicals are rotated about 90 degrees relative to the skull, which an upper-cervical chiropractor will spot immediately."
+      },
+      {
+        "category": "anatomy",
+        "where": "lower neck, x~870-1500, y~1040-1600",
+        "description": "C3-C5 are rendered as fused, melted lobes. The posterior elements are shapeless blobs with holes, with no distinct spinous processes, laminae, facet joints or foramina, and the individual vertebrae cannot be told apart."
+      },
+      {
+        "category": "anatomy",
+        "where": "skull top edge y~108-171 across x~470-1870; front edge x~1899-1926 for y~120-480",
+        "description": "The cranium is truncated. The vault is sliced flat along the top and the frontal bone ends in a vertical edge. There is no dome, forehead, orbit or nasal aperture, so it looks like a skull cropped by an invisible box."
+      },
+      {
+        "category": "match",
+        "where": "whole plate",
+        "description": "This is not the requested three-quarter rear view of the occiput resting on the atlas; the skull is in straight side profile."
+      }
+    ],
+    "match_notes": "Atlas ring with dens, the axis and a three-level lower stack are present (5 vertebrae in total). No labels or text; margins fine."
+  },
+  {
+    "name": "cond-lbp-hero",
+    "verdict": "FAIL",
+    "defects": [
+      {
+        "category": "anatomy",
+        "where": "lumbar column, x~884-1489, y~140-1070",
+        "description": "Only FOUR lumbar vertebrae sit above the sacrum, not five. The count is confirmed three ways: 4 vertebral bodies, 4 spinous processes (tips at y~378, 550, 721, 893) and 4 enclosed intervertebral foramina (centres y~361, 550, 740, 926). Any chiropractor counting segments will see the missing level."
+      }
+    ],
+    "match_notes": "Everything else is good: correct lordosis (anterior outline convex forward, apex around the third body), spinous processes pointing right, discs between the bodies, a wedge-shaped lumbosacral disc, and a sacrum with dorsal foramina ending in a coccyx tip. No text; margins fine. Fix: regenerate with five lumbar bodies."
+  },
+  {
+    "name": "cond-oa-hero",
+    "verdict": "MINOR",
+    "defects": [
+      {
+        "category": "match",
+        "where": "patella, x~1068-1318, y~570-772",
+        "description": "The kneecap has a heavy outline and strong highlights. It is not drawn faintly as specified, and it dominates the front of the joint."
+      },
+      {
+        "category": "render",
+        "where": "medial femoral condyle, x~1329-1365, y~712-795",
+        "description": "Three small open circles on the condyle surface read as stray marks. If they are meant as subchondral cysts, those are not visible on the outer bone surface."
+      },
+      {
+        "category": "anatomy",
+        "where": "intercondylar notch, x~1175-1234, y~819-884",
+        "description": "The cruciate ligament in the notch is filled in the same tone as bone and can read as a bony strut fusing femur to tibia."
+      }
+    ],
+    "match_notes": "Femur, tibia and fibula are correct and in place (fibula lateral, below the tibial plateau, not touching the femur). The medial joint space is narrowed, with osteophytes on the medial condyle and plateau rim, while the lateral side keeps an open space with a meniscus. No text; centred with good margins."
+  },
+  {
+    "name": "cond-osteo-hero",
+    "verdict": "FAIL",
+    "defects": [
+      {
+        "category": "anatomy",
+        "where": "whole bone x~410-2020, y~236-1590; lateral bump x~1579-1662, y~1128-1365",
+        "description": "The bone is not a recognisable proximal femur. It is a T-shaped pipe: a ball on the left, a horizontal tube running right past the shaft junction and cut off at x~2018, and a vertical tube going down. There is no angled femoral neck and no greater trochanter, and the only trochanter-like bump sits on the lateral side of the shaft, whereas the lesser trochanter is medial."
+      },
+      {
+        "category": "anatomy",
+        "where": "femoral head, x~510-665, y~688-926",
+        "description": "A deep C-shaped bite is cut into the head's medial side, far larger than the fovea capitis, which gives the head a mushroom or cup silhouette."
+      },
+      {
+        "category": "render",
+        "where": "neck/intertrochanteric region, x~890-1270, y~665-1104",
+        "description": "A large dark cross-hatched sphere fills the neck region. Shaded as a solid ball, it reads as a foreign object rather than sparse trabecular bone or Ward's triangle."
+      }
+    ],
+    "match_notes": "The 'bone getting sparser' idea comes across (dense small pores in the head, larger voids toward the shafts), and there is no text. But the bone it is drawn in is not a femur a chiropractor would accept."
+  },
+  {
+    "name": "cond-pinched-hero",
+    "verdict": "FAIL",
+    "defects": [
+      {
+        "category": "anatomy",
+        "where": "nerve root after the foramen, x~1306-1686, y~950-1401",
+        "description": "After the foramen, the nerve root runs down and BACKWARD across the lower vertebra's articular process and lamina toward the spinous process. Exiting roots run forward-laterally and downward, so this path is wrong."
+      },
+      {
+        "category": "match",
+        "where": "both vertebrae, x~622-1751, y~306-1397",
+        "description": "The vertebrae read as LUMBAR, not cervical: large, tall, rectangular bodies and long horizontal hatchet-shaped spinous processes, with no uncinate processes, no articular pillars and no short bifid spines. The brief asks for two neck vertebrae."
+      },
+      {
+        "category": "render",
+        "where": "foramen, x~1140-1306, y~617-950",
+        "description": "Disc and nerve are the same teal and merge into one continuous shape at the foramen, so the disc's backward bulge pressing on the root does not read as a separate structure. The narrowing at the pinch point is barely perceptible at display size."
+      },
+      {
+        "category": "render",
+        "where": "above the upper vertebra, x~1157-1258, y~297-439",
+        "description": "A vertical teal tube stub rises above the upper vertebra and ends abruptly in open space."
+      }
+    ],
+    "match_notes": "Two vertebrae in side profile with a teal disc and a teal nerve root passing through the intervertebral foramen are present. No text; centred with good margins."
+  },
+  {
+    "name": "svc-hormone-thyroid",
+    "verdict": "MINOR",
+    "defects": [
+      {
+        "category": "anatomy",
+        "where": "isthmus, x~748-1229, y~901-1239",
+        "description": "The isthmus is not a narrow bridge. It is a bulky lobulated mass spanning the full width between the lobes, about 340px tall against lobe height of about 760px. With the cauliflower-lobule texture, the gland reads as a goitre rather than a normal butterfly."
+      },
+      {
+        "category": "render",
+        "where": "below the thyroid cartilage, x~809-1178, y~635-809",
+        "description": "The cricothyroid/cricoid region is drawn as a thick-rimmed open bowl that reads as a pair of lips (a mouth) on the front of the larynx."
+      },
+      {
+        "category": "anatomy",
+        "where": "superior horns, x~717-778 and x~1208-1265, y~292-410",
+        "description": "The thyroid cartilage's superior horns are drawn as long upright spikes, exaggerated for a front view."
+      }
+    ],
+    "match_notes": "Two lobes flank the larynx and trachea, the upper poles reach the thyroid cartilage, and ringed tracheal cartilage runs below. The gland sits just below the larynx, and the butterfly silhouette is broadly present. No text (a suspected mark near (1257,1398) is hatching); centred with good margins. Source pixels 2048x2048."
+  }
+]

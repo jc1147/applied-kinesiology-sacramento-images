@@ -1,0 +1,521 @@
+[
+  {
+    "name": "pi-first-hero",
+    "verdict": "MINOR",
+    "hands": [
+      {
+        "whose": "practitioner right hand (open palm-up gesture toward the patient)",
+        "fingers_counted": "5 (thumb up + index extended + middle, ring, little curled)",
+        "ok": true,
+        "box": [
+          0.571,
+          0.243,
+          0.684,
+          0.412
+        ]
+      },
+      {
+        "whose": "practitioner left hand (holding the clipboard)",
+        "fingers_counted": "5 (thumb over top edge, index + middle extended under the board, ring finger with band + little curled)",
+        "ok": true,
+        "box": [
+          0.659,
+          0.353,
+          0.791,
+          0.5
+        ]
+      },
+      {
+        "whose": "patient right hand (resting on right knee)",
+        "fingers_counted": "2 visible (ring + little, both with nails); thumb, index, middle wrap round the far side of the knee - plausible",
+        "ok": true,
+        "box": [
+          0.508,
+          0.647,
+          0.605,
+          0.824
+        ]
+      },
+      {
+        "whose": "patient left hand",
+        "fingers_counted": "0 visible - forearm passes behind the torso at the left edge, hand hidden resting on the far thigh - plausibly hidden",
+        "ok": true,
+        "box": [
+          0.146,
+          0.353,
+          0.254,
+          0.735
+        ]
+      }
+    ],
+    "defects": [
+      {
+        "category": "overlay",
+        "description": "Mixed projection at the bottom of the overlay. The lumbar spine is drawn in 3/4 lateral view (bodies to the right of the spinous processes), but the pelvis under it is drawn almost symmetric (both iliac wings fanned either side of the sacrum). The short femoral segment at the right hip angles DOWN into the table instead of running forward along the horizontal thigh. Only noticeable on close inspection; the spine itself is correct.",
+        "box": [
+          0.195,
+          0.65,
+          0.35,
+          0.83
+        ]
+      },
+      {
+        "category": "text",
+        "description": "Woven label patch on the hem of the patient's shorts carries a tiny squiggly pseudo-logo (about 15x25 px). Unreadable, but logo-like.",
+        "box": [
+          0.518,
+          0.739,
+          0.552,
+          0.79
+        ]
+      },
+      {
+        "category": "render",
+        "description": "The practitioner's left collar flap at the top edge renders semi-sheer, with skin tone showing through the fabric.",
+        "box": [
+          0.762,
+          0.007,
+          0.791,
+          0.044
+        ]
+      }
+    ],
+    "notes": "Practitioner face check PASS: only the open collar and smooth neck skin reach the top edge. No chin, jaw, stubble or lips; the top skin rows are the brightest (mean L 136-138 at rows 0-19), with no jaw-shadow band. Overlay shows the stated anatomy (base of neck to pelvis). It sits inside the back along the true spine line, turned to match the 3/4 rear-right view of the torso, with kyphosis and lordosis present and about 5 lumbar vertebrae above the sacrum. The pelvis sits on the table at the ischia. Red glow is centred on L3-L5 [0.237,0.54,0.306,0.674] = the stated lower back. Consultation scene with no treatment device, so aiming is N/A. Patient body is complete: head, back, both arms, and the near leg (thigh, knee, calf) with the hand on the knee. The far leg is hidden behind the near thigh and calf plus the table corner in this side-rear view, which is plausible occlusion, not a half body. Practitioner body complete: both arms, both hands, belt, legs to the frame bottom. The spine model on the counter behind is present as briefed. Real clinic background; the console screen at far left is blank. The patient's eyes are closed (reads as wincing or dozing rather than listening) - scene fit only. Reviewed file md5 aad26a1ca394869e18fc58b3903dd99a."
+  },
+  {
+    "name": "svc-hub-hero",
+    "verdict": "MINOR",
+    "hands": [],
+    "defects": [
+      {
+        "category": "device",
+        "description": "The PEMF cable does not connect to the console. The black cable leaves the left side of the coil's black base, drops over the side-table edge and dead-ends on the lower shelf beside the towels. No cable runs from coil to console, but the spec requires the coil cable to connect to the console.",
+        "box": [
+          0.737,
+          0.415,
+          0.83,
+          0.591
+        ]
+      },
+      {
+        "category": "text",
+        "description": "Garbled pseudo-text on the front label of the PEMF coil base (reads like 'SC7010' plus rows of glyphs).",
+        "box": [
+          0.825,
+          0.4,
+          0.884,
+          0.435
+        ]
+      },
+      {
+        "category": "text",
+        "description": "Garbled micro-word printed on the inside top of the PEMF ring, with a small dark scuff beside it.",
+        "box": [
+          0.84,
+          0.278,
+          0.884,
+          0.298
+        ]
+      },
+      {
+        "category": "text",
+        "description": "PEMF console screen shows rows of faint blue pseudo-text UI lines, with a small script-like mark under the screen. Nothing is legible.",
+        "box": [
+          0.859,
+          0.376,
+          0.947,
+          0.444
+        ]
+      }
+    ],
+    "notes": "No people, so no hands and no face risk. Laser matches spec: white head on an articulated arm on a white wheeled stand, parked beside the table as briefed, with the red emitter visible under the head (no beam, as it is parked). Its console screen is off, with only tiny unreadable bezel marks. Adjusting table: pale sage pads and a folded towel, lift mechanics coherent with nothing melted or doubled, and a far headpiece with a face slot. Side table: 3 legs visible, the 4th hidden behind the front-right leg. White ring coil and console are both present. Real treatment room with window light. The pseudo-text marks are unreadable at page size; the dead-end cable is the substantive issue. Reviewed file md5 ab050b37cf12888b4237d76c83acd33f."
+  },
+  {
+    "name": "ak-who-imaging",
+    "verdict": "MINOR",
+    "hands": [
+      {
+        "whose": "patient left hand (upper/far, gripping the top edge of the envelope)",
+        "fingers_counted": "2 visible (thumb on envelope face, index along top edge); middle, ring, little curled behind the envelope",
+        "ok": true,
+        "box": [
+          0.0,
+          0.479,
+          0.241,
+          0.608
+        ]
+      },
+      {
+        "whose": "patient right hand (lower/near, gripping the bottom of the envelope)",
+        "fingers_counted": "5 accounted (thumb on face, index wrapping under the edge, middle, ring, little curled into the palm)",
+        "ok": true,
+        "box": [
+          0.241,
+          0.621,
+          0.516,
+          0.796
+        ]
+      },
+      {
+        "whose": "practitioner right hand (upper/far, taking the film)",
+        "fingers_counted": "2 visible (thumb on film face, index tip passing behind the film edge); middle, ring, little behind the film",
+        "ok": true,
+        "box": [
+          0.705,
+          0.351,
+          0.975,
+          0.462
+        ]
+      },
+      {
+        "whose": "practitioner left hand (lower/near, supporting the film)",
+        "fingers_counted": "5 accounted (thumb on top, index curled under, middle extended under the bottom edge, ring + little curled)",
+        "ok": true,
+        "box": [
+          0.7,
+          0.544,
+          1.0,
+          0.685
+        ]
+      }
+    ],
+    "defects": [
+      {
+        "category": "text",
+        "description": "Tiny white pseudo-glyphs in the bottom-right corner of the X-ray film (a bulb shape, a triangle, a 'C', a '4'). They mimic film markers but are garbled.",
+        "box": [
+          0.889,
+          0.505,
+          0.929,
+          0.535
+        ]
+      }
+    ],
+    "notes": "Hands and forearms only, as briefed; no face anywhere, top edge clear. For all four hands, handedness matches their side (thumb position checked against grip direction) and the grips are plausible. Wrists run continuously into sleeves (patient: cream knit; practitioner: white coat cuffs). The patient's left forearm is bare while the right has the cuff at the wrist (sleeve pushed up), which is plausible. The X-ray shows an upright lumbar spine and pelvis with 5 lumbar vertebrae, half drawn out of the envelope as briefed. Real clinic background (treatment table, cabinets, window); the background device screen is blurred and blank. Reviewed file md5 8775a994df9e0601c24061d1452968de."
+  },
+  {
+    "name": "pi-faq-hero",
+    "verdict": "PASS",
+    "hands": [
+      {
+        "whose": "patient left hand (upper, open palm mid-question)",
+        "fingers_counted": "5 (thumb up + 4 fingers, palm to camera)",
+        "ok": true,
+        "box": [
+          0.137,
+          0.275,
+          0.368,
+          0.493
+        ]
+      },
+      {
+        "whose": "patient right hand (lower, cupped palm-up, seen from the thumb side)",
+        "fingers_counted": "3 visible (thumb with nail, index and middle curling up); ring + little curled on the far side",
+        "ok": true,
+        "box": [
+          0.214,
+          0.396,
+          0.432,
+          0.602
+        ]
+      },
+      {
+        "whose": "practitioner right hand (on top, resting on the closed notebook)",
+        "fingers_counted": "5 (4 fingers pointing down with 4 nails + thumb hooked over the left wrist)",
+        "ok": true,
+        "box": [
+          0.625,
+          0.39,
+          0.813,
+          0.562
+        ]
+      },
+      {
+        "whose": "practitioner left hand (underneath the right hand)",
+        "fingers_counted": "2 fingertips with nails visible at far left; rest covered by the right hand - plausible",
+        "ok": true,
+        "box": [
+          0.635,
+          0.42,
+          0.78,
+          0.56
+        ]
+      }
+    ],
+    "defects": [],
+    "notes": "Practitioner face check PASS: the top edge shows the open collar, throat and a little chest hair only. No chin or jaw line; top skin rows are the brightest (mean L 136 at rows 0-4), with no jaw-shadow band. The patient's jaw/neck edge and flyaway hairs are clipped in the top-left corner [0,0,0.02,0.04] - patient faces are allowed, a composition nit only. Framed at chest height with two cups of tea and the closed notebook, as briefed. Legs: the patient's two thighs in jeans; the practitioner's far knee sits under the table behind the pedestal and his near leg drops at the right - plausible. Real clinic background (window, treatment table, device cart, shelves); the background device screen is blurred, with no legible text. Reviewed file md5 66ab973a3d982f9dae7793d017c4fff3 (this file was re-rendered at 10:43 before its review began; all crops were verified pixel-identical to it)."
+  },
+  {
+    "name": "pi-first-bring",
+    "verdict": "FAIL",
+    "hands": [
+      {
+        "whose": "woman (patient) right hand, image-left, pinching the X-ray film",
+        "fingers_counted": "2 visible (thumb pressing the film, index curled to the envelope edge); middle, ring, little curled behind",
+        "ok": true,
+        "box": [
+          0.073,
+          0.574,
+          0.161,
+          0.721
+        ]
+      },
+      {
+        "whose": "woman (patient) left hand, flat on the table at frame centre",
+        "fingers_counted": "3 fingers, no thumb visible",
+        "ok": false,
+        "box": [
+          0.415,
+          0.581,
+          0.537,
+          0.695
+        ]
+      }
+    ],
+    "defects": [
+      {
+        "category": "hands",
+        "description": "Missing finger. The woman's left hand lies flat on the table at the centre of the frame and shows only 3 fingers, each with PIP and DIP creases and a nail; the thumb is not visible. From this raised front angle a flat hand should show 4 stacked fingers. The bottom finger runs straight off a smooth outer edge with no curled little finger, and there is only sweater above the top finger. Reads as a three-fingered hand; confirmed on contrast-boosted 2.8x and 4x crops.",
+        "box": [
+          0.415,
+          0.581,
+          0.537,
+          0.695
+        ]
+      },
+      {
+        "category": "scene",
+        "description": "The brief asked for a styled flat lay of objects with no people. The render is an angled tabletop shot with a seated woman whose face is fully visible (hair clipped at the top edge). The person is unrequested; the face rule is not broken because she is not the practitioner.",
+        "box": [
+          0.068,
+          0.0,
+          0.742,
+          0.721
+        ]
+      },
+      {
+        "category": "scene",
+        "description": "The 'weekly' pill organiser has only 6 compartments, not 7.",
+        "box": [
+          0.425,
+          0.728,
+          0.542,
+          0.875
+        ]
+      },
+      {
+        "category": "text",
+        "description": "Blue labels on the pill-organiser lids are garbled pseudo-letters.",
+        "box": [
+          0.425,
+          0.728,
+          0.542,
+          0.875
+        ]
+      },
+      {
+        "category": "text",
+        "description": "Small dark-blue printed rectangle on the end of the rear 'plain unlabelled' medicine box.",
+        "box": [
+          0.568,
+          0.728,
+          0.586,
+          0.758
+        ]
+      }
+    ],
+    "notes": "The right hand is fine. All requested props are present: imaging envelope with an X-ray edge, folded blank sheet, pill organiser, two plain boxes, clipboard with a blank form and pen, reading glasses. The clipboard, pen, glasses and sheet are clean. The light upright in the gap between her arm and torso is the bookshelf post behind, not a chair defect. Real clinic background (device cart with a blurred screen, bookshelf, chair); nothing legible. Reviewed file md5 eb4db3dc49cec2f91083f5e285a80ba3."
+  },
+  {
+    "name": "pi-forms-hero",
+    "verdict": "MINOR",
+    "hands": [
+      {
+        "whose": "practitioner right hand (fingertips resting on the counter)",
+        "fingers_counted": "5 (4 fingers with nails + thumb on the inner side)",
+        "ok": true,
+        "box": [
+          0.254,
+          0.632,
+          0.361,
+          0.75
+        ]
+      },
+      {
+        "whose": "practitioner left hand",
+        "fingers_counted": "0 visible - forearm enters the front trouser pocket, hand in pocket - plausibly hidden",
+        "ok": true,
+        "box": [
+          0.596,
+          0.441,
+          0.693,
+          0.662
+        ]
+      }
+    ],
+    "defects": [
+      {
+        "category": "scene",
+        "description": "The brief asked for objects only (clipboard with a blank form and pen, white desk phone on the counter). The render adds the practitioner's torso standing at the counter. His face is cropped at the collar, so the face rule is met.",
+        "box": [
+          0.234,
+          0.0,
+          0.703,
+          0.897
+        ]
+      },
+      {
+        "category": "text",
+        "description": "Tiny garbled pseudo-text on the telephone's label strip under the handset.",
+        "box": [
+          0.029,
+          0.544,
+          0.098,
+          0.61
+        ]
+      }
+    ],
+    "notes": "Practitioner face check PASS: collar points and throat/chest skin only at the top edge; no chin, jaw or lips (top skin rows mean L 109-111, with no darker band). The right hand is anatomically good, with a continuous wrist, hairy forearm and rolled sleeve. Body complete: torso, both arms, belt, trousers down to the counter; proportions fine. The clipboard holds a blank form with the pen resting on it, beside a white desk phone with a coiled cord. Real clinic (window, plant, shelves, device cart with a blank screen, treatment table). Reviewed file md5 7bcf389da9962c3da48f342696399e7e (this file was re-rendered at 10:43 before its review began; all crops were verified pixel-identical to it)."
+  },
+  {
+    "name": "book-hero",
+    "verdict": "MINOR",
+    "hands": [
+      {
+        "whose": "practitioner right hand (image-left side of the tablet)",
+        "fingers_counted": "5 accounted (thumb along the top edge, tip passing to the screen side; index + middle with nails on the tablet back; ring + little curled under the bottom edge)",
+        "ok": true,
+        "box": [
+          0.722,
+          0.276,
+          0.863,
+          0.447
+        ]
+      },
+      {
+        "whose": "practitioner left hand (image-right side of the tablet)",
+        "fingers_counted": "4 fingers with nails curled onto the tablet back; thumb on the screen side, hidden",
+        "ok": true,
+        "box": [
+          0.841,
+          0.276,
+          0.952,
+          0.447
+        ]
+      }
+    ],
+    "defects": [
+      {
+        "category": "render",
+        "description": "The desk-phone keypad is malformed. Keys are irregular and partly melted, of uneven size and spacing, with merged double-key blobs and garbled pseudo-digit glyphs, not a clean 3x4 grid plus function keys. Visible on a close look at the phone, which is a key briefed object.",
+        "box": [
+          0.186,
+          0.632,
+          0.268,
+          0.763
+        ]
+      },
+      {
+        "category": "scene",
+        "description": "Unrequested practitioner standing at right holding a tablet; the brief is reception-desk objects only. His face is cropped out, so the face rule is met.",
+        "box": [
+          0.558,
+          0.0,
+          1.0,
+          0.776
+        ]
+      },
+      {
+        "category": "scene",
+        "description": "The background is the treatment room (adjusting table, stool, device cart, foam roller, exercise ball) in fairly sharp focus, not the 'waiting area softly blurred' the brief asked for.",
+        "box": [
+          0.2,
+          0.0,
+          1.0,
+          0.62
+        ]
+      },
+      {
+        "category": "text",
+        "description": "Tiny garbled label beside the phone's speaker grille.",
+        "box": [
+          0.112,
+          0.651,
+          0.171,
+          0.691
+        ]
+      }
+    ],
+    "notes": "Practitioner face check PASS: the top edge is shirt chest only, with no neck or face. Both hands are anatomically fine and connect through wrists and forearms to rolled sleeves. Body complete: torso, both arms, belt, trousers down to the desk edge. The appointment book is open to blank ruled pages with a pen. The eucalyptus is a full bunch in a glass bottle rather than a single sprig. The dark oval on the tablet back sits where a camera lens would be and is not a logo. The background device screen is blurred and shows no legible text. Reviewed file md5 d7f42d83a703334bd581a8816c68292e (this file was re-rendered at 10:43 before its review began; all crops were verified pixel-identical to it)."
+  },
+  {
+    "name": "about-drvw-learning",
+    "verdict": "PASS",
+    "hands": [],
+    "defects": [],
+    "notes": "No people; the top edge is shelves, window and a frame. Matches the brief: pale oak desk by the window, 4 closed books with plain unmarked spines, a spine model on a stand, and reading glasses on an open notebook of unreadable pseudo-handwriting (as briefed), plus a coffee mug. Spine model reads correctly: skull-base plate, then cervical, thoracic and lumbar vertebrae, then sacrum and pelvis on the stand rod. It has blue discs and yellow nerve roots, spinous processes facing posterior, and vertebral bodies that grow larger going down. Disc count from 3x contrast crops is about 20 against 23 in a real spine; the top cervical discs are faint, so the count is unverified and not flagged. The chair is coherent (two armrests, seat, two-layer upholstered back). Desk and wall textures are clean at crop scale; the blotchy look at thumbnail size is downsampling. Real clinic behind (treatment tables, device cart with a blurred screen, shelves). Nothing legible. Reviewed file md5 0617ca8e71d9e050667e3dafad655d72."
+  },
+  {
+    "name": "svc-nutrition-consult",
+    "verdict": "MINOR",
+    "hands": [
+      {
+        "whose": "practitioner right hand (image-left, resting on the diary)",
+        "fingers_counted": "4 fingers with nails; thumb tucked behind the index, tip just visible at the upper edge",
+        "ok": true,
+        "box": [
+          0.117,
+          0.42,
+          0.352,
+          0.552
+        ]
+      },
+      {
+        "whose": "practitioner left hand (centre, fingertips on the diary)",
+        "fingers_counted": "5 (thumb pressing the page edge + 4 fingers)",
+        "ok": true,
+        "box": [
+          0.4,
+          0.371,
+          0.586,
+          0.493
+        ]
+      },
+      {
+        "whose": "patient right hand (clasped, on top)",
+        "fingers_counted": "2 fingertips with nails visible over the left hand; rest wrapped in the clasp",
+        "ok": true,
+        "box": [
+          0.742,
+          0.513,
+          0.96,
+          0.72
+        ]
+      },
+      {
+        "whose": "patient left hand (clasped, underneath)",
+        "fingers_counted": "thumb across the top + 1 curled finger visible; rest hidden in the clasp",
+        "ok": true,
+        "box": [
+          0.742,
+          0.513,
+          0.96,
+          0.72
+        ]
+      }
+    ],
+    "defects": [
+      {
+        "category": "scene",
+        "description": "The brief asked for the food diary open 'with a pen'. There is no pen anywhere on the table.",
+        "box": [
+          0.185,
+          0.447,
+          0.64,
+          0.605
+        ]
+      }
+    ],
+    "notes": "Practitioner face check PASS, but tight: the top edge is the open collar V with sparse chest/lower-neck hair. No jaw, chin, lips or stubble band; top skin rows are mean L 100-103, no darker than the rows below, so no beard shadow. Both practitioner hands are anatomically fine, with continuous forearms and rolled sleeves. The patient's clasped hands are plausible, with no extra or fused digits; her face is out of frame at the right. The navy trouser legs visible under the near table edge match the practitioner's trousers. They are his shins stretched under the table centre (about a 21-degree camera angle), which is plausible. Three amber bottles with blank labels, a glass of water, and a bowl of greens, lentils, seeds and berries. Real clinic background (device cart, stool, treatment tables, shelves); the background screen is blurred and shows no text. Reviewed file md5 dc447f584adc06024d7e21a9fae5cf2e (this file was re-rendered at 10:43 before its review began; all crops were verified pixel-identical to it)."
+  }
+]

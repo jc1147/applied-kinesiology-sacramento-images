@@ -1,0 +1,887 @@
+[
+ {
+  "name": "cond-auto-hero",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference images show the house illustration style of a clinic website. Create a NEW illustration in exactly that style: a vintage medical engraving printed in deep teal ink with pale teal fills, crisp dark outlines, fine engraved hatching for shading, on warm cream paper with a soft vignette, one subject centred with generous empty margins, no background scene. Subject: the cervical spine and the base of the skull in side profile, the neck bent slightly forward, with three thin concentric pale teal ripple lines passing through the upper neck like a travelling shockwave. The vertebrae carry no labels: no letters or numbers such as C3 or C7 anywhere. Anatomically accurate. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/gen_anatomy_vertebra_disc.jpg",
+   "site/assets/gen_anatomy_knee_joint.jpg",
+   "site/assets/gen_anatomy_shoulder_joint.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-auto-assess",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a patient sits on the edge of the treatment table with their back to the camera; the practitioner's two hands rest flat on either side of the patient's mid back and lower rib cage, feeling how the ribs move as the patient breathes, examining the region after a car collision. Framed from the shoulders to the waist. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_method_muscle_test.jpg",
+   "site/assets/img_clinic_method_shoulder.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-auto-treat",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a close view at table height of a patient lying face down: the upper back and shoulder blades fill the frame and the patient's head is completely outside the left edge of the frame; a stand-mounted low-level laser with no brand markings (a rounded white head about the size of a dinner plate on an articulated arm from a wheeled white floor stand) is positioned a hand's width above the upper back, where the neck meets the shoulders, casting three thin soft red light lines across the skin without touching it, its white head entering from the top of the frame on its arm; the practitioner's hand rests lightly on one shoulder blade. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_instr_laser_head.jpg",
+   "site/assets/img_clinic_instr_room.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-carpal-hero",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference images show the house illustration style of a clinic website. Create a NEW illustration in exactly that style: a vintage medical engraving printed in deep teal ink with pale teal fills, crisp dark outlines, fine engraved hatching for shading, on warm cream paper with a soft vignette, one subject centred with generous empty margins, no background scene. Subject: the bones of the hand and wrist seen palm-up, with the median nerve drawn as a fine continuous pale teal line running from the forearm through the carpal tunnel beneath a band of ligament across the wrist, and branching into the thumb, index, middle and half of the ring finger. Anatomically accurate. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/gen_anatomy_vertebra_disc.jpg",
+   "site/assets/gen_anatomy_knee_joint.jpg",
+   "site/assets/gen_anatomy_shoulder_joint.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-carpal-assess",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference images show the house illustration style of a clinic website. Create a NEW illustration in exactly that style: a vintage medical engraving printed in deep teal ink with pale teal fills, crisp dark outlines, fine engraved hatching for shading, on warm cream paper with a soft vignette, one subject centred with generous empty margins, no background scene. Subject: one whole arm and shoulder with the lower neck vertebrae and the collarbone drawn in outline, and a single fine pale teal nerve traced continuously from the lower neck, under the collarbone, down the inner arm and forearm, through the wrist and into the thumb and first fingers, showing the whole path of the nerve from neck to fingertip. Anatomically accurate. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/gen_anatomy_vertebra_disc.jpg",
+   "site/assets/gen_anatomy_knee_joint.jpg",
+   "site/assets/gen_anatomy_shoulder_joint.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-fibro-hero",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference images show the house illustration style of a clinic website. Create a NEW illustration in exactly that style: a vintage medical engraving printed in deep teal ink with pale teal fills, crisp dark outlines, fine engraved hatching for shading, on warm cream paper with a soft vignette, one subject centred with generous empty margins, no background scene. Subject: a full standing human figure seen from behind, drawn in fine outline like an anatomical study (no facial features, no genitals), with eighteen small solid deep-teal dots placed symmetrically at the classic tender points: the base of the skull, the lower neck, the tops of the shoulders, beside the shoulder blades, the elbows, the upper buttocks, the outer hips and the inner knees. Every dot sits ON the body surface exactly at its tender point; no dot floats beside the body. Plain warm cream paper background with no panel, card or frame behind the figure. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/gen_anatomy_vertebra_disc.jpg",
+   "site/assets/gen_anatomy_knee_joint.jpg",
+   "site/assets/gen_anatomy_shoulder_joint.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-fibro-assess",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a first-appointment history taking: at a small pale wood table by the window, the patient's hands rest around a cup of tea while across the table the practitioner's hands write in a notebook with a pen (the handwriting is too small and soft to read); a closed folder of reports lies beside the cup. Framed at table height, only hands and forearms. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_method_notes.jpg",
+   "site/assets/img_clinic_frontdesk.jpg",
+   "site/assets/img_clinic_method_table.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-fibro-treat",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a patient lies face down on a pale sage treatment table, face in the face cradle, a soft blanket over the legs; the practitioner holds a small handheld chiropractic adjusting instrument shaped like a thick marker pen, brushed chrome with a visible coiled-spring section and a flat black rubber tip, held like a pen; clearly not a syringe, with no needle and no finger rings gently against the muscles beside the mid spine, his other hand resting flat on the patient's back, conveying very light, careful force. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_instr_laser_head.jpg",
+   "site/assets/img_clinic_instr_room.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-frozen-hero",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference images show the house illustration style of a clinic website. Create a NEW illustration in exactly that style: a vintage medical engraving printed in deep teal ink with pale teal fills, crisp dark outlines, fine engraved hatching for shading, on warm cream paper with a soft vignette, one subject centred with generous empty margins, no background scene. Subject: the shoulder joint seen from the front: collarbone, shoulder blade and the upper arm bone hanging down, with a large dotted arc showing the full range the arm should travel overhead and a much shorter solid pale teal arc showing the restricted range it actually reaches. Anatomically accurate. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/gen_anatomy_vertebra_disc.jpg",
+   "site/assets/gen_anatomy_knee_joint.jpg",
+   "site/assets/gen_anatomy_shoulder_joint.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-frozen-assess",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a patient sits on the treatment table with their back to the camera and slowly raises one arm forward; the practitioner's hand rests on the patient's shoulder blade feeling it glide across the rib cage, his other hand lightly guiding the patient's elbow. Framed from the shoulders to the waist, hair tied up. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_method_muscle_test.jpg",
+   "site/assets/img_clinic_method_shoulder.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-frozen-treat",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a patient lies on their back on the treatment table, seen from the chest down; the practitioner gently holds the patient's arm at the elbow and the wrist and eases it out to the side in a slow, supported arc, a folded towel under the shoulder. The patient's head is out of frame. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_method_muscle_test.jpg",
+   "site/assets/img_clinic_method_shoulder.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-headache-hero",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference images show the house illustration style of a clinic website. Create a NEW illustration in exactly that style: a vintage medical engraving printed in deep teal ink with pale teal fills, crisp dark outlines, fine engraved hatching for shading, on warm cream paper with a soft vignette, one subject centred with generous empty margins, no background scene. Subject: the base of the skull and the top two neck vertebrae (the ring-shaped atlas and the axis with its upright peg) in a three-quarter rear view, showing how the skull rests on the atlas, with the next three cervical vertebrae below. Anatomically accurate. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/gen_anatomy_vertebra_disc.jpg",
+   "site/assets/gen_anatomy_knee_joint.jpg",
+   "site/assets/gen_anatomy_shoulder_joint.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-headache-assess",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a patient sits upright on the treatment table seen from behind, hair tied up; the practitioner's fingertips rest lightly on the jaw joints just in front of both ears and at the base of the skull, examining the jaw and the upper neck. Framed from the top of the head to the shoulders, the face turned away from the camera. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_method_muscle_test.jpg",
+   "site/assets/img_clinic_method_shoulder.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-headache-treat",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a patient sits upright on the treatment table seen from behind, hair tied up; the practitioner holds a small white handheld low-level laser probe on a thin cable, casting a faint soft red glow on the skin at the base of the skull where the neck meets the head, his other hand steadying the patient's shoulder. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_instr_laser_head.jpg",
+   "site/assets/img_clinic_instr_room.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-lbp-hero",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference images show the house illustration style of a clinic website. Create a NEW illustration in exactly that style: a vintage medical engraving printed in deep teal ink with pale teal fills, crisp dark outlines, fine engraved hatching for shading, on warm cream paper with a soft vignette, one subject centred with generous empty margins, no background scene. Subject: the five lumbar vertebrae and the sacrum in side profile, with the discs between them and the gentle inward curve of the lower back, the spinous processes pointing to the right. Anatomically accurate. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/gen_anatomy_vertebra_disc.jpg",
+   "site/assets/gen_anatomy_knee_joint.jpg",
+   "site/assets/gen_anatomy_shoulder_joint.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-lbp-assess",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: seen along the table from its foot end: a patient lies flat on their back with the head on a pillow at the far end, outside the frame; one straight leg is raised to about 30 degrees; the practitioner's flat hand presses gently and steadily down just above the ankle while his other hand steadies the opposite hip, testing the hip muscles away from the sore low back. Framed from the waist to the feet. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_method_muscle_test.jpg",
+   "site/assets/img_clinic_method_shoulder.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-lbp-treat",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a patient lies face down on the treatment table, face pressed into the face cradle at the far left; the soft sweater is lifted a little to bare the low back just above the waistband; a stand-mounted low-level laser with no brand markings (a rounded white head about the size of a dinner plate on an articulated arm from a wheeled white floor stand) is positioned a hand's width above the bare low back, casting three thin soft red light lines across the skin without touching it (the red lines fall only on the low back, nowhere near the head), while the practitioner's hand rests on the patient's sacrum; on a small side table in the soft background sits a flat white ring-shaped PEMF coil about 30 cm across, like a large smooth doughnut, connected by a thin cable to a small white console with a blank dark screen. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_instr_laser_head.jpg",
+   "site/assets/img_clinic_instr_room.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-oa-hero",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference images show the house illustration style of a clinic website. Create a NEW illustration in exactly that style: a vintage medical engraving printed in deep teal ink with pale teal fills, crisp dark outlines, fine engraved hatching for shading, on warm cream paper with a soft vignette, one subject centred with generous empty margins, no background scene. Subject: the knee joint seen from the front: the lower thigh bone, the shin bone and the fibula, with the joint space visibly narrowed on the inner side and a few small bony spurs at its edges, the kneecap drawn faintly. Anatomically accurate. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/gen_anatomy_vertebra_disc.jpg",
+   "site/assets/gen_anatomy_knee_joint.jpg",
+   "site/assets/gen_anatomy_shoulder_joint.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-oa-assess",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a patient in soft grey trousers rolled to mid-calf stands barefoot on a pale wooden floor and bends the knees into a shallow squat; the practitioner kneels beside them with one hand on the side of the patient's knee and the other at the hip, watching how the knee tracks. Framed from the waist to the floor. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_method_muscle_test.jpg",
+   "site/assets/img_clinic_method_shoulder.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-oa-treat",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a patient sits on the treatment table with one leg extended along it, grey trousers rolled above the knee; a stand-mounted low-level laser with no brand markings (a rounded white head about the size of a dinner plate on an articulated arm from a wheeled white floor stand) is positioned a hand's width above the knee, casting three thin soft red light lines across the skin without touching it. Framed from the hips to the feet. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_instr_laser_head.jpg",
+   "site/assets/img_clinic_instr_room.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-osteo-assess",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a balance check for an older patient (silver hair, soft cardigan, seen from behind): the patient stands on one foot beside the treatment table with the fingertips of one hand resting on its edge, while the practitioner's hands hover close to the patient's waist, ready to steady them. Framed from the shoulders to the floor. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_method_muscle_test.jpg",
+   "site/assets/img_clinic_method_shoulder.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-osteo-treat",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: an older patient (silver hair tied back) lies face down on a well-padded treatment table with a soft bolster under the ankles and a pillow under the chest, face in the face cradle; the practitioner holds a small handheld chiropractic adjusting instrument shaped like a thick marker pen, brushed chrome with a visible coiled-spring section and a flat black rubber tip, held like a pen; clearly not a syringe, with no needle and no finger rings lightly against the upper back, his other hand resting flat and still on the patient's shoulder, conveying the lowest possible force. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_instr_laser_head.jpg",
+   "site/assets/img_clinic_instr_room.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-pinched-hero",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference images show the house illustration style of a clinic website. Create a NEW illustration in exactly that style: a vintage medical engraving printed in deep teal ink with pale teal fills, crisp dark outlines, fine engraved hatching for shading, on warm cream paper with a soft vignette, one subject centred with generous empty margins, no background scene. Subject: two neck vertebrae in side profile with the disc between them bulging slightly backward and pressing on a nerve root as it leaves through the opening between the vertebrae; the nerve root is drawn in pale teal and narrows visibly at the pinch point, then continues outward. Anatomically accurate. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/gen_anatomy_vertebra_disc.jpg",
+   "site/assets/gen_anatomy_knee_joint.jpg",
+   "site/assets/gen_anatomy_shoulder_joint.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-pinched-assess",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a reflex check: the patient's relaxed forearm rests on the practitioner's forearm with the elbow bent, and the practitioner taps the inside of the elbow with a small rubber reflex hammer; the patient sits on the treatment table and is framed from the shoulder down. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_method_muscle_test.jpg",
+   "site/assets/img_clinic_method_shoulder.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-pinched-treat",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a patient lies face down on the treatment table, face in the face cradle; a flat white ring-shaped PEMF coil about 30 cm across, like a large smooth doughnut, connected by a thin cable to a small white console with a blank dark screen rests flat on the patient's upper back between the shoulder blades, over a thin sage cloth, while the practitioner's hand adjusts the cable. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_instr_laser_head.jpg",
+   "site/assets/img_clinic_instr_room.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-plantar-treat",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a patient lies face down on the treatment table with bare feet resting over its end on a rolled towel; a stand-mounted low-level laser with no brand markings (a rounded white head about the size of a dinner plate on an articulated arm from a wheeled white floor stand) is positioned a hand's width above the heel and the arch of one foot, casting three thin soft red light lines across the skin without touching it. Framed from the calves to the feet. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_instr_laser_head.jpg",
+   "site/assets/img_clinic_instr_room.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "1:1",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-pregnancy-treat",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a pregnant patient in her third trimester lies on her side on the treatment table, supported by pillows under her head (face out of frame), between her knees and under her bump, wearing a soft oatmeal knit dress; her rounded pregnant belly is clearly visible in profile, resting on the pillow; the practitioner's hands rest gently on the back of her pelvis and sacrum, conveying calm, careful, low-force care. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_method_muscle_test.jpg",
+   "site/assets/img_clinic_method_shoulder.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "1:1",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-sciatica-treat",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a patient in soft grey leggings lies face down on the treatment table, face in the face cradle; the practitioner holds a small white handheld low-level laser probe on a thin cable, casting a faint soft red glow on the skin over the outer side of the hip, where the deep buttock muscles lie, his other hand resting on the back of the patient's thigh. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_instr_laser_head.jpg",
+   "site/assets/img_clinic_instr_room.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "1:1",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-scoliosis-assess",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a patient in a plain sage sports top stands barefoot with their back to the camera; the practitioner's two hands rest level on the tops of the patient's hip bones, comparing the height of the left and right sides; one shoulder sits very slightly higher than the other. Framed from the shoulders to the knees. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_method_muscle_test.jpg",
+   "site/assets/img_clinic_method_shoulder.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "1:1",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-shoulder-assess",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a rotator cuff muscle test: the patient sits on the treatment table with the elbow bent at a right angle and tucked against the side; the practitioner's hand holds the patient's elbow still while his other hand presses inward against the back of the patient's wrist as the patient pushes outward. Framed from the shoulder down. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_method_muscle_test.jpg",
+   "site/assets/img_clinic_method_shoulder.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "1:1",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-disc-treat",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: photographed from the foot end of the table: a patient lies on their back with the knees over a soft sage bolster and the head beyond the frame at the far end; a flat white ring-shaped PEMF coil about 30 cm across, like a large smooth doughnut, connected by a thin cable to a small white console with a blank dark screen lies flat on the table directly under the patient's low back, its rim just visible at the waist, its cable running to the console. Framed from the chest to the knees. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_instr_laser_head.jpg",
+   "site/assets/img_clinic_instr_room.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "1:1",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-stress-assess",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a patient sits upright on the treatment table seen from behind, shoulders visibly hunched up toward the ears, hair tied up; the practitioner's hands rest on the tops of both shoulders, thumbs on the muscles beside the neck, feeling the tension. Framed from the head to the mid back, face turned away. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_method_muscle_test.jpg",
+   "site/assets/img_clinic_method_shoulder.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "1:1",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-tennis-treat",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a patient's arm rests on a folded white towel with the sleeve rolled well above the elbow, the fist loosely closed and the outer side of the elbow facing up; the practitioner holds a small white handheld low-level laser probe on a thin cable, casting a faint soft red glow on the skin at the bony point on the outer side of the elbow joint itself, not on the forearm or the wrist. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_instr_laser_head.jpg",
+   "site/assets/img_clinic_instr_room.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "1:1",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-neck-treat",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a patient lies face down on the treatment table with the face in the face cradle; the practitioner's two hands rest one over the other on the upper back between the shoulder blades, setting up a gentle adjustment. Framed from the head of the table to the lower back. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_method_muscle_test.jpg",
+   "site/assets/img_clinic_method_shoulder.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "1:1",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-whiplash-assess",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a patient lies on their back on the treatment table, photographed from above and behind the head so only the top and back of the head and the neck are visible, never the face; the practitioner's two hands cradle the base of the skull and the back of the neck, testing the deep neck muscles with gentle support. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_method_muscle_test.jpg",
+   "site/assets/img_clinic_method_shoulder.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "1:1",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-work-assess",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a patient in a faded blue denim work shirt sits on the treatment table and holds one arm straight out in front at shoulder height; the practitioner presses gently and steadily down on the forearm while his other hand steadies the patient's shoulder, testing the shoulder muscles after a repetitive work strain. Framed from the shoulder down, the face out of frame. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_method_muscle_test.jpg",
+   "site/assets/img_clinic_method_shoulder.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "1:1",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-scoliosis-treat",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a patient lies face down on the treatment table with the face in the face cradle, a light blanket over the legs; the practitioner's hands work slowly along the muscles on one side of the mid back, beside the spine, easing the side that carries the uneven load; supportive, gentle hands-on work. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_method_muscle_test.jpg",
+   "site/assets/img_clinic_method_shoulder.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "1:1",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-shoulder-treat",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a patient lies on their side on the treatment table with the head on a pillow out of frame; the practitioner's fingertips hook gently under the inner edge of the patient's shoulder blade while his other hand cups the front of the shoulder, easing the shoulder blade across the rib cage. Framed from the neck to the waist. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_method_muscle_test.jpg",
+   "site/assets/img_clinic_method_shoulder.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "1:1",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-stress-treat",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a patient lies face down on the treatment table with the face in the face cradle; the practitioner's thumbs press slowly into the thick muscles running from the neck to the tops of the shoulders, releasing muscles that have been held short; calm, quiet, unhurried. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_method_muscle_test.jpg",
+   "site/assets/img_clinic_method_shoulder.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "1:1",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-whiplash-treat",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a tight close-up from directly behind a seated patient: only the back of the head (hair tied up), the back of the neck and the tops of the shoulders fill the frame; the practitioner's two hands enter from both sides and rest on either side of the base of the neck, thumbs easing gently into the muscles beside the spine; nothing of the practitioner is visible except his hands and shirt cuffs. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_method_muscle_test.jpg",
+   "site/assets/img_clinic_method_shoulder.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "1:1",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "cond-work-treat",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: in the treatment room, a patient in a faded blue denim work shirt, work trousers and leather work boots squats with a straight back to lift a plain cardboard box from the floor, while the practitioner's hand rests lightly on the patient's low back, coaching the lift. Framed from the shoulders to the floor, the face out of frame. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_method_muscle_test.jpg",
+   "site/assets/img_clinic_method_shoulder.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "1:1",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "svc-hub-hero",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: the empty treatment room that holds both halves of the practice: a padded pale sage adjusting table with a folded towel, a stand-mounted low-level laser with no brand markings (a rounded white head about the size of a dinner plate on an articulated arm from a wheeled white floor stand), parked beside the table and not in use, and on a small white side table a flat white ring-shaped PEMF coil about 30 cm across, like a large smooth doughnut, connected by a thin cable to a small white console with a blank dark screen; warm window light, no people in the room. No people in the frame. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_instr_room.jpg",
+   "site/assets/img_clinic_method_table.jpg",
+   "site/assets/img_clinic_frontdesk.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "1:1",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "svc-cold-hero",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a patient sits on the treatment table with one leg extended along it and grey trousers rolled above the knee; the practitioner holds a small white handheld low-level laser probe on a thin cable, casting a faint soft red glow on the skin over the side of the knee. Framed from the hips to the feet. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_instr_laser_head.jpg",
+   "site/assets/img_clinic_instr_room.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "1:1",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "svc-fx635-device",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a patient lies still, face down, with bare feet resting over the end of the table on a rolled towel; a stand-mounted low-level laser with no brand markings (a rounded white head about the size of a dinner plate on an articulated arm from a wheeled white floor stand) is positioned a hand's width above the bare heel, casting three thin soft red light lines across the skin without touching it. Close view of the laser head and the foot, the room softly blurred. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_instr_laser_head.jpg",
+   "site/assets/img_clinic_instr_room.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "1:1",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "svc-hormone-thyroid",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference images show the house illustration style of a clinic website. Create a NEW illustration in exactly that style: a vintage medical engraving printed in deep teal ink with pale teal fills, crisp dark outlines, fine engraved hatching for shading, on warm cream paper with a soft vignette, one subject centred with generous empty margins, no background scene. Subject: the thyroid gland: a butterfly-shaped gland with two lobes joined by a narrow bridge, wrapped across the front of the windpipe just below the larynx, with the ringed cartilage of the windpipe running below it. Anatomically accurate. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/gen_anatomy_vertebra_disc.jpg",
+   "site/assets/gen_anatomy_knee_joint.jpg",
+   "site/assets/gen_anatomy_shoulder_joint.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "1:1",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "svc-nutrition-consult",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a nutrition consultation laid out on a pale wooden table by the window: a food diary open to blank ruled pages with a pen, a glass of water, a small ceramic bowl of leafy greens, lentils and berries, and three plain amber supplement bottles with blank labels; the practitioner's hand rests on the diary. No readable writing. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_method_notes.jpg",
+   "site/assets/img_clinic_frontdesk.jpg",
+   "site/assets/img_clinic_method_table.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "1:1",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "svc-pemf-hero",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a patient lies face down on the treatment table, a light blanket over the legs, framed from the shoulders to the knees so the head is outside the frame; a flat white ring-shaped PEMF coil about 30 cm across, like a large smooth doughnut, connected by a thin cable to a small white console with a blank dark screen rests flat on the patient's low back over a thin sage cloth. The patient lies still; nobody touches them. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_instr_laser_head.jpg",
+   "site/assets/img_clinic_instr_room.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "1:1",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "ak-balance",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference images show the house illustration style of a clinic website. Create a NEW illustration in exactly that style: a vintage medical engraving printed in deep teal ink with pale teal fills, crisp dark outlines, fine engraved hatching for shading, on warm cream paper with a soft vignette, one subject centred with generous empty margins, no background scene. Subject: a classical two-pan balance scale: an upright central post on a round base, a level beam across the top, and a shallow pan hanging from each end on fine chains; the beam is perfectly level; three small circular marks run up the central post. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/gen_anatomy_vertebra_disc.jpg",
+   "site/assets/gen_anatomy_knee_joint.jpg",
+   "site/assets/gen_anatomy_shoulder_joint.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "1:1",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "ak-roof",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: in one room: in the foreground the practitioner's hand rests on the shoulder of a patient seated on the treatment table (seen from behind), and just beyond them, softly out of focus, stands a stand-mounted low-level laser with no brand markings (a rounded white head about the size of a dinner plate on an articulated arm from a wheeled white floor stand), its head folded down, not in use. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_instr_laser_head.jpg",
+   "site/assets/img_clinic_instr_room.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "1:1",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "ak-legit-hero",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: an intimate close-up of a manual muscle test: the patient's forearm is held level with the elbow bent and the fist closed, and the practitioner's flat palm rests on the back of the patient's wrist, pressing gently and steadily down; the practitioner's other hand steadies the patient's elbow. Only the two pairs of hands and forearms fill the frame. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_method_muscle_test.jpg",
+   "site/assets/img_clinic_method_shoulder.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "ak-chain",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference images show the house illustration style of a clinic website. Create a NEW illustration in exactly that style: a vintage medical engraving printed in deep teal ink with pale teal fills, crisp dark outlines, fine engraved hatching for shading, on warm cream paper with a soft vignette, one subject centred with generous empty margins, no background scene. Subject: a short horizontal chain of seven oval links lying across the page; the middle link is drawn thicker and filled pale teal, visibly carrying the strain, while the links either side are thinner and slightly stretched. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/gen_anatomy_vertebra_disc.jpg",
+   "site/assets/gen_anatomy_knee_joint.jpg",
+   "site/assets/gen_anatomy_shoulder_joint.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "ak-who-imaging",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: across a small pale wooden table, the patient's hands pass a large paper imaging envelope to the practitioner's hands; an X-ray film showing the silhouette of a lower spine is half drawn out of the envelope. Framed at table height, hands and forearms only. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_method_notes.jpg",
+   "site/assets/img_clinic_frontdesk.jpg",
+   "site/assets/img_clinic_method_table.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "4:5",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "about-hero",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: one treatment room holding both the method and the equipment: in the foreground a manual muscle test, the patient seated on the table with an arm held straight out to the side and the practitioner's hand pressing gently above the wrist (framed from the chest down, the patient seen from behind); in the softly blurred background a stand-mounted low-level laser with no brand markings (a rounded white head about the size of a dinner plate on an articulated arm from a wheeled white floor stand), parked beside the table and not in use and a small white side table with a flat white ring-shaped PEMF coil about 30 cm across, like a large smooth doughnut, connected by a thin cable to a small white console with a blank dark screen. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_instr_laser_head.jpg",
+   "site/assets/img_clinic_instr_room.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "about-drvw-learning",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a study corner by a window: a pale wooden desk with a stack of closed clinical textbooks with plain unmarked spines, a small anatomical model of the spine on a stand, reading glasses resting on an open notebook of handwritten notes (too soft to read), and a cup of coffee. No people. No people in the frame. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_method_notes.jpg",
+   "site/assets/img_clinic_frontdesk.jpg",
+   "site/assets/img_clinic_method_table.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "1:1",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "pi-faq-hero",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: two people talking at a small round pale wood table by the window, framed at chest height so the top edge of the photo cuts across both people's chests, with no faces, mouths or chins in view: the patient's hands open mid-question, the practitioner's hands resting on a closed notebook, two cups of tea between them; a relaxed, unhurried conversation. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_method_notes.jpg",
+   "site/assets/img_clinic_frontdesk.jpg",
+   "site/assets/img_clinic_method_table.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "4:3",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "pi-first-hero",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a first visit: the patient sits on the edge of the treatment table, seen from the shoulders down, while the practitioner, seen from the chest down, stands facing them holding a clipboard of notes and explains; on the counter behind them a small anatomical spine model and a paper imaging envelope. People: the practitioner is a man in a white dress shirt with the sleeves rolled to the forearm, no white coat and no stethoscope. COMPOSITION RULE: the top edge of the photo crops the practitioner at the chest or shoulders, so his head, face, chin and beard are entirely outside the frame. The patient is an adult in soft neutral clothing (oatmeal, grey or sage knitwear, or a plain t-shirt), and the patient's face is never visible: turned fully away from the camera, cropped out of frame, or pressed straight down into the opening of the table's face cradle so only the back of the head and hair show. Photorealistic, natural skin, anatomically correct hands with five fingers each. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_method_muscle_test.jpg",
+   "site/assets/img_clinic_method_shoulder.jpg",
+   "site/assets/img_clinic_method_palpation.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "pi-first-bring",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a flat lay on a warm wooden table of what to bring to a first visit: a paper imaging envelope with an X-ray film edge showing, a folded sheet of blank lab results, a weekly pill organiser, two plain unlabelled medicine boxes, a blank intake form on a clipboard with a pen, and reading glasses; soft window light from the left. No readable text. No people in the frame. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_method_notes.jpg",
+   "site/assets/img_clinic_frontdesk.jpg",
+   "site/assets/img_clinic_method_table.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "pi-forms-hero",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: on the reception counter by the window: a clipboard holding a blank paper intake form with a pen resting on it, and next to it a simple white desk telephone; two routes to the same appointment. No readable text. No people in the frame. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_instr_room.jpg",
+   "site/assets/img_clinic_method_table.jpg",
+   "site/assets/img_clinic_frontdesk.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ {
+  "name": "book-hero",
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "prompt": "The reference photos show the house photography style of a clinic website. Create a NEW photograph in exactly that style: warm soft daylight from a window at the side, cream and warm-beige walls, pale sage and muted-teal linens, white towels, a calm private treatment room, shallow depth of field with a creamy blurred background, low contrast, gentle warmth, editorial and uncluttered. Scene: a calm reception desk by a window: a simple white desk telephone, a small paper appointment book lying open to blank pages with a pen, and a sprig of eucalyptus in a glass; the waiting room softly blurred behind. No people, no readable text. No people in the frame. No text, letters, numbers, labels, logos, brand markings, readable screens or watermark anywhere.",
+  "refs": [
+   "site/assets/img_clinic_instr_room.jpg",
+   "site/assets/img_clinic_method_table.jpg",
+   "site/assets/img_clinic_frontdesk.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "16:9",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ }
+]

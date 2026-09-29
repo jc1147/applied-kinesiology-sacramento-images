@@ -1,0 +1,42 @@
+[
+ {
+  "name": "cond-neck-treat-a",
+  "pair": "cond-neck-treat",
+  "path": "v2/round3c/cond-neck-treat-a.png",
+  "scene": "the camera stands at the foot end of the treatment table looking along the patient's back toward her head, so her spine runs straight up the middle of the frame: the patient lies face down with her face in the face cradle and a light blanket over her hips and legs; the practitioner stands at the side of the table with his two hands resting one over the other on her upper back between the shoulder blades",
+  "overlay_anatomy": "the upper back only: the upper thoracic spine in one midline column running up the middle of the frame to the base of her neck, and the two shoulder blades on either side of it, each with its broad top edge near the shoulder and its lower tip pointing down the back toward her feet",
+  "pain_site_red_glow": "between the shoulder blades and the base of the neck",
+  "page_crop": "1:1 (no crop)",
+  "previous_failure_to_check": "Round 2 (shot from the head end): both shoulder blades were drawn upside down, their lower tips pointing toward the head. Now the camera should be at the FOOT end: each shoulder blade's broad top edge near the shoulder and its lower tip pointing down the back toward her feet. NOTE: variant -a may still show the head end (head at the bottom of the frame); judge the blade orientation against where her head actually is."
+ },
+ {
+  "name": "cond-neck-treat-b",
+  "pair": "cond-neck-treat",
+  "path": "v2/round3c/cond-neck-treat-b.png",
+  "scene": "the camera stands at the foot end of the treatment table looking along the patient's back toward her head, so her spine runs straight up the middle of the frame: the patient lies face down with her face in the face cradle and a light blanket over her hips and legs; the practitioner stands at the side of the table with his two hands resting one over the other on her upper back between the shoulder blades",
+  "overlay_anatomy": "the upper back only: the upper thoracic spine in one midline column running up the middle of the frame to the base of her neck, and the two shoulder blades on either side of it, each with its broad top edge near the shoulder and its lower tip pointing down the back toward her feet",
+  "pain_site_red_glow": "between the shoulder blades and the base of the neck",
+  "page_crop": "1:1 (no crop)",
+  "previous_failure_to_check": "Round 2 (shot from the head end): both shoulder blades were drawn upside down, their lower tips pointing toward the head. Now the camera should be at the FOOT end: each shoulder blade's broad top edge near the shoulder and its lower tip pointing down the back toward her feet. NOTE: variant -a may still show the head end (head at the bottom of the frame); judge the blade orientation against where her head actually is."
+ },
+ {
+  "name": "cond-osteo-assess-a",
+  "pair": "cond-osteo-assess",
+  "path": "v2/round3c/cond-osteo-assess-a.png",
+  "scene": "the patient, a woman in her seventies with short silver hair in a soft cardigan and slacks, stands on one foot beside the treatment table, seen from her left side: her left hand holds the edge of the table, and her right arm is on the far side of her body, out of view; the practitioner stands just behind her with both hands hovering close to her waist, ready to steady her",
+  "overlay_anatomy": "the spine, the pelvis and the hip joints",
+  "pain_site_red_glow": "the mid back and the hip",
+  "page_crop": "7:5 (the page crop trims 3.5% off the left and right edges)",
+  "previous_failure_to_check": "Round 2: the relaxed hanging hand came out as ribbon-strip fingers in both variants. Now her free arm should be out of view on the far side of her body; check every visible hand (hers on the table edge, the practitioner's two hands)."
+ },
+ {
+  "name": "cond-osteo-assess-b",
+  "pair": "cond-osteo-assess",
+  "path": "v2/round3c/cond-osteo-assess-b.png",
+  "scene": "the patient, a woman in her seventies with short silver hair in a soft cardigan and slacks, stands on one foot beside the treatment table, seen from her left side: her left hand holds the edge of the table, and her right arm is on the far side of her body, out of view; the practitioner stands just behind her with both hands hovering close to her waist, ready to steady her",
+  "overlay_anatomy": "the spine, the pelvis and the hip joints",
+  "pain_site_red_glow": "the mid back and the hip",
+  "page_crop": "7:5 (the page crop trims 3.5% off the left and right edges)",
+  "previous_failure_to_check": "Round 2: the relaxed hanging hand came out as ribbon-strip fingers in both variants. Now her free arm should be out of view on the far side of her body; check every visible hand (hers on the table edge, the practitioner's two hands)."
+ }
+]

@@ -1,0 +1,560 @@
+[
+ {
+  "name": "cond-headache-hero-b",
+  "verdict": "MINOR",
+  "defects": [
+   {
+    "category": "anatomy",
+    "description": "No cervical lordosis. Anterior body margins at mid-height: C2 x=1064, C3 1063, C4 1071, C5 1079, C6 1078. The C2-C6 chord passes within 1 px of C4 (sagitta about 0 px), where a normal neck bows forward. The column reads as a straight or military neck, which a chiropractor will notice on a headache page.",
+    "box": [
+     0.486,
+     0.57,
+     0.535,
+     0.915
+    ]
+   },
+   {
+    "category": "anatomy",
+    "description": "Spinous proportions are off. C2 is not the dominant upper spine: the C3 and C5 tips (x 827 and 820) reach as far back as C2's (x 835), where C2 normally projects well past C3-C5. The C1 posterior arch is a thick, full-length spine-like bar (tip x 855) instead of a thin arch ending in a small posterior tubercle.",
+    "box": [
+     0.396,
+     0.507,
+     0.488,
+     0.868
+    ]
+   },
+   {
+    "category": "anatomy",
+    "description": "The lowest vertebra (C6 level, body y 1175-1241) has a body and articular knob but no lamina or spinous process, so the column ends in an incomplete vertebra.",
+    "box": [
+     0.452,
+     0.838,
+     0.535,
+     0.919
+    ]
+   },
+   {
+    "category": "anatomy",
+    "description": "Possible misread: horizontally ring-hatched cylinders between the skull base and C1 (about x 940-1030, y 625-705) and between C1 and C2 (about y 760-790) look like intervertebral discs. There is no disc at C0-C1 or C1-C2. If they are meant as the condyle and atlas lateral mass, the disc-style hatching misleads.",
+    "box": [
+     0.454,
+     0.456,
+     0.51,
+     0.585
+    ]
+   }
+  ],
+  "counts": {
+   "skull_complete": true,
+   "skull_ink_bbox_px": [
+    695,
+    150,
+    1361,
+    1247
+   ],
+   "margins_px_LTRB": [
+    695,
+    150,
+    686,
+    112
+   ],
+   "atlas_C1": 1,
+   "vertebral_bodies_C2_to_C6": 5,
+   "discs_below_C2": 4,
+   "spinous_processes_incl_C1_arch": 5,
+   "teeth_visible_upper_lower": [
+    7,
+    7
+   ],
+   "C1_position_from_back_of_skull_frac": [
+    0.38,
+    0.54
+   ],
+   "lordosis_sagitta_px": 0
+  },
+  "notes": "All key spec checks pass, and the previous failures are fixed. The skull is whole (rounded vault, forehead, orbit, nasal aperture, zygomatic arch, EAM, mastoid, mandible with teeth) in a true right-facing profile, and the neck is in the same side view: C1 anterior tubercle and posterior arch, C2 body and large spine. The column meets the skull directly under the EAM/mastoid, at 38-54% of skull length from the back (foramen magnum region, not the face). C3-C5 are distinct bodies separated by discs, with their own articular knobs and spines; none are melted. No text, stray marks or smears (322 small ink components, all inside the subject). No ink touches the frame, and the house teal engraving on cream is kept. Remaining issues are proportion and curvature, not projection. Crops: audit_v2/crops/plate__cond-headache-hero-b__*.png"
+ },
+ {
+  "name": "cond-lbp-hero-a",
+  "verdict": "MINOR",
+  "defects": [
+   {
+    "category": "anatomy",
+    "description": "Facet (zygapophyseal) joints are not shown. At every level the posterior elements form one continuous bony bridge behind the foramen, with hatching running straight from one vertebra to the next and no joint line, so the posterior column reads as fused. Variant b outlines each superior articular process.",
+    "box": [
+     0.483,
+     0.11,
+     0.579,
+     0.618
+    ]
+   },
+   {
+    "category": "anatomy",
+    "description": "The five intervertebral foramina are perfect circles (punched holes about 60 px across, centres (1019,239) (1023,377) (1023,522) (1052,660) (1082,810)). Real lumbar foramina are tall ear or teardrop shapes bounded by pedicles above and below and the facet joint behind.",
+    "box": [
+     0.481,
+     0.147,
+     0.544,
+     0.625
+    ]
+   },
+   {
+    "category": "projection",
+    "description": "Four sacral foramina are drawn as dark holes on the sacrum's lateral face. They open on the pelvic and dorsal surfaces and are not seen in a true side view, where the lateral sacrum shows the auricular surface.",
+    "box": [
+     0.483,
+     0.699,
+     0.522,
+     0.831
+    ]
+   },
+   {
+    "category": "anatomy",
+    "description": "The spinous processes are slender rods (about 50-60 px tall against 125-140 px bodies, ratio about 0.4) with flared ends. Lumbar spines are broad hatchet-shaped plates nearly as tall as the body.",
+    "box": [
+     0.508,
+     0.11,
+     0.593,
+     0.588
+    ]
+   },
+   {
+    "category": "anatomy",
+    "description": "The sacral base is shallow: the S1 endplate slopes about 12-15 degrees from horizontal, against a normal sacral slope of about 35-45 degrees, so the lumbosacral junction looks flattened.",
+    "box": [
+     0.4,
+     0.618,
+     0.527,
+     0.691
+    ]
+   }
+  ],
+  "counts": {
+   "lumbar_bodies": 5,
+   "body_spans_y_px": [
+    [
+     110,
+     252
+    ],
+    [
+     277,
+     402
+    ],
+    [
+     443,
+     577
+    ],
+    [
+     602,
+     727
+    ],
+    [
+     752,
+     893
+    ]
+   ],
+   "discs_incl_L5_S1": 5,
+   "spinous_process_tips": 5,
+   "intervertebral_foramina": 5,
+   "sacral_foramina_drawn": 4,
+   "coccygeal_segments": "3-4",
+   "lordosis_sagitta_at_L3_px": 22
+  },
+  "notes": "The count is correct, confirmed three ways: 5 bodies, 5 discs including L5-S1, and 5 spinous tips at y 210, 352, 485, 635, 768. Sacrum and coccyx follow, the coccyx tip curving down and forward. Bodies are at the front and spines point straight back, with a gentle lordosis (L3 sits 22 px anterior to the L1-L5 chord). The original's 4-vertebra error is fixed. No text or stray marks, and no ink touches the frame (margins L793 T106 R833 B81). Style kept. Better of the lbp pair: b, because a's posterior column has no facet joints. Crops: audit_v2/crops/plate__cond-lbp-hero-a__*.png"
+ },
+ {
+  "name": "cond-lbp-hero-b",
+  "verdict": "MINOR",
+  "defects": [
+   {
+    "category": "anatomy",
+    "description": "The five intervertebral foramina are perfect circles (centres (1007,189) (1002,339) (1002,497) (1027,656) (1057,802)) instead of tall ear or teardrop openings.",
+    "box": [
+     0.471,
+     0.103,
+     0.535,
+     0.625
+    ]
+   },
+   {
+    "category": "projection",
+    "description": "Four sacral foramina are drawn as holes on the sacrum's lateral face. They are not visible in a true side view.",
+    "box": [
+     0.459,
+     0.691,
+     0.52,
+     0.824
+    ]
+   },
+   {
+    "category": "anatomy",
+    "description": "The spinous processes are slender rods with flared ends (about 50-60 px tall against 134-154 px bodies) rather than broad hatchet-shaped lumbar spines.",
+    "box": [
+     0.503,
+     0.081,
+     0.598,
+     0.618
+    ]
+   },
+   {
+    "category": "anatomy",
+    "description": "The sacral base is shallow, about 10-15 degrees from horizontal against a normal 35-45 degrees.",
+    "box": [
+     0.391,
+     0.625,
+     0.527,
+     0.684
+    ]
+   }
+  ],
+  "counts": {
+   "lumbar_bodies": 5,
+   "body_spans_y_px": [
+    [
+     85,
+     239
+    ],
+    [
+     256,
+     393
+    ],
+    [
+     427,
+     560
+    ],
+    [
+     593,
+     727
+    ],
+    [
+     743,
+     893
+    ]
+   ],
+   "discs_incl_L5_S1": 5,
+   "spinous_process_tips": 5,
+   "intervertebral_foramina": 5,
+   "sacral_foramina_drawn": 4,
+   "coccygeal_segments": "about 4",
+   "lordosis_sagitta_at_L3_px": 26.6
+  },
+  "notes": "The count is correct: 5 bodies, 5 discs including L5-S1, and 5 spinous tips at y 168, 327, 468, 618, 785. Sacrum and coccyx are correct, bodies front and spines back, and the lordosis is gentle. Each lower vertebra's superior articular process is outlined overlapping the level above, so the facet joints read, unlike in a. The dark vertical groove on the sacrum (x 1040-1100) is deliberate crest shading, not a smear. No text or stray marks. Margins are tighter (L765 T67 R829 B67) but nothing is cut off. Style kept. BETTER OF THE PAIR: b. Crops: audit_v2/crops/plate__cond-lbp-hero-b__*.png"
+ },
+ {
+  "name": "cond-oa-hero-edit",
+  "verdict": "PASS",
+  "defects": [
+   {
+    "category": "edit-scope (does not change the verdict)",
+    "description": "An unrequested collateral change: besides removing the three circles, the edit smoothed away the drippy osteophyte spikes along the inferior edge of the medial femoral condyle (original x about 1080-1210, y 680-720). Only a small hooked lip at the notch side and a flared lip at the medial rim remain. OA is still read from the narrowed medial joint space, the irregular medial plateau and marginal lipping, but the osteophyte signal is weaker than in the original.",
+    "box": [
+     0.503,
+     0.485,
+     0.601,
+     0.559
+    ]
+   }
+  ],
+  "counts": {
+   "requested_fixes_applied": "3 of 3",
+   "bones": "femur, patella, tibia, fibula",
+   "alignment_to_original_mean_abs_err": 5.7,
+   "paper_hue_deg_edit_vs_orig": [
+    40.0,
+    39.0
+   ],
+   "paper_saturation_edit_vs_orig": [
+    0.16,
+    0.166
+   ],
+   "dark_line_fraction_outside_edited_zones_pct_edit_vs_orig": [
+    12.03,
+    12.6
+   ],
+   "darkest_ink_rgb_edit_vs_orig": [
+    [
+     1,
+     27,
+     35
+    ],
+    [
+     6,
+     36,
+     39
+    ]
+   ]
+  },
+  "notes": "The edit kept the composition: the original scaled to 2048 wide aligns at dx=0, dy=+20 with mean absolute error 5.7. It also kept the house style: the same warm cream paper (hue 40 vs 39 degrees, not pink), outlines as dark or darker, the same mint bone fill, and hatching density outside the edited zones of 12.0% vs 12.6%. It is not pale or washed out. All three requested fixes are in. (1) The kneecap is faint: pale translucent fill, thin mid-teal outline, low contrast. (2) The three circles on the medial condyle are gone. (3) The notch ligament is a cream fibrous band with striations, clearly not bone, running from upper-lateral to lower-medial, which is correct for the ACL in an anterior view of a right knee (fibula on the viewer's left). The fibula stays lateral with its head below the plateau, not touching the femur. The medial joint-space narrowing and the open lateral space with meniscus are unchanged, within 1-3 px per column. No text; margins L785 T182 R784 B126. Crops include side-by-sides with the original: audit_v2/crops/plate__cond-oa-hero-edit__sbs_*.png and diffmap_vs_original.png."
+ },
+ {
+  "name": "cond-osteo-hero-a",
+  "verdict": "MINOR",
+  "defects": [
+   {
+    "category": "anatomy",
+    "description": "Spongy trabecular lattice fills both shafts all the way to the cut end (y about 1180). The femoral diaphysis is a hollow tube (thick cortex around a medullary canal), and cancellous bone belongs mainly in the head, neck and trochanteric region.",
+    "box": [
+     0.32,
+     0.412,
+     0.681,
+     0.882
+    ]
+   },
+   {
+    "category": "anatomy",
+    "description": "Both shafts widen toward the cut end (silhouette 121 px at y 700 to 135 px at y 1050, about 11%), a slight trumpet flare where the proximal-to-mid shaft should run parallel or narrow slightly.",
+    "box": [
+     0.317,
+     0.699,
+     0.684,
+     0.882
+    ]
+   }
+  ],
+  "counts": {
+   "femurs": 2,
+   "heads_round_medial": 2,
+   "greater_trochanters_upper_outer": 2,
+   "lesser_trochanters_inner_below_neck": 2,
+   "neck_shaft_angle_deg_left_right": [
+    126.7,
+    126.5
+   ],
+   "head_radius_px_left_right": [
+    96.3,
+    95.1
+   ],
+   "head_to_neck_width_ratio": 1.49,
+   "dense_side": "left",
+   "sparse_side": "right"
+  },
+  "notes": "The original's shapeless T-pipe, cup head and dark sphere are gone. Both bones are correct mirror-image proximal femurs with heads facing the centre. Each has a round head on the medial side, a neck angled up and in, and a greater trochanter at the upper outer corner whose tip (y about 245) sits below the head top (y about 172), at head-centre level. A small lesser trochanter sits on the inner side below the neck, with a trochanteric fossa and the shaft running down with slight medial obliquity. Neck-shaft angle, measured from a circle-fitted head centre, the narrowest neck chord and the shaft midline, is 126.7 and 126.5 degrees, matching the spec's 'about 125'. The left lattice is dense and fine, the right visibly sparse with large cells. No seam line: the suspected column at x 744 is dark in only 53% of rows, ordinary lattice density. No text or stray marks; margins L577 T172 R576 B161. Better of the osteo pair: a, marginally (angle closer to spec, uniform thin shell); b is near-equal. Crops: audit_v2/crops/plate__cond-osteo-hero-a__*.png"
+ },
+ {
+  "name": "cond-osteo-hero-b",
+  "verdict": "MINOR",
+  "defects": [
+   {
+    "category": "anatomy",
+    "description": "Spongy lattice fills both shafts to the cut end (y about 1175), with no medullary canal. The diaphysis should be a hollow cortical tube.",
+    "box": [
+     0.312,
+     0.412,
+     0.684,
+     0.893
+    ]
+   },
+   {
+    "category": "presentation",
+    "description": "The cutaway leaves the lateral part of each shaft as uncut outer surface (a teal hatched band about 60-70 px wide) beside a thin cream shell on the medial side. At display size this can read as a lopsided, thick lateral cortex. It is mirrored on the right bone (x about 1320-1400).",
+    "box": [
+     0.293,
+     0.279,
+     0.342,
+     0.868
+    ]
+   }
+  ],
+  "counts": {
+   "femurs": 2,
+   "heads_round_medial": 2,
+   "greater_trochanters_upper_outer": 2,
+   "lesser_trochanters_inner_below_neck": 2,
+   "neck_shaft_angle_deg_left_right": [
+    130.8,
+    131.0
+   ],
+   "head_radius_px_left_right": [
+    103.9,
+    105.1
+   ],
+   "head_to_neck_width_ratio": 1.4,
+   "dense_side": "left",
+   "sparse_side": "right"
+  },
+  "notes": "Both bones are correct: medial round heads sectioned flat inside a thin shell, necks angled up and in, and large greater trochanters at the upper outer corners with tips (y about 220-225) below the head tops (y about 150). A modelled trochanteric fossa, lesser trochanters on the inner side below the neck, and shafts running down. The neck-shaft angle of 131 degrees is within the normal 120-135 range but above the requested ~125. The left lattice is dense and the right porous (large star-textured cells), a clear contrast. No text or stray marks; margins L561 T149 R562 B148. Style kept. Near tie with a: b has the more consistent section plane and better-modelled trochanters, a has the angle and uniform shell. Crops: audit_v2/crops/plate__cond-osteo-hero-b__*.png"
+ },
+ {
+  "name": "cond-pinched-hero-a",
+  "verdict": "FAIL",
+  "defects": [
+   {
+    "category": "anatomy",
+    "description": "The nerve course is wrong. One continuous cord enters from above the upper vertebra, runs straight down through both openings behind the bodies (x about 960-1085, y 450-800) and leaves below the lower vertebra. This is the 'straight down the canal' path the spec names as wrong; there is no root leaving a single foramen forward and down.",
+    "box": [
+     0.42,
+     0.18,
+     0.537,
+     0.787
+    ]
+   },
+   {
+    "category": "render",
+    "description": "The cord starts as a flat-cut tube stub above the upper vertebra (top at y 249), ending in open space. This is the same orphan stub the previous audit flagged.",
+    "box": [
+     0.459,
+     0.176,
+     0.513,
+     0.254
+    ]
+   },
+   {
+    "category": "match",
+    "description": "The vertebrae read as lumbar, not cervical. Bodies are large and waisted (about 330 x 220 px), spines long, horizontal and club-ended (about 230 px). There are no uncinate processes, no articular pillar with 45-degree facets, no anterior-inferior lip and no short bifid spines. The spec names lumbar-looking vertebrae as a defect.",
+    "box": [
+     0.317,
+     0.243,
+     0.679,
+     0.688
+    ]
+   }
+  ],
+  "counts": {
+   "vertebrae": 2,
+   "discs": 1,
+   "nerve_cords": 1,
+   "foramen_openings": 2,
+   "nerve_width_px_at_disc_vs_elsewhere": [
+    26,
+    "36-42"
+   ],
+   "cervical_hallmarks_present": 0
+  },
+  "notes": "The disc is cream and distinct from the teal cord, and it bulges backward about 50 px past the bodies to touch the cord. The narrowing there is slight (26 px vs 36-42 px). No text or stray marks; margins L669 T248 R665 B292. Style kept. Two of the original's three failures remain (wrong nerve course, lumbar morphology) plus the stub. Better of the pinched pair: b. Crops: audit_v2/crops/plate__cond-pinched-hero-a__*.png"
+ },
+ {
+  "name": "cond-pinched-hero-b",
+  "verdict": "FAIL",
+  "defects": [
+   {
+    "category": "match",
+    "description": "The vertebrae are still lumbar-looking, not cervical: large waisted bodies (upper about 330 x 255 px, lower about 310 x 290, nearly square), a tall horn-like superior articular process (x about 1020-1120, y 245-420), and thick square-ended horizontal spines. None of the cervical hallmarks are present (uncinate process, anterior-inferior lip, articular pillar with 45-degree facets, short bifid spine). The spec requires two NECK vertebrae and names lumbar-looking vertebrae as a defect.",
+    "box": [
+     0.322,
+     0.176,
+     0.654,
+     0.765
+    ]
+   },
+   {
+    "category": "anatomy",
+    "description": "The root begins as a rounded blind end inside the foramen, with no cord or dural sleeve medially, so it reads as a free-floating tube rather than a branch of the cord.",
+    "box": [
+     0.503,
+     0.353,
+     0.542,
+     0.397
+    ]
+   },
+   {
+    "category": "render",
+    "description": "A cluster of hatch strokes at the lower body's upper-left rim forms an 'icc'-like shape that reads as letters at 2x zoom. At 6x they are plain hatch dashes, invisible at display size.",
+    "box": [
+     0.339,
+     0.503,
+     0.361,
+     0.519
+    ]
+   }
+  ],
+  "counts": {
+   "vertebrae": 2,
+   "discs": 1,
+   "nerve_roots": 1,
+   "nerve_width_px_before_at_after_pinch": [
+    "42-54",
+    "23-29",
+    "43-44"
+   ],
+   "cervical_hallmarks_present": 0
+  },
+  "notes": "The nerve relationship is now correct. A single root starts in the foramen under the upper pedicle, is visibly pinched where the disc's posterior bulge touches it (narrowing from 42-54 px to 23 px at y 640), then runs forward and down across the lateral side of the lower vertebra to a cut end. That is the required forward/outward-and-down exit, with no path over the lamina or down the canal. The cream disc is distinct from the teal root. As a LUMBAR foraminal herniation the plate is anatomically coherent; the single failed requirement is 'cervical'. If the owner accepts a lumbar segment on the pinched-nerve page (note that the site has a separate sciatica page), b is usable; otherwise regenerate with cervical morphology. No other text or stray marks; margins L674 T250 R687 B276. Style kept. BETTER OF THE PAIR: b. Crops: audit_v2/crops/plate__cond-pinched-hero-b__*.png"
+ },
+ {
+  "name": "svc-hormone-thyroid-a",
+  "verdict": "MINOR",
+  "defects": [
+   {
+    "category": "render",
+    "description": "Between the thyroid and cricoid cartilages a dark lens-shaped opening shows the airway lumen, as if seen from above, while the thyroid cartilage is face-on. From the front the cricothyroid membrane closes this gap. It is far less lip-like than the original's pouting bowl, but it is still an open slot at the spot that used to read as a mouth.",
+    "box": [
+     0.405,
+     0.359,
+     0.588,
+     0.396
+    ]
+   },
+   {
+    "category": "anatomy",
+    "description": "The trachea above and below the isthmus is drawn as funnel or bowl segments (stacked-cups perspective with elliptical rings), so at display size the airway looks hourglass-shaped at the isthmus instead of a straight ringed tube behind the gland.",
+    "box": [
+     0.42,
+     0.43,
+     0.576,
+     0.566
+    ]
+   },
+   {
+    "category": "anatomy",
+    "description": "The cricoid appears as a tall band (about 150 px against a 290 px thyroid cartilage) where its narrow anterior arch should show. The lobes' upper poles start at cricoid level (y about 808), not at mid-lamina of the thyroid cartilage, so the gland sits slightly low.",
+    "box": [
+     0.361,
+     0.361,
+     0.637,
+     0.439
+    ]
+   }
+  ],
+  "counts": {
+   "lobes": 2,
+   "isthmus_height_px": "45-50",
+   "lobe_height_px": "about 450",
+   "isthmus_to_lobe_height_ratio": 0.1,
+   "gland_width_px": 559,
+   "trachea_width_px": 280,
+   "gland_to_trachea_width": 2.0,
+   "tracheal_rings_below_lobes": "about 4 plus a partial",
+   "superior_horns": 2,
+   "laryngeal_notch": 1
+  },
+  "notes": "The goitre is fixed. Two slim pear-shaped lobes are joined by a NARROW isthmus (about 45-50 px, about 1/10 of lobe height) over rings 2-3 below the cricoid. The thyroid cartilage has a clear V notch and prominence above, and ringed trachea below. Normal size: gland width is 2.0x the trachea. Superior horns are moderate (about 0.4 of lamina height), no longer spikes. Nothing reads as lips at display size (checked at half scale). No text or stray marks; margins L742 T327 R746 B272. Style kept. BETTER OF THE THYROID PAIR: a. Crops: audit_v2/crops/plate__svc-hormone-thyroid-a__*.png"
+ },
+ {
+  "name": "svc-hormone-thyroid-b",
+  "verdict": "MINOR",
+  "defects": [
+   {
+    "category": "anatomy",
+    "description": "The trachea narrows directly below the cricoid. The subcricoid segment is about 220 px wide (x about 915-1135, y 940-1080) against a cricoid of about 370 px and lower rings of about 300 px, and cream paper shows between it and both lobes. At display size it reads as a constricted windpipe under the larynx.",
+    "box": [
+     0.43,
+     0.457,
+     0.569,
+     0.53
+    ]
+   },
+   {
+    "category": "render",
+    "description": "A thin dark slit sits under a wavy, scalloped lower border of the thyroid cartilage. It is the faint remnant of the mouth or lip look (much weaker than the original), and the scalloped inferior border is not anatomical.",
+    "box": [
+     0.388,
+     0.376,
+     0.601,
+     0.415
+    ]
+   }
+  ],
+  "counts": {
+   "lobes": 2,
+   "isthmus_height_px": "30-40",
+   "lobe_height_px": "about 560",
+   "gland_width_px": 632,
+   "trachea_width_px": 300,
+   "gland_to_trachea_width": 2.1,
+   "tracheal_rings_below_lobes": "about 4 plus a partial",
+   "superior_horns": 2,
+   "laryngeal_notch": 1
+  },
+  "notes": "The goitre is fixed. Slim lobes, a narrow isthmus over rings 2-3, and a normal-size gland (2.1x the trachea). The thyroid cartilage is large with a small notch flanked by humps; horns about 0.33 of lamina height, not exaggerated. The lobes start at the lower border of the thyroid cartilage, slightly low. No text or stray marks; margins L707 T269 R705 B259. Style kept. a is better: b's subcricoid waist is a structural error visible at display size. Crops: audit_v2/crops/plate__svc-hormone-thyroid-b__*.png"
+ }
+]

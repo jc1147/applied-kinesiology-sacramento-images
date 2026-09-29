@@ -1,0 +1,62 @@
+[
+ {
+  "name": "cond-headache-hero-b",
+  "path": "v2/plates/cond-headache-hero-b.png",
+  "spec": "a complete skull (not cut off) and the upper cervical vertebrae ALL in the same true side view; the spine meets the skull under its middle-back (foramen magnum region), not at the face; recognisable C1/C2 in side view; C3-C5 distinct, not melted",
+  "original_for_comparison": "final/full/cond-headache-hero.jpg"
+ },
+ {
+  "name": "cond-lbp-hero-a",
+  "path": "v2/plates/cond-lbp-hero-a.png",
+  "spec": "lumbar spine side view with EXACTLY FIVE lumbar vertebrae above the sacrum (count bodies, spinous processes and discs), then the sacrum and coccyx; bodies at the front, spinous processes pointing back",
+  "original_for_comparison": "final/full/cond-lbp-hero.jpg"
+ },
+ {
+  "name": "cond-lbp-hero-b",
+  "path": "v2/plates/cond-lbp-hero-b.png",
+  "spec": "lumbar spine side view with EXACTLY FIVE lumbar vertebrae above the sacrum (count bodies, spinous processes and discs), then the sacrum and coccyx; bodies at the front, spinous processes pointing back",
+  "original_for_comparison": "final/full/cond-lbp-hero.jpg"
+ },
+ {
+  "name": "cond-oa-hero-edit",
+  "path": "v2/plates/cond-oa-hero-edit.png",
+  "spec": "an EDIT of the knee plate: must keep the house engraving style (deep teal line work with fine hatching on cream paper); a pale, washed-out or pink-tinted result is a FAIL",
+  "original_for_comparison": "final/full/cond-oa-hero.jpg"
+ },
+ {
+  "name": "cond-osteo-hero-a",
+  "path": "v2/plates/cond-osteo-hero-a.png",
+  "spec": "two proximal femurs side by side, correctly shaped: round head, neck angled up and inward, greater trochanter at the upper OUTER corner, lesser trochanter on the INNER side below the neck, shaft down; one with a dense trabecular lattice, the other visibly sparse/porous",
+  "original_for_comparison": "final/full/cond-osteo-hero.jpg"
+ },
+ {
+  "name": "cond-osteo-hero-b",
+  "path": "v2/plates/cond-osteo-hero-b.png",
+  "spec": "two proximal femurs side by side, correctly shaped: round head, neck angled up and inward, greater trochanter at the upper OUTER corner, lesser trochanter on the INNER side below the neck, shaft down; one with a dense trabecular lattice, the other visibly sparse/porous",
+  "original_for_comparison": "final/full/cond-osteo-hero.jpg"
+ },
+ {
+  "name": "cond-pinched-hero-a",
+  "path": "v2/plates/cond-pinched-hero-a.png",
+  "spec": "two NECK (cervical) vertebrae in side view (small bodies, short spinous processes; lumbar-looking large vertebrae is a defect), a disc between the bodies bulging backward into the intervertebral foramen and pinching a nerve root that exits through the foramen forward/outward and down (a nerve running backward over the lamina or straight down the canal is wrong)",
+  "original_for_comparison": "final/full/cond-pinched-hero.jpg"
+ },
+ {
+  "name": "cond-pinched-hero-b",
+  "path": "v2/plates/cond-pinched-hero-b.png",
+  "spec": "two NECK (cervical) vertebrae in side view (small bodies, short spinous processes; lumbar-looking large vertebrae is a defect), a disc between the bodies bulging backward into the intervertebral foramen and pinching a nerve root that exits through the foramen forward/outward and down (a nerve running backward over the lamina or straight down the canal is wrong)",
+  "original_for_comparison": "final/full/cond-pinched-hero.jpg"
+ },
+ {
+  "name": "svc-hormone-thyroid-a",
+  "path": "v2/plates/svc-hormone-thyroid-a.png",
+  "spec": "thyroid from the front: two slim lobes either side of the windpipe joined by a NARROW isthmus below the larynx; thyroid cartilage (Adam's apple) above, trachea rings below; normal size, not a goitre; nothing that looks like a mouth or lips",
+  "original_for_comparison": "final/full/svc-hormone-thyroid.jpg"
+ },
+ {
+  "name": "svc-hormone-thyroid-b",
+  "path": "v2/plates/svc-hormone-thyroid-b.png",
+  "spec": "thyroid from the front: two slim lobes either side of the windpipe joined by a NARROW isthmus below the larynx; thyroid cartilage (Adam's apple) above, trachea rings below; normal size, not a goitre; nothing that looks like a mouth or lips",
+  "original_for_comparison": "final/full/svc-hormone-thyroid.jpg"
+ }
+]

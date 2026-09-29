@@ -1,0 +1,517 @@
+[
+ {
+  "name": "cond-auto-assess-a",
+  "pair": "cond-auto-assess",
+  "verdict": "MINOR",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand, flat on the patient's right upper back beside the spine",
+    "fingers_counted": "5: thumb (tip 0.52,0.405) on the image-right plus index, middle, ring and little fingers pointing down-left; the thumb side is correct for a right hand seen from the back",
+    "ok": true,
+    "box": [
+     0.44,
+     0.27,
+     0.54,
+     0.44
+    ]
+   },
+   {
+    "whose": "practitioner LEFT hand, hanging relaxed by his thigh",
+    "fingers_counted": "5: thumb (tip 0.79,0.815) on the image-left plus index, middle, ring and a curled little finger; correct for a left hand seen from the back",
+    "ok": true,
+    "box": [
+     0.78,
+     0.66,
+     0.87,
+     0.88
+    ]
+   },
+   {
+    "whose": "patient LEFT and RIGHT hands",
+    "fingers_counted": "0 visible: both forearms go forward to his lap and are hidden by his torso (the elbows are at 0.22,0.72 and 0.60,0.73); nothing to count, no anomaly",
+    "ok": true,
+    "box": [
+     0.18,
+     0.66,
+     0.66,
+     0.84
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "pain_glow (round-2 item not fixed)",
+    "description": "The neck still has no red glow. The cervical column (y 0.21-0.33) is pure teal through the collar line (y 0.285-0.30); the glow starts at y 0.34, on the upper thoracic spine and between the shoulder blades. The red-pixel share is 0.000 for every row from y 0.22 to 0.33 across x 0.34-0.54. The brief asks for the lowest neck vertebrae as well.",
+    "box": [
+     0.39,
+     0.21,
+     0.48,
+     0.34
+    ]
+   },
+   {
+    "category": "overlay_brief (minor)",
+    "description": "The spine continues well below the shoulder blades, down to about y 0.80 (the lower thoracic and upper lumbar region); the brief said 'nothing below the shoulder blades'. It stays in the midline, so it reads as a longer spine, not an anatomical error.",
+    "box": [
+     0.41,
+     0.56,
+     0.48,
+     0.81
+    ]
+   },
+   {
+    "category": "overlay_stylisation (minor)",
+    "description": "The shoulder blades are drawn a little narrow: the acromions sit about 0.04-0.07 inside the real shoulder tips. Not gross.",
+    "box": [
+     0.29,
+     0.36,
+     0.59,
+     0.56
+    ]
+   },
+   {
+    "category": "composition (minor)",
+    "description": "The crown of the hair touches and slightly overruns the top frame edge (row 0 is 90% dark across x 0.38-0.48). The 7:5 page crop trims only the sides, so this stays.",
+    "box": [
+     0.36,
+     0.0,
+     0.48,
+     0.03
+    ]
+   },
+   {
+    "category": "brief (minor)",
+    "description": "The practitioner's fingertips point down-left toward the spine rather than up toward the neck as briefed; the hand does rest on the red area.",
+    "box": [
+     0.44,
+     0.27,
+     0.54,
+     0.44
+    ]
+   }
+  ],
+  "previous_failure_fixed": false,
+  "pick": false,
+  "notes": "Round 2 fixes: the third arm is gone (camera side, bottom-left and every edge are clean), and the practitioner's hands now have 5 digits each. His right arm runs through a foreshortened upper arm off the top edge beside his torso; his left arm hangs from the left shoulder. The patient has 2 complete arms (sleeve, bare upper arm, elbow, forearm to the lap). The overlay is a correct back view: a midline cervical and thoracic column, and a shoulder blade on each side of the upper back with the inferior angles down. The practitioner's face is out of frame (cut at chest level). No instrument (hands-only, as briefed). No readable text (the monitor is blank, bottles blurred). 7:5 crop: the side trims cut nothing important (the practitioner's left sleeve edge sits at x of about 0.96). The lower-neck glow is still missing, so the round-2 failure is only partly fixed (2 of 3 items). Variant b is the better pick."
+ },
+ {
+  "name": "cond-auto-assess-b",
+  "pair": "cond-auto-assess",
+  "verdict": "MINOR",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand, flat on the patient's right upper trapezius at the base of the neck, beside the spine",
+    "fingers_counted": "5: 4 fingertips pointing left toward the neck and spine (0.441,0.319; 0.4375,0.337; 0.437,0.354; 0.45,0.36) plus the thumb below them (tip 0.497,0.357); correct for a right hand seen from the back",
+    "ok": true,
+    "box": [
+     0.43,
+     0.22,
+     0.56,
+     0.37
+    ]
+   },
+   {
+    "whose": "practitioner LEFT hand, hanging relaxed by his thigh",
+    "fingers_counted": "5: thumb (0.788,0.82) on the image-left plus index 0.801,0.872, middle 0.821,0.877, ring 0.835,0.871 and little 0.852,0.855; correct side for a left hand",
+    "ok": true,
+    "box": [
+     0.78,
+     0.68,
+     0.87,
+     0.88
+    ]
+   },
+   {
+    "whose": "patient LEFT hand, resting on the table beside his left hip",
+    "fingers_counted": "0 fingers visible: only the wrist and the heel of the hand (thumb-side bulge toward his body, which is correct); the fingers are hidden behind the padded table edge at y 0.94",
+    "ok": true,
+    "box": [
+     0.15,
+     0.88,
+     0.22,
+     0.95
+    ]
+   },
+   {
+    "whose": "patient RIGHT hand, gripping the right edge of the table",
+    "fingers_counted": "1 visible (the thumb at about 0.60,0.915, pointing toward his body, correct for a right hand); the fingers wrap over the table edge, out of view",
+    "ok": true,
+    "box": [
+     0.58,
+     0.89,
+     0.68,
+     0.97
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "overlay_brief (minor)",
+    "description": "The spine continues below the shoulder blades, down to about y 0.73 (the full thoracic column); the brief said 'nothing below the shoulder blades'. It stays in the midline and stops higher than in variant a.",
+    "box": [
+     0.41,
+     0.55,
+     0.47,
+     0.74
+    ]
+   },
+   {
+    "category": "overlay_stylisation (minor)",
+    "description": "The shoulder blades and small humeral heads sit slightly inside the real shoulder tips (the left by about 0.03). Stylised, not gross.",
+    "box": [
+     0.29,
+     0.33,
+     0.59,
+     0.55
+    ]
+   }
+  ],
+  "previous_failure_fixed": true,
+  "pick": true,
+  "notes": "Everything from round 2 is fixed. There is no third arm (camera side, bottom-left and every edge are clean). Both practitioner hands have 5 digits on the correct side, and his arms trace to his shoulders: the right through the rolled cuff (0.58-0.63,0.16-0.24) and sleeve off the top edge, the left through the cuff (0.86-0.94,0.42-0.49). The red glow now starts at the collar and base of the neck (red share rises from 0.000 at y 0.28 to 0.17 at 0.29, 0.38-0.52 over 0.30-0.36, and 0.84-0.97 over 0.37-0.42, fading by 0.46); it covers the lowest cervical vertebrae and the muscles between the shoulder blades, and the practitioner's hand rests on it. The patient has 2 complete arms hanging to the table edges (elbows at 0.21,0.734 and 0.635,0.735); the forearms look short in projection, which fits elbows bent slightly forward (the olecranon shows). The overlay is a correct back view with the shoulder blades on the upper back. There is clear space above the hair (row 0 is 0% dark). No face, no instrument (hands-only, as briefed), no readable text (the device screen is blank and blurred, the wall art abstract). 7:5 crop: the side trims remove only a sliver of the practitioner's left cuff at x of about 0.965; no hand is affected. Pick."
+ },
+ {
+  "name": "cond-fibro-treat-a",
+  "pair": "cond-fibro-treat",
+  "verdict": "MINOR",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand (image-left; he faces the camera from the head end) holding the adjusting instrument",
+    "fingers_counted": "5: 3 curled fingers on the back of the hand, 1 fingertip with a nail along the instrument (0.425,0.40), 1 tucked just under it (0.415,0.408), and the thumb wrapping the instrument on the image-right (nail 0.445,0.355); the thumb is on the correct side for a pronated right hand; checked at 5-6x",
+    "ok": true,
+    "box": [
+     0.34,
+     0.23,
+     0.46,
+     0.42
+    ]
+   },
+   {
+    "whose": "practitioner LEFT hand (image-right) flat on the patient's right shoulder blade",
+    "fingers_counted": "5: thumb (0.555,0.465) upper-left plus index 0.565,0.55, middle 0.58,0.57, ring 0.60,0.575 and little 0.63,0.565; correct side for a left hand seen from the back",
+    "ok": true,
+    "box": [
+     0.55,
+     0.4,
+     0.69,
+     0.59
+    ]
+   },
+   {
+    "whose": "patient LEFT hand (image-left)",
+    "fingers_counted": "0 visible: the arm lies along the table to a flexed elbow at the bottom-left corner (0.14-0.20,0.84-0.905), and the forearm turns under the blanket; no anomaly",
+    "ok": true,
+    "box": [
+     0.13,
+     0.78,
+     0.26,
+     0.92
+    ]
+   },
+   {
+    "whose": "patient RIGHT hand (image-right)",
+    "fingers_counted": "0 visible: a flexed elbow at the bottom-right (0.80-0.855,0.85-0.905), with the forearm under the blanket; no anomaly",
+    "ok": true,
+    "box": [
+     0.74,
+     0.78,
+     0.87,
+     0.92
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "brief (minor)",
+    "description": "The practitioner stands at the head end behind the face cradle, facing the camera, not 'at the side of the table' as briefed. This is still a plausible position for upper-back work, and his face is out of frame.",
+    "box": [
+     0.3,
+     0.0,
+     0.84,
+     0.45
+    ]
+   },
+   {
+    "category": "overlay_brief (minor)",
+    "description": "The spine is drawn from the neck base all the way to the blanket edge (y 0.785), past the mid back, and one tender point sits low at (0.55,0.755); the brief asked for the upper and mid back, with points beside the upper spine.",
+    "box": [
+     0.47,
+     0.7,
+     0.58,
+     0.79
+    ]
+   }
+  ],
+  "previous_failure_fixed": true,
+  "pick": true,
+  "notes": "The round-2 rotation is fixed. The camera is at the foot end, and the spine is one straight midline column up the middle of the frame (x 0.49-0.50, the body midline) from the neck base (y 0.36) to the blanket. There is a back-view shoulder blade on each side of the upper back (0.31-0.43 and 0.56-0.69, y 0.46-0.70), each with its acromion and glenoid at the upper-lateral corner and its inferior angle toward the camera; nothing is rotated or floating. There are 7 small tender points on both sides of the spine, with the instrument tip on the upper-left one. The instrument is plausible: chrome, pen-shaped, ring grooves, a flat black rubber tip, no needle. The patient's body is complete: 2 arms from the shoulders to flexed elbows, then under the blanket (continuous, not stumps); the legs are under the blanket. The practitioner has 2 arms, both joining his torso above the frame; no face. No readable text (the device screen is dark; a small label on the cart is blurred). The 7:5 side trims are safe (the elbows are at x 0.135 and 0.855). Picked over b because the overlay is more centred and symmetric; b is an equally usable alternate."
+ },
+ {
+  "name": "cond-fibro-treat-b",
+  "pair": "cond-fibro-treat",
+  "verdict": "MINOR",
+  "hands": [
+   {
+    "whose": "practitioner RIGHT hand (image-left) holding the adjusting instrument",
+    "fingers_counted": "5: little and ring fingers curled on the back of the hand, middle fingertip tucked (0.404,0.427), index along the instrument (0.41,0.415), and the thumb wrapping it on the image-right (nail 0.422,0.368); correct for a pronated right hand; checked at 5x",
+    "ok": true,
+    "box": [
+     0.32,
+     0.26,
+     0.44,
+     0.44
+    ]
+   },
+   {
+    "whose": "practitioner LEFT hand (image-right) flat on the patient's right upper back and trapezius",
+    "fingers_counted": "5: thumb (0.515,0.485) upper-left plus index 0.52,0.52, middle 0.54,0.53, ring 0.565,0.525 and little 0.595,0.515; correct side for a left hand",
+    "ok": true,
+    "box": [
+     0.5,
+     0.37,
+     0.65,
+     0.54
+    ]
+   },
+   {
+    "whose": "patient LEFT hand (image-left)",
+    "fingers_counted": "0 visible: a flexed elbow at the bottom-left (0.13-0.17,0.87-0.96), with the forearm under the blanket; no anomaly",
+    "ok": true,
+    "box": [
+     0.11,
+     0.8,
+     0.22,
+     0.97
+    ]
+   },
+   {
+    "whose": "patient RIGHT hand (image-right)",
+    "fingers_counted": "0 visible: a flexed elbow at the bottom-right (0.80-0.86,0.86-0.955), with the forearm under the blanket; no anomaly",
+    "ok": true,
+    "box": [
+     0.76,
+     0.8,
+     0.88,
+     0.97
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "brief (minor)",
+    "description": "The practitioner stands at the head end behind the face cradle, facing the camera, not at the side of the table as briefed. This is still a plausible position, and his face is out of frame.",
+    "box": [
+     0.26,
+     0.0,
+     0.76,
+     0.5
+    ]
+   },
+   {
+    "category": "overlay_stylisation (minor)",
+    "description": "The left shoulder blade sits a little closer to the spine than the right (the medial-border gap is about 0.045 against 0.065), and the spine runs down to the blanket edge (y 0.78), past the mid back. Not gross.",
+    "box": [
+     0.29,
+     0.46,
+     0.66,
+     0.79
+    ]
+   }
+  ],
+  "previous_failure_fixed": true,
+  "pick": false,
+  "notes": "The round-2 rotation is fixed. There is one straight spine column up the middle of the frame (x about 0.465-0.48; the body midline is about 0.475-0.48) from the neck base (y 0.37) to the blanket (0.78), and a back-view shoulder blade on each side of the upper back (0.29-0.43 and 0.54-0.66, y 0.46-0.69), inferior angles toward the camera. About 7 tender points sit beside the upper and mid spine, one directly under the instrument tip. The instrument is plausible: chrome, pen-shaped, a knurled grip band (a texture, not text), a flat black rubber tip, no needle. The patient has 2 complete arms to flexed elbows at the bottom corners, forearms under the blanket. The practitioner has 2 arms joining his torso; no face. No readable text (the background device screen is dark). The 7:5 side trims are safe (the elbows are at x 0.12 and 0.86). Usable; the alternate to a."
+ },
+ {
+  "name": "cond-lbp-assess-a",
+  "pair": "cond-lbp-assess",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner LEFT hand pressing on the distal shin of the raised right leg, just above the ankle",
+    "fingers_counted": "5: thumb tip (0.74,0.295) on the image-left plus index 0.79,0.305, middle 0.805,0.31, ring 0.815,0.305 and little 0.82,0.29, draped over the near side of the shin; correct side for a left hand of a man facing the camera",
+    "ok": true,
+    "box": [
+     0.735,
+     0.21,
+     0.825,
+     0.315
+    ]
+   },
+   {
+    "whose": "practitioner RIGHT hand steadying the patient's right hip or iliac crest",
+    "fingers_counted": "5: 4 fingertips at x 0.405-0.45, y 0.485-0.495, plus the thumb on the image-right (0.455,0.455); correct side for a right hand",
+    "ok": true,
+    "box": [
+     0.385,
+     0.415,
+     0.465,
+     0.5
+    ]
+   },
+   {
+    "whose": "patient RIGHT hand, flat on the table beside the hip",
+    "fingers_counted": "3 fingertips visible (little 0.51,0.643; ring 0.53,0.64; middle 0.545,0.636, the longest); the index and thumb are hidden on the far, medial side, as expected for this ulnar-side view; wrist to fingertip about 280 px, natural",
+    "ok": true,
+    "box": [
+     0.41,
+     0.595,
+     0.555,
+     0.65
+    ]
+   },
+   {
+    "whose": "patient LEFT hand",
+    "fingers_counted": "0 visible: the far arm is hidden behind his torso; not a defect",
+    "ok": true,
+    "box": [
+     0.2,
+     0.5,
+     0.45,
+     0.62
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "composition (round-2 item not fixed)",
+    "description": "The back of the patient's head is cut off by the left frame edge. Hair runs off the edge from y 0.40 to 0.52 (column 0 is 59% dark across rows 0.38-0.54), and the ear sits only at x 0.04-0.08. The brief asked for clear space beyond the top of his head, and round 2 had already flagged the head touching the edge; it is now clipped. The 7:5 page crop trims only the top and bottom, so it cannot recover this.",
+    "box": [
+     0.0,
+     0.38,
+     0.06,
+     0.53
+    ]
+   },
+   {
+    "category": "composition (minor)",
+    "description": "The resting foot's toes stop 25 px (1.1%) from the right edge, which is little of the clear space briefed beyond the toes.",
+    "box": [
+     0.95,
+     0.46,
+     1.0,
+     0.53
+    ]
+   },
+   {
+    "category": "body_proportion (minor)",
+    "description": "The torso is long for the legs: the leg-to-torso ratio (hip joint to heel against shoulder joint to hip joint) is about 1.41-1.48, against about 1.7 for an adult (variant b is 1.58-1.67). The legs are still longer than the torso, as briefed, but they look a little short.",
+    "box": [
+     0.12,
+     0.45,
+     0.96,
+     0.64
+    ]
+   },
+   {
+    "category": "overlay_brief (minor)",
+    "description": "Besides the lumbar spine, pelvis and raised femur (all placed correctly), the overlay also draws the tibia, fibula and ankle bones in the raised shin, and the spine runs about 9 segments into the thoracic region. The brief named only the lumbar spine, pelvis and thigh bone.",
+    "box": [
+     0.68,
+     0.24,
+     0.88,
+     0.39
+    ]
+   }
+  ],
+  "previous_failure_fixed": false,
+  "pick": false,
+  "notes": "Fixed from round 2: the femur now runs up the RAISED thigh (from the head at 0.49,0.50 to the knee at 0.68,0.37), with no bone in the resting leg; there is no toe-like lobe on the resting ankle (only a normal malleolus); and the hip joint is plausible (the femoral head abuts a socket at the front of the pelvis, with no second head). NOT fixed: the head is clipped at the left edge. Feet: the raised right foot shows 5 toes clearly at 6x (0.87-0.96, 0.09-0.29); the resting left foot, seen from the inner side, shows the big toe and second toe with the smaller toes' outlines behind, and no extra lobe or odd shape (0.90-0.995, 0.46-0.62). The raised leg is at about 28 deg, and the practitioner's hand is on the distal shin just above the ankle. The red glow sits on the lumbosacral junction and runs over the pelvic rim toward the hip flexor. The practitioner is cut at the collar (a throat sliver only, mostly removed by the 2.16% top trim), so no face. No readable text (the device screen is dark, the shelf boxes blank). The practitioner has 2 legs under the table. FAIL for framing only; the anatomy is otherwise clean."
+ },
+ {
+  "name": "cond-lbp-assess-b",
+  "pair": "cond-lbp-assess",
+  "verdict": "FAIL",
+  "hands": [
+   {
+    "whose": "practitioner LEFT hand on the distal shin of the raised right leg, just above the trouser cuff and ankle",
+    "fingers_counted": "4 fingers visible (fingertips at about 0.78,0.35; 0.79,0.353; 0.80,0.345; 0.805,0.32; the middle finger reaches farthest, the little finger is shortest) plus the thumb base folding over the top of the shin on the image-left, with its tip hidden on the far side; correct for a left hand of a man facing the camera; checked at 8x",
+    "ok": true,
+    "box": [
+     0.74,
+     0.27,
+     0.83,
+     0.37
+    ]
+   },
+   {
+    "whose": "practitioner RIGHT hand steadying the patient's right hip or iliac crest",
+    "fingers_counted": "5: 4 fingertips at x 0.40-0.44, y 0.477-0.49, with the middle finger lowest, plus the thumb extended to the image-right (0.455-0.465,0.445); correct side for a right hand",
+    "ok": true,
+    "box": [
+     0.39,
+     0.42,
+     0.47,
+     0.5
+    ]
+   },
+   {
+    "whose": "patient RIGHT hand, flat on the table beside the hip",
+    "fingers_counted": "4 fingertips (little 0.495,0.662; ring 0.513,0.657; middle 0.527,0.652, the longest; index 0.522,0.647 behind), with the thumb hidden medially; hand-to-forearm ratio about 0.75, natural; checked at 9x",
+    "ok": true,
+    "box": [
+     0.41,
+     0.61,
+     0.54,
+     0.67
+    ]
+   },
+   {
+    "whose": "patient LEFT hand",
+    "fingers_counted": "0 visible: the far arm is hidden behind his torso; not a defect",
+    "ok": true,
+    "box": [
+     0.2,
+     0.52,
+     0.45,
+     0.64
+    ]
+   }
+  ],
+  "defects": [
+   {
+    "category": "composition (round-2 item not fixed)",
+    "description": "The back of the patient's head is cut off by the left frame edge. Hair runs off the edge from y 0.445 to 0.555 (column 0 is 47% dark across rows 0.40-0.58), and the ear sits at x 0.045-0.075. The brief asked for clear space beyond his head, and round 2 had flagged the head touching the edge; it is now clipped. The 7:5 crop trims only the top and bottom.",
+    "box": [
+     0.0,
+     0.42,
+     0.05,
+     0.56
+    ]
+   },
+   {
+    "category": "composition",
+    "description": "The resting foot's toes nearly touch the right edge: the toe tips end at about column 2325 of 2336 (a toe-edge pixel of 141/93/71 at column 2324, wall from column 2328), a margin of about 10 px (0.4%). There is no clear space beyond the toes. With the clipped head, the whole body does not fit the frame as briefed.",
+    "box": [
+     0.97,
+     0.49,
+     1.0,
+     0.56
+    ]
+   },
+   {
+    "category": "overlay_anatomy (minor)",
+    "description": "The hip joint is muddled. The raised femur's proximal end meets the pelvis at the front of the iliac crest (0.44-0.49, 0.48-0.535), while a separate, shaftless femoral head sits in the acetabulum lower down (0.44-0.47, 0.565-0.60). A chiropractor looking closely would see the raised thigh bone is not seated in the socket; not gross at page size.",
+    "box": [
+     0.43,
+     0.47,
+     0.5,
+     0.61
+    ]
+   },
+   {
+    "category": "overlay_brief (minor)",
+    "description": "The overlay also draws the tibia and fibula in the raised shin (0.68-0.80), and the spine runs about 9 segments into the thoracic region; the brief named only the lumbar spine, pelvis and thigh bone.",
+    "box": [
+     0.66,
+     0.33,
+     0.81,
+     0.41
+    ]
+   }
+  ],
+  "previous_failure_fixed": false,
+  "pick": false,
+  "notes": "Fixed from round 2: there is no toe-like lobe on the resting ankle (a normal medial malleolus at 0.905,0.60), and the femur runs up the RAISED thigh to the knee (0.673,0.385, close to the expected 0.688,0.398). NOT fixed: the head is clipped at the left edge. Feet: 5 toes are clear on both the raised right foot (0.87-0.96, 0.15-0.33; checked at 7x) and the resting left foot (0.87-1.0, 0.49-0.64; checked at 8x), at natural size and on the correct legs. Body proportions are natural: legs to torso about 1.58-1.67, upper arm about 352 px against forearm 327 px, and a raised leg at about 26 deg. The practitioner has 2 arms, both continuous to his shoulders, and 2 trouser legs to shoes at the bottom edge. His face is out of frame (a throat sliver in the collar at y<0.03, mostly removed by the 2.16% top trim). No readable text (the device screen is blurred and blank, the wall art a landscape). The red glow is on the lower lumbar spine and lumbosacral junction, sweeping toward the hip flexor under the practitioner's hand. If one lbp variant is salvaged by extending the canvas on both sides, b is the better base (natural proportions, 5 distinct toes on both feet), but its hip joint is less clean than a's."
+ }
+]
