@@ -57,8 +57,9 @@ finals from source needs `v2/renders/` and `v2/plates/`.
 ## How it was made
 
 1. `shots_v2.py` writes the prompts (`jobs_v2.json`); `hf-batch.mts` renders them on Higgsfield Marketing Studio 2.5
-   Flare. It runs inside our private Higgsfield project (it imports that project's API wrapper), so it won't run from
-   this repo alone.
+   Flare. It imports the API wrapper from our Higgsfield toolkit
+   ([jc1147/higgsfield-playbook](https://github.com/jc1147/higgsfield-playbook)), so run it from a checkout of that repo,
+   with this repo at `outputs/ak-sacramento`.
 2. `audit_v2_prep.py` makes review batches; independent reviewers write `audit_v2/*-report.json`.
 3. Fix rounds: `shots_v2r2.py`, `shots_v2r3.py`, `shots_v2r3c.py` (prompts), then `apply_r2.py`, `apply_r3.py`,
    `apply_r3c.py`, `apply_r3p.py` (picks go to `v2/renders/`, replaced renders are parked in `v2/rejected/`). Reviewer
